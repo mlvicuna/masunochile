@@ -1,0 +1,52 @@
+/* CSS de las láminas, copiado de las maquetas de posts. */
+/* ---------- Post de feed ---------- */
+.feed{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;align-items:start}
+.ig{background:var(--card);border:1px solid var(--line);border-radius:8px;overflow:hidden;min-width:0;max-width:420px;width:100%;justify-self:center;container-type:inline-size}
+.ig-top{display:flex;align-items:center;gap:10px;padding:10px 12px}
+.av{width:32px;height:32px;border-radius:50%;background:conic-gradient(#FF5A1F,#FFB703,#FF5A1F);padding:2px;flex:none}
+.av span{display:block;width:100%;height:100%;border-radius:50%;background:var(--card)}
+.handle{font-weight:700;font-size:14px}
+.ig-top .dots{margin-left:auto;font-weight:900;letter-spacing:1px}
+.car{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.car::-webkit-scrollbar{display:none}
+.ig-act{display:flex;align-items:center;gap:14px;padding:10px 12px 4px}
+.ig-act svg{width:24px;height:24px;stroke:var(--fg);fill:none;stroke-width:1.8}
+.ig-act .save{margin-left:auto}
+.pager{display:flex;gap:4px;justify-content:center;position:relative;top:-26px;height:0}
+.pager i{width:6px;height:6px;border-radius:50%;background:var(--line)}
+.pager i:first-child{background:#0095F6}
+.cap{padding:2px 12px 14px;font-size:14px;white-space:pre-line}
+.cap b{font-weight:700;margin-right:4px}
+.hint{font-size:12px;color:var(--muted);padding:0 12px 12px}
+.series{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:0 12px 6px}
+
+/* ---------- Lámina cuadrada (cqw = ancho del post) ---------- */
+.sq{flex:0 0 100%;width:100%;aspect-ratio:1/1;max-width:100%;scroll-snap-align:start;display:flex;flex-direction:column;justify-content:center;padding:10cqw;position:relative}
+.sq .k{font-size:10cqw;font-weight:900;line-height:1.03;letter-spacing:-.025em;text-wrap:balance}
+.sq .m{font-size:7.2cqw;font-weight:800;line-height:1.12;text-wrap:balance}
+.sq .s{font-size:5.2cqw;font-weight:600;line-height:1.3}
+.sq .num{font-size:22cqw;font-weight:900;line-height:.9;letter-spacing:-.05em}
+.sq .qt{font-family:var(--serif);font-style:italic;font-size:8cqw;line-height:1.15;text-wrap:balance}
+.sq .gap{height:5cqw}
+.sq .swipe{position:absolute;right:7cqw;bottom:6cqw;font-size:4.4cqw;font-weight:800;opacity:.7}
+.sq .eb,.st .eb{align-self:flex-start;font-weight:800;letter-spacing:.1em;text-transform:uppercase;font-size:4cqw;padding:1cqw 2.4cqw;background:#FF5A1F;color:#141414}
+.sq .eb{position:absolute;top:8cqw;left:10cqw}
+.sq .rows{display:grid;gap:3cqw}
+.sq .rows div{display:flex;align-items:baseline;gap:3cqw;font-size:6.4cqw;font-weight:800;line-height:1.1}
+.sq .rows b{font-size:11cqw;font-weight:900;letter-spacing:-.03em;min-width:26cqw}
+.o{color:#FF5A1F}
+.c-ink{background:#141414;color:#FAF6F0}
+.c-cream{background:#F4ECDF;color:#141414}
+.c-orange{background:#FF5A1F;color:#141414}
+.c-orange .o{color:#FAF6F0}
+.c-orange .eb{background:#141414;color:#FF5A1F}
+.c-white{background:#FFFFFF;color:#141414}
+.c-blue{background:#1E3BD1;color:#F7F5FF}
+.c-blue .o,.c-blue .num{color:#FFC94D}
+.c-blue .eb{background:#FFC94D;color:#141414}
+.c-photo{background-color:#141414;background-size:cover;background-position:center;color:#FFFFFF;justify-content:flex-end}
+.c-photo .num{color:#FF5A1F}
+.tb .o,.tb .num{color:#FFC94D}
+.tb .eb{background:#FFC94D;color:#141414}
+.st.c-photo{justify-content:center}
+
