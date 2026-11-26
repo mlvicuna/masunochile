@@ -2,7 +2,7 @@
 (function(){
 const $app=document.getElementById('app'), NEWS=window.MU_NEWS, CAT=window.MU_CAT, POSTS=window.MU_POSTS, IG=window.MU_IG;
 const U=(id,w=1800)=>`https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
-const IMG={banner:U('1778098678756-e761c9df9938',1600), bannerAlt:'Un vecino arriba del techo de una casa, con una pala en la mano, saluda',  home:U('1653185460299-fbef9466c1e7',2200), orgs:U('1758599668429-121d54188b9c',2000)};
+const IMG={banner:U('1778098678756-e761c9df9938',2800), bannerAlt:'Un vecino arriba del techo de una casa, con una pala en la mano, saluda',  home:U('1653185460299-fbef9466c1e7',2200), orgs:U('1758599668429-121d54188b9c',2000)};
 const IGURL='https://www.instagram.com/masuno/';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=n=>Number(n).toLocaleString('es-CL');
@@ -43,7 +43,7 @@ function vcard(v){
   return `<div class="vcard reveal">${media}<div class="vcap">
     <div class="vmeta"><span class="vsrc vsrc-${v.p}">${name}</span>${esc([v.dur,v.lang].filter(Boolean).join(' · '))}</div>
     <b>${esc(v.t)}</b><small>${esc([v.a,v.y].filter(Boolean).join(' · '))}</small>
-    ${v.de?`<p class="vde">${esc(v.de)}</p>`:''}${v.por?`<p class="vpor"><span>Qué tiene que ver.</span> ${esc(v.por)}</p>`:''}
+    ${v.de||v.por?`<p class="vde">${esc([v.de,v.por].filter(Boolean).join(' '))}</p>`:''}
     <a class="vver" href="${url}" target="_blank" rel="noopener">Ver en ${name} ↗</a></div></div>`;
 }
 document.addEventListener('click',e=>{const b=e.target.closest('[data-yt]');if(!b)return;const d=document.createElement('div');d.className='vframe';d.innerHTML=vframe({p:'youtube',id:b.dataset.yt,t:b.getAttribute('aria-label')||''});b.replaceWith(d);});
@@ -204,7 +204,7 @@ function home(){
   const tick=recientes.map(n=>`<span>${esc(n.titulo)}</span><i>+1</i>`).join('')+[...new Set(recientes.flatMap(n=>(n.tags||[]).slice(0,2)))].map(t=>`<span>${esc(t)}</span><i>+1</i>`).join('');
   $app.innerHTML=`<section class="intro intro-full"><div class="ih-hero">
     <div class="ih-media" id="ih-media"><img id="ih-img" src="${IMG.banner}" alt="${esc(IMG.bannerAlt)}" fetchpriority="high">
-      <span class="ih-like" id="ih-like" aria-hidden="true"><b>+1</b><em>Él ya puso su mano.</em></span></div>
+      <span class="ih-like" id="ih-like" aria-hidden="true"><b>+1</b><em>Él ya se sumó.</em></span></div>
     <div class="wrap intro-in"><div class="intro-txt">
       <span class="live"><i></i>${HOY} en Más Uno · ${esc(f.fecha)}</span>
       <p class="intro-kicker">Ya sabes lo que pasa en Chile.</p>
@@ -271,10 +271,13 @@ function likeFoto(){
   const box=document.getElementById('ih-media'), img=document.getElementById('ih-img'), like=document.getElementById('ih-like'); if(!box||!img) return;
   const place=()=>{
     const cw=box.clientWidth, ch=box.clientHeight, movil=cw<760, r=FOTO.w/FOTO.h;
-    const zoom=movil?1.25:1.32, w=Math.max(cw,ch*r)*zoom, h=w/r;
+    const zoom=movil?1.05:1.16, w=Math.max(cw,ch*r)*zoom, h=w/r;
     const tx=movil?.5:.7, ty=movil?.55:.56;
     const left=Math.min(0,Math.max(cw-w,tx*cw-FOTO.cara[0]*w)), top=Math.min(0,Math.max(ch-h,ty*ch-FOTO.cara[1]*h));
     Object.assign(img.style,{width:w+'px',height:h+'px',left:left+'px',top:top+'px'});
+    // nitidez: pide la foto al tamaño real que necesita esta pantalla (también en pantallas retina)
+    const need=Math.min(4200,Math.ceil(w*(window.devicePixelRatio||1)/400)*400), cur=+((img.src.match(/[?&]w=(\d+)/)||[])[1]||0);
+    if(need>cur*1.05) img.src=img.src.replace(/([?&]w=)\d+/,'$1'+need);
     like.style.left=(left+FOTO.mano[0]*w)+'px'; like.style.top=(top+FOTO.mano[1]*h)+'px';
   };
   place(); if(!window.__likeRZ){window.__likeRZ=true;addEventListener('resize',()=>{if(document.getElementById('ih-media'))likeFoto()},{passive:true});}

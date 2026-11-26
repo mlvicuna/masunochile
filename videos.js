@@ -2,8 +2,8 @@
    Los mantiene a mano la tarea diaria (y Claude cuando se corrige). Reemplazan a las charlas y videos del .docx.
    Cada video: p = 'ted' | 'youtube' | 'vimeo'; id = slug de TED, id de YouTube o número de Vimeo;
    t = título; a = autor o canal; y = año; dur = duración; lang = idioma;
-   de = de qué se trata (1-2 frases); por = qué tiene que ver con esta historia (1 frase).
-   Todos llevan reseña (de + por), también los de TED. Comprueba cada id antes de agregarlo (ver INSTRUCCIONES.md). */
+   de y por = la reseña, que se muestra como un solo párrafo, sin etiquetas: de = qué muestra (1-2 frases); por = por qué está en esta historia (1 frase).
+   Todos llevan reseña, también los de TED. Comprueba cada id antes de agregarlo (ver INSTRUCCIONES.md). */
 window.MU_VIDEOS={
 'inclusion-escolar':[
  {p:'ted',id:'temple_grandin_the_world_needs_all_kinds_of_minds',t:'El mundo necesita todo tipo de mentes',a:'Temple Grandin',lang:'En inglés, con subtítulos en español',
