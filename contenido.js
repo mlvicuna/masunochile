@@ -1,6 +1,635 @@
-window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%"}};
+window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%"}};
 /* Noticias de la semana (18 y 19 nov 2026): informes, desarrollos web y posts. Generado por build_content.py. */
 window.MU_NEWS=[
+{
+"id": "inclusion-escolar",
+"post": "inclusion-escolar-2026-11-26",
+"fecha": "Jueves 26 de noviembre",
+"doc": "261126 Inclusion escolar",
+"area": "discapacidad",
+"areas": [
+"discapacidad",
+"educacion",
+"ninez"
+],
+"kw": [
+"autis",
+"TEA",
+"espectro",
+"TDAH",
+"neurodiver",
+"inclusi",
+"familias"
+],
+"titulo": "Que nadie quede fuera del curso",
+"img": "https://images.unsplash.com/photo-1567746455504-cb3213f8f5b8?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1614712201488-9942af86b87b?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1611417041461-2060f649193d?w=1600&q=75&auto=format&fit=crop",
+"orgs": [
+{
+"n": "FUAN · Fundación Unión Autismo y Neurodiversidad",
+"d": "Organización de personas autistas, familias y profesionales que promueve la inclusión educativa, social y familiar; publica material gratuito basado en evidencia y una guía de diagnóstico y apoyos tempranos. Santiago, alcance nacional.",
+"w": "https://fuan.cl",
+"e": "contacto@fuan.cl"
+},
+{
+"n": "Fundación Sin Barreras",
+"d": "Terapias a costo accesible para más de 743 niños, niñas y adolescentes autistas, y una red de familias que se acompaña. Quilicura, Huechuraba y Lampa.",
+"w": "https://www.fundacionsinbarreras.cl"
+},
+{
+"n": "Fundación TEAmo Más",
+"d": "Fundación de personas autistas y sus familias: sala de intervención temprana, asesoría a familias y fonoaudiología. Recibe donaciones. Región Metropolitana.",
+"w": "https://www.fundacionteamomas.cl",
+"e": "contacto@fundacionteamomas.cl"
+},
+{
+"n": "Superintendencia de Educación",
+"d": "Recibe denuncias cuando un colegio discrimina, cancela la matrícula o cierra el año de un estudiante sin respetar la Ley TEA, y orienta a las familias. Nacional.",
+"w": "https://www.supereduc.cl"
+}
+],
+"bajada": "Lo que pasa en un niño autista cuando la escuela lo deja en el borde, lo que la ciencia aprendió en ochenta años sobre el autismo, y por qué la inclusión no depende solo de los especialistas, sino también de los compañeros y de sus familias.",
+"noticia": "Que nadie quede fuera del curso: una mamá de tres hijos con autismo y TDAH escribe «una carta de furia» contra el colegio",
+"blocks": [
+{
+"k": "p",
+"h": "Este jueves, una mamá escribió a El Mercurio una carta que ella misma llamó «de furia». Tiene tres hijos con TDAH y autismo y, «otro año más», el colegio de su hijo del medio le propuso cerrar antes el año escolar. Le dijeron que a lo mejor ese no era el colegio para él, que había colegios «con tierrita». Ella responde que sus hijos son muy inteligentes y que lo que el sistema no entiende es que su energía es limitada. La carta deja una pregunta que vale la pena entender bien: ¿por qué importa tanto que un niño autista esté en una sala común, con su curso, y no en un lugar aparte o en su casa? La respuesta tiene que ver con lo que es el autismo, con cómo se ha entendido mal durante décadas y con lo que pasa en el cerebro y en la vida de un niño cuando se siente parte, o cuando no.",
+"src": "El Mercurio, Cuerpo A, pág. 2, carta «Cerrar el año escolar, el camino fácil», Pamela Muñoz González, 26 de noviembre de 2026"
+},
+{
+"k": "h",
+"h": "Una historia de malentendidos"
+},
+{
+"k": "p",
+"h": "En 1943, el psiquiatra austríaco Leo Kanner, que trabajaba en la Universidad Johns Hopkins, en Estados Unidos, describió a once niños que parecían vivir en su propio mundo: les costaba relacionarse, repetían palabras y gestos, y necesitaban que todo fuera siempre igual. Llamó a ese cuadro «autismo infantil precoz». Un año después, en Viena, el pediatra Hans Asperger describió a otros niños parecidos, con mucho lenguaje y grandes intereses, pero con dificultades para entender a los demás.",
+"src": "Leo Kanner, «Autistic disturbances of affective contact», Nervous Child, 1943; Hans Asperger, 1944"
+},
+{
+"k": "p",
+"h": "Lo que vino después fue uno de los errores más dolorosos de la psiquiatría. Durante los años cincuenta y sesenta se instaló la idea de que el autismo lo causaban madres frías y distantes, las «madres nevera». El psicólogo Bruno Bettelheim la popularizó en su libro «La fortaleza vacía» (1967) y miles de familias cargaron con una culpa que no tenía ninguna base. Hoy se sabe que el autismo es una condición del desarrollo del cerebro, con un fuerte componente genético, que está presente desde el nacimiento y que no lo causa la crianza.",
+"src": "Steve Silberman, «NeuroTribes», 2015; Bruno Bettelheim, «The Empty Fortress», 1967"
+},
+{
+"k": "p",
+"h": "El cambio de mirada lo empujó, entre otros, la psiquiatra británica Lorna Wing, madre de una hija autista. A fines de los años setenta, junto a Judith Gould, estudió a todos los niños con dificultades de un barrio de Londres y vio que no había una línea clara entre «autistas» y «no autistas», sino un continuo de formas muy distintas. De ahí viene la palabra «espectro». En 2013, el manual de diagnóstico de la Asociación Psiquiátrica Estadounidense (DSM-5) unió los distintos diagnósticos en uno solo: trastorno del espectro autista, o TEA. Y a fines de los noventa, la socióloga australiana Judy Singer, ella misma autista, propuso la palabra «neurodiversidad»: la idea de que los cerebros humanos funcionan de maneras distintas, y que esa variedad es parte de la especie, no un error que haya que borrar.",
+"src": "Lorna Wing y Judith Gould, Journal of Autism and Developmental Disorders, 1979; American Psychiatric Association, DSM-5, 2013"
+},
+{
+"k": "h",
+"h": "Qué es el autismo, explicado en simple"
+},
+{
+"k": "p",
+"h": "Una persona autista percibe y procesa el mundo de una manera distinta. Eso se nota sobre todo en dos cosas. La primera es la comunicación social: puede costarle leer las caras, los tonos de voz y las reglas no escritas de una conversación, o entender una ironía. La segunda son los patrones repetitivos y los intereses intensos: necesitar rutinas, moverse de una forma que lo calma, saber muchísimo de un tema. Es un espectro porque cada persona es distinta: hay niños que hablan poco o nada y necesitan mucho apoyo, y otros que hablan con fluidez, sacan buenas notas y aun así sufren cada día en el colegio.",
+"src": "American Psychiatric Association, DSM-5, 2013; Organización Mundial de la Salud, «Autismo», 2023"
+},
+{
+"k": "p",
+"h": "Hay un tercer rasgo que suele pasar inadvertido y que explica mucho de lo que se ve en una sala: la sensibilidad sensorial. En un estudio con 281 niños autistas, el 95% mostró diferencias en cómo procesa los sonidos, las luces, el tacto o los olores. Para muchos, el timbre del recreo, el ruido de 40 compañeros o el roce de una etiqueta en la ropa no son una molestia: son un dolor. Lo que desde afuera parece una pataleta muchas veces es una desregulación: el sistema nervioso desbordado que ya no puede más.",
+"src": "Scott Tomchek y Winnie Dunn, American Journal of Occupational Therapy, 2007"
+},
+{
+"k": "p",
+"h": "El TDAH, el trastorno por déficit de atención con hiperactividad, es otra condición del neurodesarrollo y aparece con frecuencia junto al autismo. Afecta la atención, el control de los impulsos y la regulación de la energía. No es flojera ni mala crianza: es una diferencia en cómo el cerebro maneja las funciones ejecutivas, las que permiten planificar, empezar una tarea y sostenerla.",
+"src": "Organización Mundial de la Salud, CIE-11, 2019"
+},
+{
+"k": "h",
+"h": "Cuántos son"
+},
+{
+"k": "p",
+"h": "El autismo no es raro. En Estados Unidos, los Centros para el Control y la Prevención de Enfermedades (CDC) estimaban en el año 2000 que 1 de cada 150 niños de 8 años estaba en el espectro; con datos de 2022, la cifra es de 1 de cada 31. La mayor parte del aumento no significa que haya «más autismo», sino que se diagnostica mejor y más temprano, también en niñas y en familias que antes no llegaban a un especialista.",
+"src": "CDC, Autism and Developmental Disabilities Monitoring Network, MMWR, abril de 2025"
+},
+{
+"k": "p",
+"h": "En Chile, la primera estimación se hizo en 2021 con niños de 18 a 30 meses atendidos en dos centros de salud de Santiago: el 1,95% estaba en el espectro, cerca de 1 de cada 51. No es una cifra nacional, pero da una idea: en un curso de 40 alumnos puede haber uno o dos niños autistas. Y si se suma el TDAH, que en estudios chilenos afecta a cerca de uno de cada diez niños y adolescentes, en casi todas las salas hay alguien que necesita que el colegio funcione un poco distinto.",
+"src": "Carolina Yáñez y otros, Andes Pediatrica, 2021: https://andespediatrica.cl/index.php/rchped/article/view/2503; Flora de la Barra y otros, estudio de prevalencia de trastornos psiquiátricos en niños y adolescentes chilenos, 2012"
+},
+{
+"k": "h",
+"h": "Qué produce quedar en el borde"
+},
+{
+"k": "p",
+"h": "Un niño puede estar matriculado en un colegio y, al mismo tiempo, no estar en su curso. La investigadora Connie Kasari, de la Universidad de California en Los Ángeles, lo midió de una forma ingeniosa: preguntó a todos los niños de varias salas con quién se juntaban y dibujó las redes de amistad de cada curso. Los niños autistas aparecían casi siempre en la periferia, con menos amigos, y esas amistades eran menos recíprocas. Estaban en la sala, pero no adentro.",
+"src": "Connie Kasari y otros, «Social networks and friendships at school», Journal of Autism and Developmental Disorders, 2011"
+},
+{
+"k": "p",
+"h": "Quedar afuera cansa. Muchas personas autistas, sobre todo niñas y mujeres, aprenden a «camuflarse»: imitan gestos, ensayan conversaciones, aguantan el ruido sin decir nada para no llamar la atención. Lo pagan con un agotamiento que a veces se vuelve crisis. La investigadora Dora Raymaker y un equipo que incluía a personas autistas describieron en 2020 el «burnout autista»: un cansancio profundo, con pérdida de habilidades que antes se tenían, que aparece cuando las exigencias del entorno superan por mucho tiempo los recursos de la persona. Es exactamente lo que la mamá de la carta llama «energía limitada».",
+"src": "Dora Raymaker y otros, «Having all of your internal resources exhausted beyond measure», Autism in Adulthood, 2020"
+},
+{
+"k": "p",
+"h": "Y quedar afuera tiene otro costo: el acoso. En casi todos los países donde se ha medido, los niños con necesidades educativas especiales sufren más bullying que sus compañeros. En Chile, las denuncias por discriminación en los colegios llegaron a 2.869 en 2025, un 40,5% más que el año anterior, y la Superintendencia de Educación atribuye parte del alza a las normas que hoy protegen a estos estudiantes y que hacen visibles casos que antes no se denunciaban.",
+"src": "Emol, «Convivencia escolar: aumentan denuncias ciudadanas», 10 de febrero de 2026: https://www.emol.com/noticias/Nacional/2026/02/10/1191156/convivencia-escolar-aumenta-denuncias-ciudadanas.html"
+},
+{
+"k": "dato",
+"d": "2.869",
+"h": "denuncias por discriminación recibió la Superintendencia de Educación en 2025, un 40,5% más que el año anterior."
+},
+{
+"k": "h",
+"h": "Por qué lo que hay no alcanza"
+},
+{
+"k": "p",
+"h": "Chile tiene leyes. El Decreto 170, de 2009, creó la forma actual del Programa de Integración Escolar (PIE): los colegios con subvención reciben más recursos por cada estudiante con necesidades educativas especiales para contratar educadoras diferenciales, fonoaudiólogos y psicólogos. La Ley de Inclusión Escolar, de 2015, prohibió seleccionar alumnos en los colegios con financiamiento público. Y la Ley 21.545, la Ley TEA, de 2023, obliga a todos los colegios, públicos y privados, a dar espacios educativos inclusivos, sin violencia y sin discriminación, y a garantizar la continuidad educativa de los estudiantes autistas.",
+"src": "Ley 21.545, Biblioteca del Congreso Nacional: https://www.bcn.cl/leychile/navegar?idNorma=1190123; Mineduc, Programa de Integración Escolar: https://www.mineduc.cl/?p=33411"
+},
+{
+"k": "p",
+"h": "Pero una ley no pone a una persona preparada al lado de un niño en el momento en que se desregula. En 2023 había casi 449 mil estudiantes en el PIE, repartidos en más de 6 mil colegios, y cada curso puede tener hasta cinco estudiantes con necesidades transitorias y dos con necesidades permanentes, como el autismo. Gabriela Verdugo, presidenta de la Fundación Unión Autismo y Neurodiversidad, lo resume así: muchos equipos PIE no están especializados en autismo, y no sirve que un docente haya hecho un curso hace ocho años, porque la ciencia avanza muy rápido. Las familias cuentan que a sus hijos les quitan el asistente de aula al pasar de curso y que ellas mismas terminan haciendo las adaptaciones de las pruebas.",
+"src": "Mineduc, julio de 2023; La Tercera, LT Board, «La difícil realidad escolar de las niñas y niños neurodivergentes», 3 de septiembre de 2024: https://www.latercera.com/lt-board/noticia/la-dificil-realidad-escolar-de-las-ninas-y-ninos-neurodivergentes/PSGB73U7PRA73J5PFSD4BZYXUM/"
+},
+{
+"k": "p",
+"h": "A eso se suma la sala misma. Los cursos chilenos están entre los más grandes de la OCDE. En 2024 el promedio era de 24 alumnos por sala, y en muchos colegios urbanos hay 40. Un análisis del Centro de Investigación Avanzada en Educación de la U. de Chile, publicado el mismo día que la carta, propone aprovechar la baja de la natalidad para llegar a cursos de 20 alumnos, que permiten «gestionar mejor el aula», mejorar el clima escolar y la salud mental de los profesores.",
+"src": "El Mercurio, Cuerpo C, pág. 5, «Cierre de colegios y más gasto por alumno, los retos que impone la aguda crisis de natalidad», 26 de noviembre de 2026"
+},
+{
+"k": "h",
+"h": "Lo que muestra la evidencia"
+},
+{
+"k": "p",
+"h": "La pregunta que muchos apoderados se hacen en voz baja es si la inclusión perjudica al resto del curso. Es una pregunta legítima, y está estudiada. En 2016, Thomas Hehir, de la Universidad de Harvard, y su equipo revisaron 280 estudios de 25 países. Concluyeron que los estudiantes con discapacidad que aprenden en salas comunes, con los apoyos adecuados, logran mejores resultados académicos y sociales que los que estudian aparte, y que sus compañeros sin discapacidad no salen perjudicados: en la mayoría de los estudios los efectos fueron neutros o positivos.",
+"src": "Thomas Hehir y otros, «A Summary of the Evidence on Inclusive Education», Instituto Alana y Abt Associates, 2016: https://alana.org.br/wp-content/uploads/2016/12/A_Summary_of_the_evidence_on_inclusive_education.pdf"
+},
+{
+"k": "p",
+"h": "El hallazgo más interesante, sin embargo, es sobre quién hace la inclusión. Connie Kasari y su equipo hicieron un experimento con 60 niños autistas de primero a quinto básico que asistían a cursos comunes en Los Ángeles. A unos les enseñaron directamente habilidades sociales, uno a uno, con un adulto. En otros cursos, en cambio, trabajaron con tres compañeros típicos de la sala: les enseñaron a fijarse en quién estaba solo en el recreo, a invitarlo a jugar y a sostener el juego. El resultado fue claro: cuando los compañeros participaban, los niños autistas quedaban mejor conectados con su curso, eran nombrados más veces como amigos y pasaban menos tiempo aislados en el patio. Entrenar solo al niño autista no bastaba.",
+"src": "Connie Kasari y otros, «Making the connection: randomized controlled trial of social skills at school for children with autism spectrum disorders», Journal of Child Psychology and Psychiatry, 2012: https://pubmed.ncbi.nlm.nih.gov/22118062/"
+},
+{
+"k": "p",
+"h": "Dicho de otra forma: la inclusión no es algo que se le hace a un niño. Es algo que pasa entre los niños, y los adultos que los rodean, incluidos los apoderados, deciden mucho de lo que ocurre."
+},
+{
+"k": "h",
+"h": "Lo que pasa a largo plazo"
+},
+{
+"k": "p",
+"h": "Lo que se vive en el colegio no se queda en el colegio. En el Reino Unido, la Oficina Nacional de Estadísticas calculó en 2021 que solo el 22% de los adultos autistas tenía trabajo, la cifra más baja entre todos los grupos de personas con discapacidad. Muchos tienen las capacidades para trabajar; lo que les faltó fue un camino: terminar el colegio, una práctica, alguien que los recomendara.",
+"src": "Office for National Statistics, «Outcomes for disabled people in the UK», 2021"
+},
+{
+"k": "p",
+"h": "Las historias de personas autistas que llegaron lejos casi siempre tienen algo en común. Temple Grandin, una de las científicas más conocidas en el diseño de instalaciones para animales, no habló hasta los cuatro años. Ella cuenta que lo que la salvó fue una madre que no aceptó que la internaran y un profesor de ciencias que vio su forma de pensar en imágenes como un talento y no como un problema. «El mundo necesita todo tipo de mentes», dice.",
+"src": "Temple Grandin, charla TED «The world needs all kinds of minds», 2010: https://www.ted.com/talks/temple_grandin_the_world_needs_all_kinds_of_minds"
+},
+{
+"k": "h",
+"h": "Qué marca la diferencia"
+},
+{
+"k": "p",
+"h": "La evidencia y la experiencia de las familias coinciden en unas pocas cosas. La primera son los ajustes chicos y concretos: anticipar los cambios, usar pictogramas para que el niño sepa dónde está cada sala, darle un lugar tranquilo para calmarse (la «sala de la calma»), permitir audífonos cuando hay ruido, partir una prueba en partes. Ninguno de estos ajustes es caro, y casi todos ayudan también a otros niños.",
+"src": "Mineduc, Decreto 83 de 2015 sobre diversificación de la enseñanza; Ley 21.545, 2023"
+},
+{
+"k": "p",
+"h": "La segunda es la relación entre la familia y el colegio. La fonoaudióloga Claudia Figueroa, de la Universidad Andrés Bello, propone acuerdos «progresivos» entre los padres y el establecimiento, para que el niño entre al aula paso a paso y los profesores se comprometan con lo posible. Cuando la relación es de sospecha mutua, el niño queda en medio.",
+"src": "La Tercera, LT Board, 3 de septiembre de 2024"
+},
+{
+"k": "p",
+"h": "La tercera son los compañeros, como mostró el estudio de Kasari: niños que saben por qué su compañero se tapa los oídos, que lo esperan, que lo invitan. Y la cuarta, que casi nunca se nombra, es que las familias no estén solas. Criar a un niño autista en un sistema que no está preparado agota. Las mamás que se juntan para pedir una sala de la calma, que se reemplazan para ir a buscar a los niños o que simplemente se escuchan, sostienen mucho más de lo que se ve.",
+"src": "Connie Kasari y otros, 2012; La Tercera, LT Board, 2024"
+},
+{
+"k": "q",
+"h": "Armamos una comunidad, porque nosotros estamos muy vulnerados como papás, y empezamos a hacernos un acompañamiento",
+"who": "María José Zenteno, fonoaudióloga y mamá de un niño autista",
+"src": "La Tercera, LT Board, 3 de septiembre de 2024"
+},
+{
+"k": "h",
+"h": "Qué significa para Chile hoy"
+},
+{
+"k": "p",
+"h": "Chile ya decidió en la ley que los niños autistas tienen derecho a estudiar con todos. Lo que falta es que esa decisión llegue a cada sala. La carta de esta semana muestra lo que pasa cuando no llega: una familia que ha gastado en psiquiatras, psicóloga y terapeuta ocupacional, que volvió a un colegio con PIE «apostando a que esta vez sería distinto», y que termina otro año fuera de clases. La Superintendencia de Educación recibe cada año más denuncias por discriminación, y la Defensoría de la Niñez cuenta más de 6.000 asociadas a necesidades educativas especiales entre 2021 y 2025.",
+"src": "Observatorio de la Defensoría de la Niñez, «Diagnóstico 2026: Derecho a la No Discriminación», mayo de 2026: https://observatorio.defensorianinez.cl/wp-content/uploads/2026/05/Diagnostico-2026-Derecho-a-la-No-Discriminacion.pdf"
+},
+{
+"k": "p",
+"h": "Al mismo tiempo, el país tiene una oportunidad. Por la baja de la natalidad, en 2035 habrá en Chile 1,5 millones de cupos escolares sobrantes. Esos cupos pueden convertirse en colegios cerrados o en cursos más chicos, con más tiempo para cada niño. Y la inclusión de verdad, la que muestran los estudios, no la hace solo el Estado: la hacen también los compañeros que invitan, los apoderados que preguntan qué se necesita y las familias que dejan de pelear solas.",
+"src": "Centro de Investigación Avanzada en Educación, U. de Chile, citado por El Mercurio, Cuerpo C, pág. 5, 26 de noviembre de 2026"
+},
+{
+"k": "q",
+"h": "Yo no tengo hijos disruptivos; tengo hijos que requieren ayuda",
+"who": "Pamela Muñoz González, carta a El Mercurio"
+}
+],
+"mas": [
+{
+"tipo": "Charla TED",
+"t": "El mundo necesita todo tipo de mentes",
+"a": "Temple Grandin",
+"y": "2010, con subtítulos en español",
+"d": "Cómo piensa una persona autista y por qué el mundo la necesita.",
+"u": ""
+},
+{
+"tipo": "Charla TED",
+"t": "La historia olvidada del autismo",
+"a": "Steve Silberman",
+"y": "2015, con subtítulos en español",
+"d": "De las «madres nevera» a la neurodiversidad.",
+"u": ""
+},
+{
+"tipo": "Charla TED",
+"t": "Cómo aprendí a comunicar mi vida interior con Asperger",
+"a": "Alix Generous",
+"y": "2016, con subtítulos en español",
+"d": "Una joven autista cuenta lo que pasa por dentro cuando no logra expresarlo.",
+"u": ""
+},
+{
+"tipo": "Libro",
+"t": "La razón por la que salto",
+"a": "Naoki Higashida",
+"y": "Roca Editorial",
+"d": "Un niño japonés autista de 13 años explica desde adentro por qué hace lo que hace.",
+"u": ""
+},
+{
+"tipo": "Libro",
+"t": "Una tribu propia",
+"a": "Steve Silberman. La historia completa del autismo y de cómo se llegó a la idea de neurodiversidad",
+"y": "",
+"d": "",
+"u": ""
+},
+{
+"tipo": "Estudio",
+"t": "Making the connection",
+"a": "Connie Kasari y otros, Journal of Child Psychology and Psychiatry",
+"y": "2012, en inglés",
+"d": "El experimento que mostró el papel de los compañeros.",
+"u": ""
+},
+{
+"tipo": "Estudio",
+"t": "A Summary of the Evidence on Inclusive Education",
+"a": "Thomas Hehir y otros",
+"y": "2016, en inglés",
+"d": "Revisión de 280 estudios de 25 países.",
+"u": ""
+},
+{
+"tipo": "Ley",
+"t": "Ley 21.545 (Ley TEA)",
+"a": "Biblioteca del Congreso Nacional. El texto completo de los derechos de las personas autistas en Chile",
+"y": "",
+"d": "",
+"u": ""
+},
+{
+"tipo": "Reportaje",
+"t": "La difícil realidad escolar de las niñas y niños neurodivergentes",
+"a": "La Tercera, LT Board",
+"y": "2024",
+"d": "Testimonios de familias y especialistas chilenos.",
+"u": ""
+}
+],
+"tags": [
+"#autismo",
+"#TDAH",
+"#inclusión",
+"#educación",
+"#neurodiversidad",
+"#inclusiónescolar",
+"#mamás",
+"#comunidad",
+"#LeyTEA",
+"#PIE",
+"#infancia",
+"#saludmentalinfantil"
+],
+"historia": {
+"p": [
+"María José Zenteno es fonoaudióloga, trabaja hace 12 años en un colegio con PIE de una comuna «muy vulnerable» y es mamá de un niño con autismo. Cuando su hijo entró al colegio, estaba «muy asustada». Junto a otros padres armó una comunidad: «armamos una comunidad, porque nosotros estamos muy vulnerados como papás, y empezamos a hacernos un acompañamiento». Con otras mamás consiguieron una «sala de la calma» y un asistente de aula para el segundo año, y pelearon para que hubiera pictogramas en las puertas de las salas, algo esencial para los niños autistas. Ella misma hace las adecuaciones curriculares de su hijo: «eso pasa con muchas mamás».",
+"En el mismo reportaje, Elena Ayala, de San Fernando, cuenta que gracias a las conversaciones de TEAPRENDE, una agrupación de apoderados, el colegio de su hijo aprobó en 2024 una sala de regulación sensorial."
+],
+"src": "La Tercera, LT Board, «La difícil realidad escolar de las niñas y niños neurodivergentes», Andrea Cáceres, 3 de septiembre de 2024: https://www.latercera.com/lt-board/noticia/la-dificil-realidad-escolar-de-las-ninas-y-ninos-neurodivergentes/PSGB73U7PRA73J5PFSD4BZYXUM/",
+"extra": ""
+},
+"ideas": [
+"Invitar a un cumpleaños o a la plaza a un niño con autismo o TDAH que conozcas, y preguntarle antes a su familia qué necesita para pasarlo bien.",
+"Hablar en la casa, sin etiquetas, de los compañeros que sienten el ruido más fuerte o necesitan salir un rato de la sala, y explicar que eso no es portarse mal.",
+"Sumarse con otros apoderados para pedirle juntos al colegio una sala de la calma, pictogramas o un asistente de aula.",
+"Apoyar como voluntario o donante a una fundación que da terapias a bajo costo a familias que no pueden pagarlas."
+],
+"quePaso": [
+"Pamela Muñoz González publicó hoy en El Mercurio la carta «Cerrar el año escolar, el camino fácil». Cuenta que tiene tres hijos con TDAH y TEA (trastorno del espectro autista) y que, «otro año más», deben cerrar anticipadamente el año escolar de su hijo del medio. Volvieron a un colegio público con Programa de Integración Escolar (PIE) apostando a que esta vez sería distinto, pero los directivos le dijeron frases como «a lo mejor este no es el colegio para su hijo» y «este es un colegio de excelencia». Ella responde: «mis hijos son muy inteligentes; lo que el sistema no entiende es que su energía es limitada». Pregunta quién fiscaliza a los colegios que reciben más recursos por estos alumnos y describe a una jefa de UTP que le recordaba a una niña de 11 años que no podía dar pruebas que aquel era «un colegio de excelencia». No nombra el colegio «para evitar represalias».",
+"La carta llega en un año en que las denuncias por discriminación en los colegios siguen subiendo: la Superintendencia de Educación recibió 2.869 en 2025, un 40,5% más que en 2024 (2.042), y la propia Superintendencia atribuye parte del alza a las nuevas normas que protegen a los estudiantes con necesidades educativas especiales. La Ley 21.545 (Ley TEA), vigente desde marzo de 2023, obliga a todos los establecimientos, públicos y privados, a dar espacios educativos inclusivos, sin violencia y sin discriminación, y a garantizar la continuidad educativa de los estudiantes autistas."
+],
+"origen": "El Mercurio, Cuerpo A, pág. 2, carta «Cerrar el año escolar, el camino fácil», Pamela Muñoz González, jueves 26 de noviembre de 2026. Emol, «Convivencia escolar: aumentan denuncias ciudadanas», 10 de febrero de 2026: https://www.emol.com/noticias/Nacional/2026/02/10/1191156/convivencia-escolar-aumenta-denuncias-ciudadanas.html. Ley 21.545, Biblioteca del Congreso Nacional: https://www.bcn.cl/leychile/navegar?idNorma=1190123",
+"iso": "2026-11-26"
+},
+{
+"id": "areas-verdes",
+"post": "naturaleza-barrio-2026-11-26",
+"fecha": "Jueves 26 de noviembre",
+"doc": "261126 Areas verdes",
+"area": "ambiente",
+"areas": [
+"ambiente",
+"salud",
+"pobreza"
+],
+"kw": [
+"áreas verdes",
+"plaza",
+"barrio",
+"árbol",
+"vecin",
+"comunidad",
+"parque"
+],
+"titulo": "Cinco minutos de verde",
+"img": "https://images.unsplash.com/photo-1774866563481-d9a5793de1b7?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1544928938-6852c1925194?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1668009219418-4ece0d9e36c4?w=1600&q=75&auto=format&fit=crop",
+"orgs": [
+{
+"n": "Fundación Mi Parque",
+"d": "Recupera plazas y patios escolares en barrios vulnerables con diseño participativo y jornadas de construcción tipo minga; más de 400 proyectos en 16 regiones. Recibe voluntarios (difusión, construcción, murales, activación), donaciones y postulaciones de barrios. Nacional.",
+"w": "https://miparque.cl/es/voluntariado/"
+},
+{
+"n": "Fundación Reforestemos",
+"d": "Reforestación con árboles nativos desde hace 15 años: se puede plantar o regalar un árbol, hacerse socio o ser voluntario. Nacional.",
+"w": "https://www.reforestemos.cl/voluntariado"
+},
+{
+"n": "Fundación Cerros Isla",
+"d": "Impulsa la recuperación de los cerros isla de Santiago como parques naturales urbanos, con planes maestros para cada cerro. Región Metropolitana.",
+"w": "https://www.cerrosisla.cl"
+}
+],
+"bajada": "Qué le pasa al cerebro cuando mira hojas que se mueven, cómo se descubrió, y por qué en Chile la plaza con árboles a la vuelta de la esquina se ha vuelto un privilegio de algunas comunas.",
+"noticia": "Cinco minutos de verde: la naturaleza cerca de la casa cuida la salud mental, pero no todos los barrios la tienen",
+"blocks": [
+{
+"k": "p",
+"h": "Este jueves, El Mercurio entrevistó a la psicóloga ambiental Melissa Marselle, de la Universidad de Surrey, en el Reino Unido. Su mensaje fue sencillo: no hace falta ir a la montaña ni a un gran bosque. Entre cinco minutos y media hora en un lugar con naturaleza ya puede bajar el estrés. Detrás de esa frase hay casi cuarenta años de investigación, y una pregunta incómoda para un país como Chile: si cinco minutos de verde hacen tanto bien, ¿qué pasa con las personas que no tienen un árbol a cinco minutos de su casa?",
+"src": "El Mercurio, Cuerpo A, pág. 10, «Estar cinco minutos en contacto con la naturaleza ya puede ayudar a reducir el estrés», 26 de noviembre de 2026"
+},
+{
+"k": "h",
+"h": "Una ventana en un hospital"
+},
+{
+"k": "p",
+"h": "La historia moderna de esta pregunta empieza en un pasillo de hospital. A comienzos de los años ochenta, el arquitecto e investigador Roger Ulrich revisó las fichas de pacientes operados de la vesícula en un hospital de Pensilvania, en Estados Unidos, entre 1972 y 1981. Algunas habitaciones daban a un grupo de árboles; otras, a un muro de ladrillos. Ulrich comparó parejas de pacientes parecidos en edad, sexo y estado de salud. Los que veían árboles salieron del hospital antes, necesitaron menos analgésicos fuertes y las enfermeras anotaron menos comentarios negativos sobre su ánimo. Publicó el estudio en 1984 en la revista Science con un título prudente: «La vista por una ventana podría influir en la recuperación después de una cirugía».",
+"src": "Roger Ulrich, «View through a window may influence recovery from surgery», Science, 1984: https://pubmed.ncbi.nlm.nih.gov/6143402/"
+},
+{
+"k": "p",
+"h": "Por esos mismos años, los psicólogos Rachel y Stephen Kaplan, de la Universidad de Michigan, trabajaban en una idea que daría una explicación. Ellos notaron que la atención que usamos para trabajar, estudiar o manejar en el tráfico, la que obliga a concentrarse en algo y a ignorar lo demás, se cansa. Y propusieron que ciertos lugares la dejan descansar. La llamaron teoría de la restauración de la atención.",
+"src": "Rachel Kaplan y Stephen Kaplan, «The Experience of Nature: A Psychological Perspective», Cambridge University Press, 1989"
+},
+{
+"k": "h",
+"h": "Qué pasa en la cabeza, explicado en simple"
+},
+{
+"k": "p",
+"h": "Hay dos tipos de atención. Una es dirigida: la que pones para leer un correo, para no equivocarte en una cuenta o para escuchar a alguien en medio del ruido. Es voluntaria y gasta energía. La otra es involuntaria: la que se va sola hacia algo interesante, como el vuelo de un pájaro, el movimiento de las hojas con el viento o el agua de una pileta. Los Kaplan la llamaron «fascinación suave». La naturaleza está llena de estímulos de este tipo: captan la atención sin exigirla, y mientras tanto la atención dirigida descansa y se recupera.",
+"src": "Stephen Kaplan, «The restorative benefits of nature», Journal of Environmental Psychology, 1995"
+},
+{
+"k": "p",
+"h": "Melissa Marselle lo explica con un ejemplo cotidiano: al final del día alguien te pregunta qué quieres comer y sientes que no puedes decidir nada más. Es la atención dirigida agotada. Un rato en un lugar con árboles, dice, ayuda a «restaurar la concentración y el foco mental», a planificar y a manejar el estrés. Pero pone una condición: hay que estar ahí de verdad. «No vayas a un parque para quedarte revisando tus redes sociales en el celular».",
+"src": "El Mercurio, Cuerpo A, pág. 10, 26 de noviembre de 2026"
+},
+{
+"k": "p",
+"h": "La otra mitad de la explicación está en el cuerpo. Ulrich propuso que, cuando una persona está en un entorno natural que percibe como seguro, su organismo baja la respuesta de estrés: se calman el pulso y la presión, y baja el cortisol, la hormona del estrés. Su hipótesis es que durante casi toda la historia humana un paisaje con agua y vegetación era señal de que se podía descansar.",
+"src": "Roger Ulrich y otros, «Stress recovery during exposure to natural and urban environments», Journal of Environmental Psychology, 1991"
+},
+{
+"k": "h",
+"h": "Lo que mostraron los experimentos"
+},
+{
+"k": "p",
+"h": "En 2015, Gregory Bratman, de la Universidad de Stanford, hizo un experimento que fue más allá de preguntar a la gente cómo se sentía. Dividió a 38 adultos de ciudad en dos grupos. Unos caminaron 90 minutos por una zona con pasto, árboles y vista a la bahía; los otros, 90 minutos por una avenida con mucho tráfico. Antes y después midió la rumiación, la tendencia a darle vueltas una y otra vez a los pensamientos negativos, que es uno de los factores de riesgo de la depresión, y escaneó su cerebro. Los que caminaron por la naturaleza rumiaban menos y mostraban menos actividad en la corteza prefrontal subgenual, una zona que se activa con la tristeza y la rumiación. En los que caminaron por la avenida, nada cambió.",
+"src": "Gregory Bratman y otros, «Nature experience reduces rumination and subgenual prefrontal cortex activation», PNAS, 2015: https://pubmed.ncbi.nlm.nih.gov/26124129/"
+},
+{
+"k": "p",
+"h": "¿Cuánto tiempo hace falta? En 2019, Mathew White, de la Universidad de Exeter, analizó encuestas de casi 20 mil personas en Inglaterra. Quienes pasaban al menos 120 minutos a la semana en contacto con la naturaleza decían tener mejor salud y más bienestar que quienes no salían nunca. El beneficio aparecía con esas dos horas semanales, daba igual si se juntaban en una sola salida o en varias cortas, y se veía en todos los grupos: jóvenes y mayores, ricos y pobres, personas con y sin enfermedades crónicas.",
+"src": "Mathew White y otros, «Spending at least 120 minutes a week in nature is associated with good health and wellbeing», Scientific Reports, 2019: https://www.nature.com/articles/s41598-019-44097-3"
+},
+{
+"k": "h",
+"h": "Lo que se ha visto en barrios enteros"
+},
+{
+"k": "p",
+"h": "Los experimentos muestran lo que pasa en una tarde. Pero ¿qué pasa cuando una persona vive años rodeada de árboles, o sin ellos? Melissa Marselle y su equipo lo estudiaron en Leipzig, Alemania. Cruzaron las recetas de antidepresivos de 9.751 adultos con la cantidad de árboles plantados en las calles cerca de cada casa. Encontraron que tener más árboles a menos de 100 metros de la casa se asociaba con menos recetas, y que el efecto era claro entre las personas de menor nivel socioeconómico. A distancias mayores, el efecto desaparecía: lo que importa es el árbol que se ve al salir de la casa, no el parque que está lejos.",
+"src": "Melissa Marselle y otros, «Urban street tree biodiversity and antidepressant prescriptions», Scientific Reports, 2020: https://www.nature.com/articles/s41598-020-79924-5"
+},
+{
+"k": "p",
+"h": "Es un estudio de asociación: no prueba que los árboles eviten la depresión, porque los barrios con más árboles pueden ser distintos en otras cosas. Pero coincide con una idea que se repite en la investigación: la naturaleza cercana ayuda más a quienes tienen menos recursos para cuidarse por otros medios, como terapia, vacaciones o un jardín propio. Los investigadores británicos Richard Mitchell y Frank Popham mostraron en 2008 que en los barrios más verdes de Inglaterra la diferencia de mortalidad entre ricos y pobres era menor que en los barrios grises.",
+"src": "Richard Mitchell y Frank Popham, «Effect of exposure to natural environment on health inequalities», The Lancet, 2008"
+},
+{
+"k": "p",
+"h": "Marselle agrega un detalle: importa la variedad. Una plaza con pasto, un tipo de árbol y un arbusto tiene poca biodiversidad. Un lugar con distintas especies atrae aves e insectos, y así «hay más cosas interesantes que mirar», lo que aumenta el efecto sobre la salud.",
+"src": "El Mercurio, Cuerpo A, pág. 10, 26 de noviembre de 2026"
+},
+{
+"k": "h",
+"h": "Por qué la situación actual no alcanza"
+},
+{
+"k": "p",
+"h": "En Chile, el Sistema de Indicadores y Estándares de Desarrollo Urbano (SIEDU) fija como meta al menos 10 metros cuadrados de áreas verdes por habitante. Muy pocas comunas la cumplen, y las que lo hacen suelen ser las de mayores ingresos. Según la Plataforma Municipal de Datos de CEDEUS, Vitacura tiene 16,8 m² por habitante; Renca, 2,6; Puente Alto y San Bernardo, 1,7; La Pintana, 1,4; y El Bosque, apenas 0,5. Es decir, un vecino de Vitacura tiene más de diez veces el verde que tiene un vecino de La Pintana.",
+"src": "Ricardo Truffello (CEDEUS), «Medir y aumentar las áreas verdes para el desarrollo sustentable», País Circular, 28 de octubre de 2022: https://www.infraestructurapublica.cl/?p=64645"
+},
+{
+"k": "p",
+"h": "No basta con los metros: también importa la distancia. Un estudio sobre Santiago encontró que solo el 19,6% de los habitantes de La Pintana tiene una plaza o un parque de al menos media hectárea a menos de 300 metros de su casa; en San Miguel, el 45,3%. Y un área verde en el papel no siempre es un lugar donde se pueda estar: muchas plazas son peladeros sin sombra, con juegos rotos o tomadas en la noche, y la gente deja de ir.",
+"src": "«Distribución, superficie y accesibilidad de las áreas verdes en Santiago de Chile», Revistas Chilenas, U. de Chile: https://revistaschilenas.uchile.cl/handle/2250/108416"
+},
+{
+"k": "p",
+"h": "Esto ocurre mientras la salud mental del país se deteriora. En octubre de 2026, el Termómetro de la Salud Mental ACHS-UC mostró que un 18,5% de los adultos encuestados tiene sospecha o presencia de problemas de salud mental, la cifra más alta desde 2021, y que un 17,9% tiene síntomas moderados a severos de ansiedad. La naturaleza no reemplaza a un psicólogo ni a un tratamiento, pero es una de las pocas formas de cuidado que, cuando existe, está disponible para todos y no cuesta nada.",
+"src": "Emol, «Termómetro de la Salud Mental», 5 de octubre de 2026: https://www.emol.com/noticias/Nacional/2026/10/05/1213284/termometro-salud-mental-chilenos-resultados.html"
+},
+{
+"k": "dato",
+"d": "16,8",
+"h": "m² de áreas verdes por habitante tiene Vitacura; La Pintana tiene 1,4 y El Bosque, 0,5."
+},
+{
+"k": "h",
+"h": "Qué marca la diferencia"
+},
+{
+"k": "p",
+"h": "La investigación deja algunas ideas claras. La primera: la cercanía pesa más que el tamaño. Una plaza de barrio con árboles a cien metros puede hacer más por la salud cotidiana que un gran parque al que se va dos veces al año. La segunda: la calidad importa. Sombra, bancas, variedad de plantas, agua y un lugar que se sienta seguro hacen que la gente realmente use el espacio. La tercera: el tiempo y la atención. Unos minutos al día, mirando de verdad, sin la pantalla, bastan para empezar.",
+"src": "Marselle y otros, 2020; White y otros, 2019; El Mercurio, 26 de noviembre de 2026"
+},
+{
+"k": "p",
+"h": "Y hay una cuarta, que aparece una y otra vez en los barrios que han recuperado sus plazas: cuando los vecinos participan en diseñar y construir el lugar, lo usan más y lo cuidan. La Fundación Mi Parque, que ha recuperado más de 400 plazas y patios escolares en 16 regiones, trabaja con talleres donde los vecinos deciden qué plantar, dónde van los juegos y cómo se llamará el espacio, y cierra cada proyecto con una jornada de construcción en la que vecinos, voluntarios, municipio y empresas trabajan juntos. Ellos la llaman, a propósito, una minga.",
+"src": "Fundación Mi Parque, miparque.cl, noviembre de 2026: https://miparque.cl/es/inicio/"
+},
+{
+"k": "p",
+"h": "Una plaza recuperada no solo baja el estrés de quien la mira. También es un lugar donde se encuentran los vecinos, donde juegan los niños y donde las personas mayores tienen dónde sentarse. En los barrios que se organizan para recuperarla, el beneficio empieza antes de que se plante el primer árbol: en las reuniones donde personas que no se conocían deciden algo juntas."
+},
+{
+"k": "h",
+"h": "Qué significa para Chile hoy"
+},
+{
+"k": "p",
+"h": "La entrevista de esta semana trae una buena noticia y una pregunta. La buena noticia es que el remedio es simple y está al alcance: cinco minutos al día en un lugar con árboles, sin el celular. La pregunta es para quién está al alcance. En el Gran Santiago, el promedio sería de 3,8 m² de áreas verdes por habitante, menos de la mitad de lo que pide el estándar, y la diferencia entre comunas es de más de diez veces.",
+"src": "Fundación Mi Parque, citada en El Mostrador, 20 de abril de 2024: https://www.elmostrador.cl/noticias/opinion/columnas/2024/04/20/dia-de-la-tierra-la-urgencia-de-incrementar-las-areas-verdes-en-las-ciudades/"
+},
+{
+"k": "p",
+"h": "Chile, además, está cambiando. El Fondo de Población de las Naciones Unidas recordó esta misma semana que una de cada cinco personas en el país tiene 60 años o más, y que habrá que repensar los barrios para una población que envejece. Las plazas cercanas, con sombra y bancas, son parte de esa respuesta: para una persona mayor que ya no camina lejos, el árbol de la esquina es la única naturaleza disponible. Y en los veranos cada vez más calurosos, los árboles también bajan la temperatura de las calles.",
+"src": "Gregor von Medeazza y Sabrina Juran (UNFPA), «Chile está cambiando: ¿estamos preparados para su futuro demográfico?», La Tercera, 26 de noviembre de 2026"
+},
+{
+"k": "p",
+"h": "En Puerto Montt, en 2015, una vecina llamada Jovita Moreno convocó a la primera reunión para recuperar la plaza de su barrio, que llevaba veinte años convertida en basural. Llegaron siete personas. Meses después llegaban ochenta, y la plaza tenía juegos, asientos y áreas verdes. La distancia entre una comuna y otra no se cierra solo con grandes parques: también se cierra plaza por plaza.",
+"src": "El Dínamo, «La Esperanza de Mirasol: el humilde barrio que pasó de la desorganización a lograr la construcción de áreas verdes», 16 de octubre de 2015: https://www.eldinamo.cl/innovacion/2015/10/16/la-esperanza-de-mirasol-el-humilde-barrio-que-paso-de-la-desorganizacion-a-lograr-la-construccion-de-areas-verdes-2/"
+},
+{
+"k": "q",
+"h": "No tenemos que esperar hasta el fin de semana para experimentar la naturaleza. Deberíamos incorporarla a nuestro día a día",
+"who": "Melissa Marselle, Universidad de Surrey",
+"src": "El Mercurio, Cuerpo A, pág. 10, 26 de noviembre de 2026"
+}
+],
+"mas": [
+{
+"tipo": "Charla TED",
+"t": "Por qué la naturaleza es la nueva red social",
+"a": "Tina Liu. Una arquitecta paisajista sobre cómo los parques y las plantas mejoran la salud mental y física",
+"y": "",
+"d": "",
+"u": ""
+},
+{
+"tipo": "Charla TED",
+"t": "Ciencia de la vida en la cárcel",
+"a": "Nalini Nadkarni",
+"y": "2010, con subtítulos en español",
+"d": "Una ecóloga que llevó plantas y naturaleza a cárceles de Estados Unidos.",
+"u": ""
+},
+{
+"tipo": "Libro",
+"t": "La mente bien ajardinada",
+"a": "Sue Stuart-Smith",
+"y": "Debate, 2021",
+"d": "Una psiquiatra británica sobre el poder sanador de la jardinería.",
+"u": ""
+},
+{
+"tipo": "Libro",
+"t": "The Nature Fix",
+"a": "Florence Williams. Una periodista recorre los estudios sobre naturaleza y cerebro",
+"y": "",
+"d": "",
+"u": ""
+},
+{
+"tipo": "Estudio",
+"t": "Urban street tree biodiversity and antidepressant prescriptions",
+"a": "Marselle y otros, Scientific Reports",
+"y": "2020, en inglés",
+"d": "El estudio de Leipzig.",
+"u": ""
+},
+{
+"tipo": "Estudio",
+"t": "Spending at least 120 minutes a week in nature",
+"a": "White y otros, Scientific Reports",
+"y": "2019, en inglés",
+"d": "",
+"u": ""
+},
+{
+"tipo": "Estudio",
+"t": "Nature experience reduces rumination",
+"a": "Bratman y otros, PNAS",
+"y": "2015, en inglés",
+"d": "",
+"u": ""
+},
+{
+"tipo": "Columna",
+"t": "Medir y aumentar las áreas verdes para el desarrollo sustentable",
+"a": "Ricardo Truffello, CEDEUS",
+"y": "2022",
+"d": "La desigualdad de áreas verdes entre comunas chilenas.",
+"u": ""
+},
+{
+"tipo": "Reportaje",
+"t": "La Esperanza de Mirasol",
+"a": "El Dínamo",
+"y": "2015",
+"d": "Cómo un barrio de Puerto Montt recuperó su plaza.",
+"u": ""
+}
+],
+"tags": [
+"#saludmental",
+"#áreasverdes",
+"#barrio",
+"#naturaleza",
+"#minga",
+"#plazas",
+"#voluntariado",
+"#vecinos",
+"#historias",
+"#árbolesurbanos",
+"#desigualdad",
+"#bienestar"
+],
+"historia": {
+"p": [
+"Jovita Moreno tenía 47 años en 2015 y vivía en La Esperanza de Mirasol, en la población Padre Hurtado de Puerto Montt, un barrio de 299 familias que llevaba 20 años sin una sola obra nueva. La plaza principal era un basural, con barro y un columpio roto, y en la noche se usaba para tomar y drogarse. No había ni junta de vecinos. «Las condiciones del barrio me motivaron a armar una organización», contó. A la primera reunión llegaron siete personas: «Pensé que nunca iba a funcionar». Siguió: llevó las demandas del barrio a la Municipalidad, se sumaron la ONG Proyecto Propio y el programa Barrio Feliz de Entel, y los vecinos diseñaron la plaza: asientos para los padres y los mayores, toldos para la lluvia y áreas verdes. A las reuniones llegaron a ir 80 personas. El día de la inauguración dijo: «Demostrémosle a todos que están equivocados».",
+"La historia es de 2015. Buscar a Jovita Moreno (Junta de Vecinos La Esperanza de Mirasol, Puerto Montt) para avisarle o pedirle permiso, y si se puede, saber cómo está hoy la plaza."
+],
+"src": "El Dínamo, «La Esperanza de Mirasol: el humilde barrio que pasó de la desorganización a lograr la construcción de áreas verdes», Hernán Melgarejo, 16 de octubre de 2015: https://www.eldinamo.cl/innovacion/2015/10/16/la-esperanza-de-mirasol-el-humilde-barrio-que-paso-de-la-desorganizacion-a-lograr-la-construccion-de-areas-verdes-2/",
+"extra": ""
+},
+"ideas": [
+"Salir cinco minutos al día a la plaza más cercana, sin el celular, y fijarse en los árboles, los pájaros y los sonidos.",
+"Invitar a caminar a una plaza o un parque a alguien que no está pasando un buen momento.",
+"Plantar con los vecinos un árbol nativo en la vereda o regar los que ya hay en la cuadra durante el verano.",
+"Sumarse como voluntario a una jornada de construcción de una plaza, o reunir a los vecinos para postular la plaza del barrio a un programa de recuperación."
+],
+"quePaso": [
+"El Mercurio entrevista hoy a Melissa Marselle, psicóloga e investigadora en psicología ambiental de la Universidad de Surrey (Reino Unido), que estuvo en Chile para un congreso de la Universidad de los Andes. Su mensaje: no hace falta ir a la montaña. «La investigación ha mostrado que desde cinco minutos hasta media hora en la naturaleza ya pueden ayudar a reducir el estrés», dice, y explica que en un entorno natural la atención «descansa y se recupera», porque el movimiento de un pájaro o de las hojas la capta sin esfuerzo. Recomienda usar parte de la pausa de almuerzo para caminar por un parque o una plaza, y advierte: «No vayas a un parque para quedarte revisando tus redes sociales en el celular».",
+"Marselle cita un estudio de su equipo en Leipzig (Alemania) con cerca de 10 mil adultos: vivir rodeado de más árboles en la calle se asoció con menos recetas de antidepresivos. El artículo original precisa que el efecto se vio a menos de 100 metros de la casa y fue más claro entre las personas de menores ingresos. También recomienda buscar plazas con más variedad de plantas, porque la biodiversidad atrae aves e insectos y da «más cosas interesantes que mirar»."
+],
+"origen": "El Mercurio, Cuerpo A, pág. 10, Vida, Ciencia y Tecnología, «Estar cinco minutos en contacto con la naturaleza ya puede ayudar a reducir el estrés», Janina Marcano, jueves 26 de noviembre de 2026. Marselle y otros, «Urban street tree biodiversity and antidepressant prescriptions», Scientific Reports, diciembre de 2020: https://www.nature.com/articles/s41598-020-79924-5",
+"iso": "2026-11-26"
+},
 {
 "id": "calor-mayores",
 "post": "calor-mayores-2026-11-25",

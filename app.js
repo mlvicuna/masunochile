@@ -188,9 +188,10 @@ function home(){
   $app.innerHTML=`<section class="intro"><div class="wrap intro-in">
     <div class="intro-txt">
       <span class="live"><i></i>${HOY} en Más Uno · ${esc(f.fecha)}</span>
-      <h1>Chile necesita <em>que te sumes.</em></h1>
-      <p class="intro-lede">Hay un niño al que nadie le lee un cuento. Una mamá que no tiene con quién dejar a su hijo para ir a trabajar. Alguien que lleva meses buscando empleo. No tienes que cambiarlo todo: basta con poner una mano. <b>Conocer para transformar.</b></p>
-      <div class="hero-cta"><a class="btn lime" href="#ayudar">Quiero sumarme</a><a class="btn line" href="#n-${f.id}">${esHoy?'La historia de hoy':'La última historia'}</a></div>
+      <p class="intro-kicker">Ya sabes lo que pasa en Chile.</p>
+      <h1>¿Y tú, qué vas a <em>hacer?</em></h1>
+      <p class="intro-lede">Un niño al que nadie le lee un cuento. Una vecina que pasa el calor sola. Alguien que lleva meses buscando pega. No tienes que salvar a nadie: tienes que aparecer. Cada día te contamos una historia y te decimos, sin vueltas, qué puedes hacer tú. <b>Uno más. Eso es todo.</b></p>
+      <div class="hero-cta"><button class="btn lime" type="button" data-jump="hoy-home">Dime qué puedo hacer hoy</button><a class="btn line" href="#n-${f.id}">${esHoy?'La historia de hoy':'La última historia'}</a></div>
     </div>
     <figure class="intro-foto"><img src="${IMG.banner}" ${fp(IMG.banner)} alt="Personas de distintas edades juntas en un campo al atardecer"></figure>
   </div>
@@ -199,34 +200,40 @@ function home(){
     <div class="it-grid">${hoy.map((n,j)=>`<a class="it-row" href="#n-${n.id}"><span class="it-n">0${j+1}</span><div><small>${esc(AREA[n.area].name)}</small><b>${esc(n.titulo)}</b></div><span class="it-go">→</span></a>`).join('')}</div>
   </div></section>
   <div class="ticker" aria-hidden="true"><div class="ticker-in">${tick}${tick}</div></div>`+`
-  <section class="wrap stats">
-    <div class="stat"><b>47%</b><span>de quienes no ayudan dice no saber dónde ni cómo.</span></div>
-    <div class="stat"><b>${fmt(CAT.rows.length)}</b><span>organizaciones en el catastro, por tema y región.</span></div>
-    <div class="stat"><b>16</b><span>regiones. Siempre hay alguien trabajando cerca tuyo.</span></div>
-    <div class="stat"><b>+1</b><span>Un acto concreto basta para empezar.</span></div>
-  </section>
+  <section class="accion" id="hoy-home"><div class="wrap">
+    <div class="accion-head"><span class="eyebrow">+1 · Tu parte de hoy</span><h2>Diez minutos. <em>Eso te pedimos.</em></h2>
+      <p>Viene de ${esHoy?'la historia de hoy':'la última historia'}: «${esc(f.titulo)}». No necesitas plata, experiencia ni permiso de nadie.</p></div>
+    ${hoyBox(f,'big')}
+    <div class="quedate"><p>Es probable que te quedes solo con esto. Está bien. <b>Pero no te olvides de lo que está pasando en Chile.</b></p><a class="btn line sm" href="#n-${f.id}">Leer la historia completa</a></div>
+  </div></section>
+  <section class="sec" style="padding-top:0"><div class="wrap">${helper()}</div></section>
   <section class="minga"><div class="wrap minga-in">
-    <div><span class="eyebrow">La minga social</span><h2>Lo que solos no podemos, <em>lo movemos entre todos.</em></h2>
+    <div><span class="eyebrow">+1 · La minga social</span><h2>Lo que solos no podemos, <em>lo movemos entre todos.</em></h2>
       <figure class="minga-foto"><div><img src="img/minga.webp" alt="Cientos de personas acompañan el traslado de una casa durante una minga en Chiloé, junto al mar" loading="lazy"></div>
       <figcaption>Una minga en Chiloé: cientos de personas acompañan el traslado de una casa hasta el mar.</figcaption></figure></div>
     <div class="minga-txt">
-      <p>En Chiloé, cuando una familia necesita cambiar su casa de lugar, no contrata una empresa: llama a la minga. Los vecinos llegan con sus bueyes, sus manos y sus ganas, y entre todos tiran la casa por el campo, o la hacen flotar por el mar, hasta su nuevo sitio. Nadie cobra. Se devuelve la mano cuando otro la necesite, y el día termina en una mesa compartida.</p>
-      <p>La palabra viene del quechua <i>minka</i>, y en Chile también se dice mingaco: trabajo colectivo y voluntario para un bien común, que se ha practicado por siglos en el campo, en las cosechas y en las construcciones de los pueblos.</p>
-      <p class="minga-cierre">Más Uno quiere ser eso: una minga social. Cada historia es una casa que hay que mover. Tú pones una mano, alguien más pone otra, y las organizaciones que ya están tirando del carro hacen el resto.</p>
+      <p>En Chiloé, cuando una familia tiene que mover su casa, no llama a una empresa: llama a la minga. Llegan los vecinos con bueyes, manos y ganas, y entre todos la tiran por el campo o la hacen flotar por el mar. Nadie cobra. Se devuelve la mano cuando otro la necesita, y el día termina en una mesa larga.</p>
+      <p>Más Uno es eso, pero con lo que está pasando en Chile hoy. No somos una fundación y no te pedimos plata: te contamos qué pasa y te mostramos quién ya está tirando del carro, para que te sumes.</p>
+      <p class="minga-cierre">¿Por qué +1? Porque no hacen falta héroes. <em>Hace falta uno más.</em> Y ese puedes ser tú.</p>
     </div>
-    <ol class="minga-pasos"><li><b>Alguien lo necesita.</b><span>Una noticia nos muestra quién.</span></li><li><b>Cada uno pone una mano.</b><span>Una hora, un libro, un dato, una visita.</span></li><li><b>Se devuelve la mano.</b><span>Hoy ayudas tú; mañana, otro.</span></li><li><b>Se termina en una mesa.</b><span>Comunidad: no ayuda de uno a otro, sino entre todos.</span></li></ol>
+    <ol class="minga-pasos"><li><b>Alguien lo necesita.</b><span>Una historia te muestra quién.</span></li><li><b>Pones una mano.</b><span>Una llamada, una hora, un libro, una visita.</span></li><li><b>Se devuelve la mano.</b><span>Hoy ayudas tú; mañana, otro.</span></li><li><b>Se termina en una mesa.</b><span>No es ayuda de uno a otro: es entre todos.</span></li></ol>
   </div></section>
-  <section class="wrap">${hoyBox(f,'wide')}</section>
+  <section class="wrap stats">
+    <div class="stat"><b>47%</b><span>de quienes no ayudan dice que no sabe dónde ni cómo. Para eso estamos.</span></div>
+    <div class="stat"><b>${fmt(CAT.rows.length)}</b><span>organizaciones en todo Chile que ya están haciendo algo.</span></div>
+    <div class="stat"><b>16</b><span>regiones. Siempre hay alguien trabajando cerca tuyo.</span></div>
+    <div class="stat"><b>+1</b><span>No hacen falta héroes. Hace falta uno más.</span></div>
+  </section>
   <section class="sec" id="semana"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">Las últimas historias</span><h2>Lo que está <em>pasando</em></h2></div><p>Las historias que publicamos en Instagram, contadas con calma y con las organizaciones que ya están haciendo algo.</p></div>
+    <div class="sec-head"><div><span class="eyebrow">Las últimas historias</span><h2>Lo que está <em>pasando</em></h2></div><p>Cada una parte por lo que puedes hacer tú. Si quieres entender más, sigues leyendo.</p></div>
     ${newsCard(f,true)}<div class="cards">${rest.slice(0,6).map(n=>newsCard(n)).join('')}</div>
     ${NEWS.length>7?`<div class="more" style="margin-top:56px"><a class="btn line" href="#historias">Todas las historias</a></div>`:''}
   </div></section>
-  <section class="sec band-sand"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">Temas</span><h2>¿Qué te <em>mueve</em>?</h2></div><p>Cada historia pertenece a un tema más grande. En cada uno hay organizaciones de todo Chile que reciben ayuda.</p></div>
+  <section class="sec band-sand"><div class="wrap">${dudas()}</div></section>
+  <section class="sec"><div class="wrap">
+    <div class="sec-head"><div><span class="eyebrow">Temas</span><h2>¿Qué te <em>mueve</em>?</h2></div><p>Elige lo que te toca. En cada tema hay gente en todo Chile esperando una mano más.</p></div>
     ${areaGrid()}
   </div></section>
-  <section class="sec"><div class="wrap">${helper()}</div></section>
   <section class="sec band-sand"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">En Instagram</span><h2>Empieza en el feed, <em>sigue aquí</em></h2></div><a class="ig-handle" href="${IGURL}" target="_blank" rel="noopener">${IGICON}@masuno</a></div>
     <div class="igwrap"><div class="igrow">${NEWS.slice(0,7).map(n=>`<a class="igtile" href="#n-${n.id}" aria-label="${esc(n.titulo)}">${cover(n)}</a>`).join('')}</div></div>
@@ -240,7 +247,7 @@ const areaGrid=(only)=>`<div class="tgrid">${CAT.areas.filter(a=>!only||only.inc
 /* ---------- ¿por dónde empiezo? ---------- */
 function helper(pre={}){
   return `<div class="helper" id="helper"><div class="helper-in">
-    <div><span class="eyebrow">Cómo ayudar</span><h2>¿Por dónde empiezo?</h2><p class="muted">Elige un tema, el tiempo que tienes y dónde vives. Te mostramos algo concreto que puedes hacer y quién lo está haciendo cerca tuyo.</p></div>
+    <div><span class="eyebrow">¿Te da para más?</span><h2>Tres preguntas <em>y partes.</em></h2><p class="muted">Qué te importa, cuánto tiempo tienes y dónde vives. Te decimos algo concreto que puedes hacer y quién lo está haciendo cerca tuyo.</p></div>
     <div class="hq"><span class="hn">01</span><b>¿Qué te importa?</b><div class="chips" data-k="a">${CAT.areas.map(a=>`<button type="button" data-v="${a[0]}" class="${pre.a===a[0]?'on':''}">${esc(a[1])}</button>`).join('')}</div></div>
     <div class="hq"><span class="hn">02</span><b>¿Cuánto tiempo tienes?</b><div class="chips" data-k="t">${TIEMPOS.map((t,i)=>`<button type="button" data-v="${t.k}" class="${(pre.t||'hoy')===t.k?'on':''}">${esc(t.t)}</button>`).join('')}</div></div>
     <div class="hq"><span class="hn">03</span><b>¿Dónde vives?</b><select class="hsel"><option value="">Todo Chile</option>${regOpts(store.get('mu-r'))}</select></div>
@@ -283,15 +290,57 @@ function orgCta(n){ /* n: noticia o {area} */
       <label class="grow"><small>&nbsp;</small><button class="btn acc" style="margin:0;justify-content:center">Buscar organizaciones</button></label>
     </form></div></div>`;
 }
+/* ---------- dudas: lo que frena a la gente ---------- */
+// cada respuesta: párrafos separados por \n\n
+const DUDAS=[
+  ['No tengo tiempo.','Es verdad, y no te vamos a pedir que lo saques de donde no hay. Pero conviene separar dos cosas: tiempo y constancia. Una llamada de diez minutos a la misma persona cada semana pesa más que una tarde entera una vez al año, porque lo que le cambia la vida a alguien rara vez es un gesto grande: es saber que alguien va a volver.\n\nPor eso cada historia parte con algo que se hace hoy. Si después descubres que te da para más, subes un peldaño. Si no, lo que hiciste igual cuenta.'],
+  ['No tengo plata.','Casi nada de lo que proponemos cuesta dinero: acompañar, llamar, enseñar lo que sabes, prestar tu oficio, correr la voz. Eso es lo que más les falta a muchas organizaciones.\n\nLa plata también ayuda, y si algún día puedes darla, un aporte mensual chico vale más que una donación grande una sola vez: les permite planificar. Pero no es la puerta de entrada.'],
+  ['Es una gota en el mar. El problema es demasiado grande.','El problema es grande, eso no está en duda. Pero preguntarse si tu acción resuelve la pobreza o la soledad en Chile es injusto con cualquier acción, incluso con la de los expertos. La pregunta útil es otra: ¿le cambia algo a una persona concreta? Para la señora que recibió tu llamada durante la ola de calor, la respuesta es sí.\n\nY ninguna de las organizaciones que te mostramos funciona con unos pocos héroes. Funcionan con cientos de manos chicas y constantes. Eso es una minga: nadie mueve la casa solo.'],
+  ['¿Esto no le corresponde al Estado?','Muchas veces sí, y es legítimo exigirlo. Pero no es una cosa o la otra. Los cambios en las políticas públicas toman años, y el niño que hoy está en una residencia o la persona mayor que hoy vive sola no pueden esperar ese tiempo.\n\nAdemás, hay cosas que ninguna institución puede entregar: un vecino que pregunta, un adulto que vuelve cada semana, una comunidad que se da cuenta. Eso lo hacemos entre nosotros o no lo hace nadie.'],
+  ['¿Y si hago más daño que bien?','Es una pregunta seria, y qué bueno que te la hagas. Pasa: hay voluntariados que van una vez, se sacan la foto y no vuelven, y el niño que se encariñó vive un abandono más. La investigación sobre mentoría lo muestra: cuando la relación con un niño se corta antes de tiempo, puede dejarlo peor que si nunca hubiera empezado (Grossman y Rhodes, 2002).\n\nLa forma de evitarlo no es complicada: entra a través de una organización seria, que te prepare y te acompañe; promete solo lo que puedes cumplir, y si algo cambia, avisa y cierra bien.'],
+  ['No sé hacer nada útil.','Casi todo lo que se necesita no es técnico: escuchar sin apuro, leer en voz alta, acompañar a un trámite, enseñar lo que sabes de tu pega. Y lo que sí es técnico, las organizaciones lo enseñan.\n\nLo que no te pueden enseñar es a aparecer, y a seguir apareciendo. Eso es lo más escaso y lo más valioso que puedes llevar.'],
+  ['Me da miedo. No sé si me la puedo emocionalmente.','Es honesto decirlo, y es mejor saberlo antes que después. Hay temas que pegan fuerte: niños enfermos, abuso, personas que mueren solas. No todos tenemos que estar en primera fila, y no sirve forzarse.\n\nHay muchas formas de sumar sin exponerte: difundir, juntar lo que se necesita, apoyar desde tu profesión, aportar a una organización. Y si eliges estar cerca, busca organizaciones que acompañen a sus voluntarios. Las serias lo hacen.'],
+  ['¿Ayudar no es puro asistencialismo?','Depende de cómo se haga. Regalar algo una vez y desaparecer puede aliviar más a quien da que a quien recibe. Lo que buscamos es otra cosa: relaciones que duran, organizaciones que trabajan con las personas y no por ellas, y comunidades que se sostienen entre sí.\n\nPor eso cada historia termina en quienes llevan años en el tema. Ellos saben lo que sirve y lo que no. Tu mano se suma a algo que ya funciona.'],
+  ['¿Y si me comprometo y después no puedo seguir?','Pasa, y no te hace mala persona. Lo que importa es cómo te vas: avisa con tiempo, despídete si hay alguien que te espera, y deja que la organización prepare el relevo.\n\nAntes de empezar, sé realista contigo. Vale más una hora al mes que cumples durante un año que cuatro a la semana que abandonas a los dos meses.'],
+  ['¿Cómo sé que la organización es seria?','Las que destacamos en cada historia las revisamos: existen, están activas y reciben a personas como tú. El buscador es más amplio: es la base nacional de organizaciones de abril de 2025, y algunos datos pueden haber cambiado.\n\nAntes de comprometerte, mira si su web o sus redes están al día, pregunta qué harías tú y cómo te van a preparar, y si vas a donar, pide que te expliquen en qué se usa. Una organización seria responde esas preguntas sin problema.'],
+  ['¿Qué gana Más Uno con esto?','Nada en plata: no recibimos donaciones ni manejamos voluntarios. Contamos lo que pasa en Chile y te mostramos quién ya está trabajando en eso, para que tu ayuda llegue directo a ellos.\n\nLo que queremos es simple: que la próxima vez que leas una noticia que te duela, en vez de pasar de largo, sepas qué hacer.']
+];
+// las que van al final de cada historia
+const DUDAS_HISTORIA=[2,4,0,6,8,9].map(i=>DUDAS[i]);
+const dudas=(lista=DUDAS,titulo='Lo sabemos: <em>te cuesta.</em>',lede='No eres el único. Estas son las razones más honestas que escuchamos para no hacer nada. Las tomamos en serio, porque detrás de cada una hay algo verdadero.')=>
+  `<div class="dudas"><div class="dudas-head"><span class="eyebrow">Tus dudas</span><h2>${titulo}</h2><p>${lede}</p></div>
+  <div class="dudas-list">${lista.map(([q,a],i)=>`<details class="duda"${i===0?' open':''}><summary>${esc(q)}<span aria-hidden="true">+</span></summary>${a.split('\n\n').map(x=>`<p>${esc(x)}</p>`).join('')}</details>`).join('')}</div></div>`;
+// botones que bajan a una parte de la página sin cambiar la ruta (#n-…)
+document.addEventListener('click',e=>{const b=e.target.closest('[data-jump]');if(!b)return;e.preventDefault();const el=document.getElementById(b.dataset.jump);if(el){const y=el.getBoundingClientRect().top+scrollY-130;scrollTo({top:y,behavior:'smooth'});}});
+const share=(t)=>`<button class="btn line sm" type="button" onclick="MU.share(${esc(JSON.stringify(t))})">Compártela</button>`;
+const minutos=n=>Math.max(3,Math.round((n.blocks||[]).reduce((s,b)=>s+String(b.h||'').split(/\s+/).length+(b.li||[]).join(' ').split(/\s+/).length,0)/200));
+
 function news(n){
   const t=postsOf(n), i=NEWS.indexOf(n), nx=NEWS[(i+1)%NEWS.length], pv=NEWS[(i-1+NEWS.length)%NEWS.length];
   const vids=(n.mas||[]).filter(m=>tedSlug(m.u)), books=(n.mas||[]).filter(m=>m.tipo==='Libro'), refs=(n.mas||[]).filter(m=>!tedSlug(m.u)&&m.tipo!=='Libro');
   const COL=['#2E3230','#B9472F','#5E7A70','#7A4E3A','#3C4A55'];
   const H=n.historia||{p:[]};
   const quote=H.quote||((H.p.join(' ').match(/«([^»]{20,180})»/)||[])[1]);
-  $app.innerHTML=hero({img:n.img,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(n.bajada),
-      meta:`<div class="hero-meta"><span>${esc(n.noticia||'')}</span></div>`})+
-  (n.quePaso&&n.quePaso.length?`<section class="wrap"><div class="narrow"><div class="noticia reveal"><span class="eyebrow">La noticia · ${esc(n.fecha)}</span>${n.quePaso.map(p=>`<p>${esc(p)}</p>`).join('')}${n.origen?`<span class="src">Fuente: ${linkify(n.origen)}</span>`:''}</div></div></section>`:'')+
+  const hayMas=vids.length||books.length||refs.length;
+  const toc=[['s-accion','Qué puedes hacer'],n.quePaso&&n.quePaso.length&&['s-paso','Qué pasó'],['s-entender','Para entenderlo'],H.p.length&&['s-historia','Una historia'],['organizaciones','Quién trabaja en esto'],['s-dudas','Tus dudas']].filter(Boolean);
+  const top3=n.orgs.slice(0,3);
+  $app.innerHTML=hero({img:n.img,short:true,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(n.bajada),
+      meta:`<div class="hero-cta"><button class="btn acc" type="button" data-jump="s-accion">¿Qué puedo hacer yo?</button><button class="btn line" type="button" data-jump="${n.quePaso&&n.quePaso.length?'s-paso':'s-entender'}">Qué pasó</button></div>`})+
+  `<nav class="toc" aria-label="En esta historia"><div class="wrap toc-in"><span class="toc-mark">+1</span>${toc.map(([id,l])=>`<button type="button" data-jump="${id}">${l}</button>`).join('')}</div></nav>`+
+  /* 1 · lo primero: qué puedes hacer tú */
+  `<section class="accion" id="s-accion"><div class="wrap">
+    <div class="accion-head"><span class="eyebrow">+1 · Tu parte</span><h2>¿Y tú, qué vas a <em>hacer?</em></h2>
+      <p>Ya leíste el título. Lo normal es pensar «qué terrible» y pasar a otra cosa. Esta vez, no. No te pedimos que lo arregles todo: te pedimos una cosa, hoy.</p></div>
+    ${hoyBox(n,'big')}
+    ${n.ideas&&n.ideas.length?`<div class="accion-mas"><h3>¿Te da para más?</h3><p class="muted">De lo más simple a lo que le cambia la vida a alguien. Elige una.</p></div>
+    <div class="steps">${n.ideas.map(x=>`<div class="step reveal"><p>${esc(x)}</p></div>`).join('')}</div>`:''}
+    ${top3.length?`<div class="accion-orgs"><span>Ya están en esto:</span>${top3.map(o=>{const u=o.w||o.ig||o.w2||(o.e?'mailto:'+o.e:'');return u?`<a href="${esc(u)}" ${u.startsWith('http')?'target="_blank" rel="noopener"':''}>${esc(o.n)} ↗</a>`:`<b>${esc(o.n)}</b>`}).join('')}<button type="button" data-jump="organizaciones">Ver todas cerca tuyo ↓</button></div>`:''}
+    <div class="quedate"><p>Es probable que te quedes solo con esto. Está bien. <b>Pero no te olvides de lo que está pasando en Chile.</b></p><button class="btn line sm" type="button" data-jump="s-entender">Quiero entender más ↓</button></div>
+  </div></section>`+
+  /* 2 · qué pasó */
+  (n.quePaso&&n.quePaso.length?`<section class="wrap" id="s-paso"><div class="narrow"><div class="parte"><span class="parte-n">01</span><div><span class="eyebrow">Qué pasó</span><h2>La noticia, en corto</h2></div></div><div class="noticia reveal">${n.quePaso.map(p=>`<p>${esc(p)}</p>`).join('')}${n.origen?`<span class="src">Fuente: ${linkify(n.origen)}</span>`:''}</div></div></section>`:'')+
+  /* 3 · para entenderlo */
+  `<section class="wrap" id="s-entender"><div class="narrow"><div class="parte"><span class="parte-n">02</span><div><span class="eyebrow">Para entenderlo${n.blocks?` · ${minutos(n)} min de lectura`:''}</span><h2>Si quieres ir más a fondo</h2></div></div></div></section>`+
   (n.blocks?article(n):`<article class="article wrap"><div class="narrow">${n.texto.map((p,j)=>`<p class="${j===0?'first':''}">${esc(p)}</p>`).join('')}<span class="src">Fuente: El Mercurio, Sociedad (A7), jueves 19 de noviembre de 2026</span></div></article>`)+
   `<div class="wrap"><div class="narrow"><div class="tags">${(n.tags||[]).map(x=>`<a href="#tag-${tslug(x)}">${esc(x)}</a>`).join('')}</div></div></div>`+
   (vids.length||books.length||refs.length?`<section class="sec"><div class="wrap">
@@ -300,14 +349,12 @@ function news(n){
     ${books.length?`<div class="shelf">${books.map((b,j)=>`<div class="book"><div class="bcover" data-ol="${esc(b.t)}|${esc((b.a.split(/,| y /)[0]||'').trim().split(' ').pop())}" style="background:${COL[j%COL.length]}"><span class="t">${esc(b.t)}</span><span class="a">${esc(b.a)}</span></div><b>${esc(b.t)}</b><small>${esc([b.a,b.y].filter(Boolean).join(' · '))}${b.d?'. '+esc(b.d):''}</small></div>`).join('')}</div>`:''}
     ${refs.length?`<div class="refs">${refs.map(r=>{const inner=`<span>${esc(r.tipo)}</span><div><b>${esc(r.t)}</b><small>${esc([r.a,r.y].filter(Boolean).join(' · '))}${r.d?'. '+esc(r.d):''}${r.u?' · '+esc(host(r.u)):''}</small></div>`;return r.u?`<a class="ref" href="${r.u}" target="_blank" rel="noopener">${inner}</a>`:`<div class="ref">${inner}</div>`}).join('')}</div>`:''}
   </div></section>`:'')+
-  (H.p.length?`<section class="story"><div class="ph"><img src="${n.img3||n.img2||n.img}" ${fp(n.img3||n.img2||n.img)} alt="" loading="lazy"></div><div class="story-in reveal"><span class="eyebrow">Una historia</span>
+  (H.p.length?`<section class="story" id="s-historia"><div class="ph"><img src="${n.img3||n.img2||n.img}" ${fp(n.img3||n.img2||n.img)} alt="" loading="lazy"></div><div class="story-in reveal"><span class="eyebrow">Una historia</span>
     <h2>${esc(storyName(H))}</h2>${quote?`<blockquote>«${esc(quote.replace(/[.»]+$/,''))}»${H.who?`<footer style="font-family:var(--sans);font-size:14px;margin-top:10px;color:rgba(237,234,227,.7)">${esc(H.who)}</footer>`:''}</blockquote>`:''}
     ${H.p.map(p=>`<p>${esc(quote?p.replace(/\s*«[^»]*»\.?/,'').trim():p)}</p>`).join('')}${H.extra?`<p>${linkify(H.extra)}</p>`:''}${H.src?src(H.src):''}</div></section>`:'')+
-  (n.ideas&&n.ideas.length?`<section class="sec"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Por dónde empezar</span><h2>De lo más simple a lo que cambia una vida</h2></div></div>
-    ${hoyBox(n)}<div class="steps">${n.ideas.map(x=>`<div class="step reveal"><p>${esc(x)}</p></div>`).join('')}</div></div></section>`:'')+
   carousels(n)+
   `<section class="sec" id="organizaciones"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">${esc(AREA[n.area].name)}</span><h2>¿Quién trabaja en esto cerca tuyo?</h2></div><p>Organizaciones que ya están haciendo algo, y en tu región, las que trabajan en este tema.</p></div>
+    <div class="sec-head"><div><span class="eyebrow">${esc(AREA[n.area].name)}</span><h2>¿Quién trabaja en esto <em>cerca tuyo?</em></h2></div><p>No tienes que inventar nada: ya hay gente tirando del carro. Escríbeles, pregunta cómo sumarte y parte.</p></div>
     <div class="picks">${n.orgs.map(o=>`<div class="pick reveal"><h4>${esc(o.n)}</h4><p>${esc(o.d)}</p><div class="links">${[o.w&&[o.w,host(o.w)],o.w2&&[o.w2,host(o.w2)],o.ig&&[o.ig,'Instagram'],o.e&&['mailto:'+o.e,o.e],o.t&&['tel:'+o.t.replace(/[^\d+]/g,''),o.t]].filter(Boolean).map(([u,l])=>`<a href="${u}" ${u.startsWith('http')?'target="_blank" rel="noopener"':''}>${esc(l)}</a>`).join('')}</div></div>`).join('')}</div>
     <form class="finder" id="nf" onsubmit="event.preventDefault()">
       <label><small>Tu región</small><select name="r"><option value="">Todo Chile</option>${regOpts(store.get('mu-r'))}</select></label>
@@ -316,6 +363,10 @@ function news(n){
     </form><div id="nres"></div>
     <p class="steps-note">¿Tu organización trabaja en esto y no aparece? <a href="#suma">Súmala a Más Uno</a>.</p>
   </div></section>
+  <section class="sec band-sand" id="s-dudas"><div class="wrap">${dudas(DUDAS_HISTORIA)}</div></section>
+  <section class="wrap"><div class="cierre reveal"><span class="cierre-mark">+1</span><div><span class="eyebrow">Antes de irte</span>
+    <h2>¿Ya lo hiciste? <em>Cuéntale a alguien.</em></h2><p>Así se arma una minga: uno pone la mano y el que está al lado se anima. Mándale esta historia a una persona que pueda sumarse.</p>
+    <div class="hero-cta">${share(n.titulo)}<button class="btn acc sm" type="button" data-jump="s-accion">Volver a qué puedo hacer</button></div></div></div></section>
   <section class="wrap" style="padding-bottom:clamp(64px,10vw,110px)"><div class="next">
     ${[pv,nx].map((x,j)=>`<a class="nextcard" href="#n-${x.id}"><img src="${x.img.replace('w=1600','w=900')}" ${fp(x.img.replace('w=1600','w=900'))} alt="" loading="lazy"><div><small>${j?'Siguiente historia':'Historia anterior'}</small><b>${esc(x.titulo)}</b></div></a>`).join('')}
   </div></section>`;
@@ -326,21 +377,22 @@ function news(n){
 }
 function pageHead(eyebrow,title,lede){return `<section class="pagehead wrap"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1>${lede?`<p class="lede">${lede}</p>`:''}</section>`;}
 function historias(){
-  $app.innerHTML=pageHead('Historias','Historias que piden algo de nosotros.','Lo que publicamos en Instagram, contado con calma: qué pasó, por qué importa y quién ya está haciendo algo.')+
+  $app.innerHTML=pageHead('Historias','Historias que te piden <em>una mano.</em>','Cada una parte por lo que puedes hacer tú. Después, si quieres: qué pasó, por qué importa y quién ya está en esto.')+
   `<section class="wrap" style="padding-bottom:110px"><div class="cards" style="margin-top:0">${NEWS.map(n=>newsCard(n)).join('')}</div></section>`;
 }
 function temas(){
-  $app.innerHTML=pageHead('Temas','¿Qué te mueve?','Cada historia pertenece a un tema más grande. Elige uno para ver sus historias, qué puedes hacer y quién trabaja en eso.')+
+  $app.innerHTML=pageHead('Temas','¿Qué te <em>mueve?</em>','Elige lo que te toca. En cada tema te decimos qué puedes hacer tú y quién ya está trabajando en eso.')+
   `<section class="wrap" style="padding-bottom:110px">${areaGrid()}</section>`;
 }
 function tema(slug){
   const A=AREA[slug]; if(!A) return temas();
   const rel=NEWS.filter(n=>n.areas.includes(slug));
-  $app.innerHTML=hero({img:A.img.replace('w=1200','w=2000'),short:true,eyebrow:'Tema',title:esc(A.name),lede:esc(A.frase||'')})+
-  (rel.length?`<section class="sec"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Historias</span><h2>Lo que hemos contado</h2></div></div><div class="cards" style="margin-top:0">${rel.map(n=>newsCard(n)).join('')}</div></div></section>`:'')+
-  `<section class="sec band-sand"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Qué puedes hacer</span><h2>Según el tiempo que tengas</h2></div></div>
-    <div class="steps">${(A.acc||[]).map(x=>`<div class="step reveal"><span class="eyebrow">${esc(TIEMPOS.find(t=>t.k===x.t).t)}</span><p style="margin-top:8px">${esc(x.x)}</p></div>`).join('')}</div></div></section>
-  <section class="wrap" style="padding-top:clamp(64px,10vw,110px);padding-bottom:clamp(64px,10vw,110px)">${orgCta({area:slug})}</section>`;
+  $app.innerHTML=hero({img:A.img.replace('w=1200','w=2000'),short:true,eyebrow:'Tema',title:esc(A.name),lede:esc(A.frase||''),
+      meta:`<div class="hero-cta"><button class="btn acc" type="button" data-jump="t-accion">¿Qué puedo hacer yo?</button></div>`})+
+  `<section class="accion" id="t-accion"><div class="wrap"><div class="accion-head"><span class="eyebrow">+1 · Tu parte</span><h2>¿Y tú, qué vas a <em>hacer?</em></h2><p>Según el tiempo que tengas. Parte por la primera: se hace hoy.</p></div>
+    <div class="steps">${(A.acc||[]).map(x=>`<div class="step reveal"><span class="eyebrow">${esc(TIEMPOS.find(t=>t.k===x.t).t)}</span><p style="margin-top:8px">${esc(x.x)}</p></div>`).join('')}</div></div></section>`+
+  (rel.length?`<section class="sec band-sand"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Historias</span><h2>Lo que hemos contado</h2></div></div><div class="cards" style="margin-top:0">${rel.map(n=>newsCard(n)).join('')}</div></div></section>`:'')+
+  `<section class="wrap" style="padding-top:clamp(64px,10vw,110px);padding-bottom:clamp(64px,10vw,110px)">${orgCta({area:slug})}</section>`;
 }
 function tag(t){
   const T=[...new Set(NEWS.flatMap(n=>n.tags||[]))].find(x=>tslug(x)===t)||('#'+t), rel=NEWS.filter(n=>(n.tags||[]).includes(T));
@@ -357,9 +409,10 @@ function instagram(){
   wireCarousels($app);
 }
 function ayudar(){
-  $app.innerHTML=pageHead('Cómo ayudar','Nadie puede hacerlo todo. Todos podemos hacer algo.','En Chile la voluntad de ayudar existe, pero casi la mitad de quienes no ayudan dice no saber dónde ni cómo. Empieza por aquí.')+
+  $app.innerHTML=pageHead('¿Qué puedo hacer yo?','Quieres ayudar. <em>Te cuesta.</em> Es normal.','No sabes por dónde partir, no tienes tiempo, te da susto equivocarte. Le pasa a casi la mitad de Chile. Aquí lo hacemos simple: tres preguntas, una acción, alguien cerca tuyo que ya está en esto.')+
   `<section class="wrap" style="padding-bottom:64px">${helper()}</section>
-  <section class="sec band-sand"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">Haz esto hoy</span><h2>Una acción por historia</h2></div></div>
+  <section class="sec band-sand"><div class="wrap">${dudas()}</div></section>
+  <section class="sec"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">+1 · Haz esto hoy</span><h2>Una cosa por historia. <em>Elige una.</em></h2></div></div>
     <div class="hoys">${NEWS.map(n=>`<a class="hoycard reveal" href="#n-${n.id}"><small>${esc(n.titulo)}</small><p>${esc(hoyOf(n))}</p></a>`).join('')}</div></div></section>
   <section class="wrap" style="padding-top:clamp(64px,10vw,110px);padding-bottom:clamp(64px,10vw,110px)">${orgCta()}</section>`;
   wireHelper();
@@ -407,6 +460,9 @@ function suma(){
 }
 window.MU={
   go(f){if(f.r)store.set('mu-r',f.r.value);const a=f.a?f.a.value:'';location.hash='organizaciones'+(a?'-'+a:'');},
+  share(t){const d={title:t+' · Más Uno',text:t+'. Mira lo que puedes hacer tú:',url:location.href};
+    if(navigator.share){navigator.share(d).catch(()=>{});return;}
+    try{navigator.clipboard.writeText(location.href).then(()=>alert('Copiamos el link. Pégalo donde quieras.'));}catch(e){prompt('Copia este link:',location.href);}},
   sent(){document.getElementById('sform').innerHTML='<div class="thanks"><h3>Gracias.</h3><p>Revisaremos los datos y tu organización aparecerá en Más Uno con su contacto.</p><p class="steps-note">Prototipo: todavía no se envió nada.</p><a class="btn" href="#organizaciones">Ver organizaciones</a></div>';scrollTo({top:0,behavior:'smooth'});}
 };
 
@@ -431,7 +487,7 @@ function route(){
   else if(k==='tema'){tema(arg);document.title=(AREA[arg]?AREA[arg].name+' · ':'')+'Más Uno';nav='temas';}
   else if(k==='tag'){tag(arg);nav='';}
   else if(k==='instagram'){instagram();document.title='Instagram · Más Uno';nav='instagram';}
-  else if(k==='ayudar'){ayudar();document.title='Cómo ayudar · Más Uno';nav='ayudar';}
+  else if(k==='ayudar'){ayudar();document.title='¿Qué puedo hacer yo? · Más Uno';nav='ayudar';}
   else if(k==='suma'){suma();document.title='Suma tu organización · Más Uno';nav='suma';}
   else {home();document.title='Más Uno · La minga social';}
   document.querySelectorAll('.nav a[data-nav]').forEach(a=>a.classList.toggle('on',a.dataset.nav===nav));

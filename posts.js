@@ -1708,6 +1708,260 @@ Cada vez que le compras a alguien como Elizabeth, ese sueño queda más cerca. �
    "note": "<b>Sticker de enlace</b> a Jóvenes y adolescencia → Mentorías y proyecto de vida."
   }
  ]
+},
+
+/* ===== Jueves 26 de noviembre de 2026 ===== */
+{
+ "id": "inclusion-escolar-2026-11-26",
+ "fecha": "2026-11-26",
+ "dia": "Jue 26 nov",
+ "hl": "Inclusión",
+ "titulo": "Que nadie quede fuera del curso",
+ "sub": "El Mercurio, Cuerpo A, pág. 2, carta de Pamela Muñoz González, jueves 26 · Historia: María José Zenteno y las mamás que consiguieron una sala de la calma",
+ "tema": "diversidad-e-inclusion",
+ "subtema": "neurodiversidad-y-autismo",
+ "publicar": true,
+ "posts": [
+  {
+   "tipo": "La noticia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/cakes-cake_R9EK2G0ADL.jpg",
+     "pos": "center 45%",
+     "h": "<div class=\"k\">«A lo mejor este no es el colegio para su hijo».</div><div class=\"gap\"></div><div class=\"m o\">Eso escuchó una mamá de tres niños con autismo y TDAH. Y no era la primera vez.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"num\">2.869</div><div class=\"gap\"></div><div class=\"m\">denuncias por discriminación recibió la Superintendencia de Educación en 2025. Un 40% más que el año anterior.</div><div class=\"gap\"></div><div class=\"s\">Superintendencia de Educación, 2025.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"m\">Ella lo dice así:</div><div class=\"gap\"></div><div class=\"k\">«Mis hijos son muy inteligentes; lo que el sistema no entiende es que su energía es limitada».</div><div class=\"gap\"></div><div class=\"s\">Pamela Muñoz, carta a El Mercurio.</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">Cerca de 2 de cada 100 niños están en el espectro autista.</div><div class=\"gap\"></div><div class=\"m\">En un curso de 40, puede haber uno. O dos.</div><div class=\"gap\"></div><div class=\"s\">Estudio en dos comunas de Santiago, Andes Pediatrica, 2021.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"eb\">Haz esto hoy</div><div class=\"m\">Piensa en un niño con autismo o TDAH que conozcas: del curso de tu hijo, de tu familia, de tu cuadra. Invítalo al próximo cumpleaños o a la plaza, y pregúntale antes a su familia qué necesita para pasarlo bien.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Hay fundaciones que acompañan a estas familias para que no peleen solas.</div><div class=\"gap\"></div><div class=\"m o\">Están en el link de la bio.</div>"
+    }
+   ],
+   "cap": "«A lo mejor este no es el colegio para su hijo». Eso le dijeron a Pamela Muñoz, mamá de tres niños con TDAH y autismo, que tuvo que cerrar antes, otro año más, el año escolar de su hijo del medio. Lo contó en una carta a El Mercurio: «Mis hijos son muy inteligentes; lo que el sistema no entiende es que su energía es limitada».\n\nNo es un caso aislado. En 2025 la Superintendencia de Educación recibió 2.869 denuncias por discriminación, un 40% más que el año anterior. Y cerca de 2 de cada 100 niños estarían en el espectro autista: en un curso de 40, puede haber uno o dos.\n\nHaz esto hoy: piensa en un niño con autismo o TDAH que conozcas, del curso de tu hijo, de tu familia o de tu cuadra. Invítalo al próximo cumpleaños o a la plaza, y pregúntale antes a su familia qué necesita para pasarlo bien.\n\nHay fundaciones que acompañan a estas familias para que no peleen solas. Están en el link de la bio.\n\n#autismo #TDAH #inclusión #educación #MásUno"
+  },
+  {
+   "tipo": "Ideas",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/colorful-pencils_E0Q4VWMH5V.jpg",
+     "pos": "center 50%",
+     "tint": 1,
+     "h": "<div class=\"eb\">Ideas</div><div class=\"k\">Para que un niño con autismo no quede fuera del curso no hace falta ser experto.</div><div class=\"gap\"></div><div class=\"m o\">Hacen falta tres cosas.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">1. Hablar en la casa.</div><div class=\"gap\"></div><div class=\"m\">Contar, sin etiquetas, que hay compañeros que sienten el ruido más fuerte o necesitan salir un rato de la sala. Y que eso no es portarse mal.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">2. Sumar a la familia.</div><div class=\"gap\"></div><div class=\"m\">Saludar a la mamá o al papá en la reja, agregarlos al grupo, ofrecer llevar o traer al niño. Muchas de estas familias están agotadas y solas.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"k\">3. Pedir juntos.</div><div class=\"gap\"></div><div class=\"m\">Una sala de la calma, pictogramas en las puertas, un asistente de aula: muchas veces se consiguen cuando varios apoderados los piden juntos al colegio.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Y si quieres ir más lejos:</div><div class=\"gap\"></div><div class=\"m\">hay fundaciones que dan terapias a bajo costo a familias que no pueden pagarlas, y reciben donaciones y voluntarios.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">¿Cuáles trabajan en tu región?</div><div class=\"gap\"></div><div class=\"m o\">Las encuentras en el link de la bio.</div>"
+    }
+   ],
+   "cap": "Para que un niño con autismo o TDAH no quede fuera del curso no hace falta ser experto. Hacen falta tres cosas:\n\n1. Hablar en la casa, sin etiquetas: hay compañeros que sienten el ruido más fuerte o necesitan salir un rato de la sala, y eso no es portarse mal.\n2. Sumar a la familia: saludarla en la reja, agregarla al grupo, ofrecer llevar o traer al niño. Muchas de estas familias están agotadas y solas.\n3. Pedir juntos: una sala de la calma, pictogramas en las puertas o un asistente de aula muchas veces se consiguen cuando varios apoderados los piden al colegio.\n\nY si quieres ir más lejos, hay fundaciones que dan terapias a bajo costo a familias que no pueden pagarlas.\n\n¿Cuáles trabajan en tu región? Link en la bio.\n\n#autismo #neurodiversidad #inclusiónescolar #MásUno"
+  },
+  {
+   "tipo": "Una historia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/colored-markers_BLQRE2TAWD.jpg",
+     "pos": "center 50%",
+     "h": "<div class=\"eb\">Una historia</div><div class=\"k\">María José es fonoaudióloga en un colegio. Y es mamá de un niño con autismo.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">Cuando su hijo entró al colegio, estaba asustada.</div><div class=\"gap\"></div><div class=\"k\">Buscó a otros papás que vivían lo mismo.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"qt\">«Armamos una comunidad (...) y empezamos a hacernos un acompañamiento».</div><div class=\"gap\"></div><div class=\"s\">María José Zenteno, a La Tercera, 2024.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"m\">Juntas, las mamás consiguieron una sala de la calma, pictogramas en las puertas y un asistente de aula.</div><div class=\"gap\"></div><div class=\"k\">Nadie se los regaló. Los pidieron juntas.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Ninguna familia debería pelear sola por un lugar en la sala.</div><div class=\"gap\"></div><div class=\"m o\">¿Conoces a una que necesite compañía? Las fundaciones que la pueden acompañar están en la bio.</div>"
+    }
+   ],
+   "cap": "María José Zenteno es fonoaudióloga en un colegio de una comuna vulnerable. Y es mamá de un niño con autismo. Cuando su hijo entró al colegio, estaba asustada, así que buscó a otros papás que vivían lo mismo: «Armamos una comunidad (...) y empezamos a hacernos un acompañamiento», le contó a La Tercera.\n\nJuntas, las mamás consiguieron una sala de la calma, pictogramas en las puertas de las salas y un asistente de aula. Nadie se los regaló: los pidieron juntas. Y cada año hay que volver a pedirlos.\n\nNinguna familia debería pelear sola por un lugar en la sala. ¿Conoces a una que necesite compañía? Las fundaciones que la pueden acompañar están en el link de la bio.\n\n#autismo #mamás #comunidad #MásUno"
+  }
+ ],
+ "stories": [
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">¿Conoces a un niño con autismo o TDAH?</div><div class=\"poll\"><div>Sí</div><div>No</div><div>No sé</div></div>",
+   "note": "<b>Encuesta.</b> Abre la conversación antes del post."
+  },
+  {
+   "c": "cream",
+   "light": 1,
+   "h": "<div class=\"ask\"><b>¿Qué te ayudaría a entender mejor a un compañero con autismo?</b><span>Escribe algo…</span></div>",
+   "note": "<b>Caja de preguntas.</b> Las respuestas pueden ser el contenido de otro post; compartir sin nombres."
+  },
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">Fundaciones que acompañan a estas familias</div><div class=\"link\">🔗 Neurodiversidad y autismo</div>",
+   "note": "<b>Sticker de enlace</b> a Diversidad e inclusión → Neurodiversidad y autismo."
+  }
+ ]
+},
+{
+ "id": "naturaleza-barrio-2026-11-26",
+ "fecha": "2026-11-26",
+ "dia": "Jue 26 nov",
+ "hl": "Barrio",
+ "titulo": "Cinco minutos de verde",
+ "sub": "El Mercurio, Cuerpo A, pág. 10, entrevista a Melissa Marselle (U. de Surrey), jueves 26 · Historia: Jovita Moreno y la plaza de La Esperanza, Puerto Montt",
+ "tema": "pobreza-y-vivienda",
+ "subtema": "vida-de-barrio",
+ "publicar": true,
+ "posts": [
+  {
+   "tipo": "La noticia",
+   "slides": [
+    {
+     "c": "ink",
+     "h": "<div class=\"num\" style=\"font-size:44cqw;line-height:.9\">5</div><div class=\"k\">minutos.</div><div class=\"gap\"></div><div class=\"m o\">Eso puede bastar.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/person-bench_E8VLFB9ODV.jpg",
+     "pos": "center 55%",
+     "h": "<div class=\"m\">Cinco minutos en un lugar con árboles ya pueden bajar el estrés, dice la psicóloga ambiental Melissa Marselle.</div><div class=\"gap\"></div><div class=\"s\">Universidad de Surrey, en El Mercurio.</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">Pero no todos tienen un árbol a cinco minutos.</div><div class=\"gap\"></div><div class=\"m\">En La Pintana hay 1,4 m² de áreas verdes por persona. En Vitacura, 16,8.</div><div class=\"gap\"></div><div class=\"s\">CEDEUS, Plataforma Municipal de Datos.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"m\">En Leipzig, Alemania, vivir con más árboles en la calle se asoció a menos recetas de antidepresivos.</div><div class=\"gap\"></div><div class=\"k\">Sobre todo entre quienes tienen menos plata.</div><div class=\"gap\"></div><div class=\"s\">Marselle y otros, Scientific Reports, 2020.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"eb\">Haz esto hoy</div><div class=\"m\">Sal cinco minutos a la plaza más cercana, sin el celular. Mira las hojas, escucha los pájaros. Y si puedes, invita a alguien que no lo esté pasando bien.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Hay barrios que se organizan para construir su propia plaza.</div><div class=\"gap\"></div><div class=\"m o\">Cómo sumarte, en el link de la bio.</div>"
+    }
+   ],
+   "cap": "Cinco minutos. «La investigación ha mostrado que desde cinco minutos hasta media hora en la naturaleza ya pueden ayudar a reducir el estrés», le dijo a El Mercurio la psicóloga ambiental Melissa Marselle, de la Universidad de Surrey. No hace falta ir a la montaña: sirve una plaza con árboles. Eso sí, sin mirar el celular.\n\nPero no todos tienen un árbol a cinco minutos. En La Pintana hay 1,4 m² de áreas verdes por persona; en Vitacura, 16,8 (CEDEUS). Y en un estudio de Marselle en Leipzig, más árboles en la calle se asociaron a menos recetas de antidepresivos, sobre todo entre las personas de menores ingresos.\n\nHaz esto hoy: sal cinco minutos a la plaza más cercana, sin el celular. Mira las hojas, escucha los pájaros. Y si puedes, invita a alguien que no lo esté pasando bien.\n\nHay barrios que se organizan para construir su propia plaza. Cómo sumarte, en el link de la bio.\n\n#saludmental #áreasverdes #barrio #naturaleza #MásUno"
+  },
+  {
+   "tipo": "Quién lo está haciendo",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/dirty-hand_T2GUDD92TY.jpg",
+     "pos": "center 50%",
+     "tint": 1,
+     "h": "<div class=\"eb\">Quién lo está haciendo</div><div class=\"k\">Una fundación que construye plazas con los vecinos, no para ellos.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"num\">400</div><div class=\"gap\"></div><div class=\"m\">plazas y patios de colegio recuperados en 16 regiones de Chile.</div><div class=\"gap\"></div><div class=\"s\">Fundación Mi Parque.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Primero, talleres.</div><div class=\"gap\"></div><div class=\"m\">Los vecinos deciden qué árboles plantar, dónde van los juegos y cómo se va a llamar la plaza.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"k\">Después, una minga.</div><div class=\"gap\"></div><div class=\"m\">Un sábado, vecinos, voluntarios, municipio y empresa plantan, pintan murales y arman la plaza juntos.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Cómo sumarte:</div><div class=\"gap\"></div><div class=\"m\">inscribirte como voluntario para una jornada de construcción, ayudar a invitar puerta a puerta o postular la plaza de tu barrio.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">El formulario de voluntariado está en el link de la bio.</div><div class=\"gap\"></div><div class=\"m o\">La próxima minga puede ser cerca de tu casa.</div>"
+    }
+   ],
+   "cap": "La Fundación Mi Parque construye plazas con los vecinos, no para ellos. Ya son más de 400 plazas y patios de colegio recuperados en 16 regiones.\n\nPrimero hay talleres: los vecinos deciden qué árboles plantar, dónde van los juegos y cómo se va a llamar la plaza. Después viene una minga: un sábado, vecinos, voluntarios, municipio y empresa plantan, pintan murales y arman la plaza juntos.\n\nCómo sumarte: inscribirte como voluntario para una jornada de construcción, ayudar a invitar puerta a puerta a los vecinos, regalar un área verde o postular la plaza de tu barrio.\n\nEl formulario de voluntariado está en el link de la bio. La próxima minga puede ser cerca de tu casa.\n\n#minga #plazas #voluntariado #áreasverdes #MásUno"
+  },
+  {
+   "tipo": "Una historia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/seedling-plant_EIQTJEJYF6.jpg",
+     "pos": "center 50%",
+     "h": "<div class=\"eb\">Una historia</div><div class=\"k\">Puerto Montt, 2015. En la plaza de La Esperanza había basura, barro y un columpio roto.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">El barrio llevaba 20 años sin junta de vecinos.</div><div class=\"gap\"></div><div class=\"k\">Jovita Moreno, una vecina de 47 años, llamó a la primera reunión.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Llegaron siete personas.</div><div class=\"gap\"></div><div class=\"qt\">«Pensé que nunca iba a funcionar».</div><div class=\"gap\"></div><div class=\"s\">Jovita Moreno, a El Dínamo, 2015.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"m\">Siguió. Fue a la municipalidad, se sumaron una ONG y una empresa, y los vecinos diseñaron la plaza.</div><div class=\"gap\"></div><div class=\"k\">A las reuniones llegaron a ir 80.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"qt\">«Demostrémosle a todos que están equivocados».</div><div class=\"gap\"></div><div class=\"s\">Jovita Moreno, el día que se inauguró la plaza.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Toda plaza recuperada empezó con alguien que llamó a la primera reunión.</div><div class=\"gap\"></div><div class=\"m o\">Si en tu barrio llegaran siete, ¿serías una de ellas? Cómo empezar, en la bio.</div>"
+    }
+   ],
+   "cap": "Puerto Montt, 2015. En la plaza de La Esperanza de Mirasol había basura, barro y un columpio roto. El barrio llevaba 20 años sin una obra nueva y sin junta de vecinos.\n\nJovita Moreno, una vecina de 47 años, llamó a la primera reunión. Llegaron siete personas. «Pensé que nunca iba a funcionar», le contó a El Dínamo. Siguió: fue a la municipalidad, se sumaron una ONG y una empresa, y los vecinos diseñaron la plaza, con asientos para los mayores, toldos para la lluvia y áreas verdes. A las reuniones llegaron a ir 80.\n\nEl día de la inauguración dijo: «Demostrémosle a todos que están equivocados».\n\nToda plaza recuperada empezó con alguien que llamó a la primera reunión. Si en tu barrio llegaran siete, ¿serías una de ellas? Cómo empezar, en el link de la bio.\n\n#vecinos #barrio #plazas #historias #MásUno"
+  }
+ ],
+ "stories": [
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">¿Tienes un árbol a cinco minutos de tu casa?</div><div class=\"poll\"><div>Sí</div><div>No</div></div>",
+   "note": "<b>Encuesta.</b> Abre la conversación antes del post."
+  },
+  {
+   "c": "cream",
+   "light": 1,
+   "h": "<div class=\"ask\"><b>¿Cuál es la plaza de tu barrio que más quieres? ¿Por qué?</b><span>Escribe algo…</span></div>",
+   "note": "<b>Caja de preguntas.</b> Compartir respuestas con la comuna, sin datos personales."
+  },
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">Cómo sumarte a recuperar una plaza</div><div class=\"link\">🔗 Vida de barrio</div>",
+   "note": "<b>Sticker de enlace</b> a Pobreza y vivienda → Vida de barrio."
+  }
+ ]
 }
 ];
 const ICONS = `<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.3-9.2C1.4 8.3 3.6 5 7 5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.4 0 5.6 3.3 4.3 6.8C19.5 16.4 12 21 12 21z"/></svg><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-3.6-7l3.6-1-1 3.6A8.4 8.4 0 0 1 20.5 12z"/></svg><svg viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7z"/></svg><svg class="save" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-5-6 5z"/></svg>`;
