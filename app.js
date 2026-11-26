@@ -15,7 +15,7 @@ const host=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){retu
 const EX=window.MU_EXTRA;
 const AREA=Object.fromEntries(CAT.areas.map((a,i)=>[a[0],{i,slug:a[0],name:a[1],...(EX.areas[a[0]]||{})}]));
 // punto de encuadre de cada foto (generador/masuno_extra.json → foco), para que al recortarla queden las caras
-const FOCO=EX.foco||{}, fid=u=>(String(u).match(/photo-([0-9a-f]+-[0-9a-f]+)/)||[])[1];
+const FOCO=EX.foco||{}, fid=u=>{const m=String(u).match(/photo-([0-9a-f]+-[0-9a-f]+)/)||String(u).match(/pexels-photo-(\d+)/);return m?m[1]:undefined;};
 const fp=u=>`style="object-position:${FOCO[fid(u)]||'50% 35%'}"`;
 const COUNT=CAT.areas.map((a,i)=>CAT.rows.reduce((s,r)=>s+(r[1]===i),0));
 const TIEMPOS=EX.tiempos;
@@ -60,15 +60,21 @@ function block(b,first){
     default: return `<p class="${first?'first':''}">${esc(b.h)}</p>${src(b.src)}`;
   }
 }
-// el texto corrido, con dos fotos a todo el ancho entre capítulos
+// el texto corrido, abreviado: en cada capítulo se ve el primer párrafo y sus datos o citas;
+// el resto queda plegado detrás de «Seguir leyendo». Dos fotos a todo el ancho entre capítulos.
 function article(n){
-  const bl=n.blocks, hs=bl.map((b,i)=>b.k==='h'&&b.h!=='Lo que se ha probado'?i:-1).filter(i=>i>0);
-  const at=[hs[Math.floor(hs.length*.34)],hs[Math.floor(hs.length*.7)]];
+  const bl=n.blocks, secs=[{h:null,b:[]}];
+  bl.forEach(b=>{ if(b.k==='h'&&b.h!=='Lo que se ha probado') secs.push({h:b,b:[]}); else secs[secs.length-1].b.push(b); });
+  const S=secs.filter(x=>x.h||x.b.length), at=[Math.floor(S.length*.34),Math.floor(S.length*.7)];
   let out='',firstP=true;
-  bl.forEach((b,i)=>{
-    if(i===at[0]&&n.img2) out+=`</div><figure class="bleed reveal"><img src="${n.img2}" ${fp(n.img2)} alt="" loading="lazy"></figure><div class="narrow">`;
-    else if(i===at[1]&&n.img3&&at[1]!==at[0]) out+=`</div><figure class="bleed reveal"><img src="${n.img3}" ${fp(n.img3)} alt="" loading="lazy"></figure><div class="narrow">`;
-    out+=block(b,b.k==='p'&&firstP); if(b.k==='p') firstP=false;
+  S.forEach((sec,si)=>{
+    if(si&&si===at[0]&&n.img2) out+=`</div><figure class="bleed reveal"><img src="${n.img2}" ${fp(n.img2)} alt="" loading="lazy"></figure><div class="narrow">`;
+    else if(si&&si===at[1]&&n.img3&&at[1]!==at[0]) out+=`</div><figure class="bleed reveal"><img src="${n.img3}" ${fp(n.img3)} alt="" loading="lazy"></figure><div class="narrow">`;
+    if(sec.h) out+=block(sec.h);
+    const iP=sec.b.findIndex(b=>b.k==='p'), vis=[], hid=[];
+    sec.b.forEach((b,i)=>{ if(i<=iP||b.k==='dato'||b.k==='q'||(iP<0&&i===0)) vis.push(b); else hid.push(b); });
+    vis.forEach(b=>{out+=block(b,b.k==='p'&&firstP); if(b.k==='p') firstP=false;});
+    if(hid.length) out+=`<div class="mas-txt" hidden>${hid.map(b=>block(b)).join('')}</div><button type="button" class="leer-mas" onclick="const d=this.previousElementSibling;d.hidden=!d.hidden;this.textContent=d.hidden?'Seguir leyendo ↓':'Leer menos ↑'">Seguir leyendo ↓</button>`;
   });
   return `<article class="article wrap"><div class="narrow">${out}</div></article>`;
 }
@@ -395,7 +401,7 @@ function news(n){
   /* 2 · qué pasó */
   (n.quePaso&&n.quePaso.length?`<section class="wrap" id="s-paso"><div class="narrow"><div class="parte"><span class="parte-n">01</span><div><span class="eyebrow">Qué pasó</span><h2>La noticia, en corto</h2></div></div><div class="noticia reveal">${n.quePaso.map(p=>`<p>${esc(p)}</p>`).join('')}${n.origen?`<span class="src">Fuente: ${linkify(n.origen)}</span>`:''}</div></div></section>`:'')+
   /* 3 · para entenderlo */
-  `<section class="wrap" id="s-entender"><div class="narrow"><div class="parte"><span class="parte-n">02</span><div><span class="eyebrow">Para entenderlo${n.blocks?` · ${minutos(n)} min de lectura`:''}</span><h2>Si quieres ir más a fondo</h2></div></div></div></section>`+
+  `<section class="wrap" id="s-entender"><div class="narrow"><div class="parte"><span class="parte-n">02</span><div><h2>Para entenderlo</h2></div></div></div></section>`+
   (n.blocks?article(n):`<article class="article wrap"><div class="narrow">${n.texto.map((p,j)=>`<p class="${j===0?'first':''}">${esc(p)}</p>`).join('')}<span class="src">Fuente: El Mercurio, Sociedad (A7), jueves 19 de noviembre de 2026</span></div></article>`)+
   `<div class="wrap"><div class="narrow"><div class="tags">${(n.tags||[]).map(x=>`<a href="#tag-${tslug(x)}">${esc(x)}</a>`).join('')}</div></div></div>`+
   (hayMas?`<section class="sec profundizar" id="s-profundizar"><div class="wrap">

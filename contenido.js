@@ -1,4 +1,4 @@
-window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1778098678756-e761c9df9938": "62% 40%", "1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%"}};
+window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1789441011641-62a633902cea": "50% 85%", "1695556746253-ab635cedac50": "50% 15%", "1670251684279-67cc41b1758c": "60% 25%", "1778098678756-e761c9df9938": "62% 40%", "1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%", "1770096679916-2cd9c720d400": "40% 40%", "1772249541673-237a516d5c5e": "50% 65%", "1776267034802-0f5c5a0b1807": "50% 75%", "1626073738443-f69ddf7cf8fb": "50% 50%", "1614338577197-5812cb856df7": "50% 60%", "1660796334912-8ce8e9c2cff0": "45% 50%", "1758525226653-490405551ce9": "60% 50%", "1556488450-afb93ae98ac6": "50% 25%", "1758685733897-80154016629f": "15% 95%", "1600101829065-d91f0d9c200b": "50% 85%", "1769353086138-19ee65291a04": "40% 40%", "1758525747620-00284612bffc": "50% 20%", "1759354848721-e23a7f51305d": "50% 30%", "1777846880906-7fed39eef24f": "40% 5%", "1563062067-7700e1d9ae1d": "75% 40%", "1730127730383-ace76bc55d16": "60% 45%", "1559061542-7f9ef5f51b62": "30% 40%", "1787281587844-4a4d5f03d4de": "40% 40%", "1745265797426-8db5c22cf9e3": "50% 30%", "19894924": "50% 55%", "19894926": "50% 55%", "37276554": "45% 40%", "1778098682395-72ef2bcd0f50": "50% 55%", "1778098684640-4d5d959acbe2": "50% 60%", "13465573": "40% 75%", "18075662": "50% 50%", "41001189": "50% 45%", "8342278": "60% 40%", "20459084": "50% 40%", "1778098684034-67f3437781d4": "50% 60%", "1778098681471-ec432e0cf4db": "60% 60%"}};
 /* Noticias de la semana (18 y 19 nov 2026): informes, desarrollos web y posts. Generado por build_content.py. */
 window.MU_NEWS=[
 {
@@ -22,7 +22,7 @@ window.MU_NEWS=[
 "familias"
 ],
 "titulo": "Que nadie quede fuera del curso",
-"img": "https://images.unsplash.com/photo-1567746455504-cb3213f8f5b8?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.pexels.com/photos/8342278/pexels-photo-8342278.jpeg?auto=compress&cs=tinysrgb&w=1600",
 "img2": "https://images.unsplash.com/photo-1614712201488-9942af86b87b?w=1600&q=75&auto=format&fit=crop",
 "img3": "https://images.unsplash.com/photo-1611417041461-2060f649193d?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
@@ -359,9 +359,9 @@ window.MU_NEWS=[
 "parque"
 ],
 "titulo": "Cinco minutos de verde",
-"img": "https://images.unsplash.com/photo-1774866563481-d9a5793de1b7?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1772249541673-237a516d5c5e?w=1600&q=75&auto=format&fit=crop",
 "img2": "https://images.unsplash.com/photo-1544928938-6852c1925194?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1668009219418-4ece0d9e36c4?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1776267034802-0f5c5a0b1807?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
 "n": "Fundación Mi Parque",
@@ -649,9 +649,9 @@ window.MU_NEWS=[
 "voluntari"
 ],
 "titulo": "Que nadie pase el calor solo",
-"img": "https://images.unsplash.com/photo-1616286608358-0e1b143f7d2f?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1761839257647-df30867afd54?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1534616042650-80f5c9b61f09?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1670251684279-67cc41b1758c?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1626073738443-f69ddf7cf8fb?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.pexels.com/photos/13465573/pexels-photo-13465573.jpeg?auto=compress&cs=tinysrgb&w=1600",
 "orgs": [
 {
 "n": "Fundación Amanoz",
@@ -1207,8 +1207,8 @@ window.MU_NEWS=[
 ],
 "titulo": "Nombrarla para poder salir",
 "img": "https://images.unsplash.com/photo-1758274252296-a63b1d7d4bb8?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1607748862156-7c548e7e98f4?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1494548162494-384bba4ab999?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1787281587844-4a4d5f03d4de?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1730127730383-ace76bc55d16?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
 "n": "Fundación Antonia",
@@ -1562,8 +1562,8 @@ window.MU_NEWS=[
 ],
 "titulo": "La otra oferta",
 "img": "https://images.unsplash.com/photo-1526232761682-d26e03ac148e?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1484766280341-87861644c80d?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.pexels.com/photos/18075662/pexels-photo-18075662.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img3": "https://images.pexels.com/photos/41001189/pexels-photo-41001189.jpeg?auto=compress&cs=tinysrgb&w=1600",
 "orgs": [
 {
 "n": "La Protectora de la Infancia",
@@ -1879,9 +1879,9 @@ window.MU_NEWS=[
 "comunidad"
 ],
 "titulo": "Un barrio preparado",
-"img": "https://images.unsplash.com/photo-1516655543747-2973ac03d580?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1758599668178-d9716bbda9d5?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1761839256545-4268b03606c0?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.pexels.com/photos/19894924/pexels-photo-19894924.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.unsplash.com/photo-1778098684034-67f3437781d4?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1778098681471-ec432e0cf4db?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
 "n": "Conaf · Comunidades Preparadas",
@@ -2171,9 +2171,9 @@ window.MU_NEWS=[
 "suicidio"
 ],
 "titulo": "Un problema de los adultos",
-"img": "https://images.unsplash.com/photo-1779682663979-df3179ce580d?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1693600411508-d7e9a9fef63a?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1789441011641-62a633902cea?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1556488450-afb93ae98ac6?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1758685733897-80154016629f?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
 "n": "Fundación José Ignacio",
@@ -2470,7 +2470,7 @@ window.MU_NEWS=[
 "personas mayores"
 ],
 "titulo": "Que nadie pase solo estas fiestas",
-"img": "https://images.unsplash.com/photo-1603129473525-4cd6f36fe057?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1695556746253-ab635cedac50?w=1600&q=75&auto=format&fit=crop",
 "img2": "https://images.unsplash.com/photo-1505685679686-2490cab6217d?w=1600&q=75&auto=format&fit=crop",
 "img3": "https://images.unsplash.com/photo-1592381499682-33cee994fedd?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
@@ -2791,8 +2791,8 @@ window.MU_NEWS=[
 "mentor"
 ],
 "titulo": "Que ningún joven se quede atrás",
-"img": "https://images.unsplash.com/photo-1759852692971-a2abc6799cbd?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1745265797426-8db5c22cf9e3?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1600101829065-d91f0d9c200b?w=1600&q=75&auto=format&fit=crop",
 "img3": "https://images.unsplash.com/photo-1581726707445-75cbe4efc586?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
@@ -3067,9 +3067,9 @@ window.MU_NEWS=[
 "laboral"
 ],
 "titulo": "La segunda oportunidad",
-"img": "https://images.unsplash.com/photo-1538766017398-415434a31a5b?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1486887396153-fa416526c108?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1502101872923-d48509bff386?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1769353086138-19ee65291a04?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1679797850019-3d0d8659a695?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1660796334912-8ce8e9c2cff0?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
 "n": "Fundación Mujer Levántate",
@@ -3663,8 +3663,8 @@ window.MU_NEWS=[
 "renal"
 ],
 "titulo": "La conversación que salva vidas",
-"img": "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1791318554903-cc1ef4931528?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.pexels.com/photos/20459084/pexels-photo-20459084.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.unsplash.com/photo-1712232413763-5ed8f60ad8d2?w=1600&q=75&auto=format&fit=crop",
 "img3": "https://images.unsplash.com/photo-1577896850561-dc005e5b5689?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
@@ -4562,7 +4562,7 @@ window.MU_NEWS=[
 "oficio",
 "emprend"
 ],
-"img": "https://images.unsplash.com/photo-1638776156474-9b989930d62d?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1758525747620-00284612bffc?w=1600&q=75&auto=format&fit=crop",
 "img2": "https://images.unsplash.com/photo-1759272548449-7b689a81c8fb?w=1600&q=75&auto=format&fit=crop",
 "img3": "https://images.unsplash.com/photo-1507537362848-9c7e70b7b5c1?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
@@ -4897,8 +4897,8 @@ window.MU_NEWS=[
 "cáncer",
 "cancer"
 ],
-"img": "https://images.unsplash.com/photo-1597056161974-458b172dac56?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1789009839397-2f2d3b02173a?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.unsplash.com/photo-1746806942587-88ab0c45ad6f?w=1600&q=75&auto=format&fit=crop",
+"img2": "https://images.unsplash.com/photo-1758654860024-9e352f70d1f9?w=1600&q=75&auto=format&fit=crop",
 "titulo": "Niños con cáncer lejos de casa",
 "orgs": [
 {
@@ -4932,9 +4932,9 @@ window.MU_NEWS=[
 "vivienda",
 "campamento"
 ],
-"img": "https://images.unsplash.com/photo-1765841395043-ce59703d3da0?w=1600&q=75&auto=format&fit=crop",
-"img2": "https://images.unsplash.com/photo-1701135525220-e41c4fb51a8a?w=1600&q=75&auto=format&fit=crop",
-"img3": "https://images.unsplash.com/photo-1778098678079-8f18f92bd405?w=1600&q=75&auto=format&fit=crop",
+"img": "https://images.pexels.com/photos/37276554/pexels-photo-37276554.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.unsplash.com/photo-1778098682395-72ef2bcd0f50?w=1600&q=75&auto=format&fit=crop",
+"img3": "https://images.unsplash.com/photo-1778098684640-4d5d959acbe2?w=1600&q=75&auto=format&fit=crop",
 "orgs": [
 {
 "n": "Fundación Superación de la Pobreza · Servicio País",
