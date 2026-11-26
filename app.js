@@ -2,7 +2,7 @@
 (function(){
 const $app=document.getElementById('app'), NEWS=window.MU_NEWS, CAT=window.MU_CAT, POSTS=window.MU_POSTS, IG=window.MU_IG;
 const U=(id,w=1800)=>`https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
-const IMG={banner:U('1778098678756-e761c9df9938',2800), bannerAlt:'Un vecino arriba del techo de una casa, con una pala en la mano, saluda',  home:U('1653185460299-fbef9466c1e7',2200), orgs:U('1758599668429-121d54188b9c',2000)};
+const IMG={banner:U('1721245446685-89c2c80b8b95',2800), bannerAlt:'Una mujer y un hombre sonríen con el pulgar arriba en el campo, con cerros detrás',  home:U('1653185460299-fbef9466c1e7',2200), orgs:U('1758599668429-121d54188b9c',2000)};
 const IGURL='https://www.instagram.com/masuno/';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=n=>Number(n).toLocaleString('es-CL');
@@ -166,7 +166,7 @@ function results(box,list,step=24){
 
 /* ---------- piezas comunes ---------- */
 const stripH=h=>String(h).replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
-const hoyOf=n=>{const t=postsOf(n);const sl=t&&t.posts[0].slides.find(x=>/Haz esto hoy/.test(x.h));return sl?stripH(sl.h).replace(/^Haz esto hoy\s*/,''):'';};
+const hoyOf=n=>{const A=(window.MU_ACCION||{})[n.id];if(A&&A.hoy)return A.hoy;const t=postsOf(n);const sl=t&&t.posts[0].slides.find(x=>/Haz esto hoy/.test(x.h));return sl?stripH(sl.h).replace(/^Haz esto hoy\s*/,''):'';};
 const hoyBox=(n,cls='')=>{const h=hoyOf(n);return h?`<div class="hoy ${cls}"><span class="hoy-mark">+1</span><div><span class="eyebrow">Haz esto hoy</span><p>${esc(h)}</p></div></div>`:''};
 const SMALL=new Set(['de','del','la','las','el','los','y','e','o','u','en','a','al','para','por','con','sin','su','sus']);
 const nice=t=>t===t.toUpperCase()&&/[A-ZÁÉÍÓÚÑ]{4}/.test(t)?t.toLowerCase().replace(/[^\s]+/g,(w,i)=>/\w\.\w/.test(w)?w.toUpperCase():i&&SMALL.has(w)?w:w.charAt(0).toUpperCase()+w.slice(1)):t;
@@ -181,6 +181,14 @@ function newsCard(n,big){
   const txt=`<div class="meta"><span class="chip">${esc(AREA[n.area].name)}</span><span class="dotsep"></span><span>${esc(n.fecha)}</span></div><h3>${esc(n.titulo)}</h3><p>${esc(n.bajada||n.resumen||'')}</p>`;
   return big?`<a class="feature reveal" href="#n-${n.id}">${inner}<div>${txt}</div></a>`:`<a class="card reveal" href="#n-${n.id}">${inner}${txt}</a>`;
 }
+
+/* organizaciones con logo (el ícono de su sitio; si no hay, sus iniciales) */
+const orgUrl=o=>o.w||o.ig||o.w2||'';
+const iniciales=t=>String(t).replace(/^(Fundación|Corporación|Asociación)\s+/i,'').split(/[\s·]+/).filter(w=>w.length>2).slice(0,2).map(w=>w[0].toUpperCase()).join('')||'+1';
+const orgLogo=o=>{const u=orgUrl(o), h=u&&!/instagram\.com/.test(u)?host(u):'';
+  return `<span class="olog" data-i="${esc(iniciales(o.n))}">${h?`<img src="https://www.google.com/s2/favicons?domain=${esc(h)}&sz=128" alt="" loading="lazy" onload="if(this.naturalWidth<32)this.remove()" onerror="this.remove()">`:''}</span>`;};
+const orgCard=o=>{const u=orgUrl(o);return `<a class="ocard" ${u?`href="${esc(u)}" target="_blank" rel="noopener"`:''}>${orgLogo(o)}<div><b>${esc(o.n)}</b><small>${esc(String(o.d||'').split('. ')[0].replace(/\.$/,''))}.</small></div><span class="ogo">↗</span></a>`;};
+const ideasDe=n=>{const A=(window.MU_ACCION||{})[n.id];return A&&A.ideas?A.ideas:(n.ideas||[]);};
 
 /* ---------- Casa Familia: sin desarrollo, se arma con sus posts ---------- */
 (function(){
@@ -204,7 +212,7 @@ function home(){
   const tick=recientes.map(n=>`<span>${esc(n.titulo)}</span><i>+1</i>`).join('')+[...new Set(recientes.flatMap(n=>(n.tags||[]).slice(0,2)))].map(t=>`<span>${esc(t)}</span><i>+1</i>`).join('');
   $app.innerHTML=`<section class="intro intro-full"><div class="ih-hero">
     <div class="ih-media" id="ih-media"><img id="ih-img" src="${IMG.banner}" alt="${esc(IMG.bannerAlt)}" fetchpriority="high">
-      <span class="ih-like" id="ih-like" aria-hidden="true"><b>+1</b><em>Él ya se sumó.</em></span></div>
+      <span class="ih-like" id="ih-like" aria-hidden="true"><b>+1</b><em>Ellos ya se sumaron.</em></span></div>
     <div class="wrap intro-in"><div class="intro-txt">
       <span class="live"><i></i>${HOY} en Más Uno · ${esc(f.fecha)}</span>
       <p class="intro-kicker">Ya sabes lo que pasa en Chile.</p>
@@ -220,18 +228,15 @@ function home(){
   </div></section>
   <div class="ticker" aria-hidden="true"><div class="ticker-in">${tick}${tick}</div></div>`+`
   <section class="accion" id="hoy-home"><div class="wrap">
-    <div class="accion-head"><span class="eyebrow">+1 · Tu parte de hoy</span><h2>Diez minutos. <em>Eso te pedimos.</em></h2>
-      <p>Sale de ${esHoy?'la historia de hoy':'la última historia'}. No necesitas plata, experiencia ni permiso de nadie.</p></div>
     <div class="hoy-grid">
       <a class="hoy-noticia reveal" href="#n-${f.id}"><div class="ph"><img src="${f.img.replace('w=1600','w=1000')}" ${fp(f.img)} alt="" loading="lazy"></div>
         <div class="hn-txt"><span class="eyebrow">${HOY} · ${esc(AREA[f.area].name)}</span><b>${esc(f.titulo)}</b><p>${esc(f.bajada||'')}</p><span class="hn-leer">Lee la historia →</span></div></a>
-      <div class="hoy-col">${hoyBox(f,'big')}
-        <div class="quedate"><p>Es probable que te quedes solo con esto. Está bien. <b>Pero no te olvides de lo que está pasando en Chile.</b></p></div></div>
+      <div class="hoy-col">${hoyBox(f,'big')}</div>
     </div>
   </div></section>
   <section class="sec" style="padding-top:0"><div class="wrap">${helper()}</div></section>
   <section class="minga minga-v2"><div class="wrap">
-    <div class="minga-head"><span class="eyebrow">+1 · La minga social</span><h2>Lo que solos no podemos, <em>lo movemos entre todos.</em></h2>
+    <div class="minga-head"><span class="eyebrow">+1 · La minga social</span><h2><span class="nw">Lo que solos no podemos,</span><br><em class="nw">lo movemos entre todos.</em></h2>
       <p class="minga-lede">En Chiloé, cuando una familia tiene que mover su casa, no llama a una empresa: llama a la minga.</p></div>
     ${mingaMapa()}
     <div class="minga-in">
@@ -266,14 +271,16 @@ const areaGrid=(only)=>`<div class="tgrid">${CAT.areas.filter(a=>!only||only.inc
   return `<a class="tcard reveal" href="#tema-${a[0]}"><img src="${A.img}" ${fp(A.img)} alt="" loading="lazy"><div><b>${esc(a[1])}</b><span>${esc(A.frase||'')}</span><small>${fmt(COUNT[A.i])} organizaciones${k?` · ${k} ${k===1?'historia':'historias'}`:''}</small></div></a>`}).join('')}</div>`;
 
 /* la foto del inicio: el vecino del techo con el pulgar arriba, y el +1 saliendo de su mano */
-const FOTO={w:1200,h:800,mano:[.559,.43],cara:[.51,.47]};
+const FOTO={w:1000,h:667,mano:[.545,.25],cara:[.58,.42]};
 function likeFoto(){
   const box=document.getElementById('ih-media'), img=document.getElementById('ih-img'), like=document.getElementById('ih-like'); if(!box||!img) return;
   const place=()=>{
     const cw=box.clientWidth, ch=box.clientHeight, movil=cw<760, r=FOTO.w/FOTO.h;
-    const zoom=movil?1.05:1.16, w=Math.max(cw,ch*r)*zoom, h=w/r;
-    const tx=movil?.5:.7, ty=movil?.55:.56;
-    const left=Math.min(0,Math.max(cw-w,tx*cw-FOTO.cara[0]*w)), top=Math.min(0,Math.max(ch-h,ty*ch-FOTO.cara[1]*h));
+    // en escritorio la foto puede correrse a la derecha: el borde izquierdo se funde con el fondo oscuro, detrás del texto
+    const w=movil?Math.max(cw,ch*r)*1.2:Math.max(cw*.95,ch*r*1.02), h=w/r;
+    const tx=movil?.5:.72, ty=movil?.55:.5, maxL=movil?0:cw*.3;
+    const left=Math.min(maxL,Math.max(cw-w,tx*cw-FOTO.cara[0]*w)), top=Math.min(0,Math.max(ch-h,ty*ch-FOTO.cara[1]*h));
+    img.classList.toggle('fade-l',left>0);
     Object.assign(img.style,{width:w+'px',height:h+'px',left:left+'px',top:top+'px'});
     // nitidez: pide la foto al tamaño real que necesita esta pantalla (también en pantallas retina)
     const need=Math.min(4200,Math.ceil(w*(window.devicePixelRatio||1)/400)*400), cur=+((img.src.match(/[?&]w=(\d+)/)||[])[1]||0);
@@ -293,7 +300,7 @@ const mingaMapa=()=>`<figure class="minga-mapa">
 /* ---------- ¿por dónde empiezo? ---------- */
 function helper(pre={}){
   return `<div class="helper" id="helper"><div class="helper-in">
-    <div><span class="eyebrow">¿Te da para más?</span><h2>Tres preguntas <em>y partes.</em></h2><p class="muted">Qué te importa, cuánto tiempo tienes y dónde vives. Te decimos algo concreto que puedes hacer y quién lo está haciendo cerca tuyo.</p></div>
+    <div><h2>¿Quieres hacer <em>más?</em></h2><p class="muted">Qué te importa, cuánto tiempo tienes y dónde vives. Te decimos algo concreto que puedes hacer y quién lo está haciendo cerca tuyo.</p></div>
     <div class="hq"><span class="hn">01</span><b>¿Qué te importa?</b><div class="chips" data-k="a">${CAT.areas.map(a=>`<button type="button" data-v="${a[0]}" class="${pre.a===a[0]?'on':''}">${esc(a[1])}</button>`).join('')}</div></div>
     <div class="hq"><span class="hn">02</span><b>¿Cuánto tiempo tienes?</b><div class="chips" data-k="t">${TIEMPOS.map((t,i)=>`<button type="button" data-v="${t.k}" class="${(pre.t||'hoy')===t.k?'on':''}">${esc(t.t)}</button>`).join('')}</div></div>
     <div class="hq"><span class="hn">03</span><b>¿Dónde vives?</b><select class="hsel"><option value="">Todo Chile</option>${regOpts(store.get('mu-r'))}</select></div>
@@ -364,26 +371,26 @@ const minutos=n=>Math.max(3,Math.round((n.blocks||[]).reduce((s,b)=>s+String(b.h
 function news(n){
   const t=postsOf(n), i=NEWS.indexOf(n), nx=NEWS[(i+1)%NEWS.length], pv=NEWS[(i-1+NEWS.length)%NEWS.length];
   const MV=(window.MU_VIDEOS||{})[n.id], ESVIDEO=m=>tedSlug(m.u)||/video|charla|ted\b/i.test(m.tipo||'')||/youtube\.com|youtu\.be|vimeo\.com/.test(m.u||'');
-  const vids=MV||(n.mas||[]).filter(m=>tedSlug(m.u)).map(m=>({p:'ted',id:tedSlug(m.u),t:m.t,a:m.a,y:m.y,de:m.d})), LS=(window.MU_LECTURAS||{})[n.id]||[], lect=m=>{const L=LS.find(x=>x.k===m.t)||{};return {...m,t:L.t||m.t,a:L.a||m.a,r:L.r||m.d||''};},
+  const vids=MV||(n.mas||[]).filter(m=>tedSlug(m.u)).map(m=>({p:'ted',id:tedSlug(m.u),t:m.t,a:m.a,y:m.y,de:m.d})), LS=(window.MU_LECTURAS||{})[n.id]||[], lect=m=>{const L=LS.find(x=>x.k===m.t)||{};return {...m,t:L.t||m.t,a:L.a||m.a,u:L.u||m.u||'',r:L.r||m.d||''};},
     books=(n.mas||[]).filter(m=>m.tipo==='Libro').map(lect), refs=(n.mas||[]).filter(m=>m.tipo!=='Libro'&&!(MV?ESVIDEO(m):tedSlug(m.u))).map(lect);
   const COL=['#2E3230','#B9472F','#5E7A70','#7A4E3A','#3C4A55'];
   const H=n.historia||{p:[]};
   const quote=H.quote||((H.p.join(' ').match(/«([^»]{20,180})»/)||[])[1]);
   const hayMas=vids.length||books.length||refs.length;
   const toc=[['s-accion','Qué puedes hacer'],n.quePaso&&n.quePaso.length&&['s-paso','Qué pasó'],['s-entender','Para entenderlo'],hayMas&&['s-profundizar','Para profundizar'],H.p.length&&['s-historia','Una historia'],['organizaciones','Quién trabaja en esto'],['s-dudas','Tus dudas']].filter(Boolean);
-  const top3=n.orgs.slice(0,3);
-  $app.innerHTML=hero({img:n.img,short:true,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(n.bajada),
+  const top3=n.orgs.filter(o=>o.w||o.ig).slice(0,3);
+  $app.innerHTML=hero({img:n.img,short:true,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(((window.MU_ACCION||{})[n.id]||{}).resumen||n.bajada),
       meta:`<div class="hero-cta"><button class="btn acc" type="button" data-jump="s-accion">¿Qué puedo hacer yo?</button><button class="btn line" type="button" data-jump="${n.quePaso&&n.quePaso.length?'s-paso':'s-entender'}">Qué pasó</button></div>`})+
   `<nav class="toc" aria-label="En esta historia"><div class="wrap toc-in"><span class="toc-mark">+1</span>${toc.map(([id,l])=>`<button type="button" data-jump="${id}">${l}</button>`).join('')}</div></nav>`+
   /* 1 · lo primero: qué puedes hacer tú */
   `<section class="accion" id="s-accion"><div class="wrap">
     <div class="accion-head"><span class="eyebrow">+1 · Tu parte</span><h2>¿Y tú, qué vas a <em>hacer?</em></h2>
-      <p>Ya leíste el título. Lo normal es pensar «qué terrible» y pasar a otra cosa. Esta vez, no. No te pedimos que lo arregles todo: te pedimos una cosa, hoy.</p></div>
+      <p>No te pedimos que lo arregles todo. Una cosa, hoy.</p></div>
     ${hoyBox(n,'big')}
-    ${n.ideas&&n.ideas.length?`<div class="accion-mas"><h3>¿Te da para más?</h3><p class="muted">De lo más simple a lo que le cambia la vida a alguien. Elige una.</p></div>
-    <div class="steps">${n.ideas.map(x=>`<div class="step reveal"><p>${esc(x)}</p></div>`).join('')}</div>`:''}
-    ${top3.length?`<div class="accion-orgs"><span>Ya están en esto:</span>${top3.map(o=>{const u=o.w||o.ig||o.w2||(o.e?'mailto:'+o.e:'');return u?`<a href="${esc(u)}" ${u.startsWith('http')?'target="_blank" rel="noopener"':''}>${esc(o.n)} ↗</a>`:`<b>${esc(o.n)}</b>`}).join('')}<button type="button" data-jump="organizaciones">Ver todas cerca tuyo ↓</button></div>`:''}
-    <div class="quedate"><p>Es probable que te quedes solo con esto. Está bien. <b>Pero no te olvides de lo que está pasando en Chile.</b></p><button class="btn line sm" type="button" data-jump="s-entender">Quiero entender más ↓</button></div>
+    ${top3.length?`<div class="accion-sub"><h3>Súmate a quienes ya están en esto</h3><button type="button" data-jump="organizaciones">Ver todas cerca tuyo ↓</button></div>
+    <div class="orgs-logo">${top3.map(orgCard).join('')}</div>`:''}
+    ${ideasDe(n).length?`<div class="accion-sub"><h3>¿Quieres hacer más?</h3></div>
+    <ol class="ideas-cortas">${ideasDe(n).map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}
   </div></section>`+
   /* 2 · qué pasó */
   (n.quePaso&&n.quePaso.length?`<section class="wrap" id="s-paso"><div class="narrow"><div class="parte"><span class="parte-n">01</span><div><span class="eyebrow">Qué pasó</span><h2>La noticia, en corto</h2></div></div><div class="noticia reveal">${n.quePaso.map(p=>`<p>${esc(p)}</p>`).join('')}${n.origen?`<span class="src">Fuente: ${linkify(n.origen)}</span>`:''}</div></div></section>`:'')+
@@ -395,7 +402,7 @@ function news(n){
     <div class="parte parte-ancha"><span class="parte-n">03</span><div><span class="eyebrow">Para profundizar</span><h2>Para ver, leer y seguir pensando</h2></div></div>
     ${vids.length?`<h3 class="para">Para ver</h3><div class="vids">${vids.map(vcard).join('')}</div>`:''}
     ${books.length||refs.length?`<h3 class="para">Para leer</h3>`:''}
-    ${books.length?`<div class="shelf">${books.map((b,j)=>`<div class="book"><div class="bcover" data-ol="${esc(b.t)}|${esc((b.a.split(/,| y /)[0]||'').trim().split(' ').pop())}" style="background:${COL[j%COL.length]}"><span class="t">${esc(b.t)}</span><span class="a">${esc(b.a)}</span></div><b>${esc(b.t)}</b><small>${esc([b.a,b.y].filter(Boolean).join(' · '))}</small>${b.r?`<p class="lres">${esc(b.r)}</p>`:''}</div>`).join('')}</div>`:''}
+    ${books.length?`<div class="shelf">${books.map((b,j)=>`<${b.u?`a href="${esc(b.u)}" target="_blank" rel="noopener"`:'div'} class="book"><div class="bcover" data-ol="${esc(b.t)}|${esc((b.a.split(/,| y /)[0]||'').trim().split(' ').pop())}" style="background:${COL[j%COL.length]}"><span class="t">${esc(b.t)}</span><span class="a">${esc(b.a)}</span></div><b>${esc(b.t)}</b><small>${esc([b.a,b.y].filter(Boolean).join(' · '))}</small>${b.r?`<p class="lres">${esc(b.r)}</p>`:''}${b.u?`<span class="lver">${/openlibrary/.test(b.u)?'Ver el libro':'Ver más'} ↗</span>`:''}</${b.u?'a':'div'}>`).join('')}</div>`:''}
     ${refs.length?`<div class="refs">${refs.map(r=>{const inner=`<span>${esc(r.tipo)}</span><div><b>${esc(r.t)}</b><small>${esc([r.a,r.y].filter(Boolean).join(' · '))}${r.u?' · '+esc(host(r.u)):''}</small>${r.r?`<p class="lres">${esc(r.r)}</p>`:''}</div>`;return r.u?`<a class="ref" href="${r.u}" target="_blank" rel="noopener">${inner}</a>`:`<div class="ref">${inner}</div>`}).join('')}</div>`:''}
   </div></section>`:'')+
   (H.p.length?`<section class="story" id="s-historia"><div class="ph"><img src="${n.img3||n.img2||n.img}" ${fp(n.img3||n.img2||n.img)} alt="" loading="lazy"></div><div class="story-in reveal"><span class="eyebrow">Una historia</span>
@@ -403,7 +410,7 @@ function news(n){
     ${H.p.map(p=>`<p>${esc(quote?p.replace(/\s*«[^»]*»\.?/,'').trim():p)}</p>`).join('')}${H.extra?`<p>${linkify(H.extra)}</p>`:''}${H.src?src(H.src):''}</div></section>`:'')+
   `<section class="sec" id="organizaciones"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${esc(AREA[n.area].name)}</span><h2>¿Quién trabaja en esto <em>cerca tuyo?</em></h2></div><p>No tienes que inventar nada: ya hay gente tirando del carro. Escríbeles, pregunta cómo sumarte y parte.</p></div>
-    <div class="picks">${n.orgs.map(o=>`<div class="pick reveal"><h4>${esc(o.n)}</h4><p>${esc(o.d)}</p><div class="links">${[o.w&&[o.w,host(o.w)],o.w2&&[o.w2,host(o.w2)],o.ig&&[o.ig,'Instagram'],o.e&&['mailto:'+o.e,o.e],o.t&&['tel:'+o.t.replace(/[^\d+]/g,''),o.t]].filter(Boolean).map(([u,l])=>`<a href="${u}" ${u.startsWith('http')?'target="_blank" rel="noopener"':''}>${esc(l)}</a>`).join('')}</div></div>`).join('')}</div>
+    <div class="picks">${n.orgs.map(o=>`<div class="pick reveal"><div class="pick-top">${orgLogo(o)}<h4>${esc(o.n)}</h4></div><p>${esc(o.d)}</p><div class="links">${[o.w&&[o.w,host(o.w)],o.w2&&[o.w2,host(o.w2)],o.ig&&[o.ig,'Instagram'],o.e&&['mailto:'+o.e,o.e],o.t&&['tel:'+o.t.replace(/[^\d+]/g,''),o.t]].filter(Boolean).map(([u,l])=>`<a href="${u}" ${u.startsWith('http')?'target="_blank" rel="noopener"':''}>${esc(l)}</a>`).join('')}</div></div>`).join('')}</div>
     <form class="finder" id="nf" onsubmit="event.preventDefault()">
       <label><small>Tu región</small><select name="r"><option value="">Todo Chile</option>${regOpts(store.get('mu-r'))}</select></label>
       <label><small>Tema</small><select name="a"><option value="*">${esc(n.areas.map(a=>AREA[a].name).join(', '))}</option>${areaOpts('')}</select></label>
@@ -411,7 +418,7 @@ function news(n){
     </form><div id="nres"></div>
     <p class="steps-note">¿Tu organización trabaja en esto y no aparece? <a href="#suma">Súmala a Más Uno</a>.</p>
   </div></section>
-  <section class="sec band-sand" id="s-dudas"><div class="wrap">${dudas(DUDAS_HISTORIA)}</div></section>
+  <section class="sec band-sand" id="s-dudas"><div class="wrap">${((window.MU_ACCION||{})[n.id]||{}).faq?dudas(MU_ACCION[n.id].faq,'Lo que te puede <em>frenar.</em>','Las dudas más comunes sobre esta historia, respondidas sin vueltas.'):dudas(DUDAS_HISTORIA)}</div></section>
   <section class="wrap"><div class="cierre reveal"><span class="cierre-mark">+1</span><div><span class="eyebrow">Antes de irte</span>
     <h2>¿Ya lo hiciste? <em>Cuéntale a alguien.</em></h2><p>Así se arma una minga: uno pone la mano y el que está al lado se anima. Mándale esta historia a una persona que pueda sumarse.</p>
     <div class="hero-cta">${share(n.titulo)}<button class="btn acc sm" type="button" data-jump="s-accion">Volver a qué puedo hacer</button></div></div></div></section>

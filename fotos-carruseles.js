@@ -13,5 +13,8 @@ window.MU_OVR = {
   "casafamilia-2026-11-19/1": {0: {c: "photo", img: "https://images.unsplash.com/photo-1780461159717-04ebb5eb3293?w=1600&q=85&auto=format&fit=crop"}},
   /* 23 nov: la pieza con luz cálida parecía un hotel */
   "casafamilia-2026-11-19/0": {0: "https://images.unsplash.com/photo-1729684964917-904bca805fa9?w=1600&q=85&auto=format&fit=crop"},
+  /* 26 nov: portadas de la historia 03 con foto */
+  "redes-2026-11-19/1": {0: {c: "photo", img: "https://images.unsplash.com/photo-1752652013112-6734bf1a682a?w=1600&q=85&auto=format&fit=crop"}},
+  "redes-2026-11-19/2": {0: {c: "photo", img: "https://images.unsplash.com/photo-1517940322679-2b003a168fd2?w=1600&q=85&auto=format&fit=crop"}},
 };
 (function(){ for(const k in window.MU_OVR){ const [id,p]=k.split('/'), t=(window.MU_POSTS||[]).find(x=>x.id===id); if(t&&t.posts[+p]) for(const i in MU_OVR[k]) { const sl=t.posts[+p].slides[+i], v=MU_OVR[k][i]; if(sl){ if(typeof v==='string') sl.img=v; else Object.assign(sl,v); } } } })();
