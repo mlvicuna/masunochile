@@ -2,7 +2,7 @@
 (function(){
 const $app=document.getElementById('app'), NEWS=window.MU_NEWS, CAT=window.MU_CAT, POSTS=window.MU_POSTS, IG=window.MU_IG;
 const U=(id,w=1800)=>`https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
-const IMG={banner:U('1790008882005-6ea2c9b7e75a',2200), home:U('1653185460299-fbef9466c1e7',2200), orgs:U('1758599668429-121d54188b9c',2000)};
+const IMG={banner:U('1778098678756-e761c9df9938',1600), bannerAlt:'Un vecino arriba del techo de una casa, con una pala en la mano, saluda',  home:U('1653185460299-fbef9466c1e7',2200), orgs:U('1758599668429-121d54188b9c',2000)};
 const IGURL='https://www.instagram.com/masuno/';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt=n=>Number(n).toLocaleString('es-CL');
@@ -30,6 +30,23 @@ const src=s=>s?`<span class="src">Fuente: ${linkify(s)}</span>`:'';
 const tedSlug=u=>(String(u).match(/ted\.com\/talks\/([^?/#]+)/)||[])[1];
 const tedFrame=(m)=>window.MU_PUBLICA?`<a class="vlink" href="${m.u}" target="_blank" rel="noopener"><span class="vplay">▶</span><div class="vcap"><small>Charla TED</small><b>${esc(m.t)}</b><small>${esc([m.a,m.y].filter(Boolean).join(' · '))}${m.d?'. '+esc(m.d):''}</small></div></a>`:`<div><div class="vframe"><iframe src="https://embed.ted.com/talks/${tedSlug(m.u)}?language=es" title="${esc(m.t)}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
   <div class="vcap"><b>${esc(m.t)}</b><small>${esc([m.a,m.y].filter(Boolean).join(' · '))}${m.d?'. '+esc(m.d):''}</small></div></div>`;
+/* videos: TED, YouTube y Vimeo, siempre con reseña (videos.js) */
+const VNAME={ted:'TED',youtube:'YouTube',vimeo:'Vimeo'};
+const VURL={ted:v=>`https://www.ted.com/talks/${v.id}`,youtube:v=>`https://www.youtube.com/watch?v=${v.id}`,vimeo:v=>`https://vimeo.com/${v.id}`};
+const VSRC={ted:v=>`https://embed.ted.com/talks/${v.id}?language=es`,youtube:v=>`https://www.youtube-nocookie.com/embed/${v.id}?autoplay=1&rel=0`,vimeo:v=>`https://player.vimeo.com/video/${v.id}?dnt=1`};
+const vframe=v=>`<iframe src="${VSRC[v.p](v)}" title="${esc(v.t)}" loading="lazy" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+function vcard(v){
+  const url=VURL[v.p](v), name=VNAME[v.p];
+  const media=window.MU_PUBLICA?`<a class="vframe vthumb" href="${url}" target="_blank" rel="noopener">${v.p==='youtube'?`<img src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt="" loading="lazy">`:''}<span class="vplay">▶</span></a>`
+    :v.p==='youtube'?`<button class="vframe vthumb" type="button" data-yt="${esc(v.id)}" aria-label="Ver ${esc(v.t)}"><img src="https://i.ytimg.com/vi/${esc(v.id)}/hqdefault.jpg" alt="" loading="lazy"><span class="vplay">▶</span></button>`
+    :`<div class="vframe">${vframe(v)}</div>`;
+  return `<div class="vcard reveal">${media}<div class="vcap">
+    <div class="vmeta"><span class="vsrc vsrc-${v.p}">${name}</span>${esc([v.dur,v.lang].filter(Boolean).join(' · '))}</div>
+    <b>${esc(v.t)}</b><small>${esc([v.a,v.y].filter(Boolean).join(' · '))}</small>
+    ${v.de?`<p class="vde">${esc(v.de)}</p>`:''}${v.por?`<p class="vpor"><span>Qué tiene que ver.</span> ${esc(v.por)}</p>`:''}
+    <a class="vver" href="${url}" target="_blank" rel="noopener">Ver en ${name} ↗</a></div></div>`;
+}
+document.addEventListener('click',e=>{const b=e.target.closest('[data-yt]');if(!b)return;const d=document.createElement('div');d.className='vframe';d.innerHTML=vframe({p:'youtube',id:b.dataset.yt,t:b.getAttribute('aria-label')||''});b.replaceWith(d);});
 function block(b,first){
   switch(b.k){
     case 'h': return b.h==='Lo que se ha probado'?'':`<h2>${esc(b.h)}</h2>`;
@@ -160,7 +177,7 @@ function hero({img,eyebrow,title,lede,meta,short}){
 }
 const areaChip=n=>`<a class="chip" href="#organizaciones-${n.area}">${esc(AREA[n.area].name)}</a>`;
 function newsCard(n,big){
-  const inner=`<div class="ph"><img src="${n.img.replace('w=1600','w='+(big?1400:1000))}" ${fp(n.img.replace('w=1600','w='+(big?1400:1000)))} alt="" loading="lazy"><span class="igcover-tag">${IGICON}Carrusel</span><div class="igcover" aria-hidden="true">${cover(n)}</div></div>`;
+  const inner=`<div class="ph"><img src="${n.img.replace('w=1600','w='+(big?1400:1000))}" ${fp(n.img.replace('w=1600','w='+(big?1400:1000)))} alt="" loading="lazy"></div>`;
   const txt=`<div class="meta"><span class="chip">${esc(AREA[n.area].name)}</span><span class="dotsep"></span><span>${esc(n.fecha)}</span></div><h3>${esc(n.titulo)}</h3><p>${esc(n.bajada||n.resumen||'')}</p>`;
   return big?`<a class="feature reveal" href="#n-${n.id}">${inner}<div>${txt}</div></a>`:`<a class="card reveal" href="#n-${n.id}">${inner}${txt}</a>`;
 }
@@ -185,15 +202,17 @@ function home(){
   const today=new Date(), iso=`${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
   const esHoy=f.iso===iso, HOY=esHoy?'Hoy':'Lo último', recientes=NEWS.slice(0,8);
   const tick=recientes.map(n=>`<span>${esc(n.titulo)}</span><i>+1</i>`).join('')+[...new Set(recientes.flatMap(n=>(n.tags||[]).slice(0,2)))].map(t=>`<span>${esc(t)}</span><i>+1</i>`).join('');
-  $app.innerHTML=`<section class="intro"><div class="wrap intro-in">
-    <div class="intro-txt">
+  $app.innerHTML=`<section class="intro intro-full"><div class="ih-hero">
+    <div class="ih-media" id="ih-media"><img id="ih-img" src="${IMG.banner}" alt="${esc(IMG.bannerAlt)}" fetchpriority="high">
+      <span class="ih-like" id="ih-like" aria-hidden="true"><b>+1</b><em>Él ya puso su mano.</em></span></div>
+    <div class="wrap intro-in"><div class="intro-txt">
       <span class="live"><i></i>${HOY} en Más Uno · ${esc(f.fecha)}</span>
       <p class="intro-kicker">Ya sabes lo que pasa en Chile.</p>
       <h1>¿Y tú, qué vas a <em>hacer?</em></h1>
       <p class="intro-lede">Un niño al que nadie le lee un cuento. Una vecina que pasa el calor sola. Alguien que lleva meses buscando pega. No tienes que salvar a nadie: tienes que aparecer. Cada día te contamos una historia y te decimos, sin vueltas, qué puedes hacer tú. <b>Uno más. Eso es todo.</b></p>
       <div class="hero-cta"><button class="btn lime" type="button" data-jump="hoy-home">Dime qué puedo hacer hoy</button><a class="btn line" href="#n-${f.id}">${esHoy?'La historia de hoy':'La última historia'}</a></div>
-    </div>
-    <figure class="intro-foto"><img src="${IMG.banner}" ${fp(IMG.banner)} alt="Personas de distintas edades juntas en un campo al atardecer"></figure>
+      <ol class="intro-pasos" aria-label="Cómo funciona Más Uno"><li><b>1</b><span>Te contamos una historia de lo que pasa en Chile.</span></li><li><b>2</b><span>Te decimos algo concreto que puedes hacer tú.</span></li><li><b>3</b><span>Te mostramos quién ya está en esto, cerca tuyo.</span></li></ol>
+    </div></div>
   </div>
   <div class="wrap intro-today">
     <span class="it-label">${HOY} · ${esc(f.fecha)}</span>
@@ -202,18 +221,24 @@ function home(){
   <div class="ticker" aria-hidden="true"><div class="ticker-in">${tick}${tick}</div></div>`+`
   <section class="accion" id="hoy-home"><div class="wrap">
     <div class="accion-head"><span class="eyebrow">+1 · Tu parte de hoy</span><h2>Diez minutos. <em>Eso te pedimos.</em></h2>
-      <p>Viene de ${esHoy?'la historia de hoy':'la última historia'}: «${esc(f.titulo)}». No necesitas plata, experiencia ni permiso de nadie.</p></div>
-    ${hoyBox(f,'big')}
-    <div class="quedate"><p>Es probable que te quedes solo con esto. Está bien. <b>Pero no te olvides de lo que está pasando en Chile.</b></p><a class="btn line sm" href="#n-${f.id}">Leer la historia completa</a></div>
+      <p>Sale de ${esHoy?'la historia de hoy':'la última historia'}. No necesitas plata, experiencia ni permiso de nadie.</p></div>
+    <div class="hoy-grid">
+      <a class="hoy-noticia reveal" href="#n-${f.id}"><div class="ph"><img src="${f.img.replace('w=1600','w=1000')}" ${fp(f.img)} alt="" loading="lazy"></div>
+        <div class="hn-txt"><span class="eyebrow">${HOY} · ${esc(AREA[f.area].name)}</span><b>${esc(f.titulo)}</b><p>${esc(f.bajada||'')}</p><span class="hn-leer">Lee la historia →</span></div></a>
+      <div class="hoy-col">${hoyBox(f,'big')}
+        <div class="quedate"><p>Es probable que te quedes solo con esto. Está bien. <b>Pero no te olvides de lo que está pasando en Chile.</b></p></div></div>
+    </div>
   </div></section>
   <section class="sec" style="padding-top:0"><div class="wrap">${helper()}</div></section>
-  <section class="minga"><div class="wrap minga-in">
-    <div><span class="eyebrow">+1 · La minga social</span><h2>Lo que solos no podemos, <em>lo movemos entre todos.</em></h2>
-      <figure class="minga-foto"><div><img src="img/minga.webp" alt="Cientos de personas acompañan el traslado de una casa durante una minga en Chiloé, junto al mar" loading="lazy"></div>
-      <figcaption>Una minga en Chiloé: cientos de personas acompañan el traslado de una casa hasta el mar.</figcaption></figure></div>
-    <div class="minga-txt">
-      <p>En Chiloé, cuando una familia tiene que mover su casa, no llama a una empresa: llama a la minga. Llegan los vecinos con bueyes, manos y ganas, y entre todos la tiran por el campo o la hacen flotar por el mar. Nadie cobra. Se devuelve la mano cuando otro la necesita, y el día termina en una mesa larga.</p>
-      <p>Más Uno es eso, pero con lo que está pasando en Chile hoy. No somos una fundación y no te pedimos plata: te contamos qué pasa y te mostramos quién ya está tirando del carro, para que te sumes.</p>
+  <section class="minga minga-v2"><div class="wrap">
+    <div class="minga-head"><span class="eyebrow">+1 · La minga social</span><h2>Lo que solos no podemos, <em>lo movemos entre todos.</em></h2>
+      <p class="minga-lede">En Chiloé, cuando una familia tiene que mover su casa, no llama a una empresa: llama a la minga.</p></div>
+    ${mingaMapa()}
+    <div class="minga-in">
+      <div class="minga-txt">
+        <p>Llegan los vecinos con bueyes, manos y ganas, y entre todos tiran la casa por el campo o la hacen flotar por el mar hasta su nuevo lugar. Nadie cobra. Se devuelve la mano cuando otro la necesita, y el día termina en una mesa larga.</p>
+        <p>Más Uno es eso, pero con lo que está pasando en Chile hoy. No somos una fundación y no te pedimos plata: te contamos qué pasa y te mostramos quién ya está tirando del carro, para que te sumes.</p>
+      </div>
       <p class="minga-cierre">¿Por qué +1? Porque no hacen falta héroes. <em>Hace falta uno más.</em> Y ese puedes ser tú.</p>
     </div>
     <ol class="minga-pasos"><li><b>Alguien lo necesita.</b><span>Una historia te muestra quién.</span></li><li><b>Pones una mano.</b><span>Una llamada, una hora, un libro, una visita.</span></li><li><b>Se devuelve la mano.</b><span>Hoy ayudas tú; mañana, otro.</span></li><li><b>Se termina en una mesa.</b><span>No es ayuda de uno a otro: es entre todos.</span></li></ol>
@@ -234,15 +259,33 @@ function home(){
     <div class="sec-head"><div><span class="eyebrow">Temas</span><h2>¿Qué te <em>mueve</em>?</h2></div><p>Elige lo que te toca. En cada tema hay gente en todo Chile esperando una mano más.</p></div>
     ${areaGrid()}
   </div></section>
-  <section class="sec band-sand"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">En Instagram</span><h2>Empieza en el feed, <em>sigue aquí</em></h2></div><a class="ig-handle" href="${IGURL}" target="_blank" rel="noopener">${IGICON}@masuno</a></div>
-    <div class="igwrap"><div class="igrow">${NEWS.slice(0,7).map(n=>`<a class="igtile" href="#n-${n.id}" aria-label="${esc(n.titulo)}">${cover(n)}</a>`).join('')}</div></div>
-  </div></section>
   <section class="wrap" style="padding-top:clamp(64px,10vw,120px);padding-bottom:clamp(64px,10vw,120px)">${orgCta()}</section>`;
-  wireHelper();
+  wireHelper(); likeFoto();
 }
 const areaGrid=(only)=>`<div class="tgrid">${CAT.areas.filter(a=>!only||only.includes(a[0])).map(a=>{const A=AREA[a[0]],k=NEWS.filter(n=>n.areas.includes(a[0])).length;
   return `<a class="tcard reveal" href="#tema-${a[0]}"><img src="${A.img}" ${fp(A.img)} alt="" loading="lazy"><div><b>${esc(a[1])}</b><span>${esc(A.frase||'')}</span><small>${fmt(COUNT[A.i])} organizaciones${k?` · ${k} ${k===1?'historia':'historias'}`:''}</small></div></a>`}).join('')}</div>`;
+
+/* la foto del inicio: el vecino del techo con el pulgar arriba, y el +1 saliendo de su mano */
+const FOTO={w:1200,h:800,mano:[.559,.43],cara:[.51,.47]};
+function likeFoto(){
+  const box=document.getElementById('ih-media'), img=document.getElementById('ih-img'), like=document.getElementById('ih-like'); if(!box||!img) return;
+  const place=()=>{
+    const cw=box.clientWidth, ch=box.clientHeight, movil=cw<760, r=FOTO.w/FOTO.h;
+    const zoom=movil?1.25:1.32, w=Math.max(cw,ch*r)*zoom, h=w/r;
+    const tx=movil?.5:.7, ty=movil?.55:.56;
+    const left=Math.min(0,Math.max(cw-w,tx*cw-FOTO.cara[0]*w)), top=Math.min(0,Math.max(ch-h,ty*ch-FOTO.cara[1]*h));
+    Object.assign(img.style,{width:w+'px',height:h+'px',left:left+'px',top:top+'px'});
+    like.style.left=(left+FOTO.mano[0]*w)+'px'; like.style.top=(top+FOTO.mano[1]*h)+'px';
+  };
+  place(); if(!window.__likeRZ){window.__likeRZ=true;addEventListener('resize',()=>{if(document.getElementById('ih-media'))likeFoto()},{passive:true});}
+  requestAnimationFrame(()=>setTimeout(()=>like.classList.add('on'),500));
+}
+
+/* la foto de la minga, grande y limpia, con una sola frase */
+const mingaMapa=()=>`<figure class="minga-mapa">
+  <div class="mm-box"><img src="img/minga.webp" alt="Vista desde arriba de una minga en Chiloé: cientos de personas rodean una casa blanca que llevan hacia el mar" loading="lazy">
+    <p class="mm-frase">Nadie mueve una casa <em>solo.</em></p></div>
+  <figcaption>Una minga en Chiloé: los vecinos acompañan el traslado de una casa hasta el mar.</figcaption></figure>`;
 
 /* ---------- ¿por dónde empiezo? ---------- */
 function helper(pre={}){
@@ -317,12 +360,14 @@ const minutos=n=>Math.max(3,Math.round((n.blocks||[]).reduce((s,b)=>s+String(b.h
 
 function news(n){
   const t=postsOf(n), i=NEWS.indexOf(n), nx=NEWS[(i+1)%NEWS.length], pv=NEWS[(i-1+NEWS.length)%NEWS.length];
-  const vids=(n.mas||[]).filter(m=>tedSlug(m.u)), books=(n.mas||[]).filter(m=>m.tipo==='Libro'), refs=(n.mas||[]).filter(m=>!tedSlug(m.u)&&m.tipo!=='Libro');
+  const MV=(window.MU_VIDEOS||{})[n.id], ESVIDEO=m=>tedSlug(m.u)||/video|charla|ted\b/i.test(m.tipo||'')||/youtube\.com|youtu\.be|vimeo\.com/.test(m.u||'');
+  const vids=MV||(n.mas||[]).filter(m=>tedSlug(m.u)).map(m=>({p:'ted',id:tedSlug(m.u),t:m.t,a:m.a,y:m.y,de:m.d})), LS=(window.MU_LECTURAS||{})[n.id]||[], lect=m=>{const L=LS.find(x=>x.k===m.t)||{};return {...m,t:L.t||m.t,a:L.a||m.a,r:L.r||m.d||''};},
+    books=(n.mas||[]).filter(m=>m.tipo==='Libro').map(lect), refs=(n.mas||[]).filter(m=>m.tipo!=='Libro'&&!(MV?ESVIDEO(m):tedSlug(m.u))).map(lect);
   const COL=['#2E3230','#B9472F','#5E7A70','#7A4E3A','#3C4A55'];
   const H=n.historia||{p:[]};
   const quote=H.quote||((H.p.join(' ').match(/«([^»]{20,180})»/)||[])[1]);
   const hayMas=vids.length||books.length||refs.length;
-  const toc=[['s-accion','Qué puedes hacer'],n.quePaso&&n.quePaso.length&&['s-paso','Qué pasó'],['s-entender','Para entenderlo'],H.p.length&&['s-historia','Una historia'],['organizaciones','Quién trabaja en esto'],['s-dudas','Tus dudas']].filter(Boolean);
+  const toc=[['s-accion','Qué puedes hacer'],n.quePaso&&n.quePaso.length&&['s-paso','Qué pasó'],['s-entender','Para entenderlo'],hayMas&&['s-profundizar','Para profundizar'],H.p.length&&['s-historia','Una historia'],['organizaciones','Quién trabaja en esto'],['s-dudas','Tus dudas']].filter(Boolean);
   const top3=n.orgs.slice(0,3);
   $app.innerHTML=hero({img:n.img,short:true,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(n.bajada),
       meta:`<div class="hero-cta"><button class="btn acc" type="button" data-jump="s-accion">¿Qué puedo hacer yo?</button><button class="btn line" type="button" data-jump="${n.quePaso&&n.quePaso.length?'s-paso':'s-entender'}">Qué pasó</button></div>`})+
@@ -343,16 +388,16 @@ function news(n){
   `<section class="wrap" id="s-entender"><div class="narrow"><div class="parte"><span class="parte-n">02</span><div><span class="eyebrow">Para entenderlo${n.blocks?` · ${minutos(n)} min de lectura`:''}</span><h2>Si quieres ir más a fondo</h2></div></div></div></section>`+
   (n.blocks?article(n):`<article class="article wrap"><div class="narrow">${n.texto.map((p,j)=>`<p class="${j===0?'first':''}">${esc(p)}</p>`).join('')}<span class="src">Fuente: El Mercurio, Sociedad (A7), jueves 19 de noviembre de 2026</span></div></article>`)+
   `<div class="wrap"><div class="narrow"><div class="tags">${(n.tags||[]).map(x=>`<a href="#tag-${tslug(x)}">${esc(x)}</a>`).join('')}</div></div></div>`+
-  (vids.length||books.length||refs.length?`<section class="sec"><div class="wrap">
-    <div class="sec-head"><div><span class="eyebrow">Para profundizar</span><h2>Para ver, leer y seguir pensando</h2></div></div>
-    ${vids.length?`<div class="vids">${vids.map(tedFrame).join('')}</div>`:''}
-    ${books.length?`<div class="shelf">${books.map((b,j)=>`<div class="book"><div class="bcover" data-ol="${esc(b.t)}|${esc((b.a.split(/,| y /)[0]||'').trim().split(' ').pop())}" style="background:${COL[j%COL.length]}"><span class="t">${esc(b.t)}</span><span class="a">${esc(b.a)}</span></div><b>${esc(b.t)}</b><small>${esc([b.a,b.y].filter(Boolean).join(' · '))}${b.d?'. '+esc(b.d):''}</small></div>`).join('')}</div>`:''}
-    ${refs.length?`<div class="refs">${refs.map(r=>{const inner=`<span>${esc(r.tipo)}</span><div><b>${esc(r.t)}</b><small>${esc([r.a,r.y].filter(Boolean).join(' · '))}${r.d?'. '+esc(r.d):''}${r.u?' · '+esc(host(r.u)):''}</small></div>`;return r.u?`<a class="ref" href="${r.u}" target="_blank" rel="noopener">${inner}</a>`:`<div class="ref">${inner}</div>`}).join('')}</div>`:''}
+  (hayMas?`<section class="sec profundizar" id="s-profundizar"><div class="wrap">
+    <div class="parte parte-ancha"><span class="parte-n">03</span><div><span class="eyebrow">Para profundizar</span><h2>Para ver, leer y seguir pensando</h2></div></div>
+    ${vids.length?`<h3 class="para">Para ver</h3><div class="vids">${vids.map(vcard).join('')}</div>`:''}
+    ${books.length||refs.length?`<h3 class="para">Para leer</h3>`:''}
+    ${books.length?`<div class="shelf">${books.map((b,j)=>`<div class="book"><div class="bcover" data-ol="${esc(b.t)}|${esc((b.a.split(/,| y /)[0]||'').trim().split(' ').pop())}" style="background:${COL[j%COL.length]}"><span class="t">${esc(b.t)}</span><span class="a">${esc(b.a)}</span></div><b>${esc(b.t)}</b><small>${esc([b.a,b.y].filter(Boolean).join(' · '))}</small>${b.r?`<p class="lres">${esc(b.r)}</p>`:''}</div>`).join('')}</div>`:''}
+    ${refs.length?`<div class="refs">${refs.map(r=>{const inner=`<span>${esc(r.tipo)}</span><div><b>${esc(r.t)}</b><small>${esc([r.a,r.y].filter(Boolean).join(' · '))}${r.u?' · '+esc(host(r.u)):''}</small>${r.r?`<p class="lres">${esc(r.r)}</p>`:''}</div>`;return r.u?`<a class="ref" href="${r.u}" target="_blank" rel="noopener">${inner}</a>`:`<div class="ref">${inner}</div>`}).join('')}</div>`:''}
   </div></section>`:'')+
   (H.p.length?`<section class="story" id="s-historia"><div class="ph"><img src="${n.img3||n.img2||n.img}" ${fp(n.img3||n.img2||n.img)} alt="" loading="lazy"></div><div class="story-in reveal"><span class="eyebrow">Una historia</span>
     <h2>${esc(storyName(H))}</h2>${quote?`<blockquote>«${esc(quote.replace(/[.»]+$/,''))}»${H.who?`<footer style="font-family:var(--sans);font-size:14px;margin-top:10px;color:rgba(237,234,227,.7)">${esc(H.who)}</footer>`:''}</blockquote>`:''}
     ${H.p.map(p=>`<p>${esc(quote?p.replace(/\s*«[^»]*»\.?/,'').trim():p)}</p>`).join('')}${H.extra?`<p>${linkify(H.extra)}</p>`:''}${H.src?src(H.src):''}</div></section>`:'')+
-  carousels(n)+
   `<section class="sec" id="organizaciones"><div class="wrap">
     <div class="sec-head"><div><span class="eyebrow">${esc(AREA[n.area].name)}</span><h2>¿Quién trabaja en esto <em>cerca tuyo?</em></h2></div><p>No tienes que inventar nada: ya hay gente tirando del carro. Escríbeles, pregunta cómo sumarte y parte.</p></div>
     <div class="picks">${n.orgs.map(o=>`<div class="pick reveal"><h4>${esc(o.n)}</h4><p>${esc(o.d)}</p><div class="links">${[o.w&&[o.w,host(o.w)],o.w2&&[o.w2,host(o.w2)],o.ig&&[o.ig,'Instagram'],o.e&&['mailto:'+o.e,o.e],o.t&&['tel:'+o.t.replace(/[^\d+]/g,''),o.t]].filter(Boolean).map(([u,l])=>`<a href="${u}" ${u.startsWith('http')?'target="_blank" rel="noopener"':''}>${esc(l)}</a>`).join('')}</div></div>`).join('')}</div>
@@ -370,10 +415,17 @@ function news(n){
   <section class="wrap" style="padding-bottom:clamp(64px,10vw,110px)"><div class="next">
     ${[pv,nx].map((x,j)=>`<a class="nextcard" href="#n-${x.id}"><img src="${x.img.replace('w=1600','w=900')}" ${fp(x.img.replace('w=1600','w=900'))} alt="" loading="lazy"><div><small>${j?'Siguiente historia':'Historia anterior'}</small><b>${esc(x.titulo)}</b></div></a>`).join('')}
   </div></section>`;
-  wireCarousels($app); covers();
+  wireCarousels($app); covers(); tocSpy();
   const f=document.getElementById('nf'), box=document.getElementById('nres');
   const run=()=>{store.set('mu-r',f.r.value);const a=f.a.value;results(box,search({areas:a==='*'?(n.kwOnly?null:n.areas):[a],kw:a==='*'?n.kw:[],need:a==='*'&&n.kwOnly,reg:f.r.value,q:f.q.value}),12);};
   f.r.onchange=run; f.a.onchange=run; let tm; f.q.oninput=()=>{clearTimeout(tm);tm=setTimeout(run,200)}; run();
+}
+function tocSpy(){
+  const bs=[...document.querySelectorAll('.toc button[data-jump]')]; if(!bs.length||!('IntersectionObserver' in window)) return;
+  const secs=bs.map(b=>document.getElementById(b.dataset.jump)).filter(Boolean);
+  const set=id=>bs.forEach(b=>{const on=b.dataset.jump===id;b.classList.toggle('on',on);if(on)b.scrollIntoView({block:'nearest',inline:'center'});});
+  const o=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)set(e.target.id)})},{rootMargin:'-140px 0px -60% 0px'});
+  secs.forEach(x=>o.observe(x));
 }
 function pageHead(eyebrow,title,lede){return `<section class="pagehead wrap"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1>${lede?`<p class="lede">${lede}</p>`:''}</section>`;}
 function historias(){
@@ -486,7 +538,7 @@ function route(){
   else if(k==='temas'){temas();document.title='Temas · Más Uno';nav='temas';}
   else if(k==='tema'){tema(arg);document.title=(AREA[arg]?AREA[arg].name+' · ':'')+'Más Uno';nav='temas';}
   else if(k==='tag'){tag(arg);nav='';}
-  else if(k==='instagram'){instagram();document.title='Instagram · Más Uno';nav='instagram';}
+  
   else if(k==='ayudar'){ayudar();document.title='¿Qué puedo hacer yo? · Más Uno';nav='ayudar';}
   else if(k==='suma'){suma();document.title='Suma tu organización · Más Uno';nav='suma';}
   else {home();document.title='Más Uno · La minga social';}
