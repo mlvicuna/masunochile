@@ -1,6 +1,588 @@
-window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1789441011641-62a633902cea": "50% 85%", "1695556746253-ab635cedac50": "50% 15%", "1670251684279-67cc41b1758c": "60% 25%", "1778098678756-e761c9df9938": "62% 40%", "1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%", "1770096679916-2cd9c720d400": "40% 40%", "1772249541673-237a516d5c5e": "50% 65%", "1776267034802-0f5c5a0b1807": "50% 75%", "1626073738443-f69ddf7cf8fb": "50% 50%", "1614338577197-5812cb856df7": "50% 60%", "1660796334912-8ce8e9c2cff0": "45% 50%", "1758525226653-490405551ce9": "60% 50%", "1556488450-afb93ae98ac6": "50% 25%", "1758685733897-80154016629f": "15% 95%", "1600101829065-d91f0d9c200b": "50% 85%", "1769353086138-19ee65291a04": "40% 40%", "1758525747620-00284612bffc": "50% 20%", "1759354848721-e23a7f51305d": "50% 30%", "1777846880906-7fed39eef24f": "40% 5%", "1563062067-7700e1d9ae1d": "75% 40%", "1730127730383-ace76bc55d16": "60% 45%", "1559061542-7f9ef5f51b62": "30% 40%", "1787281587844-4a4d5f03d4de": "40% 40%", "1745265797426-8db5c22cf9e3": "50% 30%", "19894924": "50% 55%", "19894926": "50% 55%", "37276554": "45% 40%", "1778098682395-72ef2bcd0f50": "50% 55%", "1778098684640-4d5d959acbe2": "50% 60%", "13465573": "40% 75%", "18075662": "50% 50%", "41001189": "50% 45%", "8342278": "60% 40%", "20459084": "50% 40%", "1778098684034-67f3437781d4": "50% 60%", "1778098681471-ec432e0cf4db": "60% 60%"}};
+window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1789441011641-62a633902cea": "50% 85%", "1695556746253-ab635cedac50": "50% 15%", "1670251684279-67cc41b1758c": "60% 25%", "1778098678756-e761c9df9938": "62% 40%", "1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%", "1770096679916-2cd9c720d400": "40% 40%", "1772249541673-237a516d5c5e": "50% 65%", "1776267034802-0f5c5a0b1807": "50% 75%", "1626073738443-f69ddf7cf8fb": "50% 50%", "1614338577197-5812cb856df7": "50% 60%", "1660796334912-8ce8e9c2cff0": "45% 50%", "1758525226653-490405551ce9": "60% 50%", "1556488450-afb93ae98ac6": "50% 25%", "1758685733897-80154016629f": "15% 95%", "1600101829065-d91f0d9c200b": "50% 85%", "1769353086138-19ee65291a04": "40% 40%", "1758525747620-00284612bffc": "50% 20%", "1759354848721-e23a7f51305d": "50% 30%", "1777846880906-7fed39eef24f": "40% 5%", "1563062067-7700e1d9ae1d": "75% 40%", "1730127730383-ace76bc55d16": "60% 45%", "1559061542-7f9ef5f51b62": "30% 40%", "1787281587844-4a4d5f03d4de": "40% 40%", "1745265797426-8db5c22cf9e3": "50% 30%", "19894924": "50% 55%", "19894926": "50% 55%", "37276554": "45% 40%", "1778098682395-72ef2bcd0f50": "50% 55%", "1778098684640-4d5d959acbe2": "50% 60%", "13465573": "40% 75%", "18075662": "50% 50%", "41001189": "50% 45%", "8342278": "60% 40%", "20459084": "50% 40%", "1778098684034-67f3437781d4": "50% 60%", "1778098681471-ec432e0cf4db": "60% 60%", "6957113": "50% 30%", "7659543": "50% 35%", "7176137": "50% 40%", "10029828": "50% 35%", "7516571": "60% 30%", "10029310": "50% 35%"}};
 /* Noticias de la semana (18 y 19 nov 2026): informes, desarrollos web y posts. Generado por build_content.py. */
 window.MU_NEWS=[
+{
+"id": "cuidadoras",
+"post": "cuidadoras-2026-11-27",
+"fecha": "Viernes 27 de noviembre",
+"doc": "261127 Cuidadoras",
+"area": "discapacidad",
+"areas": [
+"discapacidad",
+"mujeres",
+"ninez",
+"salud"
+],
+"kw": [
+"cuidador",
+"cuidadora",
+"familias",
+"respiro",
+"autis",
+"discapacidad",
+"apoyo"
+],
+"titulo": "Quién cuida a la que cuida",
+"img": "https://images.pexels.com/photos/6957113/pexels-photo-6957113.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.pexels.com/photos/7659543/pexels-photo-7659543.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img3": "https://images.pexels.com/photos/7176137/pexels-photo-7176137.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"orgs": [
+{
+"n": "Asociación Yo Cuido",
+"d": "Organización de cuidadoras no remuneradas que acompaña, visibiliza y defiende los derechos de quienes cuidan; articula redes de cuidadoras en todo el país y publica guías sobre sus derechos. Nacional.",
+"w": "https://yocuido.cl"
+},
+{
+"n": "Fundación TEAmo Más",
+"d": "Fundación de personas autistas y sus familias: asesoría a familias, intervención temprana y fonoaudiología. Recibe donaciones. Región Metropolitana y Talca.",
+"w": "https://www.fundacionteamomas.cl",
+"e": "contacto@fundacionteamomas.cl"
+},
+{
+"n": "Fundación Sin Barreras",
+"d": "Terapias a costo accesible para niños y adolescentes autistas y una red de familias que se acompaña. Quilicura, Huechuraba y Lampa.",
+"w": "https://www.fundacionsinbarreras.cl"
+},
+{
+"n": "Red Local de Apoyos y Cuidados · Chile Cuida",
+"d": "Programa del Ministerio de Desarrollo Social con atención domiciliaria y respiro para personas cuidadoras, en más de 150 comunas. Se pide en la municipalidad.",
+"w": "https://www.desarrollosocialyfamilia.gob.cl/programas-sociales/cuidados"
+}
+],
+"bajada": "Criar a un hijo con discapacidad o neurodivergencia no es una etapa: es un trabajo de todos los días, sin horario y casi siempre sin pausa. Qué le hace ese cuidado al cuerpo y a la vida de quien lo da, y por qué lo que más ayuda no es un consejo, sino compañía.",
+"noticia": "Quién cuida a la que cuida: una mamá de tres niños neurodivergentes pide un «Programa de Integración Social» para las familias",
+"blocks": [
+{
+"k": "p",
+"h": "En dos días seguidos, dos mamás escribieron a El Mercurio. El jueves, Pamela Muñoz contó que, otro año más, el colegio le cerró antes el año escolar a su hijo con TDAH. El viernes, María Rosario Cuevas, mamá de tres niños neurodivergentes, le respondió con una lista: cumplir con el trabajo, con las metas, con las horas al doctor, con las terapias, con las tareas y con la contención. Y terminó con una frase que es la pregunta de fondo: la inclusión de los niños también requiere el apoyo a quienes los cuidan. ¿Qué le pasa a una persona que cuida así durante años, y qué puede hacer el resto para que no lo haga sola?",
+"src": "El Mercurio, Cuerpo A, pág. 2, cartas del 26 y 27 de noviembre de 2026"
+},
+{
+"k": "q",
+"h": "La inclusión de nuestros hijos también requiere la inclusión, el apoyo y la comprensión hacia quienes los cuidamos",
+"who": "María Rosario Cuevas Valdés, carta a El Mercurio"
+},
+{
+"k": "h",
+"h": "Cómo se empezó a medir el peso de cuidar"
+},
+{
+"k": "p",
+"h": "Durante mucho tiempo, cuidar a un familiar se consideró algo privado, que no se estudiaba. Eso cambió en 1980, cuando el psicólogo Steven Zarit y su equipo entrevistaron a familiares que cuidaban a personas mayores con demencia y crearon una forma de medir lo que llamaron «carga»: el cansancio, la pérdida de vida propia, la sensación de estar atrapado. Descubrieron algo que hoy sigue siendo central: la carga no dependía tanto de lo grave que estuviera la persona cuidada, sino de cuánto apoyo recibía quien cuidaba. Las cuidadoras que tenían más visitas de otros familiares sentían menos carga.",
+"src": "Zarit, Reever y Bach-Peterson, The Gerontologist, 1980: https://doi.org/10.1093/geront/20.6.649"
+},
+{
+"k": "p",
+"h": "La escala de Zarit se usa hasta hoy en todo el mundo, también en Chile. Y con el tiempo los investigadores la llevaron a otras familias: las que cuidan a hijos con parálisis cerebral, síndrome de Down, enfermedades poco frecuentes o autismo. En ellas apareció algo distinto: el cuidado no dura unos años, sino que puede durar toda la vida.",
+"src": "Zarit y otros, 1980; Ministerio de la Mujer y Senadis, «Las voces de las cuidadoras», 2025"
+},
+{
+"k": "h",
+"h": "Qué es la carga de cuidar"
+},
+{
+"k": "p",
+"h": "La carga de cuidar no es solo cansancio físico. Es la suma de tres cosas que se refuerzan entre sí: el tiempo que se va en el cuidado, la tensión de estar siempre alerta y la soledad de hacerlo sin relevo. Una mamá que cuida a un hijo con discapacidad severa no tiene fines de semana ni vacaciones del cuidado, y muchas veces tampoco tiene a quién dejarle al niño una tarde para ir al médico ella misma."
+},
+{
+"k": "p",
+"h": "Los investigadores distinguen entre la carga objetiva (las horas, los trámites, las terapias, el dinero) y la subjetiva (cómo se vive todo eso). La segunda pesa tanto como la primera. Dos madres con hijos con el mismo diagnóstico pueden vivir el cuidado de forma muy distinta según tengan o no con quién compartirlo.",
+"src": "Zarit y otros, The Gerontologist, 1980"
+},
+{
+"k": "p",
+"h": "A eso se suma algo que las cartas de esta semana muestran bien: el cuidado de un hijo neurodivergente incluye pelear con el sistema. Conseguir horas, cupos, reembolsos y adaptaciones en el colegio es un trabajo en sí mismo, y es el que más agota, porque se repite cada año.",
+"src": "El Mercurio, cartas del 26 y 27 de noviembre de 2026"
+},
+{
+"k": "h",
+"h": "Lo que el cuidado le hace al cuerpo"
+},
+{
+"k": "p",
+"h": "El estrés del cuidado no se queda en el ánimo: se mide en el cuerpo. En 2004, la investigadora Elissa Epel y la premio Nobel Elizabeth Blackburn estudiaron a 58 madres de entre 20 y 50 años; 39 cuidaban a un hijo con una enfermedad crónica. Midieron sus telómeros, los extremos de los cromosomas que se acortan con la edad. Las madres que sentían más estrés tenían telómeros equivalentes a los de una persona unos diez años mayor. Y mientras más años llevaban cuidando, más cortos eran.",
+"src": "Epel y otros, Proceedings of the National Academy of Sciences, 2004: https://doi.org/10.1073/pnas.0407162101"
+},
+{
+"k": "p",
+"h": "Pocos años después, Marsha Seltzer y su equipo de la Universidad de Wisconsin siguieron a madres de adolescentes y adultos con autismo y midieron el cortisol, la hormona del estrés, varias veces al día. Encontraron en muchas de ellas un patrón parecido al de personas expuestas a estrés crónico, como soldados en combate. El cortisol de un día dependía de cuántos problemas de conducta había tenido el hijo el día anterior.",
+"src": "Seltzer y otros, Journal of Autism and Developmental Disorders, 2010: https://doi.org/10.1007/s10803-009-0887-0"
+},
+{
+"k": "dato",
+"d": "10 años",
+"h": "más viejas, a nivel celular, parecían las madres cuidadoras con más estrés del estudio de Epel y Blackburn.",
+"src": "Epel y otros, 2004"
+},
+{
+"k": "h",
+"h": "Lo que le hace a la vida"
+},
+{
+"k": "p",
+"h": "El cuidado también cambia la vida de toda la familia. En 2013, Kristin Hayes y Shelley Watson reunieron los estudios que comparaban el estrés de padres de niños con y sin autismo, y concluyeron que los padres de niños autistas viven más estrés parental, incluso más que los padres de niños con otras discapacidades. No porque quieran menos a sus hijos, sino porque el entorno les exige más y les da menos.",
+"src": "Hayes y Watson, Journal of Autism and Developmental Disorders, 2013: https://doi.org/10.1007/s10803-012-1604-y"
+},
+{
+"k": "p",
+"h": "El trabajo es lo primero que se pierde. Muchas cuidadoras dejan su empleo o pasan a trabajos más precarios para poder llevar a sus hijos a terapias. Gloria Sepúlveda, socióloga que dejó su trabajo para cuidar a su hermana, lo resume así: cuando decía que era cuidadora, le cerraban más puertas. Sin trabajo vienen las deudas, la dependencia económica y la pérdida de redes.",
+"src": "revista Paula, La Tercera, 8 de marzo de 2023"
+},
+{
+"k": "q",
+"h": "Me preguntaban por qué había dejado de trabajar, y si yo decía que era cuidadora, más me cerraban las puertas",
+"who": "Gloria Sepúlveda, cofundadora de Ciudadanas Cuidando"
+},
+{
+"k": "h",
+"h": "Por qué hoy no alcanza"
+},
+{
+"k": "p",
+"h": "En Chile el cuidado de los niños con discapacidad recae casi entero en sus madres, y dentro de la casa. En un estudio con 160 familias de niños autistas en Valdivia, la madre era la cuidadora principal en el 89,4% de los hogares. En adultos con dependencia, el cuidado ocurre en un 82,1% dentro del hogar, sobre todo a cargo de mujeres y sin pago.",
+"src": "Universidad San Sebastián y Senadis, proyecto Fonapi; Ministerio de la Mujer y Senadis, «Las voces de las cuidadoras», 2025: https://www.senadis.gob.cl/descarga/i/8019"
+},
+{
+"k": "dato",
+"d": "89,4%",
+"h": "de los niños autistas del estudio de Valdivia tiene a su mamá como cuidadora principal.",
+"src": "Universidad San Sebastián y Senadis: https://www.senadis.gob.cl/descarga/i/8116"
+},
+{
+"k": "p",
+"h": "Los apoyos existen pero no llegan a todos. El programa Chile Cuida tiene una Red Local de Apoyos y Cuidados que ofrece atención domiciliaria y respiro, y que entre 2023 y 2024 pasó de 90 a 152 comunas. Las cuidadoras lo valoran, pero piden que se ajuste mejor a cada hogar. Y el Programa de Integración Escolar apoya al niño en la sala, pero no a la familia que lo sostiene fuera de ella: por eso María Rosario propone un «Programa de Integración Social».",
+"src": "Diario Financiero, «Economía del cuidado: las preocupaciones que tienen las cuidadoras en Chile»"
+},
+{
+"k": "h",
+"h": "Qué marca la diferencia"
+},
+{
+"k": "p",
+"h": "La carga de cuidar no es un destino: lo que más la baja es no estar sola. Desde el primer estudio de Zarit, la evidencia repite lo mismo: las cuidadoras que reciben ayuda práctica y compañía sienten menos carga, aunque el cuidado siga siendo igual de exigente. El apoyo que más sirve no es el consejo, sino el relevo: alguien que se queda con el niño, que lleva a la terapia, que cocina, que escucha.",
+"src": "Zarit y otros, 1980; Hayes y Watson, 2013"
+},
+{
+"k": "p",
+"h": "Por eso las redes entre cuidadoras han crecido en Chile. Verónica Contreras, que cuidó a su hijo Boris hasta que murió a los 13 años y hoy cuida a Bastián, empezó a juntar cuidadoras por WhatsApp. Con Gloria Sepúlveda formaron en 2019 Ciudadanas Cuidando, que arma comunidades cuidadoras en los barrios, como en Juanita Aguirre, en Conchalí. Otras organizaciones, como la Asociación Yo Cuido, articulan a cuidadoras de todo el país.",
+"src": "revista Paula, La Tercera, 2023"
+},
+{
+"k": "q",
+"h": "Ni siquiera hay atención psicológica para nosotras",
+"who": "Verónica Contreras, cuidadora y cofundadora de Ciudadanas Cuidando"
+},
+{
+"k": "h",
+"h": "Qué significa para Chile hoy"
+},
+{
+"k": "p",
+"h": "Esta semana el Congreso aprobó la sala cuna universal, una ley que reconoce que el cuidado de los hijos no puede depender solo de la madre. Las cartas de María Rosario y Pamela recuerdan que hay familias para las que el cuidado no termina a los dos años: casi 600 mil niños y adolescentes en Chile viven con alguna discapacidad, y detrás de cada uno hay alguien que lo lleva, lo espera y lo trae.",
+"src": "ENDIDE 2022, Ministerio de Desarrollo Social y Senadis: https://observatorio.ministeriodesarrollosocial.gob.cl/storage/docs/endide/Resultados_ENDIDE_2022_Poblacion_NNA_version_mayo_2023.pdf"
+},
+{
+"k": "dato",
+"d": "14,7%",
+"h": "de los niños, niñas y adolescentes de 2 a 17 años tiene alguna discapacidad: unas 587.709 personas.",
+"src": "ENDIDE 2022"
+},
+{
+"k": "p",
+"h": "Parte de la respuesta depende del Estado. Pero otra parte, la que más baja la carga según la evidencia, está al alcance de cualquiera: que quien cuida no esté sola."
+}
+],
+"mas": [
+{
+"tipo": "Video",
+"t": "Discapacidad en Chile: cuidadoras 24/7",
+"a": "La Tercera, #HistoriasLT",
+"y": "2018, 10 min, en español",
+"d": "Reportaje que sigue a madres que cuidan sin pausa a hijos con discapacidad severa y muestra lo que dejaron para hacerlo; pone imagen a la semana que describe la carta.",
+"u": "https://www.youtube.com/watch?v=9H0-fuaMaPQ"
+},
+{
+"tipo": "Video",
+"t": "Testimonios de madres y padres cuidadores",
+"a": "Defensoría de la Niñez",
+"y": "2021, 5 min, en español",
+"d": "Madres y padres cuentan cómo viven su rol y qué apoyo les falta; son las voces de quienes cuidan, contadas por ellos mismos.",
+"u": "https://www.youtube.com/watch?v=7MuHKy7gkRk"
+},
+{
+"tipo": "Video",
+"t": "Autocuidado en personas cuidadoras",
+"a": "CNN Chile, Sana Mente",
+"y": "2023, 5 min, en español",
+"d": "Cómo la discapacidad de un hijo cambia a toda la familia y por qué quien cuida también necesita cuidarse; responde a la pregunta de quién cuida a la que cuida.",
+"u": "https://www.youtube.com/watch?v=UIaXz8pqq7Y"
+},
+{
+"tipo": "Charla TED",
+"t": "Amor, pase lo que pase",
+"a": "Andrew Solomon",
+"y": "2013, en inglés con subtítulos en español",
+"d": "El escritor resume años de entrevistas a familias con hijos muy distintos a ellos y lo que aprendió del amor de esos padres; es la experiencia de criar a un hijo «diferente».",
+"u": "https://www.ted.com/talks/andrew_solomon_love_no_matter_what"
+},
+{
+"tipo": "Libro",
+"t": "Lejos del árbol",
+"a": "Andrew Solomon",
+"y": "2012; en español, Debate",
+"d": "Más de 300 familias que crían a hijos muy distintos a ellos, contadas sin lástima; sirve para entender por dentro la vida de las familias cuidadoras.",
+"u": "https://openlibrary.org/works/OL16654793W"
+},
+{
+"tipo": "Estudio",
+"t": "Accelerated telomere shortening in response to life stress",
+"a": "Elissa Epel y otros",
+"y": "2004, PNAS, en inglés",
+"d": "El estudio que mostró que el estrés del cuidado envejece las células de las madres cuidadoras.",
+"u": "https://doi.org/10.1073/pnas.0407162101"
+},
+{
+"tipo": "Estudio",
+"t": "The impact of parenting stress",
+"a": "Kristin Hayes y Shelley Watson",
+"y": "2013, en inglés",
+"d": "Metaanálisis sobre el estrés de los padres de niños autistas comparado con otros padres.",
+"u": "https://doi.org/10.1007/s10803-012-1604-y"
+},
+{
+"tipo": "Informe",
+"t": "Las voces de las cuidadoras",
+"a": "Ministerio de la Mujer y Senadis",
+"y": "2025",
+"d": "Los datos chilenos de ENDIDE 2022 sobre quiénes cuidan y con qué costo.",
+"u": "https://www.senadis.gob.cl/descarga/i/8019"
+},
+{
+"tipo": "Reportaje",
+"t": "Cómo el encuentro entre dos mujeres potenció su lucha conjunta por las cuidadoras de Chile",
+"a": "revista Paula, La Tercera",
+"y": "2023",
+"d": "La historia de Verónica Contreras y Gloria Sepúlveda.",
+"u": "https://www.latercera.com/paula/como-el-encuentro-entre-dos-mujeres-potencio-su-lucha-conjunta-por-las-cuidadoras-de-chile/"
+}
+],
+"tags": [
+"#cuidadoras",
+"#cuidados",
+"#discapacidad",
+"#neurodiversidad",
+"#redesdeapoyo",
+"#historias",
+"#comunidad",
+"#autismo",
+"#saludmental",
+"#respiro",
+"#mamás"
+],
+"historia": {
+"p": [
+"Verónica Contreras fue mamá a los 15 años. Su hijo Boris tenía una enfermedad congénita que nunca se diagnosticó y requirió cuidados permanentes desde el inicio. Lo llevó a terapias a más de dos horas de su casa y renunció a estudiar una carrera. Boris murió a los 13 años. En 2012 nació su segundo hijo, Bastián, con una enfermedad poco frecuente (Dandy-Walker). «Cuando uno tiene un hijo con dependencia (…) te ponen en la misma sala que con las otras mamás. (…) Y ni siquiera hay atención psicológica para nosotras», contó.",
+"En 2018 conoció a Gloria Sepúlveda, socióloga que había dejado su trabajo para cuidar a su hermana Francisca, completamente dependiente. Verónica empezó a reunir cuidadoras por WhatsApp; Gloria armó la primera encuesta de cuidadoras del país. En 2018 hicieron la primera protesta de cuidadoras («fue la primera vez que sacamos a los cuidados de las casas») y en 2019 formaron Ciudadanas Cuidando, que ha creado comunidades cuidadoras en el barrio Juanita Aguirre de Conchalí y en Mariquina (Los Ríos)."
+],
+"src": "revista Paula, La Tercera, «Cómo el encuentro entre dos mujeres potenció su lucha conjunta por las cuidadoras de Chile», 8 de marzo de 2023: https://www.latercera.com/paula/como-el-encuentro-entre-dos-mujeres-potencio-su-lucha-conjunta-por-las-cuidadoras-de-chile/",
+"extra": ""
+},
+"ideas": [
+"Ofrecerle a una familia cuidadora algo concreto, con día y hora (llevar al niño a la terapia, una hora de compañía, una comida), en vez de «avísame si necesitas algo».",
+"Escuchar a quien cuida sin dar consejos sobre el diagnóstico, los remedios o la crianza.",
+"Sumarse como voluntario a una red de cuidadoras o a un programa de respiro de la comuna.",
+"Armar con otras familias del barrio o del curso una red de turnos para acompañar a quienes cuidan."
+],
+"quePaso": [
+"María Rosario Cuevas Valdés publicó hoy en El Mercurio la carta «La inclusión de nuestros niños». Es mamá de tres niños con neurodivergencias, los tres en el Programa de Integración Escolar (PIE) y con «innumerables apoyos». Cuenta que su vida es «correr entre el trabajo, psicólogos, psicopedagogos, terapeutas ocupacionales, neurólogos» y comprar cada mes «una infinidad de remedios», y que ella y su marido deben trabajar los dos para pagarlo. Enumera todo lo que tiene que «cumplir»: el horario y las metas del trabajo, las horas al doctor, las terapias, las tareas y «la contención que necesitan cada vez que se sienten ‹diferentes›», mientras la sociedad juzga y etiqueta a sus hijos y «el jefe nos mira con cara de pocos amigos cuando pedimos el décimo permiso del mes».",
+"Propone ampliar el PIE a un «PIS: Programa de Integración Social», que apoye a las «mamás cuidadoras», eduque a los otros padres, subvencione remedios y reembolse más las terapias. Cierra: «La inclusión de nuestros hijos también requiere la inclusión, el apoyo y la comprensión hacia quienes los cuidamos»."
+],
+"origen": "El Mercurio, Cuerpo A, pág. 2, carta «La inclusión de nuestros niños», María Rosario Cuevas Valdés, viernes 27 de noviembre de 2026. El Mercurio, Cuerpo A, pág. 2, carta «Cerrar el año escolar, el camino fácil», Pamela Muñoz González, jueves 26 de noviembre de 2026.",
+"iso": "2026-11-27"
+},
+{
+"id": "lengua-de-senas",
+"post": "lengua-senas-2026-11-27",
+"fecha": "Viernes 27 de noviembre",
+"doc": "261127 Lengua de senas",
+"area": "discapacidad",
+"areas": [
+"discapacidad",
+"educacion"
+],
+"kw": [
+"sord",
+"señas",
+"auditiv",
+"LSCh",
+"intérprete",
+"inclusi"
+],
+"titulo": "Aprende a decir hola con las manos",
+"img": "https://images.pexels.com/photos/10029828/pexels-photo-10029828.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.pexels.com/photos/7516571/pexels-photo-7516571.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img3": "https://images.pexels.com/photos/10029310/pexels-photo-10029310.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"orgs": [
+{
+"n": "ASOCH · Asociación de Sordos de Chile",
+"d": "Organización de la comunidad Sorda desde 1926: promueve la lengua de señas chilena, la cultura Sorda y los derechos de las personas sordas, con áreas de cultura, juventud, mujeres, infancia y personas mayores. Invita a participar. Santiago, alcance nacional.",
+"w": "https://asoch.cl"
+},
+{
+"n": "Fundación Wazú",
+"d": "Inclusión laboral de personas con discapacidad: cursos gratuitos y talleres para la comunidad, asesorías a familias y una bolsa de trabajo inclusiva. Nacional.",
+"w": "https://fundacionwazu.cl",
+"e": "hola@fundacionwazu.cl"
+},
+{
+"n": "Festival In-Edit Chile",
+"d": "Festival de cine documental musical que exhibe «El canto de las manos», la ópera de Beethoven interpretada en lengua de señas. Santiago.",
+"w": "https://www.inedit.cl"
+},
+{
+"n": "Senadis",
+"d": "Servicio Nacional de la Discapacidad: orienta sobre los derechos de las personas sordas y publica videos en lengua de señas chilena. Nacional.",
+"w": "https://www.senadis.gob.cl"
+}
+],
+"bajada": "Nueve de cada diez niños sordos nacen en familias que oyen. Por qué la lengua de señas no es un apoyo ni un último recurso, sino la puerta de entrada al lenguaje, y qué pasa cuando esa puerta se abre tarde.",
+"noticia": "Una ópera cantada con las manos: llega a Chile el documental sobre los artistas sordos que interpretaron a Beethoven en lengua de señas",
+"blocks": [
+{
+"k": "p",
+"h": "Un documental que se exhibe en Santiago muestra una ópera de Beethoven interpretada al mismo tiempo por cantantes y por doce artistas sordos que la «cantan» en lengua de señas. Es una imagen poderosa, pero deja una pregunta de fondo: si la lengua de señas puede expresar una ópera, ¿por qué tantos niños sordos en Chile crecen sin poder conversar en ella con su propia familia o con sus profesores?",
+"src": "El Mercurio, Cuerpo A, pág. 11, 27 de noviembre de 2026"
+},
+{
+"k": "h",
+"h": "Cómo se descubrió que era una lengua"
+},
+{
+"k": "p",
+"h": "Durante casi un siglo, el mundo creyó que la lengua de señas era una mímica pobre que impedía a los niños sordos aprender a hablar. En 1880, un congreso de educadores reunido en Milán votó que las escuelas debían enseñar solo de forma oral, y en muchos países, también en Chile, se prohibió usar señas en la sala. Generaciones de niños sordos pasaron años tratando de leer los labios, con resultados muy pobres.",
+"src": "Oliver Sacks, Veo una voz, 1989"
+},
+{
+"k": "p",
+"h": "Eso cambió en 1960, cuando el lingüista William Stokoe, de la Universidad Gallaudet, demostró que la lengua de señas americana tiene todo lo que tiene una lengua: unidades mínimas, gramática, reglas para formar palabras y frases. No era mímica. Era una lengua completa que se dice con las manos, la cara y el cuerpo, y se entiende con los ojos.",
+"src": "Oliver Sacks, Veo una voz, 1989"
+},
+{
+"k": "p",
+"h": "La prueba más asombrosa llegó desde Nicaragua. En los años ochenta se abrieron allí las primeras escuelas para niños sordos, que hasta entonces vivían aislados en sus casas. Los niños, sin que nadie se lo enseñara, empezaron a comunicarse entre ellos con señas, y en pocas generaciones de alumnos esas señas se transformaron en una lengua con gramática propia. Los investigadores comprobaron que eran los niños más pequeños los que la hacían más compleja.",
+"src": "Senghas, Kita y Özyürek, Science, 2004: https://doi.org/10.1126/science.1100199"
+},
+{
+"k": "h",
+"h": "Qué es la lengua de señas chilena"
+},
+{
+"k": "p",
+"h": "La lengua de señas no es universal: cada comunidad sorda tiene la suya. La lengua de señas chilena (LSCh) es distinta de la española o la argentina, tiene su propia gramática y sus propias variantes regionales. Desde 2021, la Ley 21.303 la reconoce como lengua natural, originaria y patrimonio intangible de las personas sordas, y como su lengua oficial.",
+"src": "Ley 21.303, 2021: https://siteal.iiep.unesco.org/sites/default/files/sit_accion_files/ley-21303_22-ene-2021.pdf"
+},
+{
+"k": "p",
+"h": "Por eso muchas personas que la usan como primera lengua escriben «Sorda» con mayúscula: no hablan de un problema de audición, sino de una comunidad con lengua y cultura propias. La Asociación de Sordos de Chile, fundada en 1926, celebra este año su centenario.",
+"src": "Asociación de Sordos de Chile: https://asoch.cl"
+},
+{
+"k": "h",
+"h": "Qué pasa cuando un niño no tiene lengua"
+},
+{
+"k": "p",
+"h": "El lenguaje no se aprende a cualquier edad con la misma facilidad: hay una ventana en los primeros años de vida. Rachel Mayberry, de la Universidad de California en San Diego, comparó a personas sordas que aprendieron su primera lengua de niños con otras que, por no tener acceso a ninguna, la aprendieron recién en la adolescencia. Las segundas nunca llegaron a manejarla del todo, ni la de señas ni el español escrito. Lo decisivo no era la sordera, sino haber pasado la infancia sin una lengua.",
+"src": "Mayberry y Lock, Brain and Language, 2003: https://doi.org/10.1016/S0093-934X(03)00137-8"
+},
+{
+"k": "p",
+"h": "Los investigadores llaman a esto «privación lingüística». Wyatte Hall, investigador sordo de la Universidad de Rochester, explica que retrasar la lengua de señas a la espera de que un niño aprenda a hablar lo expone a daños en el aprendizaje, en la salud mental y en la vida adulta. En Chile, Marcelo Salamanca, de la Fundación En Señas, lo llevó en 2024 a la Comisión Interamericana de Derechos Humanos.",
+"src": "Hall, Maternal and Child Health Journal, 2017: https://doi.org/10.1007/s10995-017-2287-y · Salamanca, CIPER, 2024"
+},
+{
+"k": "p",
+"h": "El problema es de origen: más del 90% de los niños sordos nace en familias que oyen y que no saben lengua de señas. Si nadie en la casa la aprende, el niño puede pasar sus primeros años sin poder decir lo que siente ni entender lo que le dicen.",
+"src": "Mitchell y Karchmer, Sign Language Studies, 2004: https://doi.org/10.1353/sls.2004.0005"
+},
+{
+"k": "dato",
+"d": "90%",
+"h": "de los niños sordos tiene padres oyentes, según el estudio de Mitchell y Karchmer en Estados Unidos.",
+"src": "Mitchell y Karchmer, 2004"
+},
+{
+"k": "h",
+"h": "La evidencia más fuerte"
+},
+{
+"k": "p",
+"h": "Si la lengua de señas estorbara, los niños sordos que crecen en familias sordas, y que la aprenden desde la cuna, deberían leer peor. Pasa lo contrario. En 1997, Michael Strong y Philip Prinz evaluaron a 155 estudiantes sordos de entre 8 y 15 años en California: mientras mejor manejaban la lengua de señas americana, mejor leían y escribían en inglés. Los hijos de padres sordos tenían ventaja, y entre los hijos de padres oyentes, los que dominaban las señas alcanzaban a los primeros.",
+"src": "Strong y Prinz, Journal of Deaf Studies and Deaf Education, 1997: https://doi.org/10.1093/oxfordjournals.deafed.a014308"
+},
+{
+"k": "p",
+"h": "La lengua de señas no compite con el español: es la base sobre la que se aprende. Un niño que entiende el mundo en una lengua puede después aprender a leer otra."
+},
+{
+"k": "h",
+"h": "Lo que queda en la vida adulta"
+},
+{
+"k": "p",
+"h": "Las consecuencias de una infancia sin lengua se ven décadas después. En promedio, las personas sordas adultas en Chile tienen un nivel lector que no supera el de cuarto básico. Entre el 40% y el 50% de los niños y adolescentes sordos enfrenta desafíos emocionales o conductuales, el doble que la población oyente, y menos del 10% de la población sorda recibe atención de salud mental.",
+"src": "Marcelo Salamanca, «Derecho a la lengua: nuestra deuda con la comunidad sorda», CIPER, 19 de marzo de 2024: https://www.ciperchile.cl/2024/03/19/derecho-a-la-lengua-nuestra-deuda-con-la-comunidad-sorda/"
+},
+{
+"k": "p",
+"h": "La historia de María Ignacia Fuentes muestra el otro lado. Perdió la audición a los seis meses y su primera lengua es la LSCh. Tuvo intérprete por primera vez en el preuniversitario; en la universidad tardó ocho años en titularse, porque al principio nadie manejaba su lengua. Hoy es la primera psicóloga Sorda de Chile y trabaja en un colegio bilingüe para niños sordos, donde la LSCh es el primer idioma.",
+"src": "The Clinic, 29 de agosto de 2026"
+},
+{
+"k": "q",
+"h": "Mi familia sabe señas básicas, por ejemplo comer, baños, salir. Pero no saben hacer frases",
+"who": "María Ignacia Fuentes, psicóloga"
+},
+{
+"k": "h",
+"h": "Qué marca la diferencia"
+},
+{
+"k": "p",
+"h": "Lo que más cambia la vida de un niño sordo es que los adultos a su alrededor aprendan su lengua pronto. No hace falta que la familia la domine de inmediato: basta con que empiece, que el niño tenga contacto con adultos sordos que la usan con fluidez y que en el colegio haya profesores o intérpretes que la manejen. Así, la casa y la sala se vuelven lugares donde el niño entiende y es entendido.",
+"src": "Hall, 2017; Strong y Prinz, 1997"
+},
+{
+"k": "p",
+"h": "También importa que el resto de la sociedad sepa un poco. Un saludo en LSCh en la caja del supermercado, en el consultorio o en la reunión de apoderados le dice a una persona sorda que la comunicación no tiene que ser siempre su esfuerzo. Y pedir intérprete en una actividad abierta hace que la próxima vez alguien lo considere desde el principio."
+},
+{
+"k": "h",
+"h": "Qué significa para Chile hoy"
+},
+{
+"k": "p",
+"h": "Chile reconoció por ley la lengua de señas chilena en 2021, pero la escuela todavía no está a la altura: según cifras del Mineduc de 2023 citadas por la Fundación En Señas, el 87% de los establecimientos que reciben niños sordos no tiene intérpretes ni educadores que manejen la lengua de señas, y el 70% tiene un solo estudiante sordo, que pasa el día en una sala donde todo se dice en voz alta.",
+"src": "Salamanca, CIPER, 2024"
+},
+{
+"k": "dato",
+"d": "87%",
+"h": "de los colegios que reciben niños sordos no tiene intérpretes ni educadores que manejen lengua de señas.",
+"src": "Mineduc 2023, citado en CIPER"
+},
+{
+"k": "p",
+"h": "Un documental sobre una ópera cantada con las manos puede parecer lejano. Pero muestra lo que pasa cuando una lengua se toma en serio: que personas que nunca oirán la música de Beethoven pueden interpretarla y hacerla sentir a otros. La misma lengua, en Chile, está esperando que más familias, profesores y vecinos la aprendan."
+}
+],
+"mas": [
+{
+"tipo": "Video",
+"t": "El canto de las manos, tráiler",
+"a": "Gustavo Dudamel",
+"y": "2025, 3 min, en español",
+"d": "Tráiler del documental de María Valverde, con los ensayos y la función de «Fidelio» con el Coro de Manos Blancas; muestra cómo se ve una ópera cantada con las manos.",
+"u": "https://www.youtube.com/watch?v=2K3O2LIrXIw"
+},
+{
+"tipo": "Video",
+"t": "Descubre cómo saludar y responder en lengua de señas chilena",
+"a": "Signo Cultura",
+"y": "2023, 7 min, en LSCh y español",
+"d": "Lección breve con los saludos básicos para conversar con una persona sorda; es el primer paso que propone esta historia.",
+"u": "https://www.youtube.com/watch?v=auWzCBXD9HA"
+},
+{
+"tipo": "Video",
+"t": "Distintos como todos",
+"a": "Pablo Esquer G",
+"y": "2013, 70 min, en español y LSCh",
+"d": "Documental chileno sobre la cultura sorda y sordociega contado por sus protagonistas; muestra que la LSCh es una comunidad y no solo una herramienta.",
+"u": "https://www.youtube.com/watch?v=xtWdXy0UE44"
+},
+{
+"tipo": "Charla TED",
+"t": "La música encantadora del lenguaje de señas",
+"a": "Christine Sun Kim",
+"y": "2015, en lengua de señas americana con intérprete, subtítulos en español",
+"d": "Una artista sorda cuenta cómo descubrió que la lengua de señas se parece a la música; es lo mismo que muestra la ópera del documental.",
+"u": "https://www.ted.com/talks/christine_sun_kim_the_enchanting_music_of_sign_language"
+},
+{
+"tipo": "Libro",
+"t": "Veo una voz",
+"a": "Oliver Sacks",
+"y": "1989; en español, Anagrama",
+"d": "La historia de las personas sordas y de la lengua de señas, y lo que pasa cuando un niño crece sin lengua.",
+"u": "https://openlibrary.org/works/OL1811907W"
+},
+{
+"tipo": "Estudio",
+"t": "Children creating core properties of language",
+"a": "Ann Senghas y otros",
+"y": "2004, Science, en inglés",
+"d": "Cómo los niños sordos de Nicaragua crearon una lengua nueva.",
+"u": "https://doi.org/10.1126/science.1100199"
+},
+{
+"tipo": "Estudio",
+"t": "What you don't know can hurt you",
+"a": "Wyatte Hall",
+"y": "2017, en inglés",
+"d": "Qué es la privación lingüística y por qué retrasar la lengua de señas daña a los niños sordos.",
+"u": "https://doi.org/10.1007/s10995-017-2287-y"
+},
+{
+"tipo": "Columna",
+"t": "Derecho a la lengua: nuestra deuda con la comunidad sorda",
+"a": "Marcelo Salamanca",
+"y": "2024, CIPER",
+"d": "Los datos chilenos sobre niños sordos en colegios sin intérpretes.",
+"u": "https://www.ciperchile.cl/2024/03/19/derecho-a-la-lengua-nuestra-deuda-con-la-comunidad-sorda/"
+},
+{
+"tipo": "Reportaje",
+"t": "El difícil camino de María Ignacia Fuentes para convertirse en la primera psicóloga Sorda de Chile",
+"a": "The Clinic",
+"y": "2026",
+"d": "La historia humana de esta noticia.",
+"u": "https://www.theclinic.cl/2026/08/29/el-dificil-camino-de-maria-ignacia-fuentes-para-convertirse-en-la-primera-psicologa-sorda-de-chile-si-tu-quieres-estudiar-tienes-que-luchar-y-no-rendirte/"
+}
+],
+"tags": [
+"#lenguadeseñas",
+"#LSCh",
+"#personassordas",
+"#inclusión",
+"#culturasorda",
+"#historias",
+"#accesibilidad",
+"#discapacidad",
+"#infancia",
+"#educación"
+],
+"historia": {
+"p": [
+"María Ignacia Fuentes (29) perdió por completo la audición a los seis meses, por una meningitis. Su primera lengua es la lengua de señas chilena. Fue a colegios de oyentes y de sordos, y en el liceo tuvo integración escolar, pero sin intérprete en la sala: el primero lo tuvo en el preuniversitario. Tardó ocho años en titularse de Psicología en la Universidad Católica: al principio nadie en la institución manejaba la lengua de señas, reprobó cuatro cursos, perdió su beca y tuvo que recurrir al CAE. Hoy es la primera psicóloga Sorda de Chile que tiene la LSCh como primera lengua y trabaja en el Colegio Santiago Apóstol, colegio público y bilingüe para niños y jóvenes sordos.",
+"De su familia dice: «Mi familia sabe señas básicas, por ejemplo comer, baños, salir. Pero no saben hacer frases». A unos niños sordos del colegio, que la miraban sorprendidos, les dijo: «Tú en el futuro puedes trabajar igual que yo, que soy Sorda»."
+],
+"src": "The Clinic, «El difícil camino de María Ignacia Fuentes para convertirse en la primera psicóloga Sorda de Chile», 29 de agosto de 2026: https://www.theclinic.cl/2026/08/29/el-dificil-camino-de-maria-ignacia-fuentes-para-convertirse-en-la-primera-psicologa-sorda-de-chile-si-tu-quieres-estudiar-tienes-que-luchar-y-no-rendirte/ . También: Universidad Católica, «María Ignacia Fuentes hace historia al transformarse en la primera psicóloga sorda de la UC y del país»: https://www.uc.cl/noticias/maria-ignacia-fuentes-hace-historia-al-transformarse-en-la-primera-psicologa-sorda-de-la-uc-y-del-pais/",
+"extra": ""
+},
+"ideas": [
+"Aprender a saludar en lengua de señas chilena con un video corto y practicarlo en la casa.",
+"Ir a ver «El canto de las manos» u otro documental sobre la cultura Sorda, y conversarlo después.",
+"Hacer un curso de lengua de señas chilena, ojalá dictado por personas sordas.",
+"Pedir intérprete de lengua de señas en las actividades que organizas: reunión de apoderados, evento del barrio o del trabajo."
+],
+"quePaso": [
+"El Mercurio entrevista a la actriz española María Valverde por su ópera prima, el documental «El canto de las manos», que se exhibe en el festival In-Edit de Santiago (3 al 10 de diciembre; función el 7 de diciembre en la Cineteca Nacional). Para los 250 años del nacimiento de Beethoven, el director venezolano Gustavo Dudamel montó con la Filarmónica de Los Ángeles «Fidelio», la única ópera del compositor, que la escribió mientras perdía la audición. Sumó al elenco a 12 artistas sordos del Coro de Manos Blancas de Venezuela, que interpretaron cada personaje en lengua de señas junto a los cantantes. Por la pandemia, el estreno fue en 2022. El documental muestra la ópera y sigue a tres de esos artistas, Jennifer, Gabriel y José, en Barquisimeto. Ganó el Premio del Público en In-Edit Barcelona 2025.",
+"Valverde dice que quiere que el público «comprenda la realidad de las personas sordas viéndolo todo a través de la inspiración». En la misma página se anuncia el estreno de «El peine de oro», sobre el compositor chileno Roberto Falabella (1926-1958), cuadripléjico de nacimiento, que dictaba sus obras a copistas."
+],
+"origen": "El Mercurio, Cuerpo A, pág. 11 (Cultura), «Gustavo Dudamel, Beethoven y una emotiva ópera en lengua de señas», José Vásquez, viernes 27 de noviembre de 2026. Programación del festival: https://www.inedit.cl",
+"iso": "2026-11-27"
+},
 {
 "id": "inclusion-escolar",
 "post": "inclusion-escolar-2026-11-26",

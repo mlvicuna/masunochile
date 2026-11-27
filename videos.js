@@ -5,6 +5,34 @@
    de y por = la reseña, que se muestra como un solo párrafo, sin etiquetas: de = qué muestra (1-2 frases); por = por qué está en esta historia (1 frase).
    Todos llevan reseña, también los de TED. Comprueba cada id antes de agregarlo (ver INSTRUCCIONES.md). */
 window.MU_VIDEOS={
+'cuidadoras':[
+ {p:'youtube',id:'9H0-fuaMaPQ',t:'Discapacidad en Chile: cuidadoras 24/7',a:'La Tercera · #HistoriasLT',y:'2018',dur:'10 min',lang:'En español',
+  de:'Reportaje de La Tercera que sigue el día a día de madres que cuidan sin pausa a hijos con discapacidad severa y muestra lo que dejaron para hacerlo: el trabajo, el descanso, la vida propia.',
+  por:'Pone imagen a la semana que describe la carta de esta historia: cumplir con todo, todo el tiempo.'},
+ {p:'youtube',id:'7MuHKy7gkRk',t:'Testimonios de madres y padres cuidadores',a:'Defensoría de la Niñez',y:'2021',dur:'5 min',lang:'En español',
+  de:'Madres y padres de niños pequeños cuentan, en entrevistas hechas para el Informe Anual 2021 de la Defensoría de la Niñez, cómo viven su rol de cuidadores y qué apoyo les falta.',
+  por:'Son las voces de quienes cuidan, contadas por ellos mismos.'},
+ {p:'youtube',id:'UIaXz8pqq7Y',t:'Autocuidado en personas cuidadoras',a:'CNN Chile · Sana Mente',y:'2023',dur:'5 min',lang:'En español',
+  de:'Segmento sobre cómo la discapacidad de un hijo cambia la vida de toda la familia y por qué quien cuida también necesita cuidarse.',
+  por:'Responde a la pregunta de fondo de esta historia: quién se ocupa de la que cuida.'},
+ {p:'ted',id:'andrew_solomon_love_no_matter_what',t:'Amor, pase lo que pase',a:'Andrew Solomon',y:'2013',lang:'En inglés, con subtítulos en español',
+  de:'El escritor Andrew Solomon resume los años que pasó entrevistando a familias cuyos hijos son muy distintos a ellos —con autismo, sordera o síndrome de Down— y lo que aprendió del amor de esos padres.',
+  por:'Habla de criar a un hijo «diferente», que es la experiencia de las mamás de esta historia.'}
+],
+'lengua-de-senas':[
+ {p:'youtube',id:'auWzCBXD9HA',t:'Descubre cómo saludar y responder en lengua de señas chilena',a:'Signo Cultura',y:'2023',dur:'7 min',lang:'En lengua de señas chilena y español',
+  de:'Lección breve con los saludos básicos que se necesitan para conversar con una persona sorda que usa lengua de señas chilena.',
+  por:'Es el «Haz esto hoy» de esta historia: con este video se puede aprender a saludar ahora mismo.'},
+ {p:'youtube',id:'2K3O2LIrXIw',t:'El canto de las manos (tráiler)',a:'Gustavo Dudamel',y:'2025',dur:'3 min',lang:'En español',
+  de:'Tráiler del documental de María Valverde, con los ensayos y la función de «Fidelio» de Beethoven junto a los artistas sordos del Coro de Manos Blancas de Venezuela.',
+  por:'Es la película de la noticia: muestra cómo se ve una ópera cantada con las manos.'},
+ {p:'ted',id:'christine_sun_kim_the_enchanting_music_of_sign_language',t:'La música encantadora del lenguaje de señas',a:'Christine Sun Kim',y:'2015',lang:'En lengua de señas americana con intérprete, subtítulos en español',
+  de:'La artista sorda Christine Sun Kim cuenta cómo descubrió que la lengua de señas se parece a la música y cómo convirtió el sonido en dibujo.',
+  por:'Dice, desde una persona sorda, lo mismo que la ópera del documental: que la música también se puede ver.'},
+ {p:'youtube',id:'xtWdXy0UE44',t:'Distintos como todos',a:'Pablo Esquer G.',y:'2013',dur:'70 min',lang:'En español y lengua de señas chilena',
+  de:'Documental chileno sobre la cultura sorda y sordociega en Chile, contado por sus protagonistas.',
+  por:'Muestra que la lengua de señas chilena no es solo una herramienta, sino una comunidad con cultura propia.'}
+],
 'inclusion-escolar':[
  {p:'ted',id:'temple_grandin_the_world_needs_all_kinds_of_minds',t:'El mundo necesita todo tipo de mentes',a:'Temple Grandin',lang:'En inglés, con subtítulos en español',
   de:'Temple Grandin, científica autista que cambió la forma de tratar al ganado en Estados Unidos, explica cómo piensa ella —en imágenes— y por qué hay mentes que funcionan distinto.',

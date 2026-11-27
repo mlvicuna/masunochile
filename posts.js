@@ -1962,6 +1962,260 @@ Cada vez que le compras a alguien como Elizabeth, ese sueño queda más cerca. �
    "note": "<b>Sticker de enlace</b> a Pobreza y vivienda → Vida de barrio."
   }
  ]
+},
+
+/* ===== Viernes 27 de noviembre de 2026 ===== */
+{
+ "id": "cuidadoras-2026-11-27",
+ "fecha": "2026-11-27",
+ "dia": "Vie 27 nov",
+ "hl": "Cuidados",
+ "titulo": "Quién cuida a la que cuida",
+ "sub": "El Mercurio, Cuerpo A, pág. 2, carta de María Rosario Cuevas Valdés, viernes 27 · Historia: Verónica Contreras y Gloria Sepúlveda, Ciudadanas Cuidando",
+ "tema": "cuidados",
+ "subtema": "apoyo-a-quienes-cuidan",
+ "publicar": true,
+ "posts": [
+  {
+   "tipo": "La noticia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/mug-people_M64JINJ1FQ.jpg",
+     "pos": "center 50%",
+     "h": "<div class=\"k\">Cumplir con el trabajo. Con las terapias. Con el neurólogo. Con las tareas.</div><div class=\"gap\"></div><div class=\"m o\">Y con la contención cada vez que su hijo se siente «diferente».</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">Así describe su semana María Rosario, mamá de tres niños neurodivergentes, en una carta a El Mercurio.</div><div class=\"gap\"></div><div class=\"k\">«La inclusión de nuestros hijos también requiere la inclusión, el apoyo y la comprensión hacia quienes los cuidamos».</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"num\">89%</div><div class=\"gap\"></div><div class=\"m\">de los niños autistas de un estudio en Valdivia tiene a su mamá como cuidadora principal.</div><div class=\"gap\"></div><div class=\"s\">Universidad San Sebastián y Senadis, 160 familias.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Casi 600 mil niños y adolescentes en Chile viven con alguna discapacidad.</div><div class=\"gap\"></div><div class=\"m\">Detrás de cada uno hay alguien que lo lleva, lo espera y lo trae.</div><div class=\"gap\"></div><div class=\"s\">ENDIDE 2022, Ministerio de Desarrollo Social.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"eb\">Haz esto hoy</div><div class=\"m\">Escríbele a una mamá o un papá cuidador que conozcas y ofrécele algo concreto, con día y hora: llevar al niño a la terapia, quedarte una hora con él o hacerle las compras.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Hay redes de cuidadoras que se acompañan entre ellas.</div><div class=\"gap\"></div><div class=\"m o\">Cómo sumarte a una, en el link de la bio.</div>"
+    }
+   ],
+   "cap": "Cumplir con el trabajo. Con las terapias. Con el neurólogo. Con las tareas. Y con la contención cada vez que su hijo se siente «diferente». Así describe su semana María Rosario Cuevas, mamá de tres niños neurodivergentes, en una carta a El Mercurio: «La inclusión de nuestros hijos también requiere la inclusión, el apoyo y la comprensión hacia quienes los cuidamos».\n\nEn un estudio con 160 familias de niños autistas en Valdivia, la mamá era la cuidadora principal en el 89% de los casos. Y en Chile casi 600 mil niños y adolescentes viven con alguna discapacidad (ENDIDE 2022): detrás de cada uno hay alguien que lo lleva, lo espera y lo trae.\n\nHaz esto hoy: escríbele a una mamá o un papá cuidador que conozcas y ofrécele algo concreto, con día y hora: llevar al niño a la terapia, quedarte una hora con él o hacerle las compras.\n\nHay redes de cuidadoras que se acompañan entre ellas. Cómo sumarte a una, en el link de la bio.\n\n#cuidadoras #cuidados #discapacidad #neurodiversidad #MásUno"
+  },
+  {
+   "tipo": "Ideas",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/female-friends_SXJ2NPC619.jpg",
+     "pos": "center 35%",
+     "tint": 1,
+     "h": "<div class=\"eb\">Ideas</div><div class=\"k\">«Avísame si necesitas algo».</div><div class=\"gap\"></div><div class=\"m o\">La frase más dicha a una cuidadora. Y la que menos ayuda.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"k\">Casi nadie avisa.</div><div class=\"gap\"></div><div class=\"m\">Pedir ayuda cansa, y quien cuida todo el día no tiene energía para organizar a los demás. Mejor ofrecer algo con fecha.</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">En vez de «avísame»:</div><div class=\"gap\"></div><div class=\"m\">«El jueves paso a buscar a tu hijo a la terapia».</div><div class=\"gap\"></div><div class=\"m\">«Este sábado te cocino para la semana».</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">En vez de un consejo:</div><div class=\"gap\"></div><div class=\"m\">escuchar. Sin opinar del diagnóstico, de los remedios ni de cómo lo está criando.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Y si quieres ir más lejos:</div><div class=\"gap\"></div><div class=\"m\">súmate a una red que da respiro a quienes cuidan, o arma una en tu barrio con otras familias.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Hay redes que ya lo están haciendo.</div><div class=\"gap\"></div><div class=\"m o\">Están en el link de la bio.</div>"
+    }
+   ],
+   "cap": "«Avísame si necesitas algo». Es la frase más dicha a una cuidadora, y la que menos ayuda: casi nadie avisa. Pedir ayuda cansa, y quien cuida todo el día no tiene energía para organizar a los demás.\n\nTres ideas que sí ayudan:\n1. En vez de «avísame», ofrecer algo con fecha: «el jueves paso a buscar a tu hijo a la terapia», «este sábado te cocino para la semana».\n2. En vez de un consejo, escuchar, sin opinar del diagnóstico, de los remedios ni de cómo lo está criando.\n3. Sumarte a una red que da respiro a quienes cuidan, o armar una en tu barrio con otras familias.\n\nHay redes que ya lo están haciendo. Están en el link de la bio.\n\n#cuidadoras #cuidados #redesdeapoyo #MásUno"
+  },
+  {
+   "tipo": "Una historia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/silhouette-coffee_58W79YWLRL.jpg",
+     "pos": "center 50%",
+     "h": "<div class=\"eb\">Una historia</div><div class=\"k\">Verónica fue mamá a los 15 años. Su hijo Boris necesitó cuidados desde el primer día.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">Lo llevó a terapias a más de dos horas de su casa. Dejó los estudios. Boris murió a los 13 años.</div><div class=\"gap\"></div><div class=\"k\">En 2012 nació Bastián, con una enfermedad poco frecuente.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"qt\">«Ni siquiera hay atención psicológica para nosotras».</div><div class=\"gap\"></div><div class=\"s\">Verónica Contreras, a revista Paula, 2023.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"m\">En 2018 conoció a Gloria, que cuidaba a su hermana. Se juntaron con otras cuidadoras por WhatsApp.</div><div class=\"gap\"></div><div class=\"k\">Así nació Ciudadanas Cuidando, una red de barrio que acompaña a quienes cuidan.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Detrás de cada niño que va a terapia hay alguien que lo lleva.</div><div class=\"gap\"></div><div class=\"m o\">¿Sabes cómo se llama la que vive cerca tuyo? Redes para acompañarla, en la bio.</div>"
+    }
+   ],
+   "cap": "Verónica Contreras fue mamá a los 15 años. Su hijo Boris tenía una enfermedad congénita que nunca se diagnosticó y necesitó cuidados desde el primer día. Lo llevó a terapias a más de dos horas de su casa y dejó los estudios. Boris murió a los 13 años. En 2012 nació Bastián, con una enfermedad poco frecuente. «Ni siquiera hay atención psicológica para nosotras», le contó a revista Paula.\n\nEn 2018 conoció a Gloria Sepúlveda, que había dejado su trabajo para cuidar a su hermana. Empezaron a juntar cuidadoras por WhatsApp, y así nació Ciudadanas Cuidando, una red que arma comunidades cuidadoras en los barrios.\n\nDetrás de cada niño que va a terapia hay alguien que lo lleva. ¿Sabes cómo se llama la que vive cerca tuyo? Redes para acompañarla, en el link de la bio.\n\n#cuidadoras #historias #comunidad #MásUno"
+  }
+ ],
+ "stories": [
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">¿Conoces a alguien que cuida a un hijo con discapacidad?</div><div class=\"poll\"><div>Sí</div><div>No</div></div>",
+   "note": "<b>Encuesta.</b> Abre la conversación antes del post."
+  },
+  {
+   "c": "cream",
+   "light": 1,
+   "h": "<div class=\"ask\"><b>Si cuidas a alguien: ¿qué ayuda concreta te sirvió de verdad?</b><span>Escribe algo…</span></div>",
+   "note": "<b>Caja de preguntas.</b> Las respuestas pueden ser otro post de ideas; compartir sin nombres."
+  },
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">Redes que acompañan a quienes cuidan</div><div class=\"link\">🔗 Apoyo a quienes cuidan</div>",
+   "note": "<b>Sticker de enlace</b> a Cuidados → Apoyo a quienes cuidan."
+  }
+ ]
+},
+{
+ "id": "lengua-senas-2026-11-27",
+ "fecha": "2026-11-27",
+ "dia": "Vie 27 nov",
+ "hl": "Inclusión",
+ "titulo": "Aprende a decir hola con las manos",
+ "sub": "El Mercurio, Cuerpo A, pág. 11, «Gustavo Dudamel, Beethoven y una emotiva ópera en lengua de señas», viernes 27 · Historia: María Ignacia Fuentes, primera psicóloga Sorda de Chile",
+ "tema": "diversidad-e-inclusion",
+ "subtema": "discapacidad-y-accesibilidad",
+ "publicar": true,
+ "posts": [
+  {
+   "tipo": "La noticia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/sign-language_Z6GWRYKC1T.jpg",
+     "pos": "center 45%",
+     "h": "<div class=\"k\">Una ópera de Beethoven, cantada con las manos.</div><div class=\"gap\"></div><div class=\"m o\">Doce artistas sordos de Venezuela la hicieron en lengua de señas.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">Beethoven fue perdiendo la audición mientras escribía «Fidelio».</div><div class=\"gap\"></div><div class=\"k\">Su historia, y la de esos doce artistas, es el documental «El canto de las manos», que llega a Chile en diciembre.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"num\">9 de 10</div><div class=\"gap\"></div><div class=\"m\">niños sordos nacen en familias que oyen. Muchas nunca aprenden a hablar con ellos en señas.</div><div class=\"gap\"></div><div class=\"s\">Mitchell y Karchmer, Sign Language Studies, 2004 (Estados Unidos).</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">En Chile, 87% de los colegios que reciben niños sordos no tiene intérpretes ni educadores que manejen lengua de señas.</div><div class=\"gap\"></div><div class=\"s\">Mineduc 2023, citado por Fundación En Señas en CIPER.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"eb\">Haz esto hoy</div><div class=\"m\">Mira un video de siete minutos y aprende a saludar en lengua de señas chilena. Después, practícalo con alguien de tu casa.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">El video y las organizaciones de personas sordas que enseñan su lengua:</div><div class=\"gap\"></div><div class=\"m o\">link en la bio.</div>"
+    }
+   ],
+   "cap": "Una ópera de Beethoven, cantada con las manos. Gustavo Dudamel montó «Fidelio», la única ópera de Beethoven, con doce artistas sordos del Coro de Manos Blancas de Venezuela, que la interpretaron en lengua de señas. Beethoven fue perdiendo la audición mientras la escribía. Esa historia es el documental «El canto de las manos», de María Valverde, que se exhibe en el festival In-Edit de Santiago.\n\nNueve de cada diez niños sordos nacen en familias que oyen, y muchas nunca aprenden a hablar con ellos en señas. En Chile, el 87% de los colegios que reciben niños sordos no tiene intérpretes ni educadores que manejen lengua de señas (Mineduc 2023, citado por Fundación En Señas).\n\nHaz esto hoy: mira un video de siete minutos y aprende a saludar en lengua de señas chilena. Después, practícalo con alguien de tu casa.\n\nEl video y las organizaciones de personas sordas que enseñan su lengua están en el link de la bio.\n\n#lenguadeseñas #LSCh #personassordas #inclusión #MásUno"
+  },
+  {
+   "tipo": "Ideas",
+   "slides": [
+    {
+     "c": "ink",
+     "h": "<div class=\"eb\">Verdadero o falso</div><div class=\"k\">La lengua de señas es igual en todo el mundo.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"num\">Falso</div><div class=\"gap\"></div><div class=\"m\">Cada país tiene la suya. La lengua de señas chilena (LSCh) tiene su propia gramática y es lengua oficial de las personas sordas por ley desde 2021.</div>"
+    },
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/hand-freedom_KMOCRGXHPP.jpg",
+     "pos": "center 50%",
+     "tint": 1,
+     "h": "<div class=\"k\">3 maneras de empezar a hablarla:</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">1. Saludar.</div><div class=\"gap\"></div><div class=\"m\">Hola, ¿cómo estás?, gracias. Con eso una persona sorda ya sabe que la quieres conocer.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">2. Hacer un curso.</div><div class=\"gap\"></div><div class=\"m\">Mejor si lo enseñan personas sordas: así aprendes la lengua y la cultura que viene con ella.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"k\">3. Pedir intérprete.</div><div class=\"gap\"></div><div class=\"m\">En la reunión de apoderados, en el evento del barrio, en la charla de la pega. Que alguien pregunte ya cambia las cosas.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Dónde aprender, con quién:</div><div class=\"gap\"></div><div class=\"m o\">en el link de la bio.</div>"
+    }
+   ],
+   "cap": "Verdadero o falso: la lengua de señas es igual en todo el mundo.\n\nFalso. Cada país tiene la suya. La lengua de señas chilena (LSCh) tiene su propia gramática y es lengua oficial de las personas sordas por ley desde 2021.\n\nTres maneras de empezar a hablarla:\n1. Saludar: hola, ¿cómo estás?, gracias. Con eso una persona sorda ya sabe que la quieres conocer.\n2. Hacer un curso, mejor si lo enseñan personas sordas: así aprendes la lengua y la cultura que viene con ella.\n3. Pedir intérprete en la reunión de apoderados, en el evento del barrio o en la charla de la pega. Que alguien pregunte ya cambia las cosas.\n\nDónde aprender y con quién: en el link de la bio.\n\n#lenguadeseñas #LSCh #culturasorda #MásUno"
+  },
+  {
+   "tipo": "Una historia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/coffee-cup_EOOISMLDWS.jpg",
+     "pos": "center 50%",
+     "h": "<div class=\"eb\">Una historia</div><div class=\"qt\">«Mi familia sabe señas básicas: comer, baños, salir. Pero no saben hacer frases».</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">María Ignacia Fuentes perdió la audición a los seis meses, por una meningitis.</div><div class=\"gap\"></div><div class=\"k\">Su primera lengua es la lengua de señas chilena.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Tardó ocho años en sacar Psicología.</div><div class=\"gap\"></div><div class=\"m\">Reprobó cuatro ramos y perdió la beca: al principio nadie en la sala manejaba su lengua.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"m\">Hoy es la primera psicóloga Sorda de Chile. A sus alumnos sordos les dice:</div><div class=\"gap\"></div><div class=\"qt\">«Tú en el futuro puedes trabajar igual que yo».</div><div class=\"gap\"></div><div class=\"s\">The Clinic, 2026.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Una frase en su lengua puede ser el comienzo de una conversación.</div><div class=\"gap\"></div><div class=\"m o\">¿Cuántas podrías decir tú? Empieza por una: link en la bio.</div>"
+    }
+   ],
+   "cap": "«Mi familia sabe señas básicas: comer, baños, salir. Pero no saben hacer frases». Lo dice María Ignacia Fuentes, que perdió la audición a los seis meses por una meningitis. Su primera lengua es la lengua de señas chilena.\n\nTardó ocho años en sacar Psicología en la UC. Reprobó cuatro ramos y perdió la beca: al principio nadie en la sala manejaba su lengua. Hoy es la primera psicóloga Sorda de Chile y trabaja en un colegio bilingüe para niños sordos. A unos alumnos que la miraban sorprendidos les dijo: «Tú en el futuro puedes trabajar igual que yo, que soy Sorda» (The Clinic).\n\nUna frase en su lengua puede ser el comienzo de una conversación. ¿Cuántas podrías decir tú? Empieza por una: link en la bio.\n\n#lenguadeseñas #culturasorda #historias #MásUno"
+  }
+ ],
+ "stories": [
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">¿Sabes alguna palabra en lengua de señas?</div><div class=\"poll\"><div>Sí</div><div>Ninguna</div></div>",
+   "note": "<b>Encuesta.</b> Abre la conversación antes del post."
+  },
+  {
+   "c": "cream",
+   "light": 1,
+   "h": "<div class=\"ask\"><b>¿Qué palabra en señas te gustaría aprender primero?</b><span>Escribe algo…</span></div>",
+   "note": "<b>Caja de preguntas.</b> Se puede responder con un video corto de una persona sorda (pedir permiso)."
+  },
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">Aprende a saludar en LSCh</div><div class=\"link\">🔗 Discapacidad y accesibilidad</div>",
+   "note": "<b>Sticker de enlace</b> a Diversidad e inclusión → Discapacidad y accesibilidad."
+  }
+ ]
 }
 ];
 const ICONS = `<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.3-9.2C1.4 8.3 3.6 5 7 5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.4 0 5.6 3.3 4.3 6.8C19.5 16.4 12 21 12 21z"/></svg><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-3.6-7l3.6-1-1 3.6A8.4 8.4 0 0 1 20.5 12z"/></svg><svg viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7z"/></svg><svg class="save" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-5-6 5z"/></svg>`;

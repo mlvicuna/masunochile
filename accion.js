@@ -5,6 +5,20 @@
    faq   = 3 o 4 preguntas propias de esta historia, con los temores y dudas de quien la lee; respuesta en 2 o 3 frases, directa y seria.
    La mantiene la tarea diaria (paso 9). Ver INSTRUCCIONES.md. */
 window.MU_ACCION={
+'cuidadoras':{resumen:'Detrás de cada niño con discapacidad o neurodivergencia hay casi siempre una mamá que cuida sin horario: terapias, médicos, colegio, trabajo y contención, todo a la vez. En un estudio con 160 familias de niños autistas en Valdivia, la madre era la cuidadora principal en el 89% de los casos. Importa porque cuidar sola enferma, y lo que más baja esa carga no es un consejo, sino compañía.',
+ hoy:'Ofrécele a una mamá cuidadora algo concreto, con día y hora.',
+ ideas:['Escúchala sin dar consejos','Llévale una comida para la semana','Acompaña al niño a una terapia','Arma una red de turnos en el barrio'],
+ faq:[['¿Y si la incomodo al ofrecer ayuda?','Es más fácil aceptar algo concreto que pedir. Si dice que no, no insistas, pero vuelve a ofrecer otro día: muchas cuidadoras dicen que no por costumbre.'],
+  ['No sé nada de autismo ni de discapacidad. ¿Puedo ayudar igual?','Sí. Para hacer las compras, cocinar o acompañar no hace falta saber de diagnósticos. Si vas a quedarte con el niño, pregúntale a la familia qué le gusta y qué le molesta.'],
+  ['¿No le corresponde esto al Estado?','El Estado tiene programas de respiro, pero no llegan a todas las familias ni cubren el día a día. La compañía de vecinos, amigos y familia es lo que más baja la carga según los estudios.'],
+  ['¿Y si la que cuida soy yo?','Busca una red de cuidadoras: compartir con otras que viven lo mismo alivia. En tu municipalidad puedes preguntar por la Red Local de Apoyos y Cuidados.']]},
+'lengua-de-senas':{resumen:'Nueve de cada diez niños sordos nacen en familias que oyen, y muchos crecen sin poder conversar con su familia ni con sus profesores: en Chile, el 87% de los colegios que reciben niños sordos no tiene intérpretes ni educadores que manejen lengua de señas. Importa porque un niño sin lengua en sus primeros años arrastra el daño toda la vida, y aprender un poco de lengua de señas chilena está al alcance de cualquiera.',
+ hoy:'Aprende a saludar en lengua de señas chilena con un video de siete minutos.',
+ ideas:['Practica el saludo con alguien de tu casa','Ve un documental sobre la cultura Sorda','Haz un curso de lengua de señas chilena','Pide intérprete en tus actividades'],
+ faq:[['¿La lengua de señas es igual en todos los países?','No. Cada país tiene la suya, con gramática propia. En Chile se usa la lengua de señas chilena (LSCh), reconocida por ley desde 2021.'],
+  ['¿Sirve de algo saber solo un saludo?','Sí. Para una persona sorda, que alguien la salude en su lengua dice que la comunicación no tiene que ser siempre su esfuerzo. Y suele ser el primer paso para seguir aprendiendo.'],
+  ['¿No es mejor que los niños sordos aprendan a hablar?','La evidencia muestra que la lengua de señas no estorba: los niños que la manejan bien leen y escriben mejor. Lo dañino es pasar los primeros años sin ninguna lengua.'],
+  ['¿Dónde puedo aprender en serio?','Hay cursos en universidades, fundaciones y en la propia comunidad Sorda. Lo ideal es aprender con profesores sordos, porque con la lengua viene su cultura.']]},
 'inclusion-escolar':{resumen:'Muchos niños con autismo o TDAH terminan fuera de la sala: los mandan a la casa, les cierran el año antes o les sugieren cambiarse de colegio. Las denuncias por discriminación en colegios subieron 40% en un año. Importa porque un niño que queda al borde del curso pierde mucho más que clases: pierde amigos y la idea de que pertenece.',
  hoy:'Invita a un niño con autismo o TDAH al próximo cumpleaños o a la plaza.',
  ideas:['Pregúntale a su familia qué necesita','Habla en casa de los compañeros distintos','Pide al colegio una sala de la calma','Apoya terapias a bajo costo'],
