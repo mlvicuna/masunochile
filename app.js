@@ -217,7 +217,7 @@ function home(){
   const esHoy=f.iso===iso, HOY=esHoy?'Hoy':'Lo último', recientes=NEWS.slice(0,8);
   const tick=recientes.map(n=>`<span>${esc(n.titulo)}</span><i>+1</i>`).join('')+[...new Set(recientes.flatMap(n=>(n.tags||[]).slice(0,2)))].map(t=>`<span>${esc(t)}</span><i>+1</i>`).join('');
   $app.innerHTML=`<section class="intro intro-full"><div class="ih-hero">
-    <div class="ih-media" id="ih-media"><img id="ih-img" src="${IMG.banner}" alt="${esc(IMG.bannerAlt)}" fetchpriority="high">
+    <div class="ih-media" id="ih-media">${fotosInicio()}
       <span class="ih-like" id="ih-like" aria-hidden="true"><b>+1</b><em>Ellos ya se sumaron.</em></span></div>
     <div class="wrap intro-in"><div class="intro-txt">
       <span class="live"><i></i>${HOY} en Más Uno · ${esc(f.fecha)}</span>
@@ -277,24 +277,68 @@ const areaGrid=(only)=>`<div class="tgrid">${CAT.areas.filter(a=>!only||only.inc
   return `<a class="tcard reveal" href="#tema-${a[0]}"><img src="${A.img}" ${fp(A.img)} alt="" loading="lazy"><div><b>${esc(a[1])}</b><span>${esc(A.frase||'')}</span><small>${fmt(COUNT[A.i])} organizaciones${k?` · ${k} ${k===1?'historia':'historias'}`:''}</small></div></a>`}).join('')}</div>`;
 
 /* la foto del inicio: el vecino del techo con el pulgar arriba, y el +1 saliendo de su mano */
-const FOTO={w:1000,h:667,mano:[.545,.25],cara:[.58,.42]};
+/* fotos del inicio: un carrusel con el mismo texto; cada foto tiene su cara (para encuadrar) y su mano (donde sale el +1) */
+const UU=(id,w=1600)=>`https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
+const FOTOS=[
+  {u:UU('1721245446685-89c2c80b8b95',2800),w:1000,h:667,cara:[.58,.42],mano:[.545,.25],txt:'Ellos ya se sumaron.',alt:'Una mujer y un hombre sonríen con el pulgar arriba en el campo, con cerros detrás'},
+  {u:UU('1634089916298-9fa27180526c',2800),w:1000,h:667,cara:[.48,.3],mano:[.64,.2],txt:'Ella ya se sumó.',alt:'Una mujer mayor sonríe con los dos pulgares arriba'},
+  {u:UU('1662945812236-604cdf61cf8e',2000),w:1000,h:1490,cara:[.5,.42],mano:[.6,.33],txt:'Él ya se sumó.',alt:'Un joven en el pasto levanta el pulgar'},
+  {u:UU('1778098678756-e761c9df9938',2800),w:1200,h:800,cara:[.51,.47],mano:[.559,.43],txt:'Él ya se sumó.',alt:'Un vecino arriba del techo de una casa, con una pala, levanta el pulgar'},
+  {u:UU('1780733066160-5b4c3acccefa',2800),w:1000,h:667,cara:[.52,.5],mano:[.93,.36],txt:'',cartel:{x:.529,y:.492,w:.066,h:.05,rot:-9,txt:'La minga social'},alt:'Un grupo de personas saluda con los brazos en alto, visto desde arriba'},
+  {u:UU('1755549476789-4672eb1a6229',2000),w:1000,h:1500,cara:[.51,.36],mano:[.5,.1],txt:'Él ya se sumó.',alt:'Un hombre con gorra sonríe y levanta el pulgar'}
+];
+const fotosInicio=()=>FOTOS.map((f,i)=>`<img class="ih-img${i?'':' on'}" data-i="${i}" src="${i?'':f.u}" data-src="${f.u}" alt="${esc(f.alt)}" ${i?'loading="lazy" aria-hidden="true"':'fetchpriority="high"'}>`+(f.cartel?`<span class="ih-cartel${i?'':' on'}" data-i="${i}" aria-hidden="true">${esc(f.cartel.txt)}</span>`:'')).join('');
+let FOTO_I=0;
 function likeFoto(){
-  const box=document.getElementById('ih-media'), img=document.getElementById('ih-img'), like=document.getElementById('ih-like'); if(!box||!img) return;
+  const box=document.getElementById('ih-media'), like=document.getElementById('ih-like'); if(!box) return;
+  const imgs=[...box.querySelectorAll('.ih-img')];
   const place=()=>{
-    const cw=box.clientWidth, ch=box.clientHeight, movil=cw<760, r=FOTO.w/FOTO.h;
-    // en escritorio la foto puede correrse a la derecha: el borde izquierdo se funde con el fondo oscuro, detrás del texto
-    const w=movil?Math.max(cw,ch*r)*1.2:Math.max(cw*.95,ch*r*1.02), h=w/r;
-    const tx=movil?.5:.72, ty=movil?.55:.5, maxL=movil?0:cw*.3;
-    const left=Math.min(maxL,Math.max(cw-w,tx*cw-FOTO.cara[0]*w)), top=Math.min(0,Math.max(ch-h,ty*ch-FOTO.cara[1]*h));
-    img.classList.toggle('fade-l',left>0);
-    Object.assign(img.style,{width:w+'px',height:h+'px',left:left+'px',top:top+'px'});
-    // nitidez: pide la foto al tamaño real que necesita esta pantalla (también en pantallas retina)
-    const need=Math.min(4200,Math.ceil(w*(window.devicePixelRatio||1)/400)*400), cur=+((img.src.match(/[?&]w=(\d+)/)||[])[1]||0);
-    if(need>cur*1.05) img.src=img.src.replace(/([?&]w=)\d+/,'$1'+need);
-    like.style.left=(left+FOTO.mano[0]*w)+'px'; like.style.top=(top+FOTO.mano[1]*h)+'px';
+    const cw=box.clientWidth, ch=box.clientHeight, movil=cw<760;
+    imgs.forEach((img,i)=>{
+      const F=FOTOS[i], r=F.w/F.h; let w,h,left,top;
+      if(!movil&&r<1){ // foto vertical en escritorio: a la derecha, a toda la altura, con el borde izquierdo fundido
+        h=ch*1.08; w=h*r; left=cw-w; top=Math.min(0,Math.max(ch-h,.5*ch-F.cara[1]*h));
+      }else{
+        w=movil?Math.max(cw,ch*r)*1.2:Math.max(cw*.95,ch*r*1.02); h=w/r;
+        const tx=movil?.5:.72, ty=movil?.55:.5, maxL=movil?0:cw*.3;
+        left=Math.min(maxL,Math.max(cw-w,tx*cw-F.cara[0]*w)); top=Math.min(0,Math.max(ch-h,ty*ch-F.cara[1]*h));
+      }
+      img.classList.toggle('fade-l',left>0);
+      Object.assign(img.style,{width:w+'px',height:h+'px',left:left+'px',top:top+'px'});
+      img.dataset.geo=JSON.stringify([left,top,w,h]);
+      const c=F.cartel&&box.querySelector(`.ih-cartel[data-i="${i}"]`);
+      if(c) Object.assign(c.style,{left:(left+F.cartel.x*w)+'px',top:(top+F.cartel.y*h)+'px',width:(F.cartel.w*w)+'px',height:(F.cartel.h*h)+'px',fontSize:(w*.0095)+'px',transform:`translate(-50%,-50%) rotate(${F.cartel.rot}deg)`});
+      // nitidez: pide la foto al tamaño real que necesita esta pantalla (también retina)
+      const need=Math.min(4200,Math.ceil(w*(window.devicePixelRatio||1)/400)*400), src=img.getAttribute('src')||img.dataset.src, cur=+((src.match(/[?&]w=(\d+)/)||[])[1]||0);
+      const want=need>cur*1.05?src.replace(/([?&]w=)\d+/,'$1'+need):src;
+      if(i===FOTO_I||img.getAttribute('src')) { if(img.getAttribute('src')!==want) img.src=want; } else img.dataset.src=want;
+    });
+    const g=JSON.parse(imgs[FOTO_I].dataset.geo), F=FOTOS[FOTO_I];
+    like.style.left=Math.min(box.clientWidth-90,g[0]+F.mano[0]*g[2])+'px'; like.style.top=Math.max(box.clientWidth<760?150:190,g[1]+F.mano[1]*g[3])+'px';
+    like.querySelector('em').textContent=F.txt;
+    // si la frase se sale por la derecha, va al otro lado del +1
+    like.classList.toggle('solo',!F.txt);
+    like.classList.remove('izq'); const x=g[0]+F.mano[0]*g[2];
+    if(x+14+like.scrollWidth>box.clientWidth-8) like.classList.add('izq');
   };
-  place(); if(!window.__likeRZ){window.__likeRZ=true;addEventListener('resize',()=>{if(document.getElementById('ih-media'))likeFoto()},{passive:true});}
+  const ir=n=>{ like.classList.remove('on');
+    setTimeout(()=>{ imgs[FOTO_I].classList.remove('on'); box.querySelectorAll('.ih-cartel').forEach(c=>c.classList.remove('on')); FOTO_I=(n+imgs.length)%imgs.length;
+      const im=imgs[FOTO_I]; if(!im.getAttribute('src')) im.src=im.dataset.src;
+      im.classList.add('on'); box.querySelectorAll('.ih-cartel').forEach(c=>c.classList.toggle('on',+c.dataset.i===FOTO_I)); place(); dots.forEach((d,j)=>d.classList.toggle('on',j===FOTO_I));
+      setTimeout(()=>like.classList.add('on'),700); },300); };
+  // puntitos para elegir la foto
+  let nav=box.querySelector('.ih-dots');
+  if(!nav){nav=document.createElement('div');nav.className='ih-dots';nav.innerHTML=FOTOS.map((f,i)=>`<button type="button" aria-label="Foto ${i+1}"></button>`).join('');box.parentElement.appendChild(nav);}
+  const dots=[...nav.querySelectorAll('button')]; dots.forEach((d,j)=>{d.classList.toggle('on',j===FOTO_I);d.onclick=()=>{ir(j);reiniciar();};});
+  place();
+  if(!window.__likeRZ){window.__likeRZ=true;addEventListener('resize',()=>{if(document.getElementById('ih-media'))likeFoto()},{passive:true});}
   requestAnimationFrame(()=>setTimeout(()=>like.classList.add('on'),500));
+  // pasa sola cada 6 segundos (no si la persona prefiere menos movimiento)
+  const quieto=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function reiniciar(){clearInterval(window.__fotoT); if(!quieto) window.__fotoT=setInterval(()=>{ if(!document.getElementById('ih-media')){clearInterval(window.__fotoT);return;} if(!document.hidden) ir(FOTO_I+1); },6000);}
+  reiniciar();
+  // precarga la siguiente
+  setTimeout(()=>{const n=imgs[(FOTO_I+1)%imgs.length]; if(!n.getAttribute('src')) n.src=n.dataset.src;},2500);
 }
 
 /* la foto de la minga, grande y limpia, con una sola frase */

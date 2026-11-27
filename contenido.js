@@ -54,7 +54,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "En dos días seguidos, dos mamás escribieron a El Mercurio. El jueves, Pamela Muñoz contó que, otro año más, el colegio le cerró antes el año escolar a su hijo con TDAH. El viernes, María Rosario Cuevas, mamá de tres niños neurodivergentes, le respondió con una lista: cumplir con el trabajo, con las metas, con las horas al doctor, con las terapias, con las tareas y con la contención. Y terminó con una frase que es la pregunta de fondo: la inclusión de los niños también requiere el apoyo a quienes los cuidan. ¿Qué le pasa a una persona que cuida así durante años, y qué puede hacer el resto para que no lo haga sola?",
+"h": "En dos días seguidos, dos mamás escribieron a El Mercurio. El 26 de noviembre de 2026, Pamela Muñoz contó que, otro año más, el colegio le cerró antes el año escolar a su hijo con TDAH. Al día siguiente, María Rosario Cuevas, mamá de tres niños neurodivergentes, le respondió con una lista: cumplir con el trabajo, con las metas, con las horas al doctor, con las terapias, con las tareas y con la contención. Y terminó con una frase que es la pregunta de fondo: la inclusión de los niños también requiere el apoyo a quienes los cuidan. ¿Qué le pasa a una persona que cuida así durante años, y qué puede hacer el resto para que no lo haga sola?",
 "src": "El Mercurio, Cuerpo A, pág. 2, cartas del 26 y 27 de noviembre de 2026"
 },
 {
@@ -91,7 +91,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "A eso se suma algo que las cartas de esta semana muestran bien: el cuidado de un hijo neurodivergente incluye pelear con el sistema. Conseguir horas, cupos, reembolsos y adaptaciones en el colegio es un trabajo en sí mismo, y es el que más agota, porque se repite cada año.",
+"h": "A eso se suma algo que esas cartas muestran bien: el cuidado de un hijo neurodivergente incluye pelear con el sistema. Conseguir horas, cupos, reembolsos y adaptaciones en el colegio es un trabajo en sí mismo, y es el que más agota, porque se repite cada año.",
 "src": "El Mercurio, cartas del 26 y 27 de noviembre de 2026"
 },
 {
@@ -178,7 +178,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Esta semana el Congreso aprobó la sala cuna universal, una ley que reconoce que el cuidado de los hijos no puede depender solo de la madre. Las cartas de María Rosario y Pamela recuerdan que hay familias para las que el cuidado no termina a los dos años: casi 600 mil niños y adolescentes en Chile viven con alguna discapacidad, y detrás de cada uno hay alguien que lo lleva, lo espera y lo trae.",
+"h": "En noviembre de 2026 el Congreso aprobó la sala cuna universal, una ley que reconoce que el cuidado de los hijos no puede depender solo de la madre. Las cartas de María Rosario y Pamela recuerdan que hay familias para las que el cuidado no termina a los dos años: casi 600 mil niños y adolescentes en Chile viven con alguna discapacidad, y detrás de cada uno hay alguien que lo lleva, lo espera y lo trae.",
 "src": "ENDIDE 2022, Ministerio de Desarrollo Social y Senadis: https://observatorio.ministeriodesarrollosocial.gob.cl/storage/docs/endide/Resultados_ENDIDE_2022_Poblacion_NNA_version_mayo_2023.pdf"
 },
 {
@@ -294,7 +294,7 @@ window.MU_NEWS=[
 "Armar con otras familias del barrio o del curso una red de turnos para acompañar a quienes cuidan."
 ],
 "quePaso": [
-"María Rosario Cuevas Valdés publicó hoy en El Mercurio la carta «La inclusión de nuestros niños». Es mamá de tres niños con neurodivergencias, los tres en el Programa de Integración Escolar (PIE) y con «innumerables apoyos». Cuenta que su vida es «correr entre el trabajo, psicólogos, psicopedagogos, terapeutas ocupacionales, neurólogos» y comprar cada mes «una infinidad de remedios», y que ella y su marido deben trabajar los dos para pagarlo. Enumera todo lo que tiene que «cumplir»: el horario y las metas del trabajo, las horas al doctor, las terapias, las tareas y «la contención que necesitan cada vez que se sienten ‹diferentes›», mientras la sociedad juzga y etiqueta a sus hijos y «el jefe nos mira con cara de pocos amigos cuando pedimos el décimo permiso del mes».",
+"María Rosario Cuevas Valdés publicó el 27 de noviembre de 2026 en El Mercurio la carta «La inclusión de nuestros niños». Es mamá de tres niños con neurodivergencias, los tres en el Programa de Integración Escolar (PIE) y con «innumerables apoyos». Cuenta que su vida es «correr entre el trabajo, psicólogos, psicopedagogos, terapeutas ocupacionales, neurólogos» y comprar cada mes «una infinidad de remedios», y que ella y su marido deben trabajar los dos para pagarlo. Enumera todo lo que tiene que «cumplir»: el horario y las metas del trabajo, las horas al doctor, las terapias, las tareas y «la contención que necesitan cada vez que se sienten ‹diferentes›», mientras la sociedad juzga y etiqueta a sus hijos y «el jefe nos mira con cara de pocos amigos cuando pedimos el décimo permiso del mes».",
 "Propone ampliar el PIE a un «PIS: Programa de Integración Social», que apoye a las «mamás cuidadoras», eduque a los otros padres, subvencione remedios y reembolse más las terapias. Cierra: «La inclusión de nuestros hijos también requiere la inclusión, el apoyo y la comprensión hacia quienes los cuidamos»."
 ],
 "origen": "El Mercurio, Cuerpo A, pág. 2, carta «La inclusión de nuestros niños», María Rosario Cuevas Valdés, viernes 27 de noviembre de 2026. El Mercurio, Cuerpo A, pág. 2, carta «Cerrar el año escolar, el camino fácil», Pamela Muñoz González, jueves 26 de noviembre de 2026.",
@@ -636,7 +636,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Este jueves, una mamá escribió a El Mercurio una carta que ella misma llamó «de furia». Tiene tres hijos con TDAH y autismo y, «otro año más», el colegio de su hijo del medio le propuso cerrar antes el año escolar. Le dijeron que a lo mejor ese no era el colegio para él, que había colegios «con tierrita». Ella responde que sus hijos son muy inteligentes y que lo que el sistema no entiende es que su energía es limitada. La carta deja una pregunta que vale la pena entender bien: ¿por qué importa tanto que un niño autista esté en una sala común, con su curso, y no en un lugar aparte o en su casa? La respuesta tiene que ver con lo que es el autismo, con cómo se ha entendido mal durante décadas y con lo que pasa en el cerebro y en la vida de un niño cuando se siente parte, o cuando no.",
+"h": "En noviembre de 2026, una mamá escribió a El Mercurio una carta que ella misma llamó «de furia». Tiene tres hijos con TDAH y autismo y, «otro año más», el colegio de su hijo del medio le propuso cerrar antes el año escolar. Le dijeron que a lo mejor ese no era el colegio para él, que había colegios «con tierrita». Ella responde que sus hijos son muy inteligentes y que lo que el sistema no entiende es que su energía es limitada. La carta deja una pregunta que vale la pena entender bien: ¿por qué importa tanto que un niño autista esté en una sala común, con su curso, y no en un lugar aparte o en su casa? La respuesta tiene que ver con lo que es el autismo, con cómo se ha entendido mal durante décadas y con lo que pasa en el cerebro y en la vida de un niño cuando se siente parte, o cuando no.",
 "src": "El Mercurio, Cuerpo A, pág. 2, carta «Cerrar el año escolar, el camino fácil», Pamela Muñoz González, 26 de noviembre de 2026"
 },
 {
@@ -797,7 +797,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Chile ya decidió en la ley que los niños autistas tienen derecho a estudiar con todos. Lo que falta es que esa decisión llegue a cada sala. La carta de esta semana muestra lo que pasa cuando no llega: una familia que ha gastado en psiquiatras, psicóloga y terapeuta ocupacional, que volvió a un colegio con PIE «apostando a que esta vez sería distinto», y que termina otro año fuera de clases. La Superintendencia de Educación recibe cada año más denuncias por discriminación, y la Defensoría de la Niñez cuenta más de 6.000 asociadas a necesidades educativas especiales entre 2021 y 2025.",
+"h": "Chile ya decidió en la ley que los niños autistas tienen derecho a estudiar con todos. Lo que falta es que esa decisión llegue a cada sala. Su carta muestra lo que pasa cuando no llega: una familia que ha gastado en psiquiatras, psicóloga y terapeuta ocupacional, que volvió a un colegio con PIE «apostando a que esta vez sería distinto», y que termina otro año fuera de clases. La Superintendencia de Educación recibe cada año más denuncias por discriminación, y la Defensoría de la Niñez cuenta más de 6.000 asociadas a necesidades educativas especiales entre 2021 y 2025.",
 "src": "Observatorio de la Defensoría de la Niñez, «Diagnóstico 2026: Derecho a la No Discriminación», mayo de 2026: https://observatorio.defensorianinez.cl/wp-content/uploads/2026/05/Diagnostico-2026-Derecho-a-la-No-Discriminacion.pdf"
 },
 {
@@ -914,7 +914,7 @@ window.MU_NEWS=[
 "Apoyar como voluntario o donante a una fundación que da terapias a bajo costo a familias que no pueden pagarlas."
 ],
 "quePaso": [
-"Pamela Muñoz González publicó hoy en El Mercurio la carta «Cerrar el año escolar, el camino fácil». Cuenta que tiene tres hijos con TDAH y TEA (trastorno del espectro autista) y que, «otro año más», deben cerrar anticipadamente el año escolar de su hijo del medio. Volvieron a un colegio público con Programa de Integración Escolar (PIE) apostando a que esta vez sería distinto, pero los directivos le dijeron frases como «a lo mejor este no es el colegio para su hijo» y «este es un colegio de excelencia». Ella responde: «mis hijos son muy inteligentes; lo que el sistema no entiende es que su energía es limitada». Pregunta quién fiscaliza a los colegios que reciben más recursos por estos alumnos y describe a una jefa de UTP que le recordaba a una niña de 11 años que no podía dar pruebas que aquel era «un colegio de excelencia». No nombra el colegio «para evitar represalias».",
+"Pamela Muñoz González publicó el 26 de noviembre de 2026 en El Mercurio la carta «Cerrar el año escolar, el camino fácil». Cuenta que tiene tres hijos con TDAH y TEA (trastorno del espectro autista) y que, «otro año más», deben cerrar anticipadamente el año escolar de su hijo del medio. Volvieron a un colegio público con Programa de Integración Escolar (PIE) apostando a que esta vez sería distinto, pero los directivos le dijeron frases como «a lo mejor este no es el colegio para su hijo» y «este es un colegio de excelencia». Ella responde: «mis hijos son muy inteligentes; lo que el sistema no entiende es que su energía es limitada». Pregunta quién fiscaliza a los colegios que reciben más recursos por estos alumnos y describe a una jefa de UTP que le recordaba a una niña de 11 años que no podía dar pruebas que aquel era «un colegio de excelencia». No nombra el colegio «para evitar represalias».",
 "La carta llega en un año en que las denuncias por discriminación en los colegios siguen subiendo: la Superintendencia de Educación recibió 2.869 en 2025, un 40,5% más que en 2024 (2.042), y la propia Superintendencia atribuye parte del alza a las nuevas normas que protegen a los estudiantes con necesidades educativas especiales. La Ley 21.545 (Ley TEA), vigente desde marzo de 2023, obliga a todos los establecimientos, públicos y privados, a dar espacios educativos inclusivos, sin violencia y sin discriminación, y a garantizar la continuidad educativa de los estudiantes autistas."
 ],
 "origen": "El Mercurio, Cuerpo A, pág. 2, carta «Cerrar el año escolar, el camino fácil», Pamela Muñoz González, jueves 26 de noviembre de 2026. Emol, «Convivencia escolar: aumentan denuncias ciudadanas», 10 de febrero de 2026: https://www.emol.com/noticias/Nacional/2026/02/10/1191156/convivencia-escolar-aumenta-denuncias-ciudadanas.html. Ley 21.545, Biblioteca del Congreso Nacional: https://www.bcn.cl/leychile/navegar?idNorma=1190123",
@@ -966,7 +966,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Este jueves, El Mercurio entrevistó a la psicóloga ambiental Melissa Marselle, de la Universidad de Surrey, en el Reino Unido. Su mensaje fue sencillo: no hace falta ir a la montaña ni a un gran bosque. Entre cinco minutos y media hora en un lugar con naturaleza ya puede bajar el estrés. Detrás de esa frase hay casi cuarenta años de investigación, y una pregunta incómoda para un país como Chile: si cinco minutos de verde hacen tanto bien, ¿qué pasa con las personas que no tienen un árbol a cinco minutos de su casa?",
+"h": "En noviembre de 2026, El Mercurio entrevistó a la psicóloga ambiental Melissa Marselle, de la Universidad de Surrey, en el Reino Unido. Su mensaje fue sencillo: no hace falta ir a la montaña ni a un gran bosque. Entre cinco minutos y media hora en un lugar con naturaleza ya puede bajar el estrés. Detrás de esa frase hay casi cuarenta años de investigación, y una pregunta incómoda para un país como Chile: si cinco minutos de verde hacen tanto bien, ¿qué pasa con las personas que no tienen un árbol a cinco minutos de su casa?",
 "src": "El Mercurio, Cuerpo A, pág. 10, «Estar cinco minutos en contacto con la naturaleza ya puede ayudar a reducir el estrés», 26 de noviembre de 2026"
 },
 {
@@ -1083,7 +1083,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "La entrevista de esta semana trae una buena noticia y una pregunta. La buena noticia es que el remedio es simple y está al alcance: cinco minutos al día en un lugar con árboles, sin el celular. La pregunta es para quién está al alcance. En el Gran Santiago, el promedio sería de 3,8 m² de áreas verdes por habitante, menos de la mitad de lo que pide el estándar, y la diferencia entre comunas es de más de diez veces.",
+"h": "Esa entrevista trae una buena noticia y una pregunta. La buena noticia es que el remedio es simple y está al alcance: cinco minutos al día en un lugar con árboles, sin el celular. La pregunta es para quién está al alcance. En el Gran Santiago, el promedio sería de 3,8 m² de áreas verdes por habitante, menos de la mitad de lo que pide el estándar, y la diferencia entre comunas es de más de diez veces.",
 "src": "Fundación Mi Parque, citada en El Mostrador, 20 de abril de 2024: https://www.elmostrador.cl/noticias/opinion/columnas/2024/04/20/dia-de-la-tierra-la-urgencia-de-incrementar-las-areas-verdes-en-las-ciudades/"
 },
 {
@@ -1206,7 +1206,7 @@ window.MU_NEWS=[
 "Sumarse como voluntario a una jornada de construcción de una plaza, o reunir a los vecinos para postular la plaza del barrio a un programa de recuperación."
 ],
 "quePaso": [
-"El Mercurio entrevista hoy a Melissa Marselle, psicóloga e investigadora en psicología ambiental de la Universidad de Surrey (Reino Unido), que estuvo en Chile para un congreso de la Universidad de los Andes. Su mensaje: no hace falta ir a la montaña. «La investigación ha mostrado que desde cinco minutos hasta media hora en la naturaleza ya pueden ayudar a reducir el estrés», dice, y explica que en un entorno natural la atención «descansa y se recupera», porque el movimiento de un pájaro o de las hojas la capta sin esfuerzo. Recomienda usar parte de la pausa de almuerzo para caminar por un parque o una plaza, y advierte: «No vayas a un parque para quedarte revisando tus redes sociales en el celular».",
+"El Mercurio entrevistó el 26 de noviembre de 2026 a Melissa Marselle, psicóloga e investigadora en psicología ambiental de la Universidad de Surrey (Reino Unido), que estuvo en Chile para un congreso de la Universidad de los Andes. Su mensaje: no hace falta ir a la montaña. «La investigación ha mostrado que desde cinco minutos hasta media hora en la naturaleza ya pueden ayudar a reducir el estrés», dice, y explica que en un entorno natural la atención «descansa y se recupera», porque el movimiento de un pájaro o de las hojas la capta sin esfuerzo. Recomienda usar parte de la pausa de almuerzo para caminar por un parque o una plaza, y advierte: «No vayas a un parque para quedarte revisando tus redes sociales en el celular».",
 "Marselle cita un estudio de su equipo en Leipzig (Alemania) con cerca de 10 mil adultos: vivir rodeado de más árboles en la calle se asoció con menos recetas de antidepresivos. El artículo original precisa que el efecto se vio a menos de 100 metros de la casa y fue más claro entre las personas de menores ingresos. También recomienda buscar plazas con más variedad de plantas, porque la biodiversidad atrae aves e insectos y da «más cosas interesantes que mirar»."
 ],
 "origen": "El Mercurio, Cuerpo A, pág. 10, Vida, Ciencia y Tecnología, «Estar cinco minutos en contacto con la naturaleza ya puede ayudar a reducir el estrés», Janina Marcano, jueves 26 de noviembre de 2026. Marselle y otros, «Urban street tree biodiversity and antidepressant prescriptions», Scientific Reports, diciembre de 2020: https://www.nature.com/articles/s41598-020-79924-5",
@@ -1269,7 +1269,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Esta semana llega el primer calor fuerte del verano. Senapred anunció hasta 36°C entre Atacama y Los Ríos y alerta amarilla por calor intenso en San Felipe, Los Andes, Petorca y Cabildo. Los médicos de urgencia repiten cada año la misma advertencia: los primeros días de calor son los más peligrosos, porque el cuerpo todavía no se acostumbra, y las personas mayores sienten menos sed, así que se pueden deshidratar sin que nadie lo note. Detrás de esa advertencia hay una pregunta que vale la pena entender bien: ¿por qué el calor golpea tanto más a las personas mayores, y sobre todo a las que viven solas?",
+"h": "A fines de noviembre de 2026 llegó el primer calor fuerte del verano. Senapred anunció hasta 36°C entre Atacama y Los Ríos y alerta amarilla por calor intenso en San Felipe, Los Andes, Petorca y Cabildo. Los médicos de urgencia repiten cada año la misma advertencia: los primeros días de calor son los más peligrosos, porque el cuerpo todavía no se acostumbra, y las personas mayores sienten menos sed, así que se pueden deshidratar sin que nadie lo note. Detrás de esa advertencia hay una pregunta que vale la pena entender bien: ¿por qué el calor golpea tanto más a las personas mayores, y sobre todo a las que viven solas?",
 "src": "La Tercera, Nacional y Tendencias, 24 de noviembre de 2026"
 },
 {
@@ -1403,7 +1403,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Esta semana, con el primer calor fuerte del verano, esa pregunta vuelve a ser concreta. No se trata de grandes programas. Se trata de saber quién, cerca de nosotros, vive solo, y de asegurarse de que alguien lo llame."
+"h": "Con cada ola de calor, esa pregunta vuelve a ser concreta. No se trata de grandes programas. Se trata de saber quién, cerca de nosotros, vive solo, y de asegurarse de que alguien lo llame."
 }
 ],
 "mas": [
@@ -1499,7 +1499,7 @@ window.MU_NEWS=[
 "Hacerse voluntario de acompañamiento telefónico o presencial de personas mayores durante todo el año."
 ],
 "quePaso": [
-"Senapred anunció un evento de «temperaturas extremas» entre las regiones de Atacama y Los Ríos, desde hoy miércoles 25 hasta el viernes 27 de noviembre, con máximas de hasta 36°C el jueves en la cordillera de la Costa y la precordillera del Maule y Ñuble. Decretó alerta amarilla por «calor intenso» en las provincias de San Felipe y Los Andes y en las comunas de Petorca y Cabildo, porque se esperan tres días seguidos sobre 34°C. Se mantiene la alerta temprana preventiva nacional por calor extremo decretada el 1 de noviembre. La directora de Senapred, Alicia Cebrián, pidió evitar el sol entre las 11 y las 17 horas y no dejar nunca a personas o animales dentro de un auto. En Santiago, El Mercurio anuncia hoy una máxima de 33°C.",
+"Senapred anunció un evento de «temperaturas extremas» entre las regiones de Atacama y Los Ríos, del miércoles 25 al viernes 27 de noviembre de 2026, con máximas de hasta 36°C el jueves en la cordillera de la Costa y la precordillera del Maule y Ñuble. Decretó alerta amarilla por «calor intenso» en las provincias de San Felipe y Los Andes y en las comunas de Petorca y Cabildo, porque se esperan tres días seguidos sobre 34°C. Se mantiene la alerta temprana preventiva nacional por calor extremo decretada el 1 de noviembre. La directora de Senapred, Alicia Cebrián, pidió evitar el sol entre las 11 y las 17 horas y no dejar nunca a personas o animales dentro de un auto. En Santiago, El Mercurio anunció para el 25 de noviembre una máxima de 33°C.",
 "La Tercera consultó a la jefa de Urgencias de Clínica Indisa Maipú, Vanessa Aguilera, que advierte que los primeros episodios de calor de la temporada son los que más preocupan, porque el cuerpo todavía no se aclimata, y que en esos días aumentan en urgencia las consultas por deshidratación y descompensación de enfermedades crónicas. Los más vulnerables son las personas mayores, los lactantes, los niños pequeños, las embarazadas y quienes tienen enfermedades crónicas. «Los adultos mayores sienten menos sed y los niños dependen de que un adulto les ofrezca agua, por eso pueden deshidratarse sin que nadie lo note», explica."
 ],
 "origen": "La Tercera, Nacional, «Hasta 36°C, alerta amarilla y 31 aeronaves operativas: autoridades detallan medidas ante temperaturas extremas entre Atacama y Los Ríos», 24 de noviembre de 2026: https://www.latercera.com/nacional/noticia/hasta-36c-alerta-amarilla-y-31-aeronaves-operativas-autoridades-detallan-medidas-ante-temperaturas-extremas-entre-atacama-y-los-rios/ La Tercera, Tendencias, «Cómo reconocer un golpe de calor: las señales de alerta y quiénes deben tener más cuidado», 24 de noviembre de 2026: https://www.latercera.com/tendencias/noticia/como-reconocer-un-golpe-de-calor-las-senales-de-alerta-y-quienes-deben-tener-mas-cuidado/ El Mercurio, Cuerpo A, pág. 1, portada (pronóstico: Santiago 12°/33°), miércoles 25 de noviembre de 2026.",
@@ -1555,7 +1555,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "El Mercurio dedicó hoy un editorial a una inquietud que se escucha cada vez más entre los jóvenes: ¿servirá lo que estoy estudiando? Citó el primer sondeo del Observatorio de Juventudes de la Fundación Tremendas, según el cual más de la mitad siente que el sistema educacional lo prepara poco o nada para el futuro y uno de cada cuatro no sabe si podrá trabajar en algo relacionado con lo que estudia. En los resultados preliminares, además, el 70% cree que su origen socioeconómico influyó en sus oportunidades. Esa última cifra deja una pregunta de fondo: si no es solo una cuestión de esfuerzo o de capacidad, ¿qué es lo que marca la diferencia?",
+"h": "En noviembre de 2026, El Mercurio dedicó un editorial a una inquietud que se escucha cada vez más entre los jóvenes: ¿servirá lo que estoy estudiando? Citó el primer sondeo del Observatorio de Juventudes de la Fundación Tremendas, según el cual más de la mitad siente que el sistema educacional lo prepara poco o nada para el futuro y uno de cada cuatro no sabe si podrá trabajar en algo relacionado con lo que estudia. En los resultados preliminares, además, el 70% cree que su origen socioeconómico influyó en sus oportunidades. Esa última cifra deja una pregunta de fondo: si no es solo una cuestión de esfuerzo o de capacidad, ¿qué es lo que marca la diferencia?",
 "src": "El Mercurio, Cuerpo A, pág. 3, editorial «Formación y expectativas», 25 de noviembre de 2026; Rock&Pop, 2 de noviembre de 2026: https://www.rockandpop.cl/2026/11/estudio-revela-que-70-de-los-jovenes-siente-que-partio-en-desventaja-la-barrera-que-marco-sus-oportunidades-laborales-y-educativas"
 },
 {
@@ -1621,12 +1621,12 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Las razones rara vez son solo académicas. El sondeo de Tremendas encontró que el 29% de los jóvenes nombra la salud mental como el principal obstáculo para seguir estudiando. A eso se suman la plata, el trabajo que muchos tienen que hacer en paralelo y la sensación de no pertenecer. El profesor Ignacio Sánchez, de la Universidad Católica, escribió hoy en La Tercera que las universidades deben dar apoyo con talleres y tutorías a quienes llegan con dificultades de escritura, porque esas brechas vienen del colegio y limitan todo lo demás.",
+"h": "Las razones rara vez son solo académicas. El sondeo de Tremendas encontró que el 29% de los jóvenes nombra la salud mental como el principal obstáculo para seguir estudiando. A eso se suman la plata, el trabajo que muchos tienen que hacer en paralelo y la sensación de no pertenecer. El profesor Ignacio Sánchez, de la Universidad Católica, escribió en La Tercera que las universidades deben dar apoyo con talleres y tutorías a quienes llegan con dificultades de escritura, porque esas brechas vienen del colegio y limitan todo lo demás.",
 "src": "Rock&Pop, 2 de noviembre de 2026; Ignacio Sánchez, «La buena redacción en la universidad», La Tercera, 25 de noviembre de 2026: https://www.latercera.com/opinion/noticia/la-buena-redaccion-en-la-universidad/"
 },
 {
 "k": "p",
-"h": "Y después de titularse viene otra barrera. En Chile, el desempleo de los jóvenes de 15 a 24 años es de 26,8% en las mujeres y de 22,4% en los hombres. Un informe de la Universidad Andrés Bello mostró este mes que el grupo más rezagado en empleo es el de 25 a 34 años con educación media o menos: tiene 355.600 ocupados menos de lo que se esperaría según la tendencia anterior a 2019.",
+"h": "Y después de titularse viene otra barrera. En Chile, el desempleo de los jóvenes de 15 a 24 años es de 26,8% en las mujeres y de 22,4% en los hombres. Un informe de la Universidad Andrés Bello mostró en noviembre de 2026 que el grupo más rezagado en empleo es el de 25 a 34 años con educación media o menos: tiene 355.600 ocupados menos de lo que se esperaría según la tendencia anterior a 2019.",
 "src": "INE, citado por Tomás Rau, El Mercurio, A 2, 25 de noviembre de 2026; Instituto de Políticas Públicas UNAB, «La edad del desempleo», noviembre de 2026"
 },
 {
@@ -1762,7 +1762,7 @@ window.MU_NEWS=[
 "Ser mentor de un estudiante de primera generación durante un año, o hacerse socio de una fundación que los acompaña."
 ],
 "quePaso": [
-"El Mercurio dedicó hoy uno de sus editoriales, «Formación y expectativas», a la preocupación de los jóvenes por su futuro laboral ante la inteligencia artificial. Cita «Transiciones reales 2026», el primer sondeo del Observatorio de Juventudes de la Fundación Tremendas: más de la mitad de los encuestados considera que el sistema educacional los prepara poco o nada para el futuro, uno de cada cuatro no tiene claro si podrá ejercer en algo relacionado con lo que estudia, y uno de cada cinco cree que no hay una relación clara entre lo que se enseña y lo que pide el mercado laboral. El diario advierte que esa percepción «puede afectar la propia confianza de los jóvenes, aun cuando sus capacidades puedan ser mayores de lo que ellos creen», y propone que la educación superior avance hacia una formación general que dé a los jóvenes «las habilidades y plasticidad necesarias» para un mundo laboral en cambio permanente.",
+"El 25 de noviembre de 2026, El Mercurio dedicó uno de sus editoriales, «Formación y expectativas», a la preocupación de los jóvenes por su futuro laboral ante la inteligencia artificial. Cita «Transiciones reales 2026», el primer sondeo del Observatorio de Juventudes de la Fundación Tremendas: más de la mitad de los encuestados considera que el sistema educacional los prepara poco o nada para el futuro, uno de cada cuatro no tiene claro si podrá ejercer en algo relacionado con lo que estudia, y uno de cada cinco cree que no hay una relación clara entre lo que se enseña y lo que pide el mercado laboral. El diario advierte que esa percepción «puede afectar la propia confianza de los jóvenes, aun cuando sus capacidades puedan ser mayores de lo que ellos creen», y propone que la educación superior avance hacia una formación general que dé a los jóvenes «las habilidades y plasticidad necesarias» para un mundo laboral en cambio permanente.",
 "Los resultados preliminares del sondeo, presentados el 3 de noviembre en la Universidad de Chile, se basan en cerca de 800 respuestas de jóvenes de 18 a 29 años (edad promedio, 22). El 70% cree que su origen socioeconómico influyó en sus oportunidades educativas y laborales, y el 29% nombra la salud mental como el principal obstáculo para seguir estudiando. Sus mayores miedos: no encontrar trabajo, los sueldos bajos y la inestabilidad. En el mismo diario, el ministro del Trabajo, Tomás Rau, recuerda que el desempleo juvenil (15 a 24 años) es de 26,8% en las mujeres y 22,4% en los hombres (INE)."
 ],
 "origen": "El Mercurio, Cuerpo A, pág. 3, editorial «Formación y expectativas», miércoles 25 de noviembre de 2026. El Mercurio, Cuerpo A, pág. 2, columna «Sala cuna: Ya es hora de avanzar juntos», Tomás Rau, miércoles 25 de noviembre de 2026. Rock&Pop, «Estudio revela que 70% de los jóvenes siente que partió en desventaja», 2 de noviembre de 2026: https://www.rockandpop.cl/2026/11/estudio-revela-que-70-de-los-jovenes-siente-que-partio-en-desventaja-la-barrera-que-marco-sus-oportunidades-laborales-y-educativas",
@@ -2492,7 +2492,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Este año llovió en Chile como hace décadas no llovía. El editorial de La Tercera advirtió que esas lluvias dejaron una enorme cantidad de pasto que, con las olas de calor, se convertirá en combustible. El Gobierno presentó un avión tanquero que carga 15 mil litros de agua, y hay más de 3.700 brigadistas y unas 77 aeronaves para la temporada. Pero frente a un megaincendio, ningún avión alcanza. La pregunta de fondo es otra: ¿por qué en un mismo cerro unas casas se queman y otras no?",
+"h": "En 2026 llovió en Chile como hace décadas no llovía. El editorial de La Tercera advirtió que esas lluvias dejaron una enorme cantidad de pasto que, con las olas de calor, se convertirá en combustible. El Gobierno presentó un avión tanquero que carga 15 mil litros de agua, y hay más de 3.700 brigadistas y unas 77 aeronaves para la temporada. Pero frente a un megaincendio, ningún avión alcanza. La pregunta de fondo es otra: ¿por qué en un mismo cerro unas casas se queman y otras no?",
 "src": "La Tercera, editorial «Chile frente a los incendios forestales», 24 de noviembre de 2026: https://www.latercera.com/editorial/noticia/chile-frente-a-los-incendios-forestales/ · El Mercurio, Cuerpo C, pág. 6, 24 de noviembre de 2026"
 },
 {
@@ -3153,7 +3153,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "La soledad no es exclusiva de las personas mayores: la Encuesta Bicentenario UC muestra que se concentra en los dos extremos de la vida, la juventud y los mayores de 75 años. Pero en la vejez se juntan varias pérdidas al mismo tiempo. Muere la pareja, mueren los amigos, se termina el trabajo y con él las conversaciones diarias, los hijos se van lejos. Y el cuerpo pone barreras nuevas: oír mal hace difícil seguir una conversación en grupo, ver mal hace difícil salir de noche, caminar con dolor hace que cada salida cueste. La carta de una profesora jubilada en El Mercurio de hoy lo muestra con un ejemplo concreto: un paradero atravesado por una ciclovía bastó para que dejara de tomar la micro.",
+"h": "La soledad no es exclusiva de las personas mayores: la Encuesta Bicentenario UC muestra que se concentra en los dos extremos de la vida, la juventud y los mayores de 75 años. Pero en la vejez se juntan varias pérdidas al mismo tiempo. Muere la pareja, mueren los amigos, se termina el trabajo y con él las conversaciones diarias, los hijos se van lejos. Y el cuerpo pone barreras nuevas: oír mal hace difícil seguir una conversación en grupo, ver mal hace difícil salir de noche, caminar con dolor hace que cada salida cueste. Una carta de una profesora jubilada en El Mercurio lo mostró con un ejemplo concreto: un paradero atravesado por una ciclovía bastó para que dejara de tomar la micro.",
 "src": "Eduardo Valenzuela, Pauta, 4 de noviembre de 2026 · El Mercurio, Cartas, 22 de noviembre de 2026"
 },
 {
@@ -3253,7 +3253,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Los especialistas consultados hoy por El Mercurio proponen algo que no depende de ninguna ley: «solidaridad intergeneracional». Vecinos que ubican a quienes viven solos, redes de apoyo que invitan a celebrar, familias que se dan el tiempo de escuchar. La evidencia respalda esa intuición: lo que protege no es un evento puntual, sino un vínculo que se repite. Una llamada el 24 de diciembre importa. Una llamada todos los jueves, todo el año, importa más."
+"h": "Los especialistas consultados por El Mercurio proponen algo que no depende de ninguna ley: «solidaridad intergeneracional». Vecinos que ubican a quienes viven solos, redes de apoyo que invitan a celebrar, familias que se dan el tiempo de escuchar. La evidencia respalda esa intuición: lo que protege no es un evento puntual, sino un vínculo que se repite. Una llamada el 24 de diciembre importa. Una llamada todos los jueves, todo el año, importa más."
 },
 {
 "k": "q",
@@ -3348,7 +3348,7 @@ window.MU_NEWS=[
 "Visitar con regularidad a una persona mayor en una residencia, con una fundación."
 ],
 "quePaso": [
-"El 47% de las personas mayores de 65 años en Chile se ha sentido sola en forma reciente, según la Encuesta Bicentenario UC 2026, publicada a comienzos de noviembre. Hoy El Mercurio consultó a especialistas y a personas reconocidas en 100 Líderes Mayores 2026, que distinguen la soledad elegida de la «soledad no deseada» y advierten que las fiestas de fin de año agudizan la segunda, sobre todo cuando faltan redes familiares. A nivel nacional hay 79 personas mayores por cada 100 menores de 15 años.",
+"El 47% de las personas mayores de 65 años en Chile se ha sentido sola en forma reciente, según la Encuesta Bicentenario UC 2026, publicada a comienzos de noviembre. El 22 de noviembre de 2026, El Mercurio consultó a especialistas y a personas reconocidas en 100 Líderes Mayores 2026, que distinguen la soledad elegida de la «soledad no deseada» y advierten que las fiestas de fin de año agudizan la segunda, sobre todo cuando faltan redes familiares. A nivel nacional hay 79 personas mayores por cada 100 menores de 15 años.",
 "Piden «solidaridad intergeneracional». La actriz Coca Rudolphy (83) dice que «es tan poco lo que piden los adultos mayores: un poco de compañía, de cariño y algo de preocupación en cosas básicas». Sofía Rivas, directora ejecutiva de Conecta Mayor UC, destaca que «para las personas mayores, estar conectadas es estar acompañadas» y cuenta que su app Espacio Mayor tiene la opción «Esta Navidad tú invitas», con Correos de Chile. La gerontóloga Doris Sequeira (U. Central) propone que los vecinos ubiquen a quienes viven solos y los inviten a fiestas comunitarias; Claudia Rodríguez (U. de los Andes) recuerda a quienes viven en Eleam."
 ],
 "origen": "El Mercurio, Cuerpo C, pág. 13, «Cómo enfrentar la \"soledad no deseada\" de adultos mayores, que se agudiza a fin de año», domingo 22 de noviembre de 2026. El Mercurio, Cuerpo A, pág. 2, Cartas, «Paraderos inseguros», María Cristina Sanz Baeza, domingo 22 de noviembre de 2026.",
@@ -3624,7 +3624,7 @@ window.MU_NEWS=[
 ],
 "quePaso": [
 "Liliana Cortés, directora social del Hogar de Cristo, escribió en La Tercera que unos 110 mil niños, niñas y jóvenes de 12 a 21 años están fuera del sistema escolar, con su educación interrumpida, y que los programas que los atienden mantienen recortes en el Presupuesto 2027. Pide despachar dos proyectos que llevan más de cuatro años en el Congreso: el que crea subvenciones para la modalidad de reingreso escolar y la Ley de Armonización de protección de la infancia, que evitaría que los jóvenes sean expulsados de las residencias al cumplir 18.",
-"Hoy, la investigadora del IES Josefina Araos comenta en La Tercera un estudio de los académicos Juan Pablo Luna y Pedro Carvallo (Tercera Dosis), basado en entrevistas a estudiantes y profesores: muchos jóvenes van a la escuela sin creer que les cambiará la vida, buscan «plata fácil» y pertenencia, y en el fondo reclaman abandono. Un estudiante pregunta: «¿Qué sentido tiene estudiar, si voy a seguir estando abandonado?». Y los profesores cuentan: «Por más choros que sean, cuando les damos un abrazo, se ponen a llorar»."
+"En noviembre de 2026, la investigadora del IES Josefina Araos comentó en La Tercera un estudio de los académicos Juan Pablo Luna y Pedro Carvallo (Tercera Dosis), basado en entrevistas a estudiantes y profesores: muchos jóvenes van a la escuela sin creer que les cambiará la vida, buscan «plata fácil» y pertenencia, y en el fondo reclaman abandono. Un estudiante pregunta: «¿Qué sentido tiene estudiar, si voy a seguir estando abandonado?». Y los profesores cuentan: «Por más choros que sean, cuando les damos un abrazo, se ponen a llorar»."
 ],
 "origen": "La Tercera, Cartas al director, «Proyectos congelados», Liliana Cortés, sábado 21 nov 2026: https://www.latercera.com/cartas-al-director/noticia/proyectos-congelados/ · La Tercera, Opinión, «Entre consumir y pertenecer», Josefina Araos, domingo 22 nov 2026: https://www.latercera.com/opinion/noticia/entre-consumir-y-pertenecer/",
 "iso": "2026-11-22"
@@ -3682,7 +3682,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Esta semana, El Mercurio revisó las cifras de reincidencia en Chile: más de la mitad de quienes cumplen toda su condena en la cárcel vuelve a delinquir, mientras que entre quienes salen antes, con supervisión y un plan de trabajo, vuelven tres de cada diez. Los expertos advierten que esas diferencias no prueban por sí solas qué funciona, porque quienes acceden a cada beneficio son personas distintas. Pero dejan abierta una pregunta que importa a toda la sociedad, porque de ella depende nuestra seguridad: ¿qué hace que una persona que delinquió deje de hacerlo?",
+"h": "En noviembre de 2026, El Mercurio revisó las cifras de reincidencia en Chile: más de la mitad de quienes cumplen toda su condena en la cárcel vuelve a delinquir, mientras que entre quienes salen antes, con supervisión y un plan de trabajo, vuelven tres de cada diez. Los expertos advierten que esas diferencias no prueban por sí solas qué funciona, porque quienes acceden a cada beneficio son personas distintas. Pero dejan abierta una pregunta que importa a toda la sociedad, porque de ella depende nuestra seguridad: ¿qué hace que una persona que delinquió deje de hacerlo?",
 "src": "El Mercurio, Reportajes, pág. 9, El Polígrafo, 22 de noviembre de 2026"
 },
 {
@@ -3817,7 +3817,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Chile tiene más de 60 mil personas en sus cárceles, y casi todas van a salir algún día. Desde 2003, cerca de 41.600 personas han recibido reducción de condena por buena conducta, un beneficio que esta semana entró al debate público por su concesión a condenados por delitos graves contra menores. Más allá de ese debate, que corresponde a la ley y a las autoridades, queda una pregunta que nos toca a todos: cuando una persona sale, ¿encuentra un camino para no volver, o solo puertas cerradas?",
+"h": "Chile tiene más de 60 mil personas en sus cárceles, y casi todas van a salir algún día. Desde 2003, cerca de 41.600 personas han recibido reducción de condena por buena conducta, un beneficio que en noviembre de 2026 entró al debate público por su concesión a condenados por delitos graves contra menores. Más allá de ese debate, que corresponde a la ley y a las autoridades, queda una pregunta que nos toca a todos: cuando una persona sale, ¿encuentra un camino para no volver, o solo puertas cerradas?",
 "src": "El Mercurio, 22 de noviembre de 2026 · Gendarmería de Chile"
 },
 {
@@ -3961,7 +3961,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Zulema Aburto y Germania Silva han cuidado, entre las dos, a más de 200 guaguas que no eran suyas. Algunas estuvieron en sus casas un día y medio; otras, años. Todas, tarde o temprano, se fueron: volvieron con su familia de origen o llegaron a una familia adoptiva. El miércoles explicamos por qué un niño necesita una familia y no una institución. Esta historia abre la pregunta que viene después, y que casi todas las personas se hacen cuando oyen hablar de las familias de acogida: si un niño va a irse, ¿no le hace daño encariñarse? ¿Y no le hace daño a quien lo cuida? La respuesta de la ciencia es clara y un poco contraintuitiva: lo que daña no es querer a alguien que después se va. Lo que daña es no haber tenido a nadie, o perderlo de golpe y sin cuidado.",
+"h": "Zulema Aburto y Germania Silva han cuidado, entre las dos, a más de 200 guaguas que no eran suyas. Algunas estuvieron en sus casas un día y medio; otras, años. Todas, tarde o temprano, se fueron: volvieron con su familia de origen o llegaron a una familia adoptiva. En «Por qué un niño necesita una familia» explicamos por qué un niño necesita una familia y no una institución. Esta historia abre la pregunta que viene después, y que casi todas las personas se hacen cuando oyen hablar de las familias de acogida: si un niño va a irse, ¿no le hace daño encariñarse? ¿Y no le hace daño a quien lo cuida? La respuesta de la ciencia es clara y un poco contraintuitiva: lo que daña no es querer a alguien que después se va. Lo que daña es no haber tenido a nadie, o perderlo de golpe y sin cuidado.",
 "src": "El Mercurio, Revista Sábado, 21 de noviembre de 2026, «Madres de acogida con récord en cuidado»"
 },
 {
@@ -4076,7 +4076,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "¿Qué recuerda un adulto de la familia que lo cuidó cuando era guagua? Casi nada, en la memoria consciente. Pero el cuerpo y la manera de relacionarse sí lo guardan. Las investigaciones sobre apego muestran que la seguridad que un niño vive en los primeros años se asocia, décadas después, a cómo maneja el estrés, cómo pide ayuda y cómo se vincula con otros. Los estudios de largo plazo sobre niños que pasaron de instituciones a familias, como el de Bucarest que contamos el miércoles, mostraron que lo que más protegía a los niños era haber vivido una relación estable y cálida, y que las interrupciones repetidas de esas relaciones les quitaban parte de lo ganado.",
+"h": "¿Qué recuerda un adulto de la familia que lo cuidó cuando era guagua? Casi nada, en la memoria consciente. Pero el cuerpo y la manera de relacionarse sí lo guardan. Las investigaciones sobre apego muestran que la seguridad que un niño vive en los primeros años se asocia, décadas después, a cómo maneja el estrés, cómo pide ayuda y cómo se vincula con otros. Los estudios de largo plazo sobre niños que pasaron de instituciones a familias, como el de Bucarest que contamos en «Por qué un niño necesita una familia», mostraron que lo que más protegía a los niños era haber vivido una relación estable y cálida, y que las interrupciones repetidas de esas relaciones les quitaban parte de lo ganado.",
 "src": "Nelson, Fox y Zeanah, Romania's Abandoned Children, Harvard University Press, 2014"
 },
 {
@@ -4130,7 +4130,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "La discusión de esta semana sobre el presupuesto para la niñez terminó en un punto de acuerdo: todos quieren que más niños crezcan en familias. Lo que enseñan los Robertson, Dozier y el equipo de East Anglia es que no basta con sumar familias. Hay que acompañarlas para que puedan hacer lo más difícil: querer a un niño como si fuera para siempre, y ayudarlo a irse bien."
+"h": "La discusión de noviembre de 2026 sobre el presupuesto para la niñez terminó en un punto de acuerdo: todos quieren que más niños crezcan en familias. Lo que enseñan los Robertson, Dozier y el equipo de East Anglia es que no basta con sumar familias. Hay que acompañarlas para que puedan hacer lo más difícil: querer a un niño como si fuera para siempre, y ayudarlo a irse bien."
 },
 {
 "k": "p",
@@ -4271,7 +4271,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Este sábado se camina en Santiago por la donación de órganos. En una carta a La Tercera, el abogado Gustavo Poblete, de la Universidad Alberto Hurtado, recuerda dos cifras que no calzan. Desde 2010, la ley chilena considera donante a toda persona mayor de 18 años que no haya dicho lo contrario. Y, sin embargo, según el Ministerio de Salud, cerca de la mitad de las familias de potenciales donantes no autoriza la donación. Mientras tanto, más de 2.300 personas esperan un riñón. ¿Por qué una ley tan clara no alcanza? La respuesta tiene que ver con algo que ninguna ley puede reemplazar: lo que pasa en una familia en las horas más difíciles de su vida.",
+"h": "El 21 de noviembre de 2026 se caminó en Santiago por la donación de órganos. En una carta a La Tercera, el abogado Gustavo Poblete, de la Universidad Alberto Hurtado, recuerda dos cifras que no calzan. Desde 2010, la ley chilena considera donante a toda persona mayor de 18 años que no haya dicho lo contrario. Y, sin embargo, según el Ministerio de Salud, cerca de la mitad de las familias de potenciales donantes no autoriza la donación. Mientras tanto, más de 2.300 personas esperan un riñón. ¿Por qué una ley tan clara no alcanza? La respuesta tiene que ver con algo que ninguna ley puede reemplazar: lo que pasa en una familia en las horas más difíciles de su vida.",
 "src": "La Tercera, Cartas al director, 21 de noviembre de 2026, «Solidarios por convicción», https://www.latercera.com/cartas-al-director/noticia/solidarios-por-conviccion/"
 },
 {
@@ -4428,7 +4428,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "La carta de esta semana pide dos cosas: que cada familia lo converse y que el Estado asegure las condiciones sanitarias para que las donaciones se concreten. La segunda depende de las autoridades. La primera depende de nosotros, y es probablemente la medida más barata y eficaz que existe para salvar vidas: una conversación de cinco minutos, en la mesa de la casa, antes de que haga falta."
+"h": "Su carta pide dos cosas: que cada familia lo converse y que el Estado asegure las condiciones sanitarias para que las donaciones se concreten. La segunda depende de las autoridades. La primera depende de nosotros, y es probablemente la medida más barata y eficaz que existe para salvar vidas: una conversación de cinco minutos, en la mesa de la casa, antes de que haga falta."
 },
 {
 "k": "q",
@@ -4521,7 +4521,7 @@ window.MU_NEWS=[
 "Sumarse como voluntario a una fundación que da charlas sobre donación de órganos."
 ],
 "quePaso": [
-"Gustavo Poblete Espíndola, director del Departamento de Derecho Público de la Universidad Alberto Hurtado, escribe a La Tercera a propósito de la caminata por la donación de órganos de este sábado 21. Recuerda que desde 2010 la ley chilena considera donante a toda persona, salvo que haya dicho lo contrario, pero que esa regla no garantiza que la voluntad de donar se convierta en trasplantes. Según el Instituto de Salud Pública, hasta septiembre de 2026 esperaban un trasplante 2.396 personas por un riñón, 286 por un hígado, 65 por un pulmón, 26 por un páncreas y 18 por un corazón. Y según el Ministerio de Salud, cerca de la mitad de las familias de potenciales donantes no ratifica la donación.",
+"Gustavo Poblete Espíndola, director del Departamento de Derecho Público de la Universidad Alberto Hurtado, escribe a La Tercera a propósito de la caminata por la donación de órganos del sábado 21 de noviembre de 2026. Recuerda que desde 2010 la ley chilena considera donante a toda persona, salvo que haya dicho lo contrario, pero que esa regla no garantiza que la voluntad de donar se convierta en trasplantes. Según el Instituto de Salud Pública, hasta septiembre de 2026 esperaban un trasplante 2.396 personas por un riñón, 286 por un hígado, 65 por un pulmón, 26 por un páncreas y 18 por un corazón. Y según el Ministerio de Salud, cerca de la mitad de las familias de potenciales donantes no ratifica la donación.",
 "Su propuesta: conversar en familia sobre la voluntad de donar y un Estado activo que asegure las condiciones sanitarias para concretar las donaciones. «No basta con ser donantes por ley. Necesitamos ser solidarios por convicción»."
 ],
 "origen": "La Tercera, Cartas al director, sábado 21 nov 2026, «Solidarios por convicción», Gustavo Poblete Espíndola: https://www.latercera.com/cartas-al-director/noticia/solidarios-por-conviccion/",
@@ -4853,7 +4853,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Esta semana, un editorial de El Mercurio y una carta de la ministra de Educación coincidieron en algo: en un Chile donde cada año nacen menos niños, los primeros años de vida son los que más importan. La discusión fue sobre presupuestos, jardines infantiles y fusiones de colegios. Pero detrás queda una pregunta que no depende de ninguna ley: ¿qué necesita un niño pequeño para aprender a hablar, a pensar y, más tarde, a leer? Una de las respuestas más sólidas que tiene la ciencia es sorprendentemente simple: que un adulto le hable, le pregunte y le lea en voz alta.",
+"h": "En noviembre de 2026, un editorial de El Mercurio y una carta de la ministra de Educación coincidieron en algo: en un Chile donde cada año nacen menos niños, los primeros años de vida son los que más importan. La discusión fue sobre presupuestos, jardines infantiles y fusiones de colegios. Pero detrás queda una pregunta que no depende de ninguna ley: ¿qué necesita un niño pequeño para aprender a hablar, a pensar y, más tarde, a leer? Una de las respuestas más sólidas que tiene la ciencia es sorprendentemente simple: que un adulto le hable, le pregunte y le lea en voz alta.",
 "src": "El Mercurio, Cuerpo A, pág. 3, Editorial «Demografía y educación», 19 nov 2026; Cuerpo A, pág. 2, Cartas, «Demografía y educación: del diagnóstico a la acción», 20 nov 2026"
 },
 {
@@ -5011,7 +5011,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Hay una buena noticia: por primera vez, el Plan Nacional de Lectura, Escritura y Oralidad 2025-2026 del Ministerio de las Culturas incluye la oralidad, es decir, contar y leer en voz alta, como uno de sus ejes. Y hay otra que no depende de ningún plan. En un país con menos niños, cada niño tiene, en promedio, más adultos alrededor: abuelos, tíos, vecinos. La pregunta de fondo que dejó esta semana no es solo cuánto gastará el Estado en los primeros años. Es cuántos de esos adultos se sentarán, esta noche, a leerle a un niño."
+"h": "Hay una buena noticia: por primera vez, el Plan Nacional de Lectura, Escritura y Oralidad 2025-2026 del Ministerio de las Culturas incluye la oralidad, es decir, contar y leer en voz alta, como uno de sus ejes. Y hay otra que no depende de ningún plan. En un país con menos niños, cada niño tiene, en promedio, más adultos alrededor: abuelos, tíos, vecinos. La pregunta de fondo no es solo cuánto gastará el Estado en los primeros años. Es cuántos de esos adultos se sentarán, esta noche, a leerle a un niño."
 },
 {
 "k": "q",
@@ -5265,7 +5265,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Esto ayuda a entender por qué preocupa tanto el dato chileno de esta semana: la brecha más grande está en personas de 25 a 34 años, justo la edad en que se arma una trayectoria laboral. Y explica lo que advirtió el economista Iván Araya, de la Universidad de Concepción, sobre Huachipato."
+"h": "Esto ayuda a entender por qué preocupa tanto el dato chileno de noviembre de 2026: la brecha más grande está en personas de 25 a 34 años, justo la edad en que se arma una trayectoria laboral. Y explica lo que advirtió el economista Iván Araya, de la Universidad de Concepción, sobre Huachipato."
 },
 {
 "k": "q",
@@ -5353,7 +5353,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Esta semana, el columnista Cristián Warnken escribió en El Mercurio que el país vive algo más parecido a una depresión anímica que a una recesión económica. Marienthal enseña que esas dos cosas no están separadas: cuando el trabajo desaparece, desaparecen también el tiempo ordenado, los compañeros y el sentido de utilidad. Las políticas de empleo son tarea del Estado y de las empresas. Pero la ciencia de los lazos débiles recuerda algo que está al alcance de cualquiera: para alguien que busca trabajo, uno puede ser ese conocido que trae una noticia de otro mundo.",
+"h": "En noviembre de 2026, el columnista Cristián Warnken escribió en El Mercurio que el país vive algo más parecido a una depresión anímica que a una recesión económica. Marienthal enseña que esas dos cosas no están separadas: cuando el trabajo desaparece, desaparecen también el tiempo ordenado, los compañeros y el sentido de utilidad. Las políticas de empleo son tarea del Estado y de las empresas. Pero la ciencia de los lazos débiles recuerda algo que está al alcance de cualquiera: para alguien que busca trabajo, uno puede ser ese conocido que trae una noticia de otro mundo.",
 "src": "El Mercurio, Cuerpo A, pág. 3, Cristián Warnken, «O el asilo contra la depresión», 20 nov 2026"
 }
 ],
@@ -5612,7 +5612,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "En las ciudades, el agua potable llega a prácticamente todas las casas. En el campo, no. Un estudio de Fundación Amulén con dos centros de la Universidad Católica, «Pobres de agua», estimó que el 47,2% de la población rural no tiene un abastecimiento formal de agua potable: se abastece de pozos, ríos, vertientes, esteros o camiones aljibe. La directora de la fundación lo dijo de manera simple: casi un millón de personas en Chile no puede abrir la llave para tener agua potable. Las cifras varían según cómo se defina el acceso, y la carta de esta semana habla de casi un 30% de las viviendas de los municipios rurales sin conexión: ambas muestran una brecha que no aparece en el promedio nacional.",
+"h": "En las ciudades, el agua potable llega a prácticamente todas las casas. En el campo, no. Un estudio de Fundación Amulén con dos centros de la Universidad Católica, «Pobres de agua», estimó que el 47,2% de la población rural no tiene un abastecimiento formal de agua potable: se abastece de pozos, ríos, vertientes, esteros o camiones aljibe. La directora de la fundación lo dijo de manera simple: casi un millón de personas en Chile no puede abrir la llave para tener agua potable. Las cifras varían según cómo se defina el acceso, y la carta de la Fundación Superación de la Pobreza habla de casi un 30% de las viviendas de los municipios rurales sin conexión: ambas muestran una brecha que no aparece en el promedio nacional.",
 "src": "Fundación Amulén, «Pobres de agua», citado por El Mostrador, 23 de noviembre de 2021, https://www.elmostrador.cl/agenda-pais/2021/11/23/404-de-las-escuelas-rurales-en-chile-no-cuenta-con-abastecimiento-formal-de-agua-potable-segun-estudio/ · Pauta, 15 de marzo de 2024, https://www.pauta.cl/sostenibilidad/2024/03/15/fundacion-amulen-son-casi-un-millon-de-chilenos-los-que-no-pueden-abrir-la-llave-del-agua.html"
 },
 {
@@ -5626,7 +5626,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "La carta de esta semana pide algo que va más allá de medir mejor: «avanzar hacia una mirada que no solo identifique carencias, sino que también reconozca las capacidades, redes y oportunidades de las comunidades». Esa idea también tiene historia."
+"h": "Esa carta pide algo que va más allá de medir mejor: «avanzar hacia una mirada que no solo identifique carencias, sino que también reconozca las capacidades, redes y oportunidades de las comunidades». Esa idea también tiene historia."
 },
 {
 "k": "p",
@@ -5681,7 +5681,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Chile ha reducido mucho la pobreza en las últimas décadas, y hoy la mide con más dimensiones que antes. Pero los promedios esconden las diferencias entre territorios: entre el campo y la ciudad, entre una comuna aislada del sur y una comuna central de Santiago. Esta semana, la Fundación Superación de la Pobreza pidió que esa diversidad no se pierda en las cifras, y que el conocimiento de las comunidades y de los municipios se use para tomar mejores decisiones."
+"h": "Chile ha reducido mucho la pobreza en las últimas décadas, y hoy la mide con más dimensiones que antes. Pero los promedios esconden las diferencias entre territorios: entre el campo y la ciudad, entre una comuna aislada del sur y una comuna central de Santiago. En noviembre de 2026, la Fundación Superación de la Pobreza pidió que esa diversidad no se pierda en las cifras, y que el conocimiento de las comunidades y de los municipios se use para tomar mejores decisiones."
 },
 {
 "k": "p",
@@ -5839,7 +5839,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "En los últimos días avanzó en la Cámara un proyecto que prohíbe a los menores de 14 años registrarse y usar redes sociales, y que extiende la regla a plataformas de transmisión en vivo y a videojuegos que permiten hablar con desconocidos. Dos académicas de educación, María Jesús Espinosa (UDP) y Javiera Figueroa (UAH), escribieron a La Tercera que la iniciativa responde a problemas reales, pero que prohibir no basta: los jóvenes son muy creativos para saltarse las barreras, y lo que falta es educación. La pregunta de fondo es esta: ¿qué sabemos realmente de lo que las redes les hacen a los niños, y qué los ayuda a usarlas sin que los dañen?",
+"h": "En noviembre de 2026 avanzó en la Cámara un proyecto que prohíbe a los menores de 14 años registrarse y usar redes sociales, y que extiende la regla a plataformas de transmisión en vivo y a videojuegos que permiten hablar con desconocidos. Dos académicas de educación, María Jesús Espinosa (UDP) y Javiera Figueroa (UAH), escribieron a La Tercera que la iniciativa responde a problemas reales, pero que prohibir no basta: los jóvenes son muy creativos para saltarse las barreras, y lo que falta es educación. La pregunta de fondo es esta: ¿qué sabemos realmente de lo que las redes les hacen a los niños, y qué los ayuda a usarlas sin que los dañen?",
 "src": "La Tercera, Cartas al director, 19 de noviembre de 2026, https://www.latercera.com/cartas-al-director/noticia/mas-alla-de-la-prohibicion-necesitamos-educacion/ · Radio Agricultura, 17 de noviembre de 2026, https://www.radioagricultura.cl/noticias/politica/proyecto-de-ley-sobre-redes-sociales-avanza-propone-limitar-algoritmos-adictivos-y-proteger-a-menores_20261117/"
 },
 {
@@ -5968,7 +5968,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Desde el año escolar 2026 rige la ley que prohíbe el uso de celulares en las salas de clases, con excepciones. En los colegios que ya lo aplicaban antes, los equipos describen recreos con más conversación y más juego. Ahora el Congreso discute ir más allá, con la edad mínima para las redes. La carta de esta semana pone el acento en lo que la ley no puede hacer: la actualización curricular abre una oportunidad para enseñar ciudadanía digital en la escuela, porque las redes, con o sin prohibición, no van a desaparecer de la vida de niños y jóvenes.",
+"h": "Desde el año escolar 2026 rige la ley que prohíbe el uso de celulares en las salas de clases, con excepciones. En los colegios que ya lo aplicaban antes, los equipos describen recreos con más conversación y más juego. Ahora el Congreso discute ir más allá, con la edad mínima para las redes. Esa carta pone el acento en lo que la ley no puede hacer: la actualización curricular abre una oportunidad para enseñar ciudadanía digital en la escuela, porque las redes, con o sin prohibición, no van a desaparecer de la vida de niños y jóvenes.",
 "src": "BioBioChile, 3 de diciembre de 2025, https://www.biobiochile.cl/noticias/nacional/chile/2025/12/03/camara-aprueba-ley-que-prohibe-el-uso-de-celulares-en-colegios-a-partir-de-2026.shtml · La Tercera, 19 de noviembre de 2026"
 },
 {
@@ -6067,7 +6067,7 @@ window.MU_NEWS=[
 "Proponer en el colegio un taller de ciudadanía digital para apoderados y alumnos."
 ],
 "quePaso": [
-"María Jesús Espinosa (Facultad de Educación UDP) y Javiera Figueroa Miralles (Facultad de Educación UAH) escriben a La Tercera sobre el proyecto de ley que prohíbe las redes sociales a menores de 14 años, que en los últimos días «ha avanzado a paso seguro en el Congreso». Reconocen que responde a problemas reales y a evidencia sobre los daños de las redes, como la distracción permanente y el deterioro de la convivencia. Pero advierten que solo prohibir no alcanza: la experiencia de otros países muestra que los jóvenes son muy creativos para saltarse las barreras.",
+"María Jesús Espinosa (Facultad de Educación UDP) y Javiera Figueroa Miralles (Facultad de Educación UAH) escriben a La Tercera sobre el proyecto de ley que prohíbe las redes sociales a menores de 14 años, que en noviembre de 2026 «ha avanzado a paso seguro en el Congreso». Reconocen que responde a problemas reales y a evidencia sobre los daños de las redes, como la distracción permanente y el deterioro de la convivencia. Pero advierten que solo prohibir no alcanza: la experiencia de otros países muestra que los jóvenes son muy creativos para saltarse las barreras.",
 "Proponen abrir espacios de diálogo y formación sobre los efectos de las redes en la salud, la convivencia y el aprendizaje, y aprovechar la actualización curricular para enseñar ciudadanía digital en la escuela, porque las redes no van a desaparecer de la vida de niños y jóvenes. El proyecto, impulsado entre otros por el diputado Diego Schalper, fue aprobado por la Comisión de Ciencias de la Cámara y despachado a la Sala; prohíbe el registro, el acceso y el uso de redes a menores de 14, con excepciones para contenidos educativos, y extiende la regla a plataformas de transmisión en vivo y videojuegos que permiten hablar con desconocidos."
 ],
 "origen": "La Tercera, Cartas al director, jueves 19 nov 2026, «Más allá de la prohibición, necesitamos educación»: https://www.latercera.com/cartas-al-director/noticia/mas-alla-de-la-prohibicion-necesitamos-educacion/ · Radio Agricultura, 17 nov 2026: https://www.radioagricultura.cl/noticias/politica/proyecto-de-ley-sobre-redes-sociales-avanza-propone-limitar-algoritmos-adictivos-y-proteger-a-menores_20261117/",
@@ -6117,7 +6117,7 @@ window.MU_NEWS=[
 "blocks": [
 {
 "k": "p",
-"h": "Esta semana, 105 personas firmaron una carta en El Mercurio contra el recorte para los niños que viven en residencias de protección. El subsecretario de la Niñez respondió que el Gobierno quiere que más niños crezcan en familias de acogida en vez de en residencias. Entre la carta y la respuesta quedó una pregunta de fondo que vale la pena entender bien: ¿por qué se insiste tanto en que un niño viva en una familia, y no en una institución, aunque sea una buena institución? La respuesta tiene casi ochenta años de historia, y es una de las cosas que la ciencia del desarrollo ha comprobado con más fuerza.",
+"h": "En noviembre de 2026, 105 personas firmaron una carta en El Mercurio contra el recorte para los niños que viven en residencias de protección. El subsecretario de la Niñez respondió que el Gobierno quiere que más niños crezcan en familias de acogida en vez de en residencias. Entre la carta y la respuesta quedó una pregunta de fondo que vale la pena entender bien: ¿por qué se insiste tanto en que un niño viva en una familia, y no en una institución, aunque sea una buena institución? La respuesta tiene casi ochenta años de historia, y es una de las cosas que la ciencia del desarrollo ha comprobado con más fuerza.",
 "src": "El Mercurio, Cuerpo A, pág. 2, Cartas, 16 y 18 de noviembre de 2026"
 },
 {
@@ -6256,7 +6256,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "El debate de esta semana sobre el Presupuesto deja algo claro: tanto quienes critican el recorte como el Gobierno coinciden en que los niños deberían crecer en familias. Pero el estudio de Bucarest tiene una advertencia que vale para Chile: sus familias de acogida funcionaron porque fueron elegidas con cuidado, formadas y acompañadas de cerca por profesionales. Una familia de acogida sin apoyo puede terminar en una interrupción, y una interrupción, como vimos, repite el daño. Pasar a los niños de las residencias a las familias exige más recursos, no menos.",
+"h": "El debate sobre el Presupuesto 2027 deja algo claro: tanto quienes critican el recorte como el Gobierno coinciden en que los niños deberían crecer en familias. Pero el estudio de Bucarest tiene una advertencia que vale para Chile: sus familias de acogida funcionaron porque fueron elegidas con cuidado, formadas y acompañadas de cerca por profesionales. Una familia de acogida sin apoyo puede terminar en una interrupción, y una interrupción, como vimos, repite el daño. Pasar a los niños de las residencias a las familias exige más recursos, no menos.",
 "src": "Centro de Políticas Públicas UC, 2025"
 },
 {
@@ -6380,8 +6380,8 @@ window.MU_NEWS=[
 "Postular para ser familia de acogida."
 ],
 "quePaso": [
-"El lunes, 105 personas de distintos sectores firmaron una carta en El Mercurio contra el recorte para los más de 5 mil niños que viven en residencias de protección. Según la Defensoría de la Niñez, el Presupuesto 2027 reduce cerca de 7% los recursos para cuidado alternativo, y 12% (unos $22 mil millones) en lo que financia el cuidado residencial y familiar. Recuerdan que 1.729 niños en residencias esperan atención psiquiátrica.",
-"Hoy responde el subsecretario de la Niñez, Marcelo Sánchez: en diez años la subvención a las residencias subió 60% real, y una residencia cuesta tres veces más que el cuidado en una familia. El Gobierno quiere que más niños crezcan en familias de acogida (hoy cerca del 90% son familia extensa: abuelos, tíos) y crear familias de acogida terapéuticas y profesionales. Dice que no se pierden cupos."
+"El 16 de noviembre de 2026, 105 personas de distintos sectores firmaron una carta en El Mercurio contra el recorte para los más de 5 mil niños que viven en residencias de protección. Según la Defensoría de la Niñez, el Presupuesto 2027 reduce cerca de 7% los recursos para cuidado alternativo, y 12% (unos $22 mil millones) en lo que financia el cuidado residencial y familiar. Recuerdan que 1.729 niños en residencias esperan atención psiquiátrica.",
+"El 18 de noviembre respondió el subsecretario de la Niñez, Marcelo Sánchez: en diez años la subvención a las residencias subió 60% real, y una residencia cuesta tres veces más que el cuidado en una familia. El Gobierno quiere que más niños crezcan en familias de acogida (hoy cerca del 90% son familia extensa: abuelos, tíos) y crear familias de acogida terapéuticas y profesionales. Dice que no se pierden cupos."
 ],
 "origen": "El Mercurio, Cuerpo A, pág. 2, Cartas, lunes 16 nov, «Recortar donde más duele»; y miércoles 18 nov, «Por el bien de los niños».",
 "iso": "2026-11-18"
@@ -6426,7 +6426,7 @@ window.MU_NEWS=[
 }
 ],
 "bajada": "Por qué en Chile tener un hijo le cambia la vida laboral a la madre y casi nada al padre, qué se ha probado en otros países y dónde está hoy la red que ayuda a criar.",
-"noticia": "Sala cuna: la Cámara vota hoy un proyecto que se espera hace décadas",
+"noticia": "Sala cuna: la Cámara vota un proyecto que se espera hace décadas (18 de noviembre de 2026)",
 "blocks": [
 {
 "k": "h",
@@ -6457,7 +6457,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Esta semana la Cámara vota el proyecto de sala cuna para todas las madres trabajadoras, incluidas las independientes y las trabajadoras de casa particular. Cuatro economistas de distintos sectores escribieron que una sala cuna accesible, de calidad y con horarios compatibles «puede ser decisiva» para que una madre busque empleo o lo mantenga.",
+"h": "En noviembre de 2026 la Cámara votó el proyecto de sala cuna para todas las madres trabajadoras, incluidas las independientes y las trabajadoras de casa particular. Cuatro economistas de distintos sectores escribieron que una sala cuna accesible, de calidad y con horarios compatibles «puede ser decisiva» para que una madre busque empleo o lo mantenga.",
 "src": "Huneeus, Marcel, Repetto y Velasco, El Mercurio, Cartas, 17 nov 2026"
 },
 {
@@ -6558,7 +6558,7 @@ window.MU_NEWS=[
 },
 {
 "k": "p",
-"h": "Las trabajadoras de casa particular son una parte invisible de esta red: cuidan a los hijos de otras mujeres para que ellas puedan trabajar, y muchas veces no tienen con quién dejar a los propios. El proyecto que se vota esta semana las incluye por primera vez."
+"h": "Las trabajadoras de casa particular son una parte invisible de esta red: cuidan a los hijos de otras mujeres para que ellas puedan trabajar, y muchas veces no tienen con quién dejar a los propios. El proyecto de sala cuna las incluye por primera vez."
 },
 {
 "k": "h",
@@ -6675,7 +6675,7 @@ window.MU_NEWS=[
 "Apoyar un jardín comunitario con tiempo, materiales o una donación."
 ],
 "quePaso": [
-"ChileMujeres, ComunidadMujer, Fundación Todas y Mujeres Empresarias escriben a El Mercurio: ayer la comisión de Hacienda aprobó el proyecto de sala cuna y hoy se vota en la Sala de la Cámara. Hoy la sala cuna es obligatoria solo en empresas con 20 o más trabajadoras, y apenas el 10% de las organizaciones contrata a más de 19 mujeres.",
+"ChileMujeres, ComunidadMujer, Fundación Todas y Mujeres Empresarias escriben a El Mercurio: el 17 de noviembre de 2026 la comisión de Hacienda aprobó el proyecto de sala cuna y el 18 se votó en la Sala de la Cámara. Hasta entonces, la sala cuna era obligatoria solo en empresas con 20 o más trabajadoras, y apenas el 10% de las organizaciones contrata a más de 19 mujeres.",
 "Con el proyecto pasa a ser un derecho de todas las madres trabajadoras, dependientes e independientes, y de las trabajadoras de casa particular. Desde el cuarto año se suman los padres. La comisión bajó la cotización para el Fondo de Sala Cuna de 0,35% a 0,30% y agregó aportes para jardines y hogares de menores ingresos. Si la Sala lo aprueba, vuelve al Senado."
 ],
 "origen": "El Mercurio, Cuerpo A, pág. 2, Cartas, 18 nov, «Sala cuna: la esperanza es hoy». Emol, 17 nov: https://www.emol.com/noticias/Economia/2026/11/17/1217389/sala-cuna-pasa-tercer-tramite.html",

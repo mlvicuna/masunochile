@@ -852,3 +852,171 @@ a.book:hover b{text-decoration:underline}
 .mas-txt{animation:fadein .35s ease}
 @keyframes fadein{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 .parte h2{margin-top:0}
+
+/* =====================================================================
+   27 nov · NUEVA IDENTIDAD «energía, motivación, optimismo»
+   Referencias de la usuaria: colores planos y vivos, tipografía gruesa y
+   condensada en mayúsculas, números gigantes en bloques de color, formas
+   simples (círculos, arcos). Sobrescribe la paleta grafito + rojo chilote.
+   ===================================================================== */
+:root{
+  --coral:#F0503A; --amarillo:#FFD23F; --rosado:#F9A8C9; --azul:#2F6BE0; --celeste:#8EC5FF;
+  --verde:#1FA45B; --verde-osc:#123F2B; --morado:#8E62D9; --vino:#6E1734; --negro:#151515; --crema:#FBF6EC;
+  --acc:#F0503A; --acc-ink:#C7351F; --acc-soft:#FFE3DC; --red:#F0503A; --lime:#FFD23F;
+  --sand:#FFF0C2; --night:#151515; --graf:#151515; --bg:#FBF6EC; --ink:#151515; --ink2:#2D2D2D; --mute:#5E5A52; --rule:#E6DFD0;
+  --display:'Anton','Archivo',Impact,sans-serif; --serif:'Archivo',system-ui,sans-serif;
+}
+body{background:var(--bg)}
+/* tipografía: titulares gruesos, condensados y en mayúsculas */
+h1,h2,.sec-head h2,.accion-head h2,.dudas-head h2,.parte h2,.minga h2,.cierre h2,.pagehead h1,.hero h1,.intro h1{
+  font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:.005em;line-height:.98}
+h1 em,h2 em,.hero h1 em,.intro h1 em,.accion-head h2 em,.dudas-head h2 em,.minga h2 em,.cierre h2 em,.sec-head h2 em{font-style:normal}
+h3,.accion-sub h3,h3.para,.hq b,.ocard b,.pick h4,.hn-txt b,.vcap>b,.book b,.card h3,.feature h3,.tcard b,.hoycard p,.duda summary,.quedate p,.minga-cierre,.mm-frase,.intro-kicker{
+  font-family:var(--serif);font-weight:800;letter-spacing:-.01em;font-style:normal}
+.hoy p,.hoy.big p{font-family:var(--serif);font-weight:700;letter-spacing:-.015em;line-height:1.15}
+.eyebrow{font-family:var(--serif);font-weight:800;letter-spacing:.12em;color:var(--coral)}
+.article h2{font-family:var(--display);text-transform:uppercase}
+.article p.first::first-letter{font-family:var(--display);color:var(--coral)}
+blockquote.pull p,.story blockquote{font-family:var(--serif);font-weight:700;font-style:normal}
+/* botones */
+.btn{font-family:var(--serif);font-weight:800;letter-spacing:.01em;border-radius:999px}
+.btn.acc,.btn.lime{background:var(--coral);color:#fff}.btn.acc:hover,.btn.lime:hover{background:#D63E29}
+.intro .btn.lime{background:var(--amarillo);color:var(--negro)}
+.nav .nav-btn,.top:not(.solid) .nav .nav-btn{background:var(--amarillo)!important;color:var(--negro)!important}
+/* inicio */
+.intro-full h1{font-size:clamp(60px,8.4vw,132px)}
+.intro-full h1 em{color:var(--amarillo)}
+.intro-kicker{font-size:clamp(18px,1.6vw,22px);color:#fff;opacity:.9}
+.intro-pasos b{background:var(--amarillo);color:var(--negro)}
+.ih-like b{background:var(--coral);font-family:var(--display);font-size:clamp(30px,2.8vw,40px)}
+.ih-like b::after{background:var(--coral)}
+.ih-like em{font-family:var(--serif);font-weight:800;font-style:normal}
+.ticker{background:var(--amarillo);color:var(--negro)}
+.ticker span{font-family:var(--display);text-transform:uppercase;font-size:22px;letter-spacing:.02em}
+.ticker i{border-color:var(--negro)}
+.it-n{font-family:var(--display);font-style:normal;color:var(--amarillo)}
+/* cifras: bloques de color con números gigantes */
+.stats{gap:0;border:0;margin-top:clamp(40px,6vw,72px)}
+.stat{margin:0;border:0;padding:clamp(22px,2.6vw,34px);min-height:220px;display:flex;flex-direction:column;justify-content:space-between}
+.stat b{font-family:var(--display);font-style:normal;font-size:clamp(64px,7.6vw,118px);line-height:.9;color:var(--negro)}
+.stat span{font-family:var(--serif);font-weight:600;color:var(--negro);font-size:15px;max-width:22ch}
+.stat:nth-child(1){background:var(--coral)}.stat:nth-child(2){background:var(--amarillo)}.stat:nth-child(3){background:var(--celeste)}.stat:nth-child(4){background:var(--verde)}
+.stat:nth-child(1) b,.stat:nth-child(1) span,.stat:nth-child(4) b,.stat:nth-child(4) span{color:#fff}
+@media(max-width:820px){.stat{min-height:160px;border:0!important;margin:0!important}}
+/* «Haz esto hoy» */
+.hoy{background:var(--coral);color:#fff;border-radius:22px}
+.hoy .eyebrow{color:var(--negro);opacity:.85}
+.hoy-mark{border:0;background:var(--amarillo);color:var(--negro);font-family:var(--display);font-size:22px}
+.hoy.big .hoy-mark{font-size:28px}
+/* ideas: bloques de color que rotan */
+.ideas-cortas li{box-shadow:none;font-family:var(--serif);font-weight:700;font-size:16px;color:var(--negro);border-radius:18px;padding:18px}
+.ideas-cortas li::before{background:var(--negro);color:#fff;font-family:var(--display)}
+.ideas-cortas li:nth-child(4n+1){background:var(--amarillo)}.ideas-cortas li:nth-child(4n+2){background:var(--rosado)}
+.ideas-cortas li:nth-child(4n+3){background:var(--celeste)}.ideas-cortas li:nth-child(4n+4){background:#8FD9A8}
+/* organizaciones */
+.ocard{background:#fff;box-shadow:inset 0 0 0 2px var(--negro);border-radius:18px}
+.ocard:hover{box-shadow:inset 0 0 0 2px var(--coral)}
+.olog{background:var(--crema)}
+.ogo{color:var(--coral)}
+/* índice y partes */
+.toc{background:rgba(251,246,236,.96)}
+.toc-mark{background:var(--coral);font-family:var(--display);font-size:14px}
+.toc button{font-family:var(--serif);font-weight:700}
+.toc button.on{background:var(--negro);color:var(--amarillo)}
+.parte{border-top:4px solid var(--negro)}
+.parte-n{font-family:var(--display);display:grid;place-items:center;width:clamp(70px,7vw,96px);height:clamp(70px,7vw,96px);border-radius:50%;background:var(--amarillo);color:var(--negro);font-size:clamp(36px,3.8vw,52px);line-height:1;flex:0 0 auto}
+#s-entender .parte-n{background:var(--rosado)}
+.profundizar .parte-n{background:var(--celeste)}
+.article h2::before{background:var(--coral);height:5px;width:64px}
+h3.para::before{background:var(--coral);height:5px}
+.leer-mas{font-family:var(--serif);font-weight:800;color:var(--coral)}
+/* dudas */
+#s-dudas.band-sand,.sec.band-sand:has(.dudas){background:var(--rosado)}
+.dudas-head h2{font-size:clamp(46px,5.6vw,80px)}
+.dudas-head h2 em{color:var(--coral)}
+.duda{border-color:rgba(0,0,0,.25)!important}
+.duda summary{font-size:clamp(19px,1.8vw,24px)}
+.duda summary span{box-shadow:inset 0 0 0 2px var(--negro)}
+.duda[open] summary span{background:var(--negro);color:var(--amarillo)}
+.duda p{color:var(--negro)}
+/* minga */
+.minga{background:var(--verde-osc)}
+.minga::before{color:rgba(255,210,63,.07)}
+.minga .eyebrow{color:var(--amarillo)}
+.minga h2 em,.minga-v2 .minga-cierre em,.mm-frase em{color:var(--amarillo)}
+.mm-frase{font-family:var(--display);text-transform:uppercase;font-weight:400}
+.minga-pasos li::before{color:var(--amarillo);font-family:var(--display);font-size:18px}
+.minga-pasos b{font-family:var(--serif);font-weight:800}
+/* cierre de la historia */
+.cierre{background:var(--azul)}
+.cierre-mark{background:var(--amarillo);color:var(--negro);font-family:var(--display)}
+.cierre h2 em{color:var(--amarillo)}
+.cierre .btn.acc{background:var(--amarillo);color:var(--negro)}
+/* buscador «¿Quieres hacer más?» */
+.helper{background:var(--amarillo)}
+.helper h2 em{color:var(--coral)}
+.chips button.on{background:var(--negro);color:var(--amarillo)}
+.hn{font-family:var(--display);color:var(--coral)}
+/* tarjetas de historias */
+.card h3,.feature h3{font-weight:800}
+.chip{background:var(--negro);color:var(--amarillo);font-weight:700}
+.tags a{background:var(--crema);box-shadow:inset 0 0 0 1.5px var(--negro);color:var(--negro);font-weight:600}
+/* videos y lecturas */
+.vsrc-youtube{background:var(--coral)}.vsrc-ted{background:var(--negro)}.vsrc-vimeo{background:var(--azul)}
+.bcover{border-radius:6px}
+/* pie */
+.foot{background:var(--negro)}
+.brand-mark{background:var(--coral);color:#fff;border-color:var(--coral)!important}
+.stat:last-child b{background:none;padding:0;border-radius:0;display:block;color:#fff}
+.stat{min-width:0}
+@media(max-width:820px){.stats{padding:0}.stat b{font-size:clamp(44px,12vw,72px)}}
+.duda summary{min-width:0;overflow-wrap:anywhere}
+/* 27 nov · menos amarillo: se reemplaza por lila y celeste; el amarillo queda solo en detalles chicos */
+:root{--lila:#B8A4F2;--lime:#B8A4F2}
+.helper{background:var(--lila)}
+.helper h2 em{color:var(--negro);text-decoration:underline;text-decoration-color:var(--coral);text-decoration-thickness:6px;text-underline-offset:6px}
+.chips button.on{background:var(--negro);color:#fff}
+.ticker{background:var(--celeste);color:var(--negro)}
+.nav .nav-btn,.top:not(.solid) .nav .nav-btn{background:var(--coral)!important;color:#fff!important}
+.intro .btn.lime{background:var(--coral);color:#fff}
+.intro-full h1 em{color:var(--celeste)}
+.it-n{color:var(--celeste)}
+.intro-pasos b{background:var(--celeste);color:var(--negro)}
+.stat:nth-child(2){background:var(--lila)}
+.ideas-cortas li:nth-child(4n+1){background:var(--lila)}
+.parte-n{background:var(--celeste)}
+#s-entender .parte-n{background:var(--rosado)}
+.profundizar .parte-n{background:var(--lila)}
+.hoy-mark{background:#fff;color:var(--coral)}
+.toc button.on{background:var(--negro);color:#fff}
+.duda[open] summary span{background:var(--negro);color:#fff}
+.minga .eyebrow,.minga h2 em,.minga-v2 .minga-cierre em,.mm-frase em,.minga-pasos li::before{color:var(--celeste)}
+.cierre-mark{background:#fff;color:var(--azul)}
+.cierre h2 em{color:var(--celeste)}
+.cierre .btn.acc{background:#fff;color:var(--azul)}
+.chip{background:var(--negro);color:#fff}
+.stat b{font-size:clamp(48px,5.4vw,90px)}
+@media(max-width:820px){.stat b{font-size:clamp(44px,12vw,72px)}}
+/* 27 nov · el celeste se cambia por verde helecho (#70B865), como el «Fern» de las referencias */
+:root{--celeste:#70B865;--helecho:#70B865}
+.stat:nth-child(3) b,.stat:nth-child(3) span{color:var(--negro)}
+.stat:nth-child(4){background:var(--azul)}
+.ideas-cortas li:nth-child(4n+3){background:var(--helecho)}
+.ideas-cortas li:nth-child(4n+4){background:#FFC2A8}
+.minga .eyebrow,.minga h2 em,.minga-v2 .minga-cierre em,.mm-frase em,.minga-pasos li::before{color:#9BDB8E}
+.cierre h2 em{color:#B8E8A8}
+/* carrusel de fotos del inicio */
+.ih-media .ih-img{position:absolute;max-width:none;display:block;opacity:0;transition:opacity 1s ease}
+.ih-media .ih-img.on{opacity:1}
+.ih-dots{position:absolute;z-index:3;right:clamp(16px,3vw,40px);bottom:clamp(16px,3vw,32px);display:flex;gap:8px}
+.ih-dots button{width:10px;height:10px;border-radius:50%;border:0;padding:0;background:rgba(255,255,255,.45);cursor:pointer;transition:.2s}
+.ih-dots button.on{background:#fff;width:28px;border-radius:6px}
+@media(max-width:760px){.ih-dots{top:calc(58svh - 30px);bottom:auto;right:16px}}
+@media(prefers-reduced-motion:reduce){.ih-media .ih-img{transition:none}}
+.ih-like.izq{flex-direction:row-reverse;transform-origin:100% 100%;transform:translate(calc(-100% + 74px),-100%) scale(.6)}
+.ih-like.izq.on{transform:translate(calc(-100% + 74px),-100%) scale(1)}
+.ih-like.izq em{text-align:right}
+.ih-like.solo em{display:none}
+/* el cartel de la foto grupal dice «La minga social» */
+.ih-cartel{position:absolute;z-index:1;display:grid;place-items:center;text-align:center;box-sizing:border-box;padding:2px;background:#E0632E;color:#fff;border-radius:45%;font-family:var(--serif);font-weight:800;line-height:1;text-transform:uppercase;letter-spacing:.02em;opacity:0;transition:opacity 1s ease;pointer-events:none}
+.ih-cartel.on{opacity:1}
