@@ -5,6 +5,28 @@
    de y por = la reseña, que se muestra como un solo párrafo, sin etiquetas: de = qué muestra (1-2 frases); por = por qué está en esta historia (1 frase).
    Todos llevan reseña, también los de TED. Comprueba cada id antes de agregarlo (ver INSTRUCCIONES.md). */
 window.MU_VIDEOS={
+'ninos-hospital':[
+ {p:'youtube',id:'WcuuJMW_ImA',t:'Abrázame+ Primera Infancia en Hospitales',a:'Fundación Abrázame · Canal 13',y:'2026',dur:'5 min',lang:'En español',
+  de:'Reportaje de Canal 13, compartido por la Fundación Abrázame, sobre las voluntarias que acompañan cada día a bebés sin visitas en el Hospital San Juan de Dios, junto al psiquiatra Eduardo Jaar.',
+  por:'Es lo que propone esta historia: que una guagua sola tenga a alguien fijo que llegue.'},
+ {p:'youtube',id:'JXs5Iuh1q4s',t:'Crónicas del Domingo: abandono hospitalario de recién nacidos',a:'24 Horas · TVN',y:'2022',dur:'17 min',lang:'En español',
+  de:'Reportaje sobre las guaguas que quedan en hospitales chilenos sin una familia que las reciba, y sobre lo difícil que es siquiera contarlas: solo 20 de más de 170 hospitales entregaron datos.',
+  por:'Muestra el problema que discute la noticia: niños que esperan en el hospital sin saber adónde irán.'},
+ {p:'youtube',id:'ptZ-L3uAXXA',t:'Romania\'s Abandoned Children',a:'Charles Nelson · The Brainwaves Video Anthology',y:'2016',dur:'5 min',lang:'En inglés',
+  de:'El neurocientífico de Harvard resume lo que aprendió estudiando a niños criados en orfanatos de Rumania y lo que cambió cuando pasaron a vivir con una familia.',
+  por:'Explica por qué meses sin una persona fija pesan tanto en una guagua.'}
+],
+'estudiar-carcel':[
+ {p:'youtube',id:'w3eyIqTa388',t:'Reos se preparan para rendir la PAES',a:'Teletrece',y:'2026',dur:'2 min',lang:'En español',
+  de:'Nota de Teletrece sobre más de cien personas privadas de libertad que se preparan para rendir la PAES, con una meta que va más allá de entrar a la universidad.',
+  por:'Muestra a los estudiantes de los que habla la carta que abre esta historia.'},
+ {p:'youtube',id:'PDZsqp6lSJU',t:'25 internas de San Joaquín estudian carrera en la cárcel',a:'24 Horas · TVN',y:'2026',dur:'6 min',lang:'En español',
+  de:'Reportaje sobre 25 reclusas de la cárcel de San Joaquín que estudian Técnico en Enfermería dentro del penal y esperan titularse en dos años.',
+  por:'Muestra lo que puede venir después de terminar el colegio en la cárcel.'},
+ {p:'ted',id:'curtis_wall_street_carroll_how_i_learned_to_read_and_trade_stocks_in_prison',t:'Cómo aprendí a leer y a invertir en la bolsa en la cárcel',a:'Curtis «Wall Street» Carroll',y:'2017',dur:'11 min',lang:'En inglés, con subtítulos en español',
+  de:'Un hombre condenado a cadena perpetua en la prisión de San Quentin cuenta cómo aprendió a leer estando preso y cómo eso le cambió la vida a él y a los reclusos a los que hoy enseña.',
+  por:'Pone rostro a quienes llegan cada año sin saber leer al liceo de la ex Penitenciaría.'}
+],
 'cuidadoras':[
  {p:'youtube',id:'9H0-fuaMaPQ',t:'Discapacidad en Chile: cuidadoras 24/7',a:'La Tercera · #HistoriasLT',y:'2018',dur:'10 min',lang:'En español',
   de:'Reportaje de La Tercera que sigue el día a día de madres que cuidan sin pausa a hijos con discapacidad severa y muestra lo que dejaron para hacerlo: el trabajo, el descanso, la vida propia.',

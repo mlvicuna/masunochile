@@ -2216,6 +2216,264 @@ Cada vez que le compras a alguien como Elizabeth, ese sueño queda más cerca. �
    "note": "<b>Sticker de enlace</b> a Diversidad e inclusión → Discapacidad y accesibilidad."
   }
  ]
+},
+
+/* ===== Sábado 28 de noviembre de 2026 ===== */
+{
+ "id": "ninos-hospital-2026-11-28",
+ "fecha": "2026-11-28",
+ "dia": "Sáb 28 nov",
+ "hl": "Infancia",
+ "titulo": "Que ninguna guagua espere sola",
+ "sub": "El Mercurio, Cuerpo C, pág. 6, «Suprema valora proyecto de protección de niños abandonados en hospitales…», sábado 28 · Historia: María José Flores, voluntaria de la Fundación Abrázame",
+ "tema": "infancia",
+ "subtema": "ninos-en-residencias-y-familias-de-acogida",
+ "publicar": true,
+ "posts": [
+  {
+   "tipo": "La noticia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/baby-crib_SITUKGWGWJ.jpg",
+     "pos": "center 60%",
+     "h": "<div class=\"k\">Día 1: le dan el alta.</div><div class=\"gap\"></div><div class=\"m o\">Día 30: sigue en el hospital. Nadie ha venido a buscarlo.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">Pasa en Chile.</div><div class=\"gap\"></div><div class=\"m\">Niños que ya están sanos se quedan meses internados porque no hay una familia ni un lugar que los reciba.</div><div class=\"gap\"></div><div class=\"s\">Expertos en infancia, en El Mercurio, 28 nov 2026.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"num\">407</div><div class=\"gap\"></div><div class=\"m\">recién nacidos quedaron sin familia en hospitales públicos entre 2018 y 2024. Es un piso: nadie lleva la cuenta oficial.</div><div class=\"gap\"></div><div class=\"s\">The Clinic, consulta a 68 hospitales, 2025.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Un hospital cura. Pero no abraza.</div><div class=\"gap\"></div><div class=\"m\">En sus primeros meses, una guagua necesita a alguien fijo que la tome, la mire y le hable. Sin eso, su desarrollo se frena.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"eb\">Haz esto hoy</div><div class=\"m\">Mira cómo funciona un voluntariado que acompaña a guaguas sin visitas y mándaselo a alguien que podría hacerlo.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Hay voluntarias que acompañan, una por una, a guaguas que nadie visita.</div><div class=\"gap\"></div><div class=\"m o\">Cómo postular: link en la bio.</div>"
+    }
+   ],
+   "cap": "Día 1: le dan el alta. Día 30: sigue en el hospital. Nadie ha venido a buscarlo.\n\nPasa en Chile: niños que ya están sanos se quedan meses internados porque no hay una familia ni un lugar que los reciba. Entre 2018 y 2024, al menos 407 recién nacidos quedaron sin familia en hospitales públicos (The Clinic, consulta a 68 hospitales). Es un piso: nadie lleva la cuenta oficial.\n\nUn hospital cura, pero no abraza. En sus primeros meses, una guagua necesita a alguien fijo que la tome, la mire y le hable.\n\nHaz esto hoy: mira cómo funciona un voluntariado que acompaña a guaguas sin visitas y mándaselo a alguien que podría hacerlo.\n\nCómo postular, en el link de la bio.\n\n#infancia #primerainfancia #apego #voluntariado #MásUno"
+  },
+  {
+   "tipo": "Quién lo está haciendo",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/hand-finger_WM7PX0T9C3.jpg",
+     "pos": "center 45%",
+     "tint": 1,
+     "h": "<div class=\"eb\">Quién lo está haciendo</div><div class=\"k\">Nació en 2015 para abrazar a guaguas que estaban solas en un hospital.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"num\">+500</div><div class=\"gap\"></div><div class=\"m\">voluntarios de la Fundación Abrázame acompañan cada mes a más de 600 niños, niñas y adolescentes.</div><div class=\"gap\"></div><div class=\"s\">Fundación Abrázame, 2026.</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"k\">Cómo funciona</div><div class=\"gap\"></div><div class=\"m\">Visitas en grupo a residencias, al menos dos horas a la semana, durante un año. Y un programa diario para bebés de hasta 3 años, también en hospitales.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">No basta con buenas intenciones.</div><div class=\"gap\"></div><div class=\"m\">Hay entrevista psicológica y unos tres meses de preparación. Para no ser un adulto más que llega y se va.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">¿No puedes ir cada semana?</div><div class=\"gap\"></div><div class=\"m\">También puedes donar o hacerte socio. Eso paga la formación y el acompañamiento de quienes van.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Requisitos y postulación, en su web.</div><div class=\"gap\"></div><div class=\"m o\">Link en la bio.</div>"
+    }
+   ],
+   "cap": "La Fundación Abrázame nació en 2015 para abrazar a guaguas que estaban solas en un hospital. Hoy tiene más de 500 voluntarios que acompañan cada mes a más de 600 niños, niñas y adolescentes en residencias de protección, y un programa diario para bebés de hasta 3 años, también en hospitales.\n\nNo basta con buenas intenciones: hay entrevista psicológica y unos tres meses de preparación, para no ser un adulto más que llega y se va. Las visitas en grupo son de al menos dos horas a la semana, durante un año.\n\n¿No puedes ir cada semana? También puedes donar o hacerte socio.\n\nRequisitos y postulación, en el link de la bio.\n\n#infancia #voluntariado #fundaciones #MásUno"
+  },
+  {
+   "tipo": "Una historia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/hand-finger_I98URJTH2H.jpg",
+     "pos": "center 50%",
+     "h": "<div class=\"eb\">Una historia</div><div class=\"k\">«Mi bebé de piedra».</div><div class=\"gap\"></div><div class=\"m\">Así le decía María José a la guagua que empezó a acompañar.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">María José Flores es psicóloga y mamá. Se hizo voluntaria de la Fundación Abrázame.</div><div class=\"gap\"></div><div class=\"k\">Le tocó un bebé de seis meses, hospitalizado con bronquitis.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"k\">No se movía. No la miraba.</div><div class=\"gap\"></div><div class=\"m\">Ella iba todos los días. Le hablaba, le cantaba, lo mudaba.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Con las semanas empezó a aletear, a balbucear, a sentarse.</div><div class=\"gap\"></div><div class=\"m\">Un día lloró por su leche: ya sabía que alguien iba a venir.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"qt\">«Yo le entrego amor a él, pero él también me entrega a mí».</div><div class=\"gap\"></div><div class=\"s\">María José Flores, a The Clinic, 2025.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Una guagua aprende que vale la pena llorar cuando alguien llega.</div><div class=\"gap\"></div><div class=\"m o\">¿Cuántas horas de tu semana podrían ser suyas? Cómo postular, en la bio.</div>"
+    }
+   ],
+   "cap": "«Mi bebé de piedra». Así le decía María José Flores, psicóloga y mamá, a la guagua de seis meses que empezó a acompañar como voluntaria de la Fundación Abrázame. Estaba hospitalizado con bronquitis. No se movía, no la miraba.\n\nElla iba todos los días: le hablaba, le cantaba, lo mudaba. Con las semanas empezó a aletear, a balbucear, a sentarse. Un día lloró por su leche: ya sabía que alguien iba a venir. «Yo le entrego amor a él, pero él también me entrega a mí», le contó a The Clinic.\n\nUna guagua aprende que vale la pena llorar cuando alguien llega. ¿Cuántas horas de tu semana podrían ser suyas? Cómo postular, en el link de la bio.\n\n#infancia #apego #historias #MásUno"
+  }
+ ],
+ "stories": [
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">¿Sabías que hay guaguas que pasan meses en un hospital sin visitas?</div><div class=\"poll\"><div>Sí</div><div>No</div></div>",
+   "note": "<b>Encuesta.</b> Abre la conversación antes del post."
+  },
+  {
+   "c": "cream",
+   "light": 1,
+   "h": "<div class=\"ask\"><b>¿Cuántas horas a la semana podrías darle a un niño que nadie visita?</b><span>Escribe algo…</span></div>",
+   "note": "<b>Caja de preguntas.</b> Las respuestas sirven para un post sobre cómo partir con poco tiempo."
+  },
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">Voluntariados que acompañan a niños sin visitas</div><div class=\"link\">🔗 Niños en residencias y familias de acogida</div>",
+   "note": "<b>Sticker de enlace</b> a Infancia → Niños en residencias y familias de acogida."
+  }
+ ]
+},
+{
+ "id": "estudiar-carcel-2026-11-28",
+ "fecha": "2026-11-28",
+ "dia": "Sáb 28 nov",
+ "hl": "Justicia",
+ "titulo": "Una sala de clases detrás de los muros",
+ "sub": "El Mercurio, Cuerpo A, pág. 2, carta «El derecho a comenzar de nuevo», cardenal Fernando Chomali, sábado 28 · Historia: Geraldine Naranjo, Escuela Hugo Morales Bizama, cárcel de San Miguel",
+ "tema": "seguridad-y-justicia",
+ "subtema": "reinsercion-social",
+ "publicar": true,
+ "posts": [
+  {
+   "tipo": "La noticia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/window-light_9RANMJTK90.jpg",
+     "pos": "center 40%",
+     "h": "<div class=\"k\">Cada año, 120 llegan sin saber leer.</div><div class=\"gap\"></div><div class=\"k o\">Este año, 120 van a rendir la PAES.</div><div class=\"gap\"></div><div class=\"m\">Un mismo liceo, dentro de la ex Penitenciaría de Santiago.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">Lo contó el arzobispo de Santiago, Fernando Chomali, en una carta a El Mercurio:</div><div class=\"gap\"></div><div class=\"k\">750 personas presas estudian en el Liceo de Adultos Herbert Vargas Wallis, con 51 profesores y profesionales.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"num\">43%</div><div class=\"gap\"></div><div class=\"m\">menos probabilidades de volver a la cárcel tienen quienes estudian estando presos.</div><div class=\"gap\"></div><div class=\"s\">RAND Corporation, metaanálisis de estudios en EE. UU., 2013.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Estudiar no borra el delito.</div><div class=\"gap\"></div><div class=\"m\">Pero cambia lo que viene: con cuarto medio, al salir hay más puertas que tocar.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"eb\">Haz esto hoy</div><div class=\"m\">Escríbele a una fundación que hace talleres en cárceles y pregúntale qué necesita: libros, tutores o una donación.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Hay fundaciones que entran a leer, escribir y enseñar con quienes están presos.</div><div class=\"gap\"></div><div class=\"m o\">Cuáles reciben voluntarios: link en la bio.</div>"
+    }
+   ],
+   "cap": "Cada año, 120 personas llegan sin saber leer. Este año, 120 van a rendir la PAES. Es el mismo liceo: el Liceo de Adultos Herbert Vargas Wallis, dentro de la ex Penitenciaría de Santiago, donde estudian 750 personas privadas de libertad. Lo contó el arzobispo de Santiago, Fernando Chomali, en una carta a El Mercurio.\n\nQuienes estudian estando presos tienen 43% menos probabilidades de volver a la cárcel (RAND Corporation, 2013). Estudiar no borra el delito, pero cambia lo que viene.\n\nHaz esto hoy: escríbele a una fundación que hace talleres en cárceles y pregúntale qué necesita: libros, tutores o una donación.\n\nCuáles reciben voluntarios, en el link de la bio.\n\n#educación #reinserción #segundasoportunidades #MásUno"
+  },
+  {
+   "tipo": "Ideas",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/books-stacked_W5VAXXV2RP.jpg",
+     "pos": "center 50%",
+     "tint": 1,
+     "h": "<div class=\"eb\">Mini test</div><div class=\"k\">¿Cuánto sabes de estudiar en la cárcel?</div><div class=\"gap\"></div><div class=\"m o\">Tres preguntas. Responde antes de deslizar.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"eb\">1</div><div class=\"k\">¿Se puede terminar el colegio estando preso?</div><div class=\"gap\"></div><div class=\"m\">Sí. Hay escuelas y liceos para adultos dentro de las cárceles, con profesores del sistema público.</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"eb\">2</div><div class=\"k\">¿Pueden rendir la PAES?</div><div class=\"gap\"></div><div class=\"m\">Sí. En 2023 se inscribieron 1.838 personas privadas de libertad.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"eb\">3</div><div class=\"k\">¿Qué es lo más difícil?</div><div class=\"gap\"></div><div class=\"m\">Salir. Muchas egresadas cuentan que lo que más temen es que nadie las contrate.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Tres formas de sumarte:</div><div class=\"gap\"></div><div class=\"m\">Donar libros a una fundación que trabaje en cárceles. Hacer un taller como voluntario. Darle trabajo a alguien que estudió adentro.</div>"
+    },
+    {
+     "c": "blue",
+     "h": "<div class=\"k\">Las fundaciones que hacen esto</div><div class=\"gap\"></div><div class=\"m o\">están en el link de la bio.</div>"
+    }
+   ],
+   "cap": "Mini test: ¿cuánto sabes de estudiar en la cárcel?\n\n1. ¿Se puede terminar el colegio estando preso? Sí: hay escuelas y liceos para adultos dentro de las cárceles, con profesores del sistema público.\n2. ¿Pueden rendir la PAES? Sí: en 2023 se inscribieron 1.838 personas privadas de libertad.\n3. ¿Qué es lo más difícil? Salir. Muchas egresadas cuentan que lo que más temen es que nadie las contrate.\n\nTres formas de sumarte: donar libros a una fundación que trabaje en cárceles, hacer un taller como voluntario o darle trabajo a alguien que estudió adentro.\n\nLas fundaciones que hacen esto, en el link de la bio.\n\n#educación #reinserción #voluntariado #MásUno"
+  },
+  {
+   "tipo": "Una historia",
+   "slides": [
+    {
+     "c": "photo",
+     "img": "https://cdn.stocksnap.io/img-thumbs/960w/writing-letter_WYZ0NLOSUR.jpg",
+     "pos": "center 45%",
+     "h": "<div class=\"eb\">Una historia</div><div class=\"k\">Dejó el colegio en primero medio para cuidar a su hijo.</div><div class=\"gap\"></div><div class=\"m o\">Lo terminó en la cárcel.</div><div class=\"swipe\">→</div>"
+    },
+    {
+     "c": "cream",
+     "h": "<div class=\"m\">Geraldine Naranjo tiene 32 años. Pasó siete meses en la cárcel de mujeres de San Miguel, imputada por tráfico de drogas.</div><div class=\"gap\"></div><div class=\"k\">En el quinto piso de un módulo había una escuela.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">«Yo nunca pude estudiar estando libre».</div><div class=\"gap\"></div><div class=\"m\">Tenía hijos y tenía que trabajar.</div>"
+    },
+    {
+     "c": "ink",
+     "h": "<div class=\"qt\">«Ir a estudiar me daba ánimo. Me hacía sentir más libre».</div><div class=\"gap\"></div><div class=\"s\">Geraldine Naranjo, a The Clinic, 2025.</div>"
+    },
+    {
+     "c": "white",
+     "h": "<div class=\"k\">Hoy termina cuarto medio desde su casa, con arresto domiciliario y tres hijos.</div><div class=\"gap\"></div><div class=\"m\">Promedio 6,4.</div>"
+    },
+    {
+     "c": "orange",
+     "h": "<div class=\"k\">Afuera la espera la pregunta más difícil: quién le va a dar trabajo.</div><div class=\"gap\"></div><div class=\"m o\">Piensa en tu pega: ¿quién decide ahí las contrataciones? Quienes acompañan la salida, en la bio.</div>"
+    }
+   ],
+   "cap": "Geraldine Naranjo dejó el colegio en primero medio para cuidar a su hijo. Lo terminó en la cárcel.\n\nTiene 32 años y pasó siete meses en la cárcel de mujeres de San Miguel, imputada por tráfico de drogas. En el quinto piso de un módulo funciona la Escuela Hugo Morales Bizama. «Yo nunca pude estudiar estando libre», le contó a The Clinic: tenía hijos y tenía que trabajar. «Ir a estudiar me daba ánimo. Me hacía sentir más libre».\n\nHoy termina cuarto medio desde su casa, con arresto domiciliario y tres hijos. Promedio 6,4. Afuera la espera la pregunta más difícil: quién le va a dar trabajo.\n\nPiensa en tu pega: ¿quién decide ahí las contrataciones? Quienes acompañan la salida, en el link de la bio.\n\n#reinserción #educación #historias #MásUno"
+  }
+ ],
+ "stories": [
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">¿Contratarías a alguien que terminó el colegio en la cárcel?</div><div class=\"poll\"><div>Sí</div><div>Depende</div></div>",
+   "note": "<b>Encuesta.</b> Abre la conversación antes del post; no juzgar las respuestas."
+  },
+  {
+   "c": "cream",
+   "light": 1,
+   "h": "<div class=\"ask\"><b>¿Qué libro le regalarías a alguien que está aprendiendo a leer a los 40?</b><span>Escribe algo…</span></div>",
+   "note": "<b>Caja de preguntas.</b> Las respuestas pueden ser una lista para donar libros."
+  },
+  {
+   "c": "ink",
+   "h": "<div class=\"k\">Fundaciones que enseñan y acompañan en las cárceles</div><div class=\"link\">🔗 Reinserción social</div>",
+   "note": "<b>Sticker de enlace</b> a Seguridad y justicia → Reinserción social."
+  }
+ ]
 }
 ];
 const ICONS = `<svg viewBox="0 0 24 24"><path d="M12 21s-7.5-4.6-9.3-9.2C1.4 8.3 3.6 5 7 5c2 0 3.4 1.1 5 3 1.6-1.9 3-3 5-3 3.4 0 5.6 3.3 4.3 6.8C19.5 16.4 12 21 12 21z"/></svg><svg viewBox="0 0 24 24"><path d="M20.5 12a8.5 8.5 0 1 1-3.6-7l3.6-1-1 3.6A8.4 8.4 0 0 1 20.5 12z"/></svg><svg viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4 18-7z"/></svg><svg class="save" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-5-6 5z"/></svg>`;

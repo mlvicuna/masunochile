@@ -1,6 +1,567 @@
-window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1789441011641-62a633902cea": "50% 85%", "1695556746253-ab635cedac50": "50% 15%", "1670251684279-67cc41b1758c": "60% 25%", "1778098678756-e761c9df9938": "62% 40%", "1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%", "1770096679916-2cd9c720d400": "40% 40%", "1772249541673-237a516d5c5e": "50% 65%", "1776267034802-0f5c5a0b1807": "50% 75%", "1626073738443-f69ddf7cf8fb": "50% 50%", "1614338577197-5812cb856df7": "50% 60%", "1660796334912-8ce8e9c2cff0": "45% 50%", "1758525226653-490405551ce9": "60% 50%", "1556488450-afb93ae98ac6": "50% 25%", "1758685733897-80154016629f": "15% 95%", "1600101829065-d91f0d9c200b": "50% 85%", "1769353086138-19ee65291a04": "40% 40%", "1758525747620-00284612bffc": "50% 20%", "1759354848721-e23a7f51305d": "50% 30%", "1777846880906-7fed39eef24f": "40% 5%", "1563062067-7700e1d9ae1d": "75% 40%", "1730127730383-ace76bc55d16": "60% 45%", "1559061542-7f9ef5f51b62": "30% 40%", "1787281587844-4a4d5f03d4de": "40% 40%", "1745265797426-8db5c22cf9e3": "50% 30%", "19894924": "50% 55%", "19894926": "50% 55%", "37276554": "45% 40%", "1778098682395-72ef2bcd0f50": "50% 55%", "1778098684640-4d5d959acbe2": "50% 60%", "13465573": "40% 75%", "18075662": "50% 50%", "41001189": "50% 45%", "8342278": "60% 40%", "20459084": "50% 40%", "1778098684034-67f3437781d4": "50% 60%", "1778098681471-ec432e0cf4db": "60% 60%", "6957113": "50% 30%", "7659543": "50% 35%", "7176137": "50% 40%", "10029828": "50% 35%", "7516571": "60% 30%", "10029310": "50% 35%"}};
+window.MU_EXTRA={"areas": {"ninez": {"img": "https://images.unsplash.com/photo-1604823981611-de758faeee43?w=1200&q=75&auto=format&fit=crop", "frase": "Que cada niño crezca con un adulto que esté ahí.", "acc": [{"t": "hoy", "x": "Averigua cómo se postula para ser familia de acogida y compártelo con alguien que podría."}, {"t": "mes", "x": "Junta ropa, útiles o un regalo de Navidad para una residencia, a través de una fundación."}, {"t": "semana", "x": "Acompaña como voluntario, siempre al mismo niño, en un programa serio de mentoría."}, {"t": "oficio", "x": "Postula para ser familia de acogida."}]}, "mayores": {"img": "https://images.unsplash.com/photo-1764173039543-f9f197744e1b?w=1200&q=75&auto=format&fit=crop", "frase": "Contra la soledad, más encuentros.", "acc": [{"t": "hoy", "x": "Llama a una persona mayor que vive sola. Una conversación cambia el día."}, {"t": "mes", "x": "Visita un club de adulto mayor o una residencia de tu comuna con una actividad."}, {"t": "semana", "x": "Hazte voluntario de acompañamiento telefónico o presencial."}, {"t": "oficio", "x": "Enseña a usar el celular o internet a un grupo de personas mayores."}]}, "discapacidad": {"img": "https://images.unsplash.com/photo-1569937703691-0f9b8cf21a25?w=1200&q=75&auto=format&fit=crop", "frase": "Un país donde todos caben.", "acc": [{"t": "hoy", "x": "Revisa si tu negocio, tu edificio o tu evento es accesible para alguien en silla de ruedas."}, {"t": "mes", "x": "Participa en una actividad deportiva o cultural inclusiva como voluntario."}, {"t": "semana", "x": "Acompaña a una familia que cuida a una persona con discapacidad."}, {"t": "oficio", "x": "Abre una práctica o un puesto de trabajo a una persona con discapacidad."}]}, "salud": {"img": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar a quien lo está pasando mal.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "educacion": {"img": "https://images.unsplash.com/photo-1758525861586-1c8c8e424dc8?w=1200&q=75&auto=format&fit=crop", "frase": "Leer, aprender y no dejar la escuela.", "acc": [{"t": "hoy", "x": "Lee un cuento en voz alta con un niño cercano."}, {"t": "mes", "x": "Dona libros en buen estado a una biblioteca comunitaria o escolar."}, {"t": "semana", "x": "Hazte tutor voluntario de lectura o matemáticas."}, {"t": "oficio", "x": "Comparte tu profesión en una charla de orientación vocacional en un liceo."}]}, "mujeres": {"img": "https://images.unsplash.com/photo-1765307639918-a99f7f3d9f75?w=1200&q=75&auto=format&fit=crop", "frase": "Autonomía, liderazgo y vidas libres de violencia.", "acc": [{"t": "hoy", "x": "Guarda y comparte el Fono 1455, de orientación en violencia contra la mujer."}, {"t": "mes", "x": "Apoya a una emprendedora de tu barrio comprando y recomendando."}, {"t": "semana", "x": "Hazte mentora de una mujer que vuelve a trabajar."}, {"t": "oficio", "x": "Ofrece orientación legal o psicológica a través de una fundación."}]}, "pobreza": {"img": "https://images.unsplash.com/photo-1781785273371-a959f34bfab0?w=1200&q=75&auto=format&fit=crop", "frase": "Barrios, campamentos, agua y comunidades rurales.", "acc": [{"t": "hoy", "x": "Compra directo a un productor o emprendedor de tu barrio o de una zona rural de tu región."}, {"t": "mes", "x": "Súmate a una construcción, una colecta o una jornada de trabajo con una organización de vivienda."}, {"t": "semana", "x": "Hazte voluntario estable en un comedor, un campamento o un programa de barrio."}, {"t": "oficio", "x": "Ofrece tu profesión: asesoría legal, arquitectura, contabilidad o salud para comités y juntas de vecinos."}]}, "trabajo": {"img": "https://images.unsplash.com/photo-1687422810663-c316494f725a?w=1200&q=75&auto=format&fit=crop", "frase": "Oficios, emprendimiento e inclusión laboral.", "acc": [{"t": "hoy", "x": "Comparte una oferta de trabajo con alguien que lo está buscando."}, {"t": "mes", "x": "Compra a un microemprendedor de tu barrio y recomiéndalo."}, {"t": "semana", "x": "Hazte mentor de un emprendedor con un programa de voluntariado profesional."}, {"t": "oficio", "x": "Enseña tu oficio en un taller de capacitación."}]}, "migrantes": {"img": "https://images.unsplash.com/photo-1770982699171-4422e81f4f02?w=1200&q=75&auto=format&fit=crop", "frase": "Acoger, integrar, convivir.", "acc": [{"t": "hoy", "x": "Saluda por su nombre a un vecino migrante y pregúntale de dónde viene."}, {"t": "mes", "x": "Dona ropa de abrigo o útiles a una organización que recibe migrantes."}, {"t": "semana", "x": "Hazte voluntario en clases de español o en orientación de trámites."}, {"t": "oficio", "x": "Ofrece asesoría legal, laboral o de salud a familias migrantes."}]}, "adicciones": {"img": "https://images.unsplash.com/photo-1565340419825-cd1ac212cbce?w=1200&q=75&auto=format&fit=crop", "frase": "Acompañar la recuperación, sin juicio.", "acc": [{"t": "hoy", "x": "Escríbele a alguien que sabes que lo está pasando mal. Solo pregunta cómo está."}, {"t": "mes", "x": "Dona sangre en el banco de sangre más cercano."}, {"t": "semana", "x": "Fórmate en primeros auxilios psicológicos y súmate a una línea de acompañamiento."}, {"t": "oficio", "x": "Ofrece horas profesionales a una fundación de salud mental o de rehabilitación."}]}, "ambiente": {"img": "https://images.unsplash.com/photo-1772171838855-96e0e49438fc?w=1200&q=75&auto=format&fit=crop", "frase": "Agua, naturaleza y emergencias.", "acc": [{"t": "hoy", "x": "Despeja 2 metros alrededor de tu casa: hojas secas, leña y bidones lejos de las paredes."}, {"t": "mes", "x": "Súmate a una limpieza de playa, cerro o río."}, {"t": "semana", "x": "Participa en una huerta comunitaria o un punto limpio de tu comuna."}, {"t": "oficio", "x": "Ayuda a organizar a tu junta de vecinos para prevenir incendios."}]}, "reinsercion": {"img": "https://images.unsplash.com/photo-1586726370832-3440a511e479?w=1200&q=75&auto=format&fit=crop", "frase": "Segundas oportunidades y apoyo a víctimas.", "acc": [{"t": "hoy", "x": "Infórmate de cómo funciona la reinserción en Chile. Los prejuicios también cierran puertas."}, {"t": "mes", "x": "Dona libros a una biblioteca penitenciaria a través de una fundación."}, {"t": "semana", "x": "Hazte voluntario en un programa de acompañamiento a personas que salen de la cárcel."}, {"t": "oficio", "x": "Contrata o capacita a una persona en proceso de reinserción."}]}}, "tiempos": [{"k": "hoy", "t": "Hoy, en 5 minutos"}, {"k": "mes", "t": "Una vez al mes"}, {"k": "semana", "t": "Todas las semanas"}, {"k": "oficio", "t": "Con mi profesión"}], "hoy": {"residencias": "Averigua cómo se postula para ser familia de acogida. Aunque no sea para ti, compártelo con alguien que podría.", "sala-cuna": "Pregunta en tu trabajo, tu curso o tu edificio quién tiene hijos chicos y con quién los deja. Puede que alguien necesite una mano.", "pobreza-territorial": "Compra algo hecho por un productor o artesano de una zona rural de tu región, directo y sin intermediarios. Y pregúntale cómo se vive allá.", "redes-sociales": "Esta noche, pregúntale a un niño o adolescente cercano qué es lo que más le gusta y lo que menos le gusta de las redes. Y escucha, sin retar."}, "foco": {"1789441011641-62a633902cea": "50% 85%", "1695556746253-ab635cedac50": "50% 15%", "1670251684279-67cc41b1758c": "60% 25%", "1778098678756-e761c9df9938": "62% 40%", "1616286608358-0e1b143f7d2f": "55% 30%", "1761839257647-df30867afd54": "50% 35%", "1758270704763-22072a90d3b6": "50% 45%", "1573496546038-82f9c39f6365": "50% 45%", "1765648684555-de2d0f6af467": "60% 40%", "1603129473525-4cd6f36fe057": "50% 25%", "1505685679686-2490cab6217d": "75% 30%", "1592381499682-33cee994fedd": "50% 55%", "1759852692971-a2abc6799cbd": "35% 15%", "1581726707445-75cbe4efc586": "55% 40%", "1486887396153-fa416526c108": "50% 55%", "1791318554903-cc1ef4931528": "50% 35%", "1577896850561-dc005e5b5689": "50% 35%", "1600104197373-c07cc35e4f61": "90% 55%", "1753164597612-5e71b83fda91": "40% 40%", "1687293233471-187c8df1beef": "55% 35%", "1491841550275-ad7854e35ca6": "30% 55%", "1758691031958-29541f3207a5": "55% 30%", "1532789339108-2ebc484efbf1": "50% 40%", "1638776156474-9b989930d62d": "50% 70%", "1759272548449-7b689a81c8fb": "45% 35%", "1507537362848-9c7e70b7b5c1": "50% 40%", "1597056161974-458b172dac56": "72% 85%", "1520127877998-122c33e8eb38": "50% 35%", "1761839262867-af53d08b0eb5": "50% 45%", "1770564512417-2b903f44ab93": "50% 40%", "1578645096265-51bee68d32c1": "50% 50%", "1648221350871-e3ae3c8d0f58": "50% 45%", "1756982477661-107a1c72c8fd": "50% 40%", "1763478868195-1c61e84a6949": "60% 22%", "1667318993180-edfa9748fe42": "45% 22%", "1641867943064-51eb03c560b8": "50% 40%", "1604823981611-de758faeee43": "50% 30%", "1764173039543-f9f197744e1b": "50% 35%", "1569937703691-0f9b8cf21a25": "50% 35%", "1573497620053-ea5300f94f21": "50% 35%", "1758525861586-1c8c8e424dc8": "50% 30%", "1765307639918-a99f7f3d9f75": "50% 35%", "1687422810663-c316494f725a": "55% 40%", "1758599668429-121d54188b9c": "70% 30%", "1790008882005-6ea2c9b7e75a": "60% 45%", "1758274252296-a63b1d7d4bb8": "50% 40%", "1607748862156-7c548e7e98f4": "50% 30%", "1758599668178-d9716bbda9d5": "50% 30%", "1761839256545-4268b03606c0": "65% 35%", "1544928938-6852c1925194": "50% 22%", "1770096679916-2cd9c720d400": "40% 40%", "1772249541673-237a516d5c5e": "50% 65%", "1776267034802-0f5c5a0b1807": "50% 75%", "1626073738443-f69ddf7cf8fb": "50% 50%", "1614338577197-5812cb856df7": "50% 60%", "1660796334912-8ce8e9c2cff0": "45% 50%", "1758525226653-490405551ce9": "60% 50%", "1556488450-afb93ae98ac6": "50% 25%", "1758685733897-80154016629f": "15% 95%", "1600101829065-d91f0d9c200b": "50% 85%", "1769353086138-19ee65291a04": "40% 40%", "1758525747620-00284612bffc": "50% 20%", "1759354848721-e23a7f51305d": "50% 30%", "1777846880906-7fed39eef24f": "40% 5%", "1563062067-7700e1d9ae1d": "75% 40%", "1730127730383-ace76bc55d16": "60% 45%", "1559061542-7f9ef5f51b62": "30% 40%", "1787281587844-4a4d5f03d4de": "40% 40%", "1745265797426-8db5c22cf9e3": "50% 30%", "19894924": "50% 55%", "19894926": "50% 55%", "37276554": "45% 40%", "1778098682395-72ef2bcd0f50": "50% 55%", "1778098684640-4d5d959acbe2": "50% 60%", "13465573": "40% 75%", "18075662": "50% 50%", "41001189": "50% 45%", "8342278": "60% 40%", "20459084": "50% 40%", "1778098684034-67f3437781d4": "50% 60%", "1778098681471-ec432e0cf4db": "60% 60%", "6957113": "50% 30%", "7659543": "50% 35%", "7176137": "50% 40%", "10029828": "50% 35%", "7516571": "60% 30%", "10029310": "50% 35%", "34185205": "40% 35%", "34185235": "35% 30%", "11839979": "50% 35%", "6334769": "40% 30%", "6334779": "55% 40%", "5889956": "50% 45%"}};
 /* Noticias de la semana (18 y 19 nov 2026): informes, desarrollos web y posts. Generado por build_content.py. */
 window.MU_NEWS=[
+{
+"id": "ninos-hospital",
+"post": "ninos-hospital-2026-11-28",
+"fecha": "Sábado 28 de noviembre",
+"doc": "261128 Ninos solos en hospitales",
+"area": "ninez",
+"areas": [
+"ninez",
+"salud"
+],
+"kw": [
+"acogida",
+"residencia",
+"lactante",
+"bebé",
+"primera infancia",
+"protección",
+"hospital",
+"adopción"
+],
+"titulo": "Que ninguna guagua espere sola",
+"img": "https://images.pexels.com/photos/34185205/pexels-photo-34185205.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.pexels.com/photos/34185235/pexels-photo-34185235.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img3": "https://images.pexels.com/photos/5889956/pexels-photo-5889956.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"orgs": [
+{
+"n": "Fundación Abrázame",
+"d": "Voluntariado de acompañamiento a bebés, niños y adolescentes en residencias de protección; su programa Abrázame+ Primera Infancia acompaña cada día a bebés de hasta 3 años sin visitas, también en hospitales. Más de 500 voluntarios. Región Metropolitana, Valparaíso, O'Higgins y Biobío.",
+"w": "https://abrazame.cl/voluntariados",
+"ig": "https://www.instagram.com/fundacionabrazame/",
+"e": "hola@abrazame.cl"
+},
+{
+"n": "Fundación Chilena de la Adopción y Familia (Fadop)",
+"d": "Familias de acogida para guaguas y niños pequeños mientras se decide su futuro, y adopción. Se puede postular como familia de acogida o donar. Santiago.",
+"w": "https://www.fadop.cl",
+"ig": "https://www.instagram.com/fundacionfadop/",
+"e": "info@fadop.cl"
+},
+{
+"n": "Aldeas Infantiles SOS Chile",
+"d": "Cuidado de niños sin cuidado parental en entornos familiares y programas de fortalecimiento familiar. Recibe socios y voluntarios. Varias regiones.",
+"w": "https://www.aldeasinfantiles.cl"
+},
+{
+"n": "Programa de Familias de Acogida",
+"d": "Del Servicio Nacional de Protección Especializada: aquí se postula para ser familia de acogida externa, en todo Chile.",
+"w": "https://www.chileatiende.gob.cl/fichas/42116-inscripcion-en-el-programa-familia-de-acogida"
+}
+],
+"bajada": "Hay niños que ya están sanos y siguen viviendo en un hospital, a veces durante meses, porque no hay una familia ni un lugar que los reciba. Por qué pasa, qué le hace a una guagua esa espera y qué cambia cuando alguien fijo empieza a llegar.",
+"noticia": "Que ninguna guagua espere sola: los niños que se quedan en el hospital después del alta",
+"blocks": [
+{
+"k": "p",
+"h": "En noviembre de 2026, la Corte Suprema revisó un proyecto de ley que obliga a los hospitales a avisar en 24 horas cuando un niño internado deja de recibir visitas. Los expertos que comentaron el informe coincidieron en algo que va más allá de la ley: en Chile hay niños con el alta médica que no pueden irse del hospital porque nadie puede recibirlos. La pregunta de fondo no es solo quién avisa, sino qué le pasa a un niño mientras espera, y quién está con él durante ese tiempo.",
+"src": "El Mercurio, Cuerpo C, pág. 6, 28 de noviembre de 2026"
+},
+{
+"k": "q",
+"h": "Un hospital puede proporcionar atención médica, pero no está concebido para sustituir un entorno familiar",
+"who": "Rosario Martínez, exdirectora del Sename"
+},
+{
+"k": "h",
+"h": "De dónde viene el problema"
+},
+{
+"k": "p",
+"h": "El fenómeno tiene nombre desde los años ochenta. En las grandes ciudades de Estados Unidos, con la epidemia de cocaína y la del VIH, los hospitales empezaron a llenarse de guaguas que ya estaban sanas y que nadie venía a buscar. Las llamaron «boarder babies»: guaguas internadas sin necesidad médica, que vivían en la sala de neonatología porque el sistema de protección no tenía dónde llevarlas. La presión fue tal que en 1988 el Congreso de ese país aprobó una ley especial para financiar programas que las sacaran del hospital y las llevaran a familias.",
+"src": "Dailey y DiTullio, «The Abandoned Infants Assistance Act», American Journal of Hospice Care, 1989: https://doi.org/10.1177/104990918900600107"
+},
+{
+"k": "p",
+"h": "En Chile la discusión llegó por la prensa más que por las estadísticas. En 2022, un reportaje de TVN reunió los casos de solo 20 de los más de 170 hospitales públicos y encontró más de 270 guaguas en una década. En 2025, The Clinic consultó a 68 hospitales y contó al menos 407 recién nacidos que quedaron sin familia entre 2018 y 2024. En ambos casos, la conclusión fue la misma: nadie lleva la cuenta oficial.",
+"src": "24 Horas, TVN, 2022; The Clinic, 4 de marzo de 2025"
+},
+{
+"k": "h",
+"h": "Qué es la hospitalización social"
+},
+{
+"k": "p",
+"h": "Los equipos de salud llaman «hospitalización social» a la que se prolonga por razones que no son médicas: el paciente ya puede irse, pero no tiene adónde. Pasa con personas mayores que nadie retira y pasa con niños. En el caso de las guaguas, cubre situaciones muy distintas: una madre que cede a su hijo en adopción, una que se va sin aviso, un tribunal que ordena que el niño se quede mientras investiga, o padres que no pueden ir porque viven lejos, trabajan o están enfermos.",
+"src": "The Clinic, 4 de marzo de 2025; El Mercurio, 28 de noviembre de 2026"
+},
+{
+"k": "p",
+"h": "Por eso los expertos insisten en no confundir pobreza con abandono. Una familia sin redes puede no visitar a su hijo por días y aun así quererlo y poder criarlo si recibe apoyo. Lo que define el problema no es la culpa de alguien, sino el tiempo que el niño pasa sin una persona que lo cuide de manera estable.",
+"src": "Rosario Martínez, en El Mercurio, 28 de noviembre de 2026"
+},
+{
+"k": "p",
+"h": "11.770 personas mayores siguieron hospitalizadas semanas después del alta entre 2018 y 2025 porque nadie fue a buscarlas: la hospitalización social no es solo un problema de niños.",
+"src": "El Desconcierto, 5 de junio de 2025"
+},
+{
+"k": "h",
+"h": "Por qué pasa"
+},
+{
+"k": "p",
+"h": "En Chile, los equipos de los hospitales atribuyen el aumento de casos a tres causas: madres con consumo problemático de pasta base o cocaína que no están en condiciones de criar, mujeres migrantes sin redes, y adolescentes embarazadas producto de una violación. A eso se suma algo que no tiene que ver con la familia: niños con enfermedades complejas que necesitan cuidados que ninguna residencia ni familia de acogida está preparada para dar.",
+"src": "The Clinic, 4 de marzo de 2025; El Mercurio, 28 de noviembre de 2026"
+},
+{
+"k": "p",
+"h": "Cuando un tribunal decide que el niño no puede volver con sus padres, el siguiente paso depende de que exista un cupo. Las residencias para lactantes están llenas y las familias de acogida son pocas para la demanda. El exdirector del Sename Francisco Estrada lo resume como un problema «esencialmente operativo»: el aviso existe, la medida de protección se dicta, pero no hay dónde llevar al niño, y la espera se cuenta en meses. El caso más extremo que se conoce es el de un niño que llevaba siete años viviendo en un hospital de Iquique.",
+"src": "El Mercurio, 28 de noviembre de 2026; The Clinic, 4 de marzo de 2025"
+},
+{
+"k": "h",
+"h": "Qué le hace a una guagua esa espera"
+},
+{
+"k": "p",
+"h": "Un hospital puede ser impecable y aun así no dar lo que una guagua más necesita: una persona fija que la tome en brazos, la mire y le responda. El psiquiatra Eduardo Jaar lo explica así: al nacer el bebé tiene todos sus órganos, pero su mente todavía no está formada; el cerebro sigue creciendo fuera del útero, y lo hace «cuando el bebé está en relación con sus padres, en contacto con un otro». Si en vez de eso hay una técnica que debe atender a cinco cunas, la guagua recibe cuidados pero no un vínculo.",
+"src": "Eduardo Jaar, en The Clinic, 4 de marzo de 2025"
+},
+{
+"k": "q",
+"h": "El bebé humano nace incompleto, inmaduro, extremadamente vulnerable y extremadamente dependiente",
+"who": "Eduardo Jaar, psiquiatra"
+},
+{
+"k": "p",
+"h": "Las consecuencias se ven pronto: guaguas que no buscan la mirada, que no reaccionan cuando les hablan, que dejan de llorar porque aprendieron que nadie viene. La voluntaria María José Flores describe así al primer bebé que acompañó: no se movía, no la miraba; ella lo llamaba su «bebé de piedra». La historia de cómo eso cambia está más abajo. (La ciencia del apego y el estudio de los orfanatos de Rumania se cuentan en la historia «Por qué un niño necesita una familia».)",
+"src": "The Clinic, 14 de mayo de 2025"
+},
+{
+"k": "h",
+"h": "La evidencia: el contacto cambia el cuerpo"
+},
+{
+"k": "p",
+"h": "Que una guagua necesite contacto no es una intuición: se ha medido. En 1986, la investigadora Tiffany Field y su equipo en la Universidad de Miami hicieron un experimento sencillo con guaguas prematuras ya estables: a la mitad les dieron, durante diez días, tres sesiones diarias de caricias y movimientos suaves de sus extremidades; la otra mitad recibió el cuidado habitual. Las guaguas tocadas subieron 47% más de peso por día, estaban más despiertas y activas, y se fueron a su casa seis días antes, aunque comían lo mismo.",
+"src": "Field y otros, «Tactile/Kinesthetic Stimulation Effects on Preterm Neonates», Pediatrics, 1986: https://doi.org/10.1542/peds.77.5.654"
+},
+{
+"k": "dato",
+"d": "47%",
+"h": "más de peso al día subieron las guaguas prematuras que recibieron caricias tres veces al día en el estudio de Tiffany Field.",
+"src": "Field y otros, Pediatrics, 1986"
+},
+{
+"k": "p",
+"h": "Lo más sorprendente vino después, cuando se siguió a esos niños por años. En Colombia, entre 1993 y 1996, un ensayo con 716 guaguas prematuras comparó el «método canguro» (la guagua pegada al pecho de su madre, piel con piel, día y noche) con la incubadora. Veinte años después, los investigadores volvieron a buscarlos: entre los más frágiles, los que recibieron el método canguro mantenían ventajas en inteligencia, faltaban menos al colegio y mostraban menos hiperactividad y agresividad. Sus padres, además, eran más protectores.",
+"src": "Charpak y otros, «Twenty-year Follow-up of Kangaroo Mother Care Versus Traditional Care», Pediatrics, 2017: https://doi.org/10.1542/peds.2016-2063"
+},
+{
+"k": "p",
+"h": "En Israel, Ruth Feldman siguió durante diez años a niños prematuros cuyas madres los tuvieron piel con piel durante catorce días y los comparó con otros que no. A los diez años, los primeros respondían mejor al estrés, dormían de forma más organizada y tenían más control de su atención. Catorce días de contacto dejaron huella una década después.",
+"src": "Feldman, Rosenthal y Eidelman, Biological Psychiatry, 2014: https://doi.org/10.1016/j.biopsych.2013.08.012"
+},
+{
+"k": "h",
+"h": "Qué marca la diferencia"
+},
+{
+"k": "p",
+"h": "Ninguno de esos estudios habla de guaguas abandonadas: hablan de guaguas con sus madres. Pero muestran el mecanismo. Lo que protege no es el edificio ni los aparatos, sino una persona que vuelve todos los días. Por eso la primera respuesta es que el niño salga del hospital a una familia: la propia, con apoyo, o una de acogida. Y mientras eso no ocurre, que alguien estable llegue a acompañarlo.",
+"src": "Field y otros, 1986; Charpak y otros, 2017; Feldman y otros, 2014"
+},
+{
+"k": "p",
+"h": "En Chile, esa segunda respuesta nació de una sola idea. En 2015, después de leer el reportaje del Dr. Eduardo Jaar «Estas guaguas están muy solas», un grupo de personas creó el Programa Abrázame para dar afecto a bebés abandonados en hospitales. Hoy la Fundación Abrázame tiene más de 500 voluntarios que acompañan cada mes a más de 600 niños en residencias, y un programa que vuelve al origen: voluntarias que van todos los días, en turnos, donde bebés de hasta tres años que no reciben visitas, también en hospitales como el San Juan de Dios.",
+"src": "Fundación Abrázame, abrazame.cl, 2026; Fundación Abrázame y Canal 13, enero de 2026"
+},
+{
+"k": "p",
+"h": "La clave de ese trabajo es la estabilidad. Por eso las voluntarias pasan por una entrevista psicológica y unos tres meses de preparación, se comprometen al menos por un año y acompañan siempre al mismo niño. Un adulto que llega una vez y no vuelve puede ser una pérdida más; uno que llega cada día se convierte en alguien a quien esperar.",
+"src": "Fundación Abrázame, abrazame.cl, 2026"
+},
+{
+"k": "q",
+"h": "Ese bebé ya llora, ya sabe que si llora alguien lo va a ayudar",
+"who": "María José Flores, voluntaria de la Fundación Abrázame"
+},
+{
+"k": "h",
+"h": "Qué significa para Chile hoy"
+},
+{
+"k": "p",
+"h": "Chile no sabe cuántos niños viven hoy en un hospital sin necesitarlo. El proyecto que revisó la Corte Suprema busca, al menos, que los casos se informen y se cuenten. Pero los expertos coinciden en que avisar no basta si no hay adónde llevar al niño: faltan familias de acogida, y sobre todo familias preparadas para niños con enfermedades complejas, que hoy no reciben un apoyo económico especial para hacerse cargo.",
+"src": "El Mercurio, Cuerpo C, pág. 6, 28 de noviembre de 2026"
+},
+{
+"k": "dato",
+"d": "407",
+"h": "recién nacidos, al menos, quedaron sin familia en hospitales públicos chilenos entre 2018 y 2024.",
+"src": "The Clinic, 4 de marzo de 2025"
+},
+{
+"k": "p",
+"h": "Detrás de esa cifra hay casi 17.000 niños que ya viven en cuidados alternativos, en residencias o familias de acogida. Parte de la solución depende del Estado: registros, cupos y apoyo a quienes acogen. Otra parte, la que hace que una guagua aprenda que alguien viene cuando llora, depende de personas comunes dispuestas a llegar.",
+"src": "Servicio Nacional de Protección Especializada, citado en El Mercurio, Revista Sábado, 21 de noviembre de 2026"
+}
+],
+"mas": [
+{
+"tipo": "Video",
+"t": "Gracias Canal 13 por visibilizar Abrázame+ Primera Infancia en Hospitales",
+"a": "Fundación Abrázame",
+"y": "2026, 5 min, en español",
+"d": "Reportaje de Canal 13 sobre las voluntarias que acompañan cada día a bebés sin visitas en el Hospital San Juan de Dios, junto al Dr. Eduardo Jaar; es lo que propone esta historia: alguien fijo que llegue.",
+"u": "https://www.youtube.com/watch?v=WcuuJMW_ImA"
+},
+{
+"tipo": "Video",
+"t": "Crónicas del Domingo: abandono hospitalario de recién nacidos",
+"a": "24 Horas, TVN",
+"y": "2022, 17 min, en español",
+"d": "Reportaje sobre las guaguas que quedan en hospitales chilenos sin familia que las reciba y lo difícil que es contarlas; muestra el problema que discute la noticia.",
+"u": "https://www.youtube.com/watch?v=JXs5Iuh1q4s"
+},
+{
+"tipo": "Video",
+"t": "Charles Nelson - Romania's Abandoned Children",
+"a": "The Brainwaves Video Anthology",
+"y": "2016, 5 min, en inglés",
+"d": "El neurocientífico de Harvard resume lo que aprendió de niños criados en orfanatos y lo que cambió al pasar a una familia; explica por qué meses sin una persona fija pesan tanto.",
+"u": "https://www.youtube.com/watch?v=ptZ-L3uAXXA"
+},
+{
+"tipo": "Libro",
+"t": "Romania's Abandoned Children",
+"a": "Charles A. Nelson, Nathan A. Fox y Charles H. Zeanah",
+"y": "2014, Harvard University Press, en inglés",
+"d": "El relato completo del estudio de Bucarest sobre niños criados en instituciones y lo que cambia cuando llegan a tiempo a una familia.",
+"u": "https://openlibrary.org/works/OL21060934W"
+},
+{
+"tipo": "Estudio",
+"t": "Tactile/Kinesthetic Stimulation Effects on Preterm Neonates",
+"a": "Tiffany Field y otros",
+"y": "1986, Pediatrics, en inglés",
+"d": "El experimento que mostró que unas caricias diarias hacen que una guagua prematura suba más de peso y se vaya antes a casa.",
+"u": "https://doi.org/10.1542/peds.77.5.654"
+},
+{
+"tipo": "Estudio",
+"t": "Twenty-year Follow-up of Kangaroo Mother Care Versus Traditional Care",
+"a": "Nathalie Charpak y otros",
+"y": "2017, Pediatrics, en inglés",
+"d": "Siguió por veinte años a guaguas prematuras colombianas y mostró que el contacto piel con piel deja huella hasta la adultez.",
+"u": "https://doi.org/10.1542/peds.2016-2063"
+},
+{
+"tipo": "Reportaje",
+"t": "Más de 400 guaguas han sido abandonadas en hospitales durante los últimos siete años en Chile",
+"a": "The Clinic",
+"y": "2025",
+"d": "La investigación que contó, hospital por hospital, cuántos recién nacidos quedan sin familia en Chile.",
+"u": "https://www.theclinic.cl/2025/03/04/mas-de-400-guaguas-han-sido-abandonadas-en-hospitales-durante-los-ultimos-siete-anos-en-chile-coquimbo-es-la-ciudad-que-acumula-mas-casos/"
+}
+],
+"tags": [
+"#infancia",
+"#primerainfancia",
+"#apego",
+"#voluntariado",
+"#fundaciones",
+"#historias",
+"#hospitalizacionsocial",
+"#familiasdeacogida",
+"#protecciondelaninez",
+"#metodocanguro"
+],
+"historia": {
+"p": [
+"María José Flores, de 46 años, es psicóloga y mamá. Vio en redes sociales una publicación de la Fundación Abrázame sobre un niño que creció sin abrazos y decidió postular. Pasó reuniones informativas, una entrevista psicológica y otra psiquiátrica, y a inicios de noviembre de 2024 quedó seleccionada; cada lunes asiste a un seminario con las otras voluntarias. Le asignaron un bebé de seis meses, hospitalizado con bronquitis, al que acompañó primero en el hospital y después en una residencia de Providencia, en duplas, todos los días. Al principio «no se movía, no me miraba»; lo llamaba su «bebé de piedra». Con las semanas empezó a aletear, a balbucear y a sentarse, y un día lloró por su leche. «Yo le entrego amor a él, pero él también me entrega a mí», escribió."
+],
+"src": "The Clinic, Carolina Mardones L., «Soy voluntaria de la Fundación Abrázame para acompañar a bebés abandonados en hospitales: \"Le entrego amor, pero él también me entrega a mí\"», 14 de mayo de 2025: https://www.theclinic.cl/2025/05/14/soy-voluntaria-de-la-fundacion-abrazame-para-acompanar-a-bebes-abandonados-yo-le-entrego-amor-a-el-pero-el-tambien-me-entrega-a-mi/",
+"extra": ""
+},
+"ideas": [
+"Mandarle la convocatoria de un voluntariado de acompañamiento a alguien que tenga tiempo y paciencia para darlo.",
+"Donar o hacerse socio de una fundación que acompaña a niños sin visitas.",
+"Postular a un voluntariado de acompañamiento en residencias u hospitales, con su preparación previa.",
+"Postular como familia de acogida."
+],
+"quePaso": [
+"La Corte Suprema revisó una moción parlamentaria que busca proteger a los niños abandonados en hospitales y envió su informe al Senado el 24 de noviembre de 2026. El proyecto obliga a los directores de hospitales y clínicas a avisar al Servicio Nacional de Protección Especializada o al tribunal de familia dentro de las 24 horas siguientes a la última visita (o al ingreso, si nadie va a ver al niño), y pide a los jueces que resuelvan de inmediato y prefieran entregar al niño a una persona o familia, o a un programa de acogida con cuidadores evaluados y capacitados. La Corte lo considera «altamente positivo», pero cuestiona que deje fuera a los adolescentes sin explicar por qué, que el plazo de 24 horas pese más que otras circunstancias (por ejemplo, padres que no pueden ir) y advierte que, si se exige evaluación y capacitación previa, «resulta altamente improbable que existan candidatos al cuidado». El proyecto está en primer trámite, sin urgencia.",
+"Los expertos consultados apuntan a un problema de fondo: hay niños con enfermedades complejas que se quedan meses internados aunque ya tienen el alta médica, porque no hay una familia ni una residencia que pueda recibirlos. Francisco Estrada, exdirector del Sename, califica el proyecto de «inútil» porque los hospitales ya avisan («el problema acá es esencialmente operativo») y propone una subvención especial para quienes cuiden a esos niños. Rosario Martínez, también exdirectora del Sename, advierte que «la pobreza o la falta de redes de apoyo no pueden confundirse automáticamente con el abandono» y que «un hospital puede proporcionar atención médica, pero no está concebido para sustituir un entorno familiar»."
+],
+"origen": "El Mercurio, Cuerpo C, pág. 6, «Suprema valora proyecto de protección de niños abandonados en hospitales, pero reprocha exclusión de adolescentes», Sebastián Cornejo, sábado 28 de noviembre de 2026 (anunciado en la portada, A1). Senado, «Menores abandonados en hospitales: establecen deber de informar dicha situación»: https://www.senado.cl/comunicaciones/noticias/menores-abandonados-en-hospitales-establecen-deber-de-informar-dicha",
+"iso": "2026-11-28"
+},
+{
+"id": "estudiar-carcel",
+"post": "estudiar-carcel-2026-11-28",
+"fecha": "Sábado 28 de noviembre",
+"doc": "261128 Estudiar en la carcel",
+"area": "reinsercion",
+"areas": [
+"reinsercion",
+"educacion",
+"mujeres"
+],
+"kw": [
+"privad",
+"cárcel",
+"carcel",
+"penitenci",
+"reinserción",
+"reinsercion",
+"lectura",
+"educación"
+],
+"titulo": "Una sala de clases detrás de los muros",
+"img": "https://images.pexels.com/photos/11839979/pexels-photo-11839979.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img2": "https://images.pexels.com/photos/6334769/pexels-photo-6334769.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"img3": "https://images.pexels.com/photos/6334779/pexels-photo-6334779.jpeg?auto=compress&cs=tinysrgb&w=1600",
+"orgs": [
+{
+"n": "Fundación Itaca",
+"d": "Talleres de lectura y escritura dentro de cárceles juveniles desde 2010 y apoyo integral cuando los jóvenes salen en libertad. Recibe donaciones. Santiago.",
+"w": "https://fundacionitaca.cl",
+"ig": "https://www.instagram.com/fundacion_itaca/",
+"e": "itaca@fundacionitaca.cl"
+},
+{
+"n": "Fundación Mujer Levántate",
+"d": "Acompañamiento y reinserción de mujeres privadas de libertad y al salir, con su programa post penitenciario «Caminemos». Recibe donaciones y voluntarios. Región Metropolitana y Biobío.",
+"w": "https://mujerlevantate.cl",
+"ig": "https://www.instagram.com/fmujerlevantate/",
+"e": "contacto@mujerlevantate.cl"
+},
+{
+"n": "Fundación Invictus",
+"d": "Fundación de la Pastoral Carcelaria: acompañamiento espiritual, psicosocial y laboral dentro de las cárceles y a las familias, con formación en los recintos. Recibe donaciones. Alcance nacional.",
+"w": "https://fundacioninvictus.cl"
+}
+],
+"bajada": "En las cárceles chilenas hay liceos donde adultos aprenden a leer, terminan cuarto medio y rinden la PAES. Qué se sabe de lo que eso produce, por qué funciona y por qué el momento más difícil llega al salir.",
+"noticia": "Una sala de clases detrás de los muros: el cardenal Chomali pide apoyar a los presos que estudian",
+"blocks": [
+{
+"k": "p",
+"h": "En una carta a El Mercurio, el arzobispo de Santiago, Fernando Chomali, contó que en la ex Penitenciaría de Santiago 750 personas presas estudian en el Liceo de Adultos Herbert Vargas Wallis: cada año llegan unas 120 sin saber leer y, en 2026, otras 120 rinden la PAES. Su argumento es que una sociedad que quiere ser más segura no puede desentenderse de esas oportunidades. Detrás hay una pregunta que importa a todos, también a quien nunca pisará una cárcel: ¿estudiar adentro cambia lo que pasa afuera?",
+"src": "El Mercurio, Cuerpo A, pág. 2, carta «El derecho a comenzar de nuevo», 28 de noviembre de 2026"
+},
+{
+"k": "q",
+"h": "Avanzar en materia de seguridad implica comprometernos con la educación y la reinserción",
+"who": "Fernando Chomali, arzobispo de Santiago"
+},
+{
+"k": "h",
+"h": "De dónde viene la idea"
+},
+{
+"k": "p",
+"h": "La idea de enseñar en la cárcel es antigua, pero su historia reciente está marcada por un experimento involuntario. En 1994, Estados Unidos dejó de dar becas federales (las becas Pell) a las personas presas, y en pocos años casi todos los programas universitarios en sus cárceles cerraron. Durante casi tres décadas, investigadores y profesores intentaron demostrar que había sido un error. En 2023, el Congreso de ese país restableció esas becas.",
+"src": "RAND Corporation, Davis y otros, «Evaluating the Effectiveness of Correctional Education», 2013: https://www.rand.org/pubs/research_reports/RR266.html · Departamento de Educación de Estados Unidos, 2023"
+},
+{
+"k": "p",
+"h": "Uno de los programas que mantuvo viva la discusión fue la Bard Prison Initiative, que desde 2001 ofrece estudios universitarios con las mismas exigencias que el campus a presos de Nueva York. Daniel Karpowitz, uno de sus directores, cuenta que sus estudiantes llegaron a ganarle un debate al equipo de la Universidad de Harvard en 2015. La pregunta dejó de ser si las personas presas podían estudiar en serio, y pasó a ser qué produce que lo hagan.",
+"src": "Daniel Karpowitz, «College in Prison», Rutgers University Press, 2017"
+},
+{
+"k": "h",
+"h": "Qué es estudiar en una cárcel chilena"
+},
+{
+"k": "p",
+"h": "En Chile, la educación dentro de las cárceles es educación de adultos: nivelación de enseñanza básica y media, en cursos que permiten avanzar más rápido que en un colegio regular. La imparten escuelas y liceos del sistema público, que dependen de municipios o de los nuevos Servicios Locales de Educación Pública, con profesores que entran cada día al penal. El Liceo Herbert Vargas Wallis, por ejemplo, depende de la Municipalidad de Santiago; en 2023 tenía 760 estudiantes en 33 cursos y tres jornadas.",
+"src": "La Tercera, 24 de noviembre de 2023"
+},
+{
+"k": "p",
+"h": "En la cárcel de mujeres de San Miguel funciona la Escuela Hugo Morales Bizama, en el quinto piso de uno de los módulos. Tiene 39 años, 181 alumnas y un apodo entre las internas: «el espacio de libertad». El 5 de diciembre de 2025 graduó a 49 mujeres de cuarto medio.",
+"src": "The Clinic, 13 de diciembre de 2025"
+},
+{
+"k": "dato",
+"d": "1.838",
+"h": "personas privadas de libertad se inscribieron para rendir la PAES en 2023.",
+"src": "La Tercera, 24 de noviembre de 2023"
+},
+{
+"k": "h",
+"h": "Por qué funciona"
+},
+{
+"k": "p",
+"h": "Los investigadores ven al menos tres mecanismos. El primero es el más obvio: quien sale con cuarto medio o un oficio tiene más opciones de trabajo, y el trabajo es uno de los factores que más ayudan a no volver al delito. Muchas personas presas dejaron el colegio temprano, para trabajar o cuidar a sus hijos; terminarlo adentro cambia lo que pueden pedir afuera.",
+"src": "RAND Corporation, 2013; The Clinic, 13 de diciembre de 2025"
+},
+{
+"k": "p",
+"h": "El segundo es la identidad. Una sala de clases es uno de los pocos lugares de la cárcel donde una persona es tratada como estudiante y no solo como reo: tiene tareas, notas, profesores que esperan algo de ella. Geraldine Naranjo, que terminó cuarto medio en la cárcel de San Miguel, lo dijo así: estudiar le daba ánimo y la hacía sentir más libre.",
+"src": "The Clinic, 13 de diciembre de 2025"
+},
+{
+"k": "p",
+"h": "El tercero es el tiempo. En una cárcel hacinada, las horas muertas son terreno fértil para la violencia y el reclutamiento. Una jornada con clases ordena el día, crea un grupo distinto y une a la persona con adultos de afuera, como los profesores, que la ven de otra manera.",
+"src": "RAND Corporation, 2013"
+},
+{
+"k": "q",
+"h": "Estaba con depresión, entonces ir a estudiar me daba ánimo. Me hacía sentir más libre",
+"who": "Geraldine Naranjo, egresada de la Escuela Hugo Morales Bizama"
+},
+{
+"k": "h",
+"h": "La evidencia más fuerte"
+},
+{
+"k": "p",
+"h": "En 2013, un equipo de RAND Corporation encabezado por Lois Davis hizo la revisión más completa hasta entonces: buscó todos los estudios hechos en Estados Unidos que comparaban a presos que habían estudiado con otros que no, y combinó sus resultados en un metaanálisis. Encontraron que quienes participaban en programas de educación tenían un 43% menos de probabilidades (odds) de volver a prisión que quienes no lo hacían, lo que equivale a bajar el riesgo de reincidir en 13 puntos porcentuales. También tenían un 13% más de probabilidades de conseguir trabajo al salir.",
+"src": "Davis y otros, RAND Corporation, 2013: https://doi.org/10.7249/RR266"
+},
+{
+"k": "dato",
+"d": "43%",
+"h": "menos de probabilidades de volver a prisión tenían los presos que estudiaron, según el metaanálisis de RAND.",
+"src": "RAND Corporation, 2013"
+},
+{
+"k": "p",
+"h": "El mismo estudio advierte sus límites: la mayoría de los trabajos no eran experimentos con grupos elegidos al azar, y quienes deciden estudiar pueden ser, desde antes, más motivados. Por eso RAND pidió estudios mejor diseñados. Aun así, el resultado se repite en casi todos los programas revisados, de distintos tipos y épocas, y los autores concluyeron que la educación en la cárcel reduce la reincidencia y, además, cuesta menos que volver a encarcelar a alguien.",
+"src": "RAND Corporation, 2013"
+},
+{
+"k": "h",
+"h": "Por qué hoy no alcanza"
+},
+{
+"k": "p",
+"h": "El problema más repetido por quienes enseñan en las cárceles no está adentro, sino afuera. La directora de la escuela de San Miguel, Gladys Guardia, lo dice sin rodeos: sus alumnas se esfuerzan, asisten y terminan, pero al salir no les dan trabajo. Muchas ocultan que estuvieron presas. Nancy, de 58 años, que sigue cuarto medio en un liceo vespertino con promedio 6,7, no se lo ha contado a nadie en la casa donde trabaja.",
+"src": "The Clinic, 13 de diciembre de 2025"
+},
+{
+"k": "q",
+"h": "Como sociedad, no nos estamos haciendo cargo de estas mujeres",
+"who": "Gladys Guardia, directora de la Escuela Hugo Morales Bizama"
+},
+{
+"k": "p",
+"h": "La evidencia respalda ese temor. En 2003, la socióloga Devah Pager envió a postulantes ficticios, con el mismo currículum, a cientos de ofertas de trabajo en Milwaukee; la única diferencia era si declaraban antecedentes penales. Los que los tenían recibieron la mitad de llamadas o menos. Estudiar abre puertas, pero si al otro lado nadie abre, el esfuerzo se pierde.",
+"src": "Pager, «The Mark of a Criminal Record», American Journal of Sociology, 2003: https://doi.org/10.1086/374403"
+},
+{
+"k": "p",
+"h": "A eso se suma el hacinamiento: con más gente que cupos, hay menos salas y menos horas de clase por persona. Y hay una discusión abierta sobre el acceso a la educación superior: en 2026, la Corte de Apelaciones de Santiago ordenó a Gendarmería dar acceso a internet a un preso con puntaje nacional en la PAES, y en el Congreso se discute restringir la gratuidad a condenados por ciertos delitos.",
+"src": "Diario Constitucional, 30 de mayo de 2026"
+},
+{
+"k": "h",
+"h": "Qué significa para Chile hoy"
+},
+{
+"k": "p",
+"h": "Chile tiene hoy más personas presas que nunca: 62.335 a comienzos de 2026, un 60% más que en 2021. Casi todas van a salir algún día. Lo que hayan aprendido adentro, y lo que encuentren afuera, influye en si vuelven a delinquir, y por lo tanto en la seguridad de todos.",
+"src": "Emol, 6 de marzo de 2026, con datos de Gendarmería"
+},
+{
+"k": "dato",
+"d": "62.335",
+"h": "personas estaban privadas de libertad en Chile a comienzos de 2026, un 60% más que en 2021.",
+"src": "Emol, 6 de marzo de 2026"
+},
+{
+"k": "p",
+"h": "Los 120 estudiantes de la ex Penitenciaría que rinden la PAES en 2026 no borran lo que hicieron. Pero, como dice la carta que abrió esta historia, ya dieron un paso: aprendieron a leer, terminaron el colegio, se presentaron a una prueba. Lo que viene depende en parte de ellos, y en parte de libros, tutores, empleadores y vecinos dispuestos a no cerrarles la puerta.",
+"src": "El Mercurio, Cuerpo A, pág. 2, 28 de noviembre de 2026"
+}
+],
+"mas": [
+{
+"tipo": "Video",
+"t": "Reos se preparan para rendir la PAES",
+"a": "Teletrece",
+"y": "2026, 2 min, en español",
+"d": "Nota sobre más de cien personas privadas de libertad que se preparan para la PAES, con una meta que va más allá de entrar a la universidad; muestra a los estudiantes de los que habla la carta.",
+"u": "https://www.youtube.com/watch?v=w3eyIqTa388"
+},
+{
+"tipo": "Video",
+"t": "25 internas de San Joaquín estudian carrera en la cárcel",
+"a": "24 Horas, TVN",
+"y": "2026, 6 min, en español",
+"d": "Reportaje sobre reclusas que estudian Técnico en Enfermería dentro del penal; muestra lo que puede venir después del cuarto medio.",
+"u": "https://www.youtube.com/watch?v=PDZsqp6lSJU"
+},
+{
+"tipo": "Charla TED",
+"t": "Cómo aprendí a leer y a invertir en la bolsa en la cárcel",
+"a": "Curtis «Wall Street» Carroll",
+"y": "2017, 11 min, en inglés con subtítulos en español",
+"d": "Un hombre condenado a cadena perpetua en San Quentin cuenta cómo aprender a leer le cambió la vida y la de los presos a los que hoy enseña.",
+"u": "https://www.ted.com/talks/curtis_wall_street_carroll_how_i_learned_to_read_and_trade_stocks_in_prison"
+},
+{
+"tipo": "Libro",
+"t": "College in Prison",
+"a": "Daniel Karpowitz",
+"y": "2017, Rutgers University Press, en inglés",
+"d": "Uno de los directores de la Bard Prison Initiative cuenta qué pasa cuando presos estudian con exigencias universitarias.",
+"u": "https://openlibrary.org/works/OL20048091W"
+},
+{
+"tipo": "Estudio",
+"t": "Evaluating the Effectiveness of Correctional Education",
+"a": "Lois Davis y otros",
+"y": "2013, RAND Corporation, en inglés",
+"d": "El metaanálisis más citado sobre educación en la cárcel, reincidencia y empleo.",
+"u": "https://doi.org/10.7249/RR266"
+},
+{
+"tipo": "Estudio",
+"t": "The Mark of a Criminal Record",
+"a": "Devah Pager",
+"y": "2003, American Journal of Sociology, en inglés",
+"d": "El experimento que midió cuánto cierran las puertas del trabajo unos antecedentes penales.",
+"u": "https://doi.org/10.1086/374403"
+},
+{
+"tipo": "Reportaje",
+"t": "Para mí fue bueno estar presa, porque pude estudiar",
+"a": "The Clinic",
+"y": "2025",
+"d": "Los sueños y temores de las internas de San Miguel que terminan cuarto medio dentro de la cárcel.",
+"u": "https://www.theclinic.cl/2025/12/13/para-mi-fue-bueno-estar-presa-porque-pude-estudiar-los-suenos-y-temores-de-las-49-internas-de-la-carcel-de-san-miguel-que-se-graduan-de-la-ensenanza-media/"
+}
+],
+"tags": [
+"#educación",
+"#reinserción",
+"#segundasoportunidades",
+"#voluntariado",
+"#historias",
+"#educaciondeadultos",
+"#carceles",
+"#alfabetizacion",
+"#PAES",
+"#mujeresprivadasdelibertad"
+],
+"historia": {
+"p": [
+"Geraldine Naranjo, de 32 años, pasó siete meses en la cárcel de mujeres de San Miguel, imputada por tráfico ilícito de drogas. Estaba embarazada cuando la detuvieron por primera vez; había dejado el colegio en primero medio para cuidar a su hijo mayor y trabajar. En la cárcel entró a la Escuela Hugo Morales Bizama, que funciona en el quinto piso de un módulo y a la que las internas llaman «el espacio de libertad». «Yo nunca pude estudiar estando libre, porque como tenía hijos, me dedicaba a trabajar», contó. «Estaba con depresión, entonces ir a estudiar me daba ánimo. Me hacía sentir más libre». Cuando le quedaba un semestre, le cambiaron la medida cautelar a arresto domiciliario total; terminaba cuarto medio a distancia, desde su casa y con sus tres hijos, con promedio 6,4."
+],
+"src": "The Clinic, Colomba Bolognesi y Marianne Mathieu, «\"Para mí fue bueno estar presa, porque pude estudiar\": Los sueños y temores de las internas de San Miguel que hacen su enseñanza media dentro de la cárcel», 13 de diciembre de 2025: https://www.theclinic.cl/2025/12/13/para-mi-fue-bueno-estar-presa-porque-pude-estudiar-los-suenos-y-temores-de-las-49-internas-de-la-carcel-de-san-miguel-que-se-graduan-de-la-ensenanza-media/",
+"extra": "Otra voz: en el mismo reportaje, Nancy, de 58 años, asesora del hogar, sigue cuarto medio en jornada vespertina con promedio 6,7 y no le ha contado a nadie en su trabajo que estuvo presa, por miedo a que la despidan."
+},
+"ideas": [
+"Escribirle a una fundación que trabaja en cárceles para preguntar qué necesita.",
+"Donar libros en buen estado a una fundación que hace talleres de lectura en cárceles.",
+"Hacer un taller de lectura, escritura u oficio como voluntario.",
+"Darle trabajo a alguien que estudió estando preso."
+],
+"quePaso": [
+"El arzobispo de Santiago, cardenal Fernando Chomali, publicó en El Mercurio la carta «El derecho a comenzar de nuevo». Cuenta que en la ex Penitenciaría de Santiago 750 personas privadas de libertad estudian en el Liceo de Adultos Herbert Vargas Wallis, que cada año unos 120 estudiantes ingresan sin saber leer ni escribir y que 51 profesionales de la educación hacen allí «una admirable labor, muchas veces desconocida». Este año, 120 estudiantes del recinto rendirán la PAES, cuya aplicación regular es del 30 de noviembre al 2 de diciembre de 2026.",
+"Chomali escribe que «una sociedad que aspira a ser más segura no puede desentenderse de las oportunidades que ofrece a quienes están privados de libertad», que reparar el daño causado «es compatible con el derecho a comenzar de nuevo» y que, después del esfuerzo de estos estudiantes, «corresponde ahora a la sociedad estar a la altura». El 27 de noviembre, Teletrece mostró a más de cien personas privadas de libertad preparándose para la misma prueba."
+],
+"origen": "El Mercurio, Cuerpo A, pág. 2, Cartas, «El derecho a comenzar de nuevo», cardenal Fernando Chomali, sábado 28 de noviembre de 2026. Teletrece, «Reos se preparan para rendir la PAES», 27 de noviembre de 2026: https://www.youtube.com/watch?v=w3eyIqTa388. Demre, calendario de la PAES regular 2026 (aplicación del 30 de noviembre al 2 de diciembre).",
+"iso": "2026-11-28"
+},
 {
 "id": "cuidadoras",
 "post": "cuidadoras-2026-11-27",

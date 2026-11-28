@@ -5,6 +5,20 @@
    faq   = 3 o 4 preguntas propias de esta historia, con los temores y dudas de quien la lee; respuesta en 2 o 3 frases, directa y seria.
    La mantiene la tarea diaria (paso 9). Ver INSTRUCCIONES.md. */
 window.MU_ACCION={
+'ninos-hospital':{resumen:'En Chile hay niños que ya están sanos y siguen viviendo en un hospital, a veces por meses, porque no hay una familia ni un lugar que los reciba. Entre 2018 y 2024, al menos 407 recién nacidos quedaron sin familia en hospitales públicos, y nadie lleva la cuenta oficial. Importa porque en sus primeros meses una guagua necesita a alguien fijo que la tome en brazos, y un hospital no puede darle eso.',
+ hoy:'Mándale a alguien con tiempo la convocatoria de un voluntariado que acompaña guaguas.',
+ ideas:['Comparte una convocatoria de voluntariado','Hazte socio de una fundación','Postula como voluntario de acompañamiento','Postula como familia de acogida'],
+ faq:[['¿Y si me encariño y después el niño se va?','Va a doler, y está bien que duela: ese cariño es justo lo que el niño necesita. Las fundaciones preparan y acompañan a sus voluntarios para esa despedida, que casi siempre es una buena noticia: el niño llegó a una familia.'],
+  ['No tengo tiempo todos los días. ¿Puedo ayudar igual?','Sí. Hay voluntariados de visitas en grupo, de unas dos horas a la semana, y también se puede donar o hacerse socio para financiar a quienes van a diario.'],
+  ['¿Cualquiera puede ser voluntario?','No sin preparación. Piden ser mayor de edad (en Abrázame, mayor de 22), no tener antecedentes, pasar una entrevista psicológica y formarse unos meses antes de conocer al niño.'],
+  ['¿Estos niños fueron abandonados por sus padres?','No siempre. A veces la familia vive lejos, está enferma o no tiene apoyo, y la pobreza no es lo mismo que abandono. Lo que todos comparten es que pasan mucho tiempo sin una persona fija que los cuide.']]},
+'estudiar-carcel':{resumen:'En la ex Penitenciaría de Santiago, 750 personas presas estudian en un liceo de adultos: cada año llegan unas 120 sin saber leer y, en 2026, otras 120 rinden la PAES. Quienes estudian en la cárcel tienen 43% menos probabilidades de volver a prisión, según un metaanálisis de RAND. Importa porque casi todos van a salir, y lo que encuentren afuera decide si vuelven a delinquir.',
+ hoy:'Escríbele a una fundación que trabaja en cárceles y pregúntale qué necesita.',
+ ideas:['Dona libros en buen estado','Haz un taller como voluntario','Hazte socio de una fundación','Dale trabajo a alguien que estudió adentro'],
+ faq:[['¿Por qué ayudar a alguien que cometió un delito?','Porque casi todas las personas presas van a salir y volver a vivir cerca de nosotros. Estudiar no borra lo que hicieron, pero baja la probabilidad de que vuelvan a hacerlo: eso protege también a las víctimas futuras.'],
+  ['¿Es seguro hacer voluntariado en una cárcel?','Las fundaciones entran con autorización de Gendarmería, con protocolos y en grupos. Antes te capacitan y te dicen qué se puede y qué no.'],
+  ['¿No sería mejor ayudar a quienes nunca delinquieron?','No es una cosa o la otra. Muchas personas presas dejaron el colegio de niños, por pobreza o para cuidar a sus hijos; terminarlo adentro es, a veces, su primera oportunidad real.'],
+  ['¿Qué pasa cuando salen?','Es la parte más difícil: muchos no encuentran trabajo por sus antecedentes. Por eso una de las ayudas más grandes es que un empleador les dé una entrevista de verdad.']]},
 'cuidadoras':{resumen:'Detrás de cada niño con discapacidad o neurodivergencia hay casi siempre una mamá que cuida sin horario: terapias, médicos, colegio, trabajo y contención, todo a la vez. En un estudio con 160 familias de niños autistas en Valdivia, la madre era la cuidadora principal en el 89% de los casos. Importa porque cuidar sola enferma, y lo que más baja esa carga no es un consejo, sino compañía.',
  hoy:'Ofrécele a una mamá cuidadora algo concreto, con día y hora.',
  ideas:['Escúchala sin dar consejos','Llévale una comida para la semana','Acompaña al niño a una terapia','Arma una red de turnos en el barrio'],

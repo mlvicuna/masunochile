@@ -7,6 +7,18 @@
    compromiso = el paso grande, para quien quiere comprometerse en serio: t título, x qué implica, o organización (nombre igual que en orgs).
    Pedido de la usuaria, 28 nov 2026: menos «entenderlo», más relevancia, más interpelación, frases cortas. La mantiene la tarea diaria. */
 window.MU_IMPORTA={
+'ninos-hospital':{gancho:'Hay guaguas sanas que viven en un hospital porque nadie puede llevárselas.',
+ cifras:[['407','recién nacidos quedaron sin familia en hospitales públicos entre 2018 y 2024. Es un piso.','The Clinic, 68 hospitales, 2025'],['17 mil','niños y niñas viven en residencias o familias de acogida.','Servicio de Protección Especializada, 2026'],['7 años','vivió un niño en un hospital de Iquique.','The Clinic, 2025']],
+ chile:'Un país que deja a sus guaguas esperando en una cama de hospital pierde lo más valioso de sus primeros meses.',
+ golpe:'A los más chicos y frágiles: guaguas de madres sin redes y niños con enfermedades complejas que nadie está preparado para cuidar.',
+ tu:'El hospital cura. Abrazar, mirar y volver cada día lo puede hacer una persona común.',
+ compromiso:{t:'Acompaña a una guagua sin visitas',x:'Un año, con preparación previa, siendo la persona fija de un niño que no tiene a nadie.',o:'Fundación Abrázame'}},
+'estudiar-carcel':{gancho:'Casi todos los presos van a salir. Lo que aprendan adentro también nos importa afuera.',
+ cifras:[['62 mil','personas estaban presas en Chile a comienzos de 2026, un 60% más que en 2021.','Emol, con datos de Gendarmería'],['750','presos estudian en el liceo de la ex Penitenciaría; 120 llegan cada año sin saber leer.','Carta de Fernando Chomali, El Mercurio, 2026'],['43%','menos probabilidades de volver a prisión tienen quienes estudian estando presos.','RAND, metaanálisis, EE. UU., 2013']],
+ chile:'Cada persona que sale con estudios y trabajo es una persona menos que vuelve al delito.',
+ golpe:'A quienes dejaron el colegio de niños, muchas veces mujeres jefas de hogar presas por drogas.',
+ tu:'No hace falta perdonarlo todo. Basta con no cerrar la puerta que ellos están intentando abrir.',
+ compromiso:{t:'Haz un taller en una cárcel',x:'Lectura, escritura u oficio, una vez a la semana, con una fundación que ya entra.',o:'Fundación Itaca'}},
 'cuidadoras':{gancho:'Chile se sostiene sobre cuidadoras. Y casi siempre cuidan solas.',
  cifras:[['19,2%','del PIB vale el cuidado que nadie paga. Es el sector más grande del país.','Hacienda y ComunidadMujer, 2025'],['587 mil','niños y adolescentes viven con alguna discapacidad.','ENDIDE 2022'],['89%','de los niños autistas del estudio tiene a su mamá como cuidadora principal.','USS y Senadis, Valdivia']],
  chile:'Sin cuidadoras, el país se detiene. Con cuidadoras agotadas, se enferma.',
