@@ -66,17 +66,16 @@ function article(n){
   const bl=n.blocks, secs=[{h:null,b:[]}];
   bl.forEach(b=>{ if(b.k==='h'&&b.h!=='Lo que se ha probado') secs.push({h:b,b:[]}); else secs[secs.length-1].b.push(b); });
   const S=secs.filter(x=>x.h||x.b.length), at=[Math.floor(S.length*.34),Math.floor(S.length*.7)];
-  let out='',firstP=true;
+  // se ve solo el primer párrafo; el análisis completo queda plegado (pedido 28 nov: menos «entenderlo», más relevancia)
+  let intro='',out='',done=false;
   S.forEach((sec,si)=>{
-    if(si&&si===at[0]&&n.img2) out+=`</div><figure class="bleed reveal"><img src="${n.img2}" ${fp(n.img2)} alt="" loading="lazy"></figure><div class="narrow">`;
-    else if(si&&si===at[1]&&n.img3&&at[1]!==at[0]) out+=`</div><figure class="bleed reveal"><img src="${n.img3}" ${fp(n.img3)} alt="" loading="lazy"></figure><div class="narrow">`;
+    if(si&&si===at[0]&&n.img2) out+=`</div><figure class="bleed"><img src="${n.img2}" ${fp(n.img2)} alt="" loading="lazy"></figure><div class="narrow">`;
+    else if(si&&si===at[1]&&n.img3&&at[1]!==at[0]) out+=`</div><figure class="bleed"><img src="${n.img3}" ${fp(n.img3)} alt="" loading="lazy"></figure><div class="narrow">`;
     if(sec.h) out+=block(sec.h);
-    const iP=sec.b.findIndex(b=>b.k==='p'), vis=[], hid=[];
-    sec.b.forEach((b,i)=>{ if(i<=iP||b.k==='dato'||b.k==='q'||(iP<0&&i===0)) vis.push(b); else hid.push(b); });
-    vis.forEach(b=>{out+=block(b,b.k==='p'&&firstP); if(b.k==='p') firstP=false;});
-    if(hid.length) out+=`<div class="mas-txt" hidden>${hid.map(b=>block(b)).join('')}</div><button type="button" class="leer-mas" onclick="const d=this.previousElementSibling;d.hidden=!d.hidden;this.textContent=d.hidden?'Seguir leyendo ↓':'Leer menos ↑'">Seguir leyendo ↓</button>`;
+    sec.b.forEach(b=>{ if(!done&&b.k==='p'){intro=block(b,true);done=true;} else out+=block(b); });
   });
-  return `<article class="article wrap"><div class="narrow">${out}</div></article>`;
+  const n2=S.length-1;
+  return `<article class="article wrap"><div class="narrow">${intro}<button type="button" class="leer-mas leer-todo" onclick="const d=document.getElementById('analisis');d.hidden=!d.hidden;this.textContent=d.hidden?'Leer el análisis completo (${n2} capítulos) ↓':'Cerrar el análisis ↑'">Leer el análisis completo (${n2} capítulos) ↓</button></div><div id="analisis" hidden><div class="narrow">${out}</div></div></article>`;
 }
 
 /* ---------- instagram ---------- */
@@ -194,6 +193,20 @@ const iniciales=t=>String(t).replace(/^(Fundación|Corporación|Asociación)\s+/
 const orgLogo=o=>{const u=orgUrl(o), h=u&&!/instagram\.com/.test(u)?host(u):'';
   return `<span class="olog" data-i="${esc(iniciales(o.n))}">${h?`<img src="https://www.google.com/s2/favicons?domain=${esc(h)}&sz=128" alt="" loading="lazy" onload="if(this.naturalWidth<32)this.remove()" onerror="this.remove()">`:''}</span>`;};
 const orgCard=o=>{const u=orgUrl(o);return `<a class="ocard" ${u?`href="${esc(u)}" target="_blank" rel="noopener"`:''}>${orgLogo(o)}<div><b>${esc(o.n)}</b><small>${esc(String(o.d||'').split('. ')[0].replace(/\.$/,''))}.</small></div><span class="ogo">↗</span></a>`;};
+const importaBox=n=>{const I=(window.MU_IMPORTA||{})[n.id];if(!I)return '';
+  return `<section class="importa" id="s-importa"><div class="wrap">
+    <div class="imp-head"><span class="eyebrow">01 · Por qué importa</span><h2>Esto no es <em>problema de otros.</em></h2></div>
+    <div class="imp-cifras">${I.cifras.map(([d,h,f],j)=>`<div class="imp-c c${j}"><b>${esc(d)}</b><p>${esc(h)}</p><small>${esc(f)}</small></div>`).join('')}</div>
+    <div class="imp-filas">
+      <div class="imp-f f0"><span>Para Chile</span><p>${esc(I.chile)}</p></div>
+      <div class="imp-f f1"><span>A quién golpea más</span><p>${esc(I.golpe)}</p></div>
+      <div class="imp-f f2"><span>Hazte cargo</span><p>${esc(I.tu)}</p></div>
+    </div>
+    <button type="button" class="btn acc" data-jump="s-accion">Ok. ¿Qué hago yo? ↓</button>
+  </div></section>`;};
+const compromisoBox=n=>{const I=(window.MU_IMPORTA||{})[n.id],C=I&&I.compromiso;if(!C)return '';
+  const o=(n.orgs||[]).find(x=>x.n===C.o), u=o&&orgUrl(o);
+  return `<div class="compromiso"><span class="eyebrow">Si de verdad te quieres hacer cargo</span><h3>${esc(C.t)}</h3><p>${esc(C.x)}</p>${u?`<a class="btn acc" href="${esc(u)}" target="_blank" rel="noopener">Comprométete con ${esc(o.n.split(' · ')[0])} ↗</a>`:''}</div>`;};
 const ideasDe=n=>{const A=(window.MU_ACCION||{})[n.id];return A&&A.ideas?A.ideas:(n.ideas||[]);};
 
 /* ---------- Casa Familia: sin desarrollo, se arma con sus posts ---------- */
@@ -427,11 +440,12 @@ function news(n){
   const H=n.historia||{p:[]};
   const quote=H.quote||((H.p.join(' ').match(/«([^»]{20,180})»/)||[])[1]);
   const hayMas=vids.length||books.length||refs.length;
-  const toc=[['s-accion','Qué puedes hacer'],n.quePaso&&n.quePaso.length&&['s-paso','Qué pasó'],['s-entender','Para entenderlo'],hayMas&&['s-profundizar','Para profundizar'],H.p.length&&['s-historia','Una historia'],['organizaciones','Quién trabaja en esto'],['s-dudas','Tus dudas']].filter(Boolean);
+  const toc=[(window.MU_IMPORTA||{})[n.id]&&['s-importa','Por qué importa'],['s-accion','Qué puedes hacer'],n.quePaso&&n.quePaso.length&&['s-paso','Qué pasó'],['s-entender','Para entenderlo'],hayMas&&['s-profundizar','Para profundizar'],H.p.length&&['s-historia','Una historia'],['organizaciones','Quién trabaja en esto'],['s-dudas','Tus dudas']].filter(Boolean);
   const top3=n.orgs.filter(o=>o.w||o.ig).slice(0,3);
-  $app.innerHTML=hero({img:n.img,short:true,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(((window.MU_ACCION||{})[n.id]||{}).resumen||n.bajada),
-      meta:`<div class="hero-cta"><button class="btn acc" type="button" data-jump="s-accion">¿Qué puedo hacer yo?</button><button class="btn line" type="button" data-jump="${n.quePaso&&n.quePaso.length?'s-paso':'s-entender'}">Qué pasó</button></div>`})+
+  $app.innerHTML=hero({img:n.img,short:true,eyebrow:`${esc(n.fecha)} · ${esc(AREA[n.area].name)}`,title:esc(n.titulo),lede:esc(((window.MU_IMPORTA||{})[n.id]||{}).gancho||((window.MU_ACCION||{})[n.id]||{}).resumen||n.bajada),
+      meta:`<div class="hero-cta"><button class="btn acc" type="button" data-jump="s-accion">¿Qué puedo hacer yo?</button><button class="btn line" type="button" data-jump="${(window.MU_IMPORTA||{})[n.id]?'s-importa':'s-paso'}">Por qué importa</button></div>`})+
   `<nav class="toc" aria-label="En esta historia"><div class="wrap toc-in"><span class="toc-mark">+1</span>${toc.map(([id,l])=>`<button type="button" data-jump="${id}">${l}</button>`).join('')}</div></nav>`+
+  importaBox(n)+
   /* 1 · lo primero: qué puedes hacer tú */
   `<section class="accion" id="s-accion"><div class="wrap">
     <div class="accion-head"><span class="eyebrow">+1 · Tu parte</span><h2>¿Y tú, qué vas a <em>hacer?</em></h2>
@@ -441,15 +455,16 @@ function news(n){
     <div class="orgs-logo">${top3.map(orgCard).join('')}</div>`:''}
     ${ideasDe(n).length?`<div class="accion-sub"><h3>¿Quieres hacer más?</h3></div>
     <ol class="ideas-cortas">${ideasDe(n).map(x=>`<li>${esc(x)}</li>`).join('')}</ol>`:''}
+    ${compromisoBox(n)}
   </div></section>`+
   /* 2 · qué pasó */
-  (n.quePaso&&n.quePaso.length?`<section class="wrap" id="s-paso"><div class="narrow"><div class="parte"><span class="parte-n">01</span><div><span class="eyebrow">Qué pasó</span><h2>La noticia, en corto</h2></div></div><div class="noticia reveal">${n.quePaso.map(p=>`<p>${esc(p)}</p>`).join('')}${n.origen?`<span class="src">Fuente: ${linkify(n.origen)}</span>`:''}</div></div></section>`:'')+
+  (n.quePaso&&n.quePaso.length?`<section class="wrap" id="s-paso"><div class="narrow"><div class="parte"><span class="parte-n">02</span><div><span class="eyebrow">Qué pasó</span><h2>La noticia, en corto</h2></div></div><div class="noticia reveal">${n.quePaso.map(p=>`<p>${esc(p)}</p>`).join('')}${n.origen?`<span class="src">Fuente: ${linkify(n.origen)}</span>`:''}</div></div></section>`:'')+
   /* 3 · para entenderlo */
-  `<section class="wrap" id="s-entender"><div class="narrow"><div class="parte"><span class="parte-n">02</span><div><h2>Para entenderlo</h2></div></div></div></section>`+
+  `<section class="wrap" id="s-entender"><div class="narrow"><div class="parte"><span class="parte-n">03</span><div><h2>Para entenderlo</h2><p class="parte-sub">Si quieres ir al fondo. Si no, sigue bajando.</p></div></div></div></section>`+
   (n.blocks?article(n):`<article class="article wrap"><div class="narrow">${n.texto.map((p,j)=>`<p class="${j===0?'first':''}">${esc(p)}</p>`).join('')}<span class="src">Fuente: El Mercurio, Sociedad (A7), jueves 19 de noviembre de 2026</span></div></article>`)+
   `<div class="wrap"><div class="narrow"><div class="tags">${(n.tags||[]).map(x=>`<a href="#tag-${tslug(x)}">${esc(x)}</a>`).join('')}</div></div></div>`+
   (hayMas?`<section class="sec profundizar" id="s-profundizar"><div class="wrap">
-    <div class="parte parte-ancha"><span class="parte-n">03</span><div><span class="eyebrow">Para profundizar</span><h2>Para ver, leer y seguir pensando</h2></div></div>
+    <div class="parte parte-ancha"><span class="parte-n">04</span><div><span class="eyebrow">Para profundizar</span><h2>Para ver, leer y seguir pensando</h2></div></div>
     ${vids.length?`<h3 class="para">Para ver</h3><div class="vids">${vids.map(vcard).join('')}</div>`:''}
     ${books.length||refs.length?`<h3 class="para">Para leer</h3>`:''}
     ${books.length?`<div class="shelf">${books.map((b,j)=>`<${b.u?`a href="${esc(b.u)}" target="_blank" rel="noopener"`:'div'} class="book"><div class="bcover" data-ol="${esc(b.t)}|${esc((b.a.split(/,| y /)[0]||'').trim().split(' ').pop())}" style="background:${COL[j%COL.length]}"><span class="t">${esc(b.t)}</span><span class="a">${esc(b.a)}</span></div><b>${esc(b.t)}</b><small>${esc([b.a,b.y].filter(Boolean).join(' · '))}</small>${b.r?`<p class="lres">${esc(b.r)}</p>`:''}${b.u?`<span class="lver">${/openlibrary/.test(b.u)?'Ver el libro':'Ver más'} ↗</span>`:''}</${b.u?'a':'div'}>`).join('')}</div>`:''}
